@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farmacología ATC</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <p class="subtitle">Estudio de farmacología</p>
+      <h1>Selecciona el grupo ATC que quieres estudiar</h1>
+      <p class="description">
+        Elige un grupo concreto o entra en modo mixto para practicar preguntas combinadas.
+      </p>
+    </header>
+
+    <main class="grid">
+      <button class="card" onclick="selectGroup('digestivo')">ATC Digestivo</button>
+      <button class="card" onclick="selectGroup('antiinflamatorio')">ATC Antiinflamatorio</button>
+      <button class="card" onclick="selectGroup('respiratorio')">ATC Respiratorio</button>
+      <button class="card" onclick="selectGroup('sangre-organos')">ATC Sangre y órganos</button>
+      <button class="card" onclick="selectGroup('hormonas')">ATC Hormonas</button>
+      <button class="card" onclick="selectGroup('analgesicos')">ATC Analgésicos</button>
+      <button class="card" onclick="selectGroup('cardiovascular')">ATC Cardiovascular</button>
+      <button class="card" onclick="selectGroup('mixto')">ATC Mixto</button>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
