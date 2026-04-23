@@ -2,5 +2,583 @@
   "atc": "digestivo",
   "nombre": "ATC Digestivo",
   "descripcion": "Aparato digestivo y metabolismo",
-  "grupos": []
+  "grupos": [
+    {
+      "codigo": "A01",
+      "nombre": "Estomatológicos",
+      "actividadGrupo": "Protegen la mucosa bucal",
+      "subgrupos": [
+        {
+          "nombre": "Antisépticos",
+          "actividadSubgrupo": null,
+          "principiosActivos": [
+            {
+              "nombre": "Povidona yodada",
+              "ef": ["BETADINE"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Peróxido de hidrógeno",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Protectores",
+          "actividadSubgrupo": null,
+          "principiosActivos": [
+            {
+              "nombre": "Carbenoxolona",
+              "ef": ["ALOCLAIR", "SANODIN GEL"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Otros (antifúngicos)",
+          "actividadSubgrupo": null,
+          "principiosActivos": [
+            {
+              "nombre": "Nistatina",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A02",
+      "nombre": "Afectan a la secreción gástrica",
+      "actividadGrupo": "Actúan contra el exceso de HCl que produce gastritis, pirosis y/o úlcera",
+      "subgrupos": [
+        {
+          "nombre": "Neutralizantes",
+          "actividadSubgrupo": "Alcalinizan la acidez",
+          "subgruposInternos": [
+            {
+              "nombre": "Sistémicos",
+              "actividadSubgrupo": "Se absorben",
+              "principiosActivos": [
+                {
+                  "nombre": "Bicarbonato sódico",
+                  "ef": [],
+                  "efectosAdversos": ["Alcalinizan todo el organismo"]
+                }
+              ]
+            },
+            {
+              "nombre": "No sistémicos",
+              "actividadSubgrupo": "No se absorben",
+              "principiosActivos": [
+                {
+                  "nombre": "Al(OH)3",
+                  "ef": [],
+                  "efectosAdversos": ["Estreñimiento"]
+                },
+                {
+                  "nombre": "Almagato",
+                  "ef": ["ALMAX"],
+                  "efectosAdversos": ["Estreñimiento"]
+                },
+                {
+                  "nombre": "Mg(OH)2",
+                  "ef": [],
+                  "efectosAdversos": ["Diarrea"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Protectores de la mucosa",
+          "actividadSubgrupo": "Evitan el contacto HCl-mucosa. Forman una película artificial o estimulan la formación de moco protector",
+          "principiosActivos": [
+            {
+              "nombre": "Sucralfato",
+              "ef": [],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Carbenoxolona",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Inhibidores de la secreción",
+          "actividadSubgrupo": "Impiden que se forme HCl",
+          "subgruposInternos": [
+            {
+              "nombre": "Antihistamínicos H2",
+              "actividadSubgrupo": "Inhiben la hormona que manda crear HCl",
+              "principiosActivos": [
+                {
+                  "nombre": "Ranitidina",
+                  "ef": ["ZANTAC", "ALQUEN"],
+                  "efectosAdversos": []
+                },
+                {
+                  "nombre": "Famotidina",
+                  "ef": ["PEPCID"],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Inhibidores de la bomba de H+",
+              "actividadSubgrupo": "Impide fabricar HCl",
+              "principiosActivos": [
+                {
+                  "nombre": "Omeprazol",
+                  "ef": [],
+                  "efectosAdversos": ["Demencia en tratamientos crónicos"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A03",
+      "nombre": "Alteraciones funcionales del estómago e intestino",
+      "actividadGrupo": null,
+      "subgrupos": [
+        {
+          "nombre": "Antiflatulentos",
+          "actividadSubgrupo": "Contra el meteorismo, gases digestivos. Reducen la tensión superficial de las burbujas",
+          "principiosActivos": [
+            {
+              "nombre": "Dimeticona",
+              "ef": ["AERORED"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Metoclopramida + Dimeticona",
+              "ef": ["AEROFLAT"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Cleboprida + Simeticona",
+              "ef": ["FLATORIL"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Antiespasmódicos",
+          "actividadSubgrupo": "Para el tratamiento del dolor cólico",
+          "subgruposInternos": [
+            {
+              "nombre": "Anticolinérgicos",
+              "actividadSubgrupo": "Disminuye el peristaltismo",
+              "principiosActivos": [
+                {
+                  "nombre": "Atropina",
+                  "ef": [],
+                  "efectosAdversos": []
+                },
+                {
+                  "nombre": "Escopolamina (hioscina)",
+                  "ef": ["BUSCAPINA"],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Analgésicos",
+              "actividadSubgrupo": "Alivia el dolor",
+              "principiosActivos": [
+                {
+                  "nombre": "Metamizol magnésico",
+                  "ef": ["NOLOTIL"],
+                  "efectosAdversos": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A04",
+      "nombre": "Eméticos y antieméticos",
+      "actividadGrupo": "Actúan sobre el bulbo raquídeo",
+      "subgrupos": [
+        {
+          "nombre": "Eméticos",
+          "actividadSubgrupo": "Producen el vómito",
+          "principiosActivos": [
+            {
+              "nombre": "Apomorfina",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Antieméticos",
+          "actividadSubgrupo": "Impiden el vómito",
+          "principiosActivos": [
+            {
+              "nombre": "Metoclopramida",
+              "ef": ["PRIMPERAN"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Cleboprida",
+              "ef": ["CLEBORIL"],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A06",
+      "nombre": "Laxantes",
+      "actividadGrupo": "Estreñimiento, hemorroides, cirugía del digestivo…",
+      "subgrupos": [
+        {
+          "nombre": "Formadores de masa (mecánicos-arrastran)",
+          "actividadSubgrupo": "Aumentan el volumen de las heces, las hacen más esponjosas",
+          "principiosActivos": [
+            {
+              "nombre": "Celulosa - fibra",
+              "ef": ["PLANTABEN"],
+              "efectosAdversos": [
+                "Hábito",
+                "Usos contra la salud (anorexia…)"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Lubricantes",
+          "actividadSubgrupo": "Facilitan el desplazamiento del bolo fecal",
+          "principiosActivos": [
+            {
+              "nombre": "Glicerina",
+              "ef": ["ROVI"],
+              "efectosAdversos": [
+                "Hábito",
+                "Usos contra la salud (anorexia…)"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Osmóticos",
+          "actividadSubgrupo": "Hacen que las heces absorban agua del intestino",
+          "principiosActivos": [
+            {
+              "nombre": "Lactulosa",
+              "ef": ["DUPHALAC"],
+              "efectosAdversos": [
+                "Hábito",
+                "Usos contra la salud (anorexia…)"
+              ]
+            },
+            {
+              "nombre": "Citrato / Lauril sulfoacetato",
+              "ef": ["MICRALAX"],
+              "efectosAdversos": [
+                "Hábito",
+                "Usos contra la salud (anorexia…)"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Estimulantes por contacto",
+          "actividadSubgrupo": "Irritan la mucosa aumentando el peristaltismo",
+          "subgruposInternos": [
+            {
+              "nombre": "Naturales",
+              "actividadSubgrupo": null,
+              "principiosActivos": [
+                {
+                  "nombre": "Sen",
+                  "ef": [],
+                  "efectosAdversos": [
+                    "Hábito",
+                    "Diarreas intensas",
+                    "Dolor cólico",
+                    "Usos contra la salud (anorexia…)"
+                  ]
+                },
+                {
+                  "nombre": "Aceite de ricino",
+                  "ef": [],
+                  "efectosAdversos": [
+                    "Hábito",
+                    "Diarreas intensas",
+                    "Dolor cólico",
+                    "Usos contra la salud (anorexia…)"
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Químicas",
+              "actividadSubgrupo": null,
+              "principiosActivos": [
+                {
+                  "nombre": "Bisacodilo",
+                  "ef": [],
+                  "efectosAdversos": [
+                    "Hábito",
+                    "Diarreas intensas",
+                    "Dolor cólico",
+                    "Usos contra la salud (anorexia…)"
+                  ]
+                },
+                {
+                  "nombre": "Picosulfato sódico",
+                  "ef": [],
+                  "efectosAdversos": [
+                    "Hábito",
+                    "Diarreas intensas",
+                    "Dolor cólico",
+                    "Usos contra la salud (anorexia…)"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A07",
+      "nombre": "Antidiarreicos",
+      "actividadGrupo": "Contra la eliminación excesiva de heces y/o deposiciones líquidas",
+      "subgrupos": [
+        {
+          "nombre": "Antipropulsivos",
+          "actividadSubgrupo": "Disminuyen el peristaltismo (derivados opiáceos)",
+          "principiosActivos": [
+            {
+              "nombre": "Codeína",
+              "ef": [],
+              "efectosAdversos": ["Usos contra la salud (opiáceos…)"]
+            },
+            {
+              "nombre": "Loperamida",
+              "ef": ["FORTASEC"],
+              "efectosAdversos": ["Usos contra la salud (opiáceos…)"]
+            }
+          ]
+        },
+        {
+          "nombre": "Espesantes de las heces",
+          "actividadSubgrupo": null,
+          "principiosActivos": [
+            {
+              "nombre": "Taninos",
+              "ef": ["TANAGEL", "TIORFAN"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Electrolitos",
+          "actividadSubgrupo": "Suero oral, para la deshidratación",
+          "principiosActivos": [
+            {
+              "nombre": "NaCl",
+              "ef": [],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Citrato",
+              "ef": [],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "KCl",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Microorganismos",
+          "actividadSubgrupo": "Probióticos, restauradores de la flora",
+          "principiosActivos": [
+            {
+              "nombre": "Lactobacillus acidophillus",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A08",
+      "nombre": "Antiobesidad",
+      "actividadGrupo": null,
+      "subgrupos": [
+        {
+          "nombre": "Saciantes",
+          "actividadSubgrupo": "Dan sensación de plenitud, de estar lleno",
+          "principiosActivos": [
+            {
+              "nombre": "Plantago (semilla)",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Disminuidoras de la absorción",
+          "actividadSubgrupo": "Evitan que los nutrientes entren al organismo",
+          "principiosActivos": [
+            {
+              "nombre": "Fucus",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Inhibidores de la lipogénesis",
+          "actividadSubgrupo": "Impiden que se forme la grasa",
+          "principiosActivos": [
+            {
+              "nombre": "Garcinia",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Termogénicas",
+          "actividadSubgrupo": "Queman, dan calor",
+          "principiosActivos": [
+            {
+              "nombre": "Té verde",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A09",
+      "nombre": "Digestivos",
+      "actividadGrupo": "Favorecen la producción de enzimas o aportan esos enzimas que participan en la degradación de los alimentos en nutrientes",
+      "subgrupos": [
+        {
+          "nombre": "Digestivos enzimáticos",
+          "actividadSubgrupo": null,
+          "principiosActivos": [
+            {
+              "nombre": "Amilasa",
+              "ef": [],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Lipasa",
+              "ef": [],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Proteasa",
+              "ef": [],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "A10",
+      "nombre": "Antidiabéticos",
+      "actividadGrupo": "Tratan el exceso de glucosa en sangre por un deficiente funcionamiento de la hormona encargada de introducir la glucosa en la célula para su combustión",
+      "subgrupos": [
+        {
+          "nombre": "Insulinas",
+          "actividadSubgrupo": "Tratan la diabetes mellitus 1 y la diabetes mellitus 2 no controlada",
+          "subgruposInternos": [
+            {
+              "nombre": "De acción rápida",
+              "actividadSubgrupo": "Para glucemias muy altas, de urgencia",
+              "principiosActivos": []
+            },
+            {
+              "nombre": "De acción intermedia",
+              "actividadSubgrupo": "Para tratamientos habituales",
+              "principiosActivos": []
+            },
+            {
+              "nombre": "De acción prolongada",
+              "actividadSubgrupo": "Empieza a actuar más tarde pero durante más tiempo",
+              "principiosActivos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Hipoglucemiantes orales",
+          "actividadSubgrupo": "Tratan la diabetes mellitus 2",
+          "subgruposInternos": [
+            {
+              "nombre": "Sulfonilureas",
+              "actividadSubgrupo": "Aumentan la producción de insulina: las células funcionales del páncreas trabajan más",
+              "principiosActivos": [
+                {
+                  "nombre": null,
+                  "ef": ["DAONIL"],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Biguanidas",
+              "actividadSubgrupo": "Apoyo a la insulina: hacen que la insulina producida sea más eficiente",
+              "principiosActivos": [
+                {
+                  "nombre": "Metformina",
+                  "ef": ["DIANBEN"],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Inhibidores de la alfa-glucosidasa",
+              "actividadSubgrupo": "Retardan la absorción de glúcidos: los glúcidos pasan más lento a sangre, lo que da tiempo a la insulina para trabajar",
+              "principiosActivos": [
+                {
+                  "nombre": null,
+                  "ef": ["GLUCOBAY"],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Tiazolindindionas",
+              "actividadSubgrupo": "Aumentan la utilización de glucosa e inhiben su síntesis en el hígado: la glucosa se utiliza más rápido en la célula y evitan que se liberen las reservas de glucógeno",
+              "principiosActivos": [
+                {
+                  "nombre": "Pioglitazona",
+                  "ef": [],
+                  "efectosAdversos": []
+                },
+                {
+                  "nombre": "Rosiglitazona",
+                  "ef": [],
+                  "efectosAdversos": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
