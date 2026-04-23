@@ -137,6 +137,22 @@
         </button>
       </div>
     </section>
+    <!-- PANTALLA DEFINICIONES -->
+<section id="definiciones-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="backToActivities()">← Volver</button>
+    <div class="hero-badge">DEFINICIONES</div>
+    <h1 class="subpage-title">Empareja los conceptos</h1>
+  </div>
+
+  <div class="match-container">
+    <div id="left-column" class="match-column"></div>
+    <div id="right-column" class="match-column"></div>
+  </div>
+
+  <button class="check-button" onclick="checkAnswers()">Comprobar</button>
+  <div id="result"></div>
+</section>
   </div>
 
   <script src="script.js"></script>
