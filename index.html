@@ -12,13 +12,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="background-shape shape-1"></div>
-  <div class="background-shape shape-2"></div>
-  <div class="background-dots"></div>
+  <div class="bg-shape bg-shape-1"></div>
+  <div class="bg-shape bg-shape-2"></div>
+  <div class="bg-dots"></div>
 
   <div class="container">
     <header class="hero">
-      <div class="tag">ESTUDIO FARMACOLOGÍA</div>
+      <div class="hero-badge">ESTUDIO FARMACOLOGÍA</div>
       <h1>Selecciona el grupo ATC que quieres estudiar</h1>
       <p>
         Elige un grupo concreto o entra en modo mixto para practicar
@@ -26,75 +26,75 @@
       </p>
     </header>
 
-    <main class="grid">
-      <button class="card digestivo" onclick="selectGroup('digestivo')">
-        <div class="icon-circle">◔</div>
+    <main class="cards-grid">
+      <button class="atc-card digestivo" onclick="selectGroup('digestivo')">
+        <div class="card-icon">D</div>
         <h2>ATC Digestivo</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Aparato digestivo y metabolismo</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card antiinflamatorio" onclick="selectGroup('antiinflamatorio')">
-        <div class="icon-circle">✚</div>
+      <button class="atc-card antiinflamatorio" onclick="selectGroup('antiinflamatorio')">
+        <div class="card-icon">A</div>
         <h2>ATC Antiinflamatorio</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Antiinflamatorios y relacionados</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card respiratorio" onclick="selectGroup('respiratorio')">
-        <div class="icon-circle">◌</div>
+      <button class="atc-card respiratorio" onclick="selectGroup('respiratorio')">
+        <div class="card-icon">R</div>
         <h2>ATC Respiratorio</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Sistema respiratorio</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card sangre" onclick="selectGroup('sangre-organos')">
-        <div class="icon-circle">◍</div>
+      <button class="atc-card sangre" onclick="selectGroup('sangre-organos')">
+        <div class="card-icon">S</div>
         <h2>ATC Sangre y órganos</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Sangre y órganos hematopoyéticos</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card hormonas" onclick="selectGroup('hormonas')">
-        <div class="icon-circle">✦</div>
+      <button class="atc-card hormonas" onclick="selectGroup('hormonas')">
+        <div class="card-icon">H</div>
         <h2>ATC Hormonas</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Preparados hormonales sistémicos</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card analgesicos" onclick="selectGroup('analgesicos')">
-        <div class="icon-circle">◒</div>
+      <button class="atc-card analgesicos" onclick="selectGroup('analgesicos')">
+        <div class="card-icon">N</div>
         <h2>ATC Analgésicos</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Analgésicos</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card cardiovascular" onclick="selectGroup('cardiovascular')">
-        <div class="icon-circle">♡</div>
+      <button class="atc-card cardiovascular" onclick="selectGroup('cardiovascular')">
+        <div class="card-icon">C</div>
         <h2>ATC Cardiovascular</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Sistema cardiovascular</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
 
-      <button class="card mixto" onclick="selectGroup('mixto')">
-        <div class="icon-circle">✧</div>
+      <button class="atc-card mixto" onclick="selectGroup('mixto')">
+        <div class="card-icon">M</div>
         <h2>ATC Mixto</h2>
-        <div class="line"></div>
+        <div class="card-line"></div>
         <p>Mezcla de preguntas de todos los grupos</p>
-        <span class="enter-btn">Entrar →</span>
+        <span class="card-button">Entrar <span>→</span></span>
       </button>
     </main>
 
-    <footer class="footer-note">
+    <div class="footer-pill">
       Sigue tu progreso, mejora cada día y domina la farmacología.
-    </footer>
+    </div>
   </div>
 
   <script src="script.js"></script>
