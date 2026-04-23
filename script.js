@@ -28,3 +28,8 @@ function selectActivity(activity) {
     alert("Has seleccionado la actividad: " + activity);
   }
 }
+
+function backToActivities() {
+  document.getElementById("definiciones-screen").classList.add("hidden");
+  document.getElementById("digestivo-screen").classList.remove("hidden");
+}
