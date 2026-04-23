@@ -1,1 +1,361 @@
-[]
+[
+  {
+    "type": "match",
+    "prompt": "Relaciona cada grupo terapéutico con su actividad principal.",
+    "leftItems": [
+      "A01 - Estomatológicos",
+      "A02 - Afectan a la secreción gástrica",
+      "A04 - Eméticos y antieméticos",
+      "A07 - Antidiarreicos"
+    ],
+    "rightItems": [
+      "Protegen la mucosa bucal",
+      "Actúan contra el exceso de HCl que produce gastritis, pirosis y/o úlcera",
+      "Actúan sobre el bulbo raquídeo",
+      "Contra la eliminación excesiva de heces y/o deposiciones líquidas"
+    ],
+    "correctMatches": {
+      "A01 - Estomatológicos": "Protegen la mucosa bucal",
+      "A02 - Afectan a la secreción gástrica": "Actúan contra el exceso de HCl que produce gastritis, pirosis y/o úlcera",
+      "A04 - Eméticos y antieméticos": "Actúan sobre el bulbo raquídeo",
+      "A07 - Antidiarreicos": "Contra la eliminación excesiva de heces y/o deposiciones líquidas"
+    },
+    "explanation": "Estos grupos aparecen definidos en el esquema general del ATC digestivo."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada grupo terapéutico con su actividad principal.",
+    "leftItems": [
+      "A06 - Laxantes",
+      "A08 - Antiobesidad",
+      "A09 - Digestivos",
+      "A10 - Antidiabéticos"
+    ],
+    "rightItems": [
+      "Estreñimiento, hemorroides, cirugía del digestivo…",
+      "Favorecen la producción de enzimas o aportan enzimas que participan en la degradación de los alimentos en nutrientes",
+      "Tratan el exceso de glucosa en sangre por un deficiente funcionamiento de la hormona encargada de introducir la glucosa en la célula",
+      "Preparados contra la obesidad"
+    ],
+    "correctMatches": {
+      "A06 - Laxantes": "Estreñimiento, hemorroides, cirugía del digestivo…",
+      "A08 - Antiobesidad": "Preparados contra la obesidad",
+      "A09 - Digestivos": "Favorecen la producción de enzimas o aportan enzimas que participan en la degradación de los alimentos en nutrientes",
+      "A10 - Antidiabéticos": "Tratan el exceso de glucosa en sangre por un deficiente funcionamiento de la hormona encargada de introducir la glucosa en la célula"
+    },
+    "explanation": "A06, A08, A09 y A10 se describen con su función general en el temario."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona los subgrupos de A02 con su actividad.",
+    "leftItems": [
+      "Neutralizantes",
+      "Protectores de la mucosa",
+      "Inhibidores de la secreción"
+    ],
+    "rightItems": [
+      "Alcalinizan la acidez",
+      "Evitan el contacto HCl-mucosa",
+      "Impiden que se forme HCl"
+    ],
+    "correctMatches": {
+      "Neutralizantes": "Alcalinizan la acidez",
+      "Protectores de la mucosa": "Evitan el contacto HCl-mucosa",
+      "Inhibidores de la secreción": "Impiden que se forme HCl"
+    },
+    "explanation": "Dentro de A02, los subgrupos se distinguen por cómo actúan frente al exceso de ácido."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona los subgrupos internos de A02 con su actividad.",
+    "leftItems": [
+      "Sistémicos",
+      "No sistémicos",
+      "Antihistamínicos H2",
+      "Inhibidores de la bomba de H+"
+    ],
+    "rightItems": [
+      "Se absorben",
+      "No se absorben",
+      "Inhiben la hormona que manda crear HCl",
+      "Impide fabricar HCl"
+    ],
+    "correctMatches": {
+      "Sistémicos": "Se absorben",
+      "No sistémicos": "No se absorben",
+      "Antihistamínicos H2": "Inhiben la hormona que manda crear HCl",
+      "Inhibidores de la bomba de H+": "Impide fabricar HCl"
+    },
+    "explanation": "A02 diferencia neutralizantes sistémicos y no sistémicos, y también dos tipos de inhibidores de la secreción."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada subgrupo de A03 con su actividad.",
+    "leftItems": [
+      "Antiflatulentos",
+      "Antiespasmódicos",
+      "Anticolinérgicos",
+      "Analgésicos"
+    ],
+    "rightItems": [
+      "Contra el meteorismo y los gases digestivos",
+      "Para el tratamiento del dolor cólico",
+      "Disminuye el peristaltismo",
+      "Alivia el dolor"
+    ],
+    "correctMatches": {
+      "Antiflatulentos": "Contra el meteorismo y los gases digestivos",
+      "Antiespasmódicos": "Para el tratamiento del dolor cólico",
+      "Anticolinérgicos": "Disminuye el peristaltismo",
+      "Analgésicos": "Alivia el dolor"
+    },
+    "explanation": "A03 distingue entre gases digestivos y dolor cólico, y dentro de antiespasmódicos incluye anticolinérgicos y analgésicos."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada subgrupo de A04 con su actividad.",
+    "leftItems": [
+      "Eméticos",
+      "Antieméticos"
+    ],
+    "rightItems": [
+      "Producen el vómito",
+      "Impiden el vómito"
+    ],
+    "correctMatches": {
+      "Eméticos": "Producen el vómito",
+      "Antieméticos": "Impiden el vómito"
+    },
+    "explanation": "En A04 se distinguen los fármacos que provocan el vómito y los que lo bloquean."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona los subgrupos de A06 con su actividad.",
+    "leftItems": [
+      "Formadores de masa (mecánicos-arrastran)",
+      "Lubricantes",
+      "Osmóticos",
+      "Estimulantes por contacto"
+    ],
+    "rightItems": [
+      "Aumentan el volumen de las heces, las hacen más esponjosas",
+      "Facilitan el desplazamiento del bolo fecal",
+      "Hacen que las heces absorban agua del intestino",
+      "Irritan la mucosa aumentando el peristaltismo"
+    ],
+    "correctMatches": {
+      "Formadores de masa (mecánicos-arrastran)": "Aumentan el volumen de las heces, las hacen más esponjosas",
+      "Lubricantes": "Facilitan el desplazamiento del bolo fecal",
+      "Osmóticos": "Hacen que las heces absorban agua del intestino",
+      "Estimulantes por contacto": "Irritan la mucosa aumentando el peristaltismo"
+    },
+    "explanation": "A06 se organiza por el mecanismo con el que favorecen la evacuación."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona los subgrupos de A07 con su actividad.",
+    "leftItems": [
+      "Antipropulsivos",
+      "Espesantes de las heces",
+      "Electrolitos",
+      "Microorganismos"
+    ],
+    "rightItems": [
+      "Disminuyen el peristaltismo",
+      "Espesan las heces",
+      "Suero oral para la deshidratación",
+      "Probióticos, restauradores de la flora"
+    ],
+    "correctMatches": {
+      "Antipropulsivos": "Disminuyen el peristaltismo",
+      "Espesantes de las heces": "Espesan las heces",
+      "Electrolitos": "Suero oral para la deshidratación",
+      "Microorganismos": "Probióticos, restauradores de la flora"
+    },
+    "explanation": "En A07 aparecen antidiarreicos por disminución del peristaltismo, reposición de líquidos y restauración de la flora."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona los subgrupos de A08 con su actividad.",
+    "leftItems": [
+      "Saciantes",
+      "Disminuidoras de la absorción",
+      "Inhibidores de la lipogénesis",
+      "Termogénicas"
+    ],
+    "rightItems": [
+      "Dan sensación de plenitud, de estar lleno",
+      "Evitan que los nutrientes entren al organismo",
+      "Impiden que se forme la grasa",
+      "Queman, dan calor"
+    ],
+    "correctMatches": {
+      "Saciantes": "Dan sensación de plenitud, de estar lleno",
+      "Disminuidoras de la absorción": "Evitan que los nutrientes entren al organismo",
+      "Inhibidores de la lipogénesis": "Impiden que se forme la grasa",
+      "Termogénicas": "Queman, dan calor"
+    },
+    "explanation": "A08 clasifica los preparados antiobesidad según el modo en que reducen la ganancia de peso."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada subgrupo de A10 con su actividad.",
+    "leftItems": [
+      "Insulinas",
+      "Hipoglucemiantes orales",
+      "Sulfonilureas",
+      "Biguanidas"
+    ],
+    "rightItems": [
+      "Tratan la diabetes mellitus 1 y la diabetes mellitus 2 no controlada",
+      "Tratan la diabetes mellitus 2",
+      "Aumentan la producción de insulina",
+      "Hacen que la insulina producida sea más eficiente"
+    ],
+    "correctMatches": {
+      "Insulinas": "Tratan la diabetes mellitus 1 y la diabetes mellitus 2 no controlada",
+      "Hipoglucemiantes orales": "Tratan la diabetes mellitus 2",
+      "Sulfonilureas": "Aumentan la producción de insulina",
+      "Biguanidas": "Hacen que la insulina producida sea más eficiente"
+    },
+    "explanation": "En A10 se separan las insulinas de los hipoglucemiantes orales, y dentro de estos aparecen sulfonilureas y biguanidas."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona los subgrupos internos de A10 con su actividad.",
+    "leftItems": [
+      "De acción rápida",
+      "De acción intermedia",
+      "De acción prolongada",
+      "Inhibidores de la alfa-glucosidasa"
+    ],
+    "rightItems": [
+      "Para glucemias muy altas, de urgencia",
+      "Para tratamientos habituales",
+      "Empieza a actuar más tarde pero durante más tiempo",
+      "Retardan la absorción de glúcidos"
+    ],
+    "correctMatches": {
+      "De acción rápida": "Para glucemias muy altas, de urgencia",
+      "De acción intermedia": "Para tratamientos habituales",
+      "De acción prolongada": "Empieza a actuar más tarde pero durante más tiempo",
+      "Inhibidores de la alfa-glucosidasa": "Retardan la absorción de glúcidos"
+    },
+    "explanation": "En A10 aparecen tres tipos de insulina según el tiempo de acción y un grupo oral que frena la absorción de glúcidos."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada principio activo con su función o actividad principal.",
+    "leftItems": [
+      "Sucralfato",
+      "Carbenoxolona",
+      "Omeprazol",
+      "Metformina"
+    ],
+    "rightItems": [
+      "Forma una película artificial",
+      "Estimula la formación de moco protector",
+      "Impide fabricar HCl",
+      "Hace que la insulina producida sea más eficiente"
+    ],
+    "correctMatches": {
+      "Sucralfato": "Forma una película artificial",
+      "Carbenoxolona": "Estimula la formación de moco protector",
+      "Omeprazol": "Impide fabricar HCl",
+      "Metformina": "Hace que la insulina producida sea más eficiente"
+    },
+    "explanation": "Estos principios activos se asocian en el temario con una función concreta dentro de su subgrupo."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada principio activo con su grupo funcional.",
+    "leftItems": [
+      "Dimeticona",
+      "Apomorfina",
+      "Lactulosa",
+      "Loperamida"
+    ],
+    "rightItems": [
+      "Antiflatulentos",
+      "Eméticos",
+      "Osmóticos",
+      "Antipropulsivos"
+    ],
+    "correctMatches": {
+      "Dimeticona": "Antiflatulentos",
+      "Apomorfina": "Eméticos",
+      "Lactulosa": "Osmóticos",
+      "Loperamida": "Antipropulsivos"
+    },
+    "explanation": "La actividad de definiciones también puede preguntar por la pertenencia de principios activos a su subgrupo."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada principio activo con su grupo funcional.",
+    "leftItems": [
+      "Povidona yodada",
+      "Escopolamina (hioscina)",
+      "Plantago (semilla)",
+      "Amilasa"
+    ],
+    "rightItems": [
+      "Antisépticos",
+      "Anticolinérgicos",
+      "Saciantes",
+      "Digestivos"
+    ],
+    "correctMatches": {
+      "Povidona yodada": "Antisépticos",
+      "Escopolamina (hioscina)": "Anticolinérgicos",
+      "Plantago (semilla)": "Saciantes",
+      "Amilasa": "Digestivos"
+    },
+    "explanation": "Aquí se mezclan principios activos de varios grupos del ATC digestivo."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada grupo terapéutico con uno de sus subgrupos.",
+    "leftItems": [
+      "A02",
+      "A03",
+      "A06",
+      "A10"
+    ],
+    "rightItems": [
+      "Protectores de la mucosa",
+      "Antiflatulentos",
+      "Lubricantes",
+      "Hipoglucemiantes orales"
+    ],
+    "correctMatches": {
+      "A02": "Protectores de la mucosa",
+      "A03": "Antiflatulentos",
+      "A06": "Lubricantes",
+      "A10": "Hipoglucemiantes orales"
+    },
+    "explanation": "Este formato sirve para repasar la estructura del temario, no solo definiciones textuales."
+  },
+  {
+    "type": "match",
+    "prompt": "Relaciona cada subgrupo con un principio activo representativo.",
+    "leftItems": [
+      "Antihistamínicos H2",
+      "Antieméticos",
+      "Microorganismos",
+      "Tiazolindindionas"
+    ],
+    "rightItems": [
+      "Ranitidina",
+      "Metoclopramida",
+      "Lactobacillus acidophillus",
+      "Pioglitazona"
+    ],
+    "correctMatches": {
+      "Antihistamínicos H2": "Ranitidina",
+      "Antieméticos": "Metoclopramida",
+      "Microorganismos": "Lactobacillus acidophillus",
+      "Tiazolindindionas": "Pioglitazona"
+    },
+    "explanation": "Otra variante útil es relacionar subgrupo terapéutico con principio activo."
+  }
+]
