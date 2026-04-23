@@ -1,102 +1,96 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Farmacología ATC</title>
+.hidden {
+  display: none;
+}
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+.subpage-header {
+  text-align: center;
+  margin-bottom: 36px;
+}
 
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="bg-shape bg-shape-1"></div>
-  <div class="bg-shape bg-shape-2"></div>
-  <div class="bg-dots"></div>
+.back-button {
+  border: none;
+  background: #dceef0;
+  color: #206a7d;
+  padding: 12px 20px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-  <div class="container">
-    <header class="hero">
-      <div class="hero-badge">ESTUDIO FARMACOLOGÍA</div>
-      <h1>Selecciona el grupo ATC que quieres estudiar</h1>
-      <p>
-        Elige un grupo concreto o entra en modo mixto para practicar
-        preguntas combinadas de todos los grupos.
-      </p>
-    </header>
+.back-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(13, 37, 84, 0.08);
+}
 
-    <main class="cards-grid">
-      <button class="atc-card digestivo" onclick="selectGroup('digestivo')">
-        <div class="card-icon">D</div>
-        <h2>ATC Digestivo</h2>
-        <div class="card-line"></div>
-        <p>Aparato digestivo y metabolismo</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.subpage-title {
+  max-width: 800px;
+  margin: 0 auto 14px;
+  font-size: clamp(36px, 5vw, 60px);
+  line-height: 1.08;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
 
-      <button class="atc-card antiinflamatorio" onclick="selectGroup('antiinflamatorio')">
-        <div class="card-icon">A</div>
-        <h2>ATC Antiinflamatorio</h2>
-        <div class="card-line"></div>
-        <p>Antiinflamatorios y relacionados</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.subpage-text {
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.45;
+  color: var(--text);
+  font-weight: 500;
+}
 
-      <button class="atc-card respiratorio" onclick="selectGroup('respiratorio')">
-        <div class="card-icon">R</div>
-        <h2>ATC Respiratorio</h2>
-        <div class="card-line"></div>
-        <p>Sistema respiratorio</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+  max-width: 900px;
+  margin: 0 auto;
+}
 
-      <button class="atc-card sangre" onclick="selectGroup('sangre-organos')">
-        <div class="card-icon">S</div>
-        <h2>ATC Sangre y órganos</h2>
-        <div class="card-line"></div>
-        <p>Sangre y órganos hematopoyéticos</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.activity-card {
+  border: none;
+  width: 100%;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 28px;
+  padding: 28px 24px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
 
-      <button class="atc-card hormonas" onclick="selectGroup('hormonas')">
-        <div class="card-icon">H</div>
-        <h2>ATC Hormonas</h2>
-        <div class="card-line"></div>
-        <p>Preparados hormonales sistémicos</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
 
-      <button class="atc-card analgesicos" onclick="selectGroup('analgesicos')">
-        <div class="card-icon">N</div>
-        <h2>ATC Analgésicos</h2>
-        <div class="card-line"></div>
-        <p>Analgésicos</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.activity-card h3 {
+  font-size: 24px;
+  color: var(--navy);
+  margin-bottom: 10px;
+  font-weight: 700;
+}
 
-      <button class="atc-card cardiovascular" onclick="selectGroup('cardiovascular')">
-        <div class="card-icon">C</div>
-        <h2>ATC Cardiovascular</h2>
-        <div class="card-line"></div>
-        <p>Sistema cardiovascular</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
+.activity-card p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text);
+}
 
-      <button class="atc-card mixto" onclick="selectGroup('mixto')">
-        <div class="card-icon">M</div>
-        <h2>ATC Mixto</h2>
-        <div class="card-line"></div>
-        <p>Mezcla de preguntas de todos los grupos</p>
-        <span class="card-button">Entrar <span>→</span></span>
-      </button>
-    </main>
+@media (max-width: 700px) {
+  .activity-grid {
+    grid-template-columns: 1fr;
+  }
 
-    <div class="footer-pill">
-      Sigue tu progreso, mejora cada día y domina la farmacología.
-    </div>
-  </div>
+  .subpage-text {
+    font-size: 17px;
+  }
 
-  <script src="script.js"></script>
-</body>
-</html>
+  .activity-card h3 {
+    font-size: 21px;
+  }
+}
