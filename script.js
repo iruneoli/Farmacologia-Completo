@@ -19,5 +19,12 @@ function goHome() {
 }
 
 function selectActivity(activity) {
-  alert("Has seleccionado la actividad: " + activity);
+  if (activity === "definiciones") {
+    document.getElementById("digestivo-screen").classList.add("hidden");
+    document.getElementById("definiciones-screen").classList.remove("hidden");
+  } else if (activity === "repaso-fallos") {
+    alert("Repaso de fallos aún no implementado.");
+  } else {
+    alert("Has seleccionado la actividad: " + activity);
+  }
 }
