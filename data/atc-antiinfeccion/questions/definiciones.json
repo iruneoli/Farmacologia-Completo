@@ -1,1 +1,626 @@
-[]
+[
+  {
+    "prompt": "Relaciona cada concepto general con su definición.",
+    "leftItems": [
+      "Antibiótico",
+      "Toxicidad selectiva",
+      "Bacteriostático",
+      "Bactericida",
+      "Automedicación con antibióticos"
+    ],
+    "rightItems": [
+      "Sustancia capaz de matar o impedir el crecimiento de microorganismos",
+      "Mayor toxicidad para el organismo invasor que para el huésped",
+      "Impide el crecimiento de los gérmenes",
+      "Destruye bacterias",
+      "Puede favorecer la aparición de bacterias resistentes"
+    ],
+    "correctMatches": {
+      "Antibiótico": "Sustancia capaz de matar o impedir el crecimiento de microorganismos",
+      "Toxicidad selectiva": "Mayor toxicidad para el organismo invasor que para el huésped",
+      "Bacteriostático": "Impide el crecimiento de los gérmenes",
+      "Bactericida": "Destruye bacterias",
+      "Automedicación con antibióticos": "Puede favorecer la aparición de bacterias resistentes"
+    }
+  },
+  {
+    "prompt": "Relaciona cada mecanismo de acción con su indicación.",
+    "leftItems": [
+      "Inhibidores de la síntesis de la pared bacteriana",
+      "Inhibidores de la síntesis proteica",
+      "Inhibidores de ácidos nucleicos",
+      "Acción sobre la membrana plasmática",
+      "Acción sobre ribosomas"
+    ],
+    "rightItems": [
+      "Destruyen o impiden la formación de la pared bacteriana",
+      "Actúan sobre los ribosomas bacterianos",
+      "Inhiben enzimas que transcriben ARN o duplican ADN",
+      "Disuelven la membrana produciendo la muerte del hongo",
+      "Bloquean estructuras responsables de sintetizar proteínas"
+    ],
+    "correctMatches": {
+      "Inhibidores de la síntesis de la pared bacteriana": "Destruyen o impiden la formación de la pared bacteriana",
+      "Inhibidores de la síntesis proteica": "Actúan sobre los ribosomas bacterianos",
+      "Inhibidores de ácidos nucleicos": "Inhiben enzimas que transcriben ARN o duplican ADN",
+      "Acción sobre la membrana plasmática": "Disuelven la membrana produciendo la muerte del hongo",
+      "Acción sobre ribosomas": "Bloquean estructuras responsables de sintetizar proteínas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada criterio de clasificación con sus tipos.",
+    "leftItems": [
+      "Mecanismo de acción",
+      "Efecto sobre microorganismos",
+      "Espectro de actuación",
+      "Resistencia natural",
+      "Resistencia adquirida"
+    ],
+    "rightItems": [
+      "Pared bacteriana, síntesis proteica, ácidos nucleicos o membrana",
+      "Bactericidas o bacteriostáticos",
+      "Amplio espectro o selectivos",
+      "Existe sin adaptación previa al antibiótico",
+      "Aparece por adaptación o mutantes resistentes"
+    ],
+    "correctMatches": {
+      "Mecanismo de acción": "Pared bacteriana, síntesis proteica, ácidos nucleicos o membrana",
+      "Efecto sobre microorganismos": "Bactericidas o bacteriostáticos",
+      "Espectro de actuación": "Amplio espectro o selectivos",
+      "Resistencia natural": "Existe sin adaptación previa al antibiótico",
+      "Resistencia adquirida": "Aparece por adaptación o mutantes resistentes"
+    }
+  },
+  {
+    "prompt": "Relaciona cada mecanismo de resistencia con su descripción.",
+    "leftItems": [
+      "Modificación del lugar bacteriano",
+      "Pérdida de permeabilidad",
+      "Síntesis de enzimas inactivadoras",
+      "Resistencia adquirida",
+      "Mutantes resistentes"
+    ],
+    "rightItems": [
+      "Cambia la zona donde actúa el antibiótico",
+      "El antibiótico entra peor en la bacteria",
+      "La bacteria produce sustancias que inactivan el antibiótico",
+      "Puede surgir por adaptación al ambiente",
+      "Variantes bacterianas que sobreviven al antibiótico"
+    ],
+    "correctMatches": {
+      "Modificación del lugar bacteriano": "Cambia la zona donde actúa el antibiótico",
+      "Pérdida de permeabilidad": "El antibiótico entra peor en la bacteria",
+      "Síntesis de enzimas inactivadoras": "La bacteria produce sustancias que inactivan el antibiótico",
+      "Resistencia adquirida": "Puede surgir por adaptación al ambiente",
+      "Mutantes resistentes": "Variantes bacterianas que sobreviven al antibiótico"
+    }
+  },
+  {
+    "prompt": "Relaciona cada familia o grupo con su indicación principal.",
+    "leftItems": [
+      "Penicilinas orales de amplio espectro",
+      "Penicilinas penicilinasa-resistentes",
+      "Cefalosporinas de primera generación",
+      "Cefalosporinas de segunda generación",
+      "Cefalosporinas de tercera generación"
+    ],
+    "rightItems": [
+      "Infecciones respiratorias y de todo tipo",
+      "Infecciones por estafilococos resistentes a la penicilina",
+      "Infecciones respiratorias y óticas por gram +",
+      "Infecciones respiratorias y óticas por gram + y -",
+      "Infecciones por bacterias resistentes tipo pseudomonas"
+    ],
+    "correctMatches": {
+      "Penicilinas orales de amplio espectro": "Infecciones respiratorias y de todo tipo",
+      "Penicilinas penicilinasa-resistentes": "Infecciones por estafilococos resistentes a la penicilina",
+      "Cefalosporinas de primera generación": "Infecciones respiratorias y óticas por gram +",
+      "Cefalosporinas de segunda generación": "Infecciones respiratorias y óticas por gram + y -",
+      "Cefalosporinas de tercera generación": "Infecciones por bacterias resistentes tipo pseudomonas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo con sus principios activos.",
+    "leftItems": [
+      "Penicilinas orales de amplio espectro",
+      "Penicilinasa-resistentes",
+      "Cefalosporinas de segunda generación",
+      "Cefalosporinas de tercera generación",
+      "Inhibidores de beta-lactamasas"
+    ],
+    "rightItems": [
+      "Ampicilina y amoxicilina",
+      "Cloxacilina",
+      "Cefuroxima",
+      "Ceftazidima, ceftriaxona y cefotaxima",
+      "Amoxicilina + ácido clavulánico"
+    ],
+    "correctMatches": {
+      "Penicilinas orales de amplio espectro": "Ampicilina y amoxicilina",
+      "Penicilinasa-resistentes": "Cloxacilina",
+      "Cefalosporinas de segunda generación": "Cefuroxima",
+      "Cefalosporinas de tercera generación": "Ceftazidima, ceftriaxona y cefotaxima",
+      "Inhibidores de beta-lactamasas": "Amoxicilina + ácido clavulánico"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su grupo o familia.",
+    "leftItems": [
+      "Amoxicilina",
+      "Cloxacilina",
+      "Cefuroxima",
+      "Ceftazidima",
+      "Amoxicilina + ácido clavulánico"
+    ],
+    "rightItems": [
+      "Penicilina oral de amplio espectro",
+      "Penicilina penicilinasa-resistente",
+      "Cefalosporina de segunda generación",
+      "Cefalosporina de tercera generación",
+      "Inhibidor de beta-lactamasas en asociación"
+    ],
+    "correctMatches": {
+      "Amoxicilina": "Penicilina oral de amplio espectro",
+      "Cloxacilina": "Penicilina penicilinasa-resistente",
+      "Cefuroxima": "Cefalosporina de segunda generación",
+      "Ceftazidima": "Cefalosporina de tercera generación",
+      "Amoxicilina + ácido clavulánico": "Inhibidor de beta-lactamasas en asociación"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Amoxicilina",
+      "Cloxacilina",
+      "Amoxicilina + ácido clavulánico",
+      "Eritromicina",
+      "Claritromicina"
+    ],
+    "rightItems": [
+      "CLAMOXIL",
+      "ORBENIN",
+      "AUGMENTINE",
+      "PANTOMICINA",
+      "KLACID"
+    ],
+    "correctMatches": {
+      "Amoxicilina": "CLAMOXIL",
+      "Cloxacilina": "ORBENIN",
+      "Amoxicilina + ácido clavulánico": "AUGMENTINE",
+      "Eritromicina": "PANTOMICINA",
+      "Claritromicina": "KLACID"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Azitromicina",
+      "Ciprofloxacino",
+      "Metronidazol",
+      "Nitrofurantoína",
+      "Clindamicina"
+    ],
+    "rightItems": [
+      "ZITROMAX",
+      "BAYCIP",
+      "FLAGYL",
+      "FURACIN",
+      "DALACIN"
+    ],
+    "correctMatches": {
+      "Azitromicina": "ZITROMAX",
+      "Ciprofloxacino": "BAYCIP",
+      "Metronidazol": "FLAGYL",
+      "Nitrofurantoína": "FURACIN",
+      "Clindamicina": "DALACIN"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF o situación en el temario.",
+    "leftItems": [
+      "Fosfomicina",
+      "Ampicilina",
+      "Gentamicina",
+      "Tobramicina",
+      "Doxiciclina"
+    ],
+    "rightItems": [
+      "MONUROL",
+      "No consta EF en el temario",
+      "No consta EF en el temario",
+      "No consta EF en el temario",
+      "No consta EF en el temario"
+    ],
+    "correctMatches": {
+      "Fosfomicina": "MONUROL",
+      "Ampicilina": "No consta EF en el temario",
+      "Gentamicina": "No consta EF en el temario",
+      "Tobramicina": "No consta EF en el temario",
+      "Doxiciclina": "No consta EF en el temario"
+    }
+  },
+  {
+    "prompt": "Relaciona cada familia con sus reacciones adversas principales.",
+    "leftItems": [
+      "Penicilinas",
+      "Cefalosporinas",
+      "Inhibidores de beta-lactamasas",
+      "Aminoglucósidos",
+      "Tetraciclinas"
+    ],
+    "rightItems": [
+      "Malestar gastrointestinal, diarrea y alergias graves",
+      "Malestar estomacal, diarrea, náuseas con alcohol y alergias",
+      "Diarreas, náuseas y problemas gástricos",
+      "Ototoxicidad y nefrotoxicidad por acumulación",
+      "Fotosensibilidad, manchas dentales y acumulación en huesos y dientes"
+    ],
+    "correctMatches": {
+      "Penicilinas": "Malestar gastrointestinal, diarrea y alergias graves",
+      "Cefalosporinas": "Malestar estomacal, diarrea, náuseas con alcohol y alergias",
+      "Inhibidores de beta-lactamasas": "Diarreas, náuseas y problemas gástricos",
+      "Aminoglucósidos": "Ototoxicidad y nefrotoxicidad por acumulación",
+      "Tetraciclinas": "Fotosensibilidad, manchas dentales y acumulación en huesos y dientes"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo con una reacción adversa característica.",
+    "leftItems": [
+      "Macrólidos",
+      "Quinolonas",
+      "Azólicos",
+      "Aminoglucósidos",
+      "Tetraciclinas"
+    ],
+    "rightItems": [
+      "Náuseas, vómitos, diarrea e ictericia",
+      "Náuseas",
+      "Hepatotoxicidad",
+      "Sordera, vértigo y daño renal por acumulación",
+      "Sensibilidad a la luz solar y manchas en dientes"
+    ],
+    "correctMatches": {
+      "Macrólidos": "Náuseas, vómitos, diarrea e ictericia",
+      "Quinolonas": "Náuseas",
+      "Azólicos": "Hepatotoxicidad",
+      "Aminoglucósidos": "Sordera, vértigo y daño renal por acumulación",
+      "Tetraciclinas": "Sensibilidad a la luz solar y manchas en dientes"
+    }
+  },
+  {
+    "prompt": "Relaciona cada familia con su indicación general.",
+    "leftItems": [
+      "Aminoglucósidos",
+      "Tetraciclinas",
+      "Macrólidos",
+      "Quinolonas",
+      "Antifúngicos"
+    ],
+    "rightItems": [
+      "Colirios, pomadas oftálmicas y uso parenteral hospitalario",
+      "Bacteriostáticos de amplio espectro frente a bacterias intracelulares",
+      "Sustituyen a penicilinas en alérgicos",
+      "Infecciones urinarias principalmente, también respiratorias y heridas",
+      "Infecciones por hongos"
+    ],
+    "correctMatches": {
+      "Aminoglucósidos": "Colirios, pomadas oftálmicas y uso parenteral hospitalario",
+      "Tetraciclinas": "Bacteriostáticos de amplio espectro frente a bacterias intracelulares",
+      "Macrólidos": "Sustituyen a penicilinas en alérgicos",
+      "Quinolonas": "Infecciones urinarias principalmente, también respiratorias y heridas",
+      "Antifúngicos": "Infecciones por hongos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su familia.",
+    "leftItems": [
+      "Gentamicina",
+      "Tobramicina",
+      "Doxiciclina",
+      "Eritromicina",
+      "Ciprofloxacino"
+    ],
+    "rightItems": [
+      "Aminoglucósidos",
+      "Aminoglucósidos",
+      "Tetraciclinas",
+      "Macrólidos",
+      "Quinolonas"
+    ],
+    "correctMatches": {
+      "Gentamicina": "Aminoglucósidos",
+      "Tobramicina": "Aminoglucósidos",
+      "Doxiciclina": "Tetraciclinas",
+      "Eritromicina": "Macrólidos",
+      "Ciprofloxacino": "Quinolonas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su indicación o uso señalado.",
+    "leftItems": [
+      "Doxiciclina",
+      "Eritromicina",
+      "Ciprofloxacino",
+      "Rifampicina",
+      "Fosfomicina"
+    ],
+    "rightItems": [
+      "Tratamiento de acné y uretritis",
+      "Neumonías atípicas por Legionella y Mycoplasma",
+      "Infecciones urinarias principalmente",
+      "Tuberculosis y quimioprofilaxis de meningitis",
+      "Infecciones urinarias, piel y tejidos blandos"
+    ],
+    "correctMatches": {
+      "Doxiciclina": "Tratamiento de acné y uretritis",
+      "Eritromicina": "Neumonías atípicas por Legionella y Mycoplasma",
+      "Ciprofloxacino": "Infecciones urinarias principalmente",
+      "Rifampicina": "Tuberculosis y quimioprofilaxis de meningitis",
+      "Fosfomicina": "Infecciones urinarias, piel y tejidos blandos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo de terapia antituberculosa con sus principios activos.",
+    "leftItems": [
+      "Antibióticos antituberculosos",
+      "Quimioterápicos antituberculosos",
+      "Terapia antituberculosa",
+      "Rifampicina",
+      "Isoniazida y etambutol"
+    ],
+    "rightItems": [
+      "Rifampicina",
+      "Isoniazida y etambutol",
+      "Se trata con varios antibióticos en ciclos alternativos",
+      "Antibiótico usado frente a tuberculosis",
+      "Quimioterápicos usados frente a tuberculosis"
+    ],
+    "correctMatches": {
+      "Antibióticos antituberculosos": "Rifampicina",
+      "Quimioterápicos antituberculosos": "Isoniazida y etambutol",
+      "Terapia antituberculosa": "Se trata con varios antibióticos en ciclos alternativos",
+      "Rifampicina": "Antibiótico usado frente a tuberculosis",
+      "Isoniazida y etambutol": "Quimioterápicos usados frente a tuberculosis"
+    }
+  },
+  {
+    "prompt": "Relaciona cada antifúngico con su grupo.",
+    "leftItems": [
+      "Nistatina",
+      "Anfotericina B",
+      "Miconazol",
+      "Ketoconazol",
+      "Fluconazol"
+    ],
+    "rightItems": [
+      "Poliénico",
+      "Poliénico",
+      "Quimioterápico azólico",
+      "Quimioterápico azólico",
+      "Quimioterápico azólico"
+    ],
+    "correctMatches": {
+      "Nistatina": "Poliénico",
+      "Anfotericina B": "Poliénico",
+      "Miconazol": "Quimioterápico azólico",
+      "Ketoconazol": "Quimioterápico azólico",
+      "Fluconazol": "Quimioterápico azólico"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo de otros antibióticos con su principio activo.",
+    "leftItems": [
+      "Glucopéptidos",
+      "Imidazoles",
+      "Nitrofuranos",
+      "Lincosaminas",
+      "Fosfomicina"
+    ],
+    "rightItems": [
+      "Vancomicina",
+      "Metronidazol",
+      "Nitrofurantoína",
+      "Clindamicina",
+      "Fosfomicina"
+    ],
+    "correctMatches": {
+      "Glucopéptidos": "Vancomicina",
+      "Imidazoles": "Metronidazol",
+      "Nitrofuranos": "Nitrofurantoína",
+      "Lincosaminas": "Clindamicina",
+      "Fosfomicina": "Fosfomicina"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo de otros antibióticos con su indicación.",
+    "leftItems": [
+      "Glucopéptidos",
+      "Imidazoles",
+      "Nitrofuranos",
+      "Lincosaminas",
+      "Fosfomicina"
+    ],
+    "rightItems": [
+      "Enterococos y estafilococos resistentes",
+      "Anaerobios y protozoos",
+      "Infecciones urinarias y vía tópica en heridas y quemaduras",
+      "Infecciones hospitalarias y vía tópica para el acné",
+      "Infecciones urinarias, piel y tejidos blandos"
+    ],
+    "correctMatches": {
+      "Glucopéptidos": "Enterococos y estafilococos resistentes",
+      "Imidazoles": "Anaerobios y protozoos",
+      "Nitrofuranos": "Infecciones urinarias y vía tópica en heridas y quemaduras",
+      "Lincosaminas": "Infecciones hospitalarias y vía tópica para el acné",
+      "Fosfomicina": "Infecciones urinarias, piel y tejidos blandos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Metronidazol",
+      "Nitrofurantoína",
+      "Clindamicina",
+      "Fosfomicina",
+      "Ciprofloxacino"
+    ],
+    "rightItems": [
+      "FLAGYL",
+      "FURACIN",
+      "DALACIN",
+      "MONUROL",
+      "BAYCIP"
+    ],
+    "correctMatches": {
+      "Metronidazol": "FLAGYL",
+      "Nitrofurantoína": "FURACIN",
+      "Clindamicina": "DALACIN",
+      "Fosfomicina": "MONUROL",
+      "Ciprofloxacino": "BAYCIP"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con una reacción adversa o ausencia de dato en el temario.",
+    "leftItems": [
+      "Amoxicilina",
+      "Gentamicina",
+      "Doxiciclina",
+      "Azitromicina",
+      "Miconazol"
+    ],
+    "rightItems": [
+      "Malestar gastrointestinal, diarrea y alergias graves",
+      "Ototoxicidad y nefrotoxicidad",
+      "Fotosensibilidad y manchas dentales",
+      "Náuseas, vómitos, diarrea e ictericia",
+      "Hepatotoxicidad"
+    ],
+    "correctMatches": {
+      "Amoxicilina": "Malestar gastrointestinal, diarrea y alergias graves",
+      "Gentamicina": "Ototoxicidad y nefrotoxicidad",
+      "Doxiciclina": "Fotosensibilidad y manchas dentales",
+      "Azitromicina": "Náuseas, vómitos, diarrea e ictericia",
+      "Miconazol": "Hepatotoxicidad"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con una reacción adversa o ausencia de dato en el temario.",
+    "leftItems": [
+      "Ciprofloxacino",
+      "Amoxicilina + ácido clavulánico",
+      "Ceftriaxona",
+      "Tobramicina",
+      "Vancomicina"
+    ],
+    "rightItems": [
+      "Náuseas",
+      "Diarreas, náuseas y problemas gástricos",
+      "Malestar estomacal, diarrea, náuseas con alcohol y alergias",
+      "Ototoxicidad y nefrotoxicidad",
+      "No consta reacción adversa en el temario"
+    ],
+    "correctMatches": {
+      "Ciprofloxacino": "Náuseas",
+      "Amoxicilina + ácido clavulánico": "Diarreas, náuseas y problemas gástricos",
+      "Ceftriaxona": "Malestar estomacal, diarrea, náuseas con alcohol y alergias",
+      "Tobramicina": "Ototoxicidad y nefrotoxicidad",
+      "Vancomicina": "No consta reacción adversa en el temario"
+    }
+  },
+  {
+    "prompt": "Relaciona cada término con su idea clave.",
+    "leftItems": [
+      "Amplio espectro",
+      "Selectivo",
+      "Bactericida",
+      "Bacteriostático",
+      "Antibióticos en enfermedades virales"
+    ],
+    "rightItems": [
+      "Actúa sobre la mayoría de microorganismos",
+      "Solo activo frente a bacterias determinadas",
+      "Mata bacterias",
+      "Detiene crecimiento y proliferación",
+      "Son inefectivos y debe evitarse su uso"
+    ],
+    "correctMatches": {
+      "Amplio espectro": "Actúa sobre la mayoría de microorganismos",
+      "Selectivo": "Solo activo frente a bacterias determinadas",
+      "Bactericida": "Mata bacterias",
+      "Bacteriostático": "Detiene crecimiento y proliferación",
+      "Antibióticos en enfermedades virales": "Son inefectivos y debe evitarse su uso"
+    }
+  },
+  {
+    "prompt": "Relaciona cada familia con el mecanismo más asociado en el temario.",
+    "leftItems": [
+      "Penicilinas",
+      "Cefalosporinas",
+      "Aminoglucósidos",
+      "Macrólidos",
+      "Quinolonas"
+    ],
+    "rightItems": [
+      "Pared bacteriana",
+      "Pared bacteriana",
+      "Ribosomas",
+      "Ribosomas",
+      "Ácidos nucleicos"
+    ],
+    "correctMatches": {
+      "Penicilinas": "Pared bacteriana",
+      "Cefalosporinas": "Pared bacteriana",
+      "Aminoglucósidos": "Ribosomas",
+      "Macrólidos": "Ribosomas",
+      "Quinolonas": "Ácidos nucleicos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada familia con un ejemplo de principio activo.",
+    "leftItems": [
+      "Beta-lactámicos",
+      "Aminoglucósidos",
+      "Tetraciclinas",
+      "Macrólidos",
+      "Quinolonas"
+    ],
+    "rightItems": [
+      "Amoxicilina",
+      "Gentamicina",
+      "Doxiciclina",
+      "Eritromicina",
+      "Ciprofloxacino"
+    ],
+    "correctMatches": {
+      "Beta-lactámicos": "Amoxicilina",
+      "Aminoglucósidos": "Gentamicina",
+      "Tetraciclinas": "Doxiciclina",
+      "Macrólidos": "Eritromicina",
+      "Quinolonas": "Ciprofloxacino"
+    }
+  },
+  {
+    "prompt": "Relaciona cada familia con un ejemplo de EF.",
+    "leftItems": [
+      "Penicilinas",
+      "Inhibidores de beta-lactamasas",
+      "Macrólidos",
+      "Quinolonas",
+      "Lincosaminas"
+    ],
+    "rightItems": [
+      "CLAMOXIL",
+      "AUGMENTINE",
+      "ZITROMAX",
+      "BAYCIP",
+      "DALACIN"
+    ],
+    "correctMatches": {
+      "Penicilinas": "CLAMOXIL",
+      "Inhibidores de beta-lactamasas": "AUGMENTINE",
+      "Macrólidos": "ZITROMAX",
+      "Quinolonas": "BAYCIP",
+      "Lincosaminas": "DALACIN"
+    }
+  }
+]
