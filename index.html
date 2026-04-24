@@ -211,3 +211,24 @@
     </button>
   </div>
 </section>
+
+<!-- PANTALLA TEST -->
+<section id="test-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="backToActivities()">← Volver</button>
+    <div class="hero-badge">PREGUNTAS TIPO TEST</div>
+    <h1 class="subpage-title">Elige la respuesta correcta</h1>
+  </div>
+
+  <div class="quiz-card">
+    <p id="test-question" class="quiz-question"></p>
+    <div id="test-options" class="quiz-options"></div>
+
+    <div id="test-result" class="quiz-result"></div>
+    <div id="test-explanation" class="quiz-justification"></div>
+
+    <button id="test-next-button" class="next-button hidden" onclick="nextTestQuestion()">
+      Siguiente
+    </button>
+  </div>
+</section>
