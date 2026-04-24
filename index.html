@@ -139,6 +139,50 @@
   <h3>Repaso de fallos</h3>
   <p>Vuelve a practicar las preguntas que hayas fallado en este ATC.</p>
 </button>
+
+        <!-- PANTALLA ATC ANTIINFECCIÓN -->
+<section id="antiinfeccion-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="goHome()">← Volver al inicio</button>
+    <div class="hero-badge">ATC ANTIINFECCIÓN</div>
+    <h1 class="subpage-title">Selecciona el tipo de actividad</h1>
+    <p class="subpage-text">
+      Elige cómo quieres estudiar el contenido del ATC Antiinfección.
+    </p>
+  </div>
+
+  <div class="activity-grid">
+    <button class="activity-card" onclick="selectActivity('definiciones')">
+      <h3>Definiciones</h3>
+      <p>Emparejar conceptos, familias, grupos, tipos e indicaciones.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('verdadero-falso')">
+      <h3>Verdadero / Falso</h3>
+      <p>Preguntas con justificación inmediata al responder.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('test')">
+      <h3>Preguntas tipo test</h3>
+      <p>4 opciones y una única respuesta correcta.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('ef-principio-activo')">
+      <h3>EF ↔ Principio activo</h3>
+      <p>Relaciona especialidades farmacéuticas y principios activos.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('efectos-adversos')">
+      <h3>Reacciones adversas</h3>
+      <p>Identifica la reacción adversa asociada a cada medicamento.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('repaso-fallos')">
+      <h3>Repaso de fallos</h3>
+      <p>Vuelve a practicar las preguntas falladas de este ATC.</p>
+    </button>
+  </div>
+</section>
         
       </div>
     </section>
