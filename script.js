@@ -18,42 +18,57 @@ let wrongQuestions = [];
 let currentWrongIndex = 0;
 let currentWrongQuestion = null;
 
+/*Antiinfeccioso*/
+let currentATC = "digestivo";
+
 /* NAVEGACIÓN */
 
 function selectGroup(group) {
   const homeScreen = document.getElementById("home-screen");
   const digestivoScreen = document.getElementById("digestivo-screen");
+  const antiinfeccionScreen = document.getElementById("antiinfeccion-screen");
+
+  homeScreen.classList.add("hidden");
 
   if (group === "digestivo") {
-    homeScreen.classList.add("hidden");
+    currentATC = "digestivo";
     digestivoScreen.classList.remove("hidden");
   } else if (group === "antiinfeccion") {
-    alert("ATC Antiinfección todavía no está programado.");
+    currentATC = "antiinfeccion";
+    antiinfeccionScreen.classList.remove("hidden");
   } else {
-    alert("De momento solo está programado ATC Digestivo.");
+    homeScreen.classList.remove("hidden");
+    alert("Este ATC todavía no está programado.");
   }
 }
 
 function goHome() {
   document.getElementById("home-screen").classList.remove("hidden");
-  document.getElementById("digestivo-screen").classList.add("hidden");
+
+  document.getElementById("digestivo-screen")?.classList.add("hidden");
+  document.getElementById("antiinfeccion-screen")?.classList.add("hidden");
 
   document.getElementById("definiciones-screen")?.classList.add("hidden");
-  document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("vf-screen")?.classList.add("hidden");
   document.getElementById("test-screen")?.classList.add("hidden");
+  document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("adverse-screen")?.classList.add("hidden");
   document.getElementById("wrong-screen")?.classList.add("hidden");
 }
 
 function backToActivities() {
   document.getElementById("definiciones-screen")?.classList.add("hidden");
-  document.getElementById("ef-screen")?.classList.add("hidden");
-  document.getElementById("digestivo-screen").classList.remove("hidden");
   document.getElementById("vf-screen")?.classList.add("hidden");
   document.getElementById("test-screen")?.classList.add("hidden");
+  document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("adverse-screen")?.classList.add("hidden");
   document.getElementById("wrong-screen")?.classList.add("hidden");
+
+  if (currentATC === "digestivo") {
+    document.getElementById("digestivo-screen").classList.remove("hidden");
+  } else if (currentATC === "antiinfeccion") {
+    document.getElementById("antiinfeccion-screen").classList.remove("hidden");
+  }
 }
 
 function selectActivity(activity) {
