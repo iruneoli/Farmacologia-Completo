@@ -1,1 +1,308 @@
-[]
+[
+  {
+    "question": "¿Qué grupo terapéutico protege la mucosa bucal?",
+    "options": ["A01 - Estomatológicos", "A02 - Afectan a la secreción gástrica", "A06 - Laxantes", "A10 - Antidiabéticos"],
+    "correctAnswer": "A01 - Estomatológicos",
+    "explanation": "A01 corresponde a los estomatológicos, cuya actividad principal es proteger la mucosa bucal."
+  },
+  {
+    "question": "¿Qué grupo actúa contra el exceso de HCl?",
+    "options": ["A03", "A02", "A08", "A09"],
+    "correctAnswer": "A02",
+    "explanation": "A02 incluye medicamentos que actúan contra el exceso de HCl relacionado con gastritis, pirosis o úlcera."
+  },
+  {
+    "question": "¿Qué subgrupo de A02 alcaliniza la acidez?",
+    "options": ["Protectores de la mucosa", "Neutralizantes", "Antieméticos", "Antipropulsivos"],
+    "correctAnswer": "Neutralizantes",
+    "explanation": "Los neutralizantes actúan alcalinizando la acidez."
+  },
+  {
+    "question": "¿Qué diferencia principal hay entre antiácidos sistémicos y no sistémicos?",
+    "options": ["Los sistémicos se absorben y los no sistémicos no se absorben", "Los sistémicos son laxantes y los no sistémicos antieméticos", "Los sistémicos reducen gases y los no sistémicos producen vómito", "No existe diferencia en el temario"],
+    "correctAnswer": "Los sistémicos se absorben y los no sistémicos no se absorben",
+    "explanation": "En A02, los sistémicos se absorben y los no sistémicos no se absorben."
+  },
+  {
+    "question": "¿Qué subgrupo evita el contacto entre HCl y mucosa?",
+    "options": ["Protectores de la mucosa", "Antihistamínicos H2", "Osmóticos", "Termogénicas"],
+    "correctAnswer": "Protectores de la mucosa",
+    "explanation": "Los protectores de la mucosa evitan el contacto HCl-mucosa."
+  },
+  {
+    "question": "¿Qué subgrupo impide que se forme HCl?",
+    "options": ["Antiflatulentos", "Inhibidores de la secreción", "Lubricantes", "Saciantes"],
+    "correctAnswer": "Inhibidores de la secreción",
+    "explanation": "Los inhibidores de la secreción impiden que se forme HCl."
+  },
+  {
+    "question": "¿Qué hacen los antihistamínicos H2?",
+    "options": ["Inhiben la hormona que manda crear HCl", "Aumentan el volumen de las heces", "Restauran la flora intestinal", "Producen el vómito"],
+    "correctAnswer": "Inhiben la hormona que manda crear HCl",
+    "explanation": "Los antihistamínicos H2 inhiben la señal que manda crear HCl."
+  },
+  {
+    "question": "¿Qué hacen los inhibidores de la bomba de H+?",
+    "options": ["Impiden fabricar HCl", "Absorben agua en las heces", "Disminuyen la absorción de nutrientes", "Aumentan la producción de insulina"],
+    "correctAnswer": "Impiden fabricar HCl",
+    "explanation": "Los inhibidores de la bomba de H+ impiden fabricar HCl."
+  },
+  {
+    "question": "¿Qué grupo trata alteraciones funcionales del estómago e intestino?",
+    "options": ["A03", "A04", "A08", "A10"],
+    "correctAnswer": "A03",
+    "explanation": "A03 agrupa fármacos contra enfermedades funcionales del estómago e intestino."
+  },
+  {
+    "question": "¿Para qué se utilizan los antiflatulentos?",
+    "options": ["Contra el meteorismo y los gases digestivos", "Contra la hiperglucemia", "Contra la deshidratación", "Para estimular el apetito"],
+    "correctAnswer": "Contra el meteorismo y los gases digestivos",
+    "explanation": "Los antiflatulentos se usan contra el meteorismo y los gases digestivos."
+  },
+  {
+    "question": "¿Cuál es el mecanismo de los antiflatulentos según el temario?",
+    "options": ["Reducen la tensión superficial de las burbujas", "Retardan la absorción de glúcidos", "Forman una película artificial", "Impiden el vómito"],
+    "correctAnswer": "Reducen la tensión superficial de las burbujas",
+    "explanation": "El temario indica que reducen la tensión superficial de las burbujas."
+  },
+  {
+    "question": "¿Para qué sirven los antiespasmódicos?",
+    "options": ["Para el tratamiento del dolor cólico", "Para la diabetes tipo 2", "Para la obesidad", "Para la rehidratación"],
+    "correctAnswer": "Para el tratamiento del dolor cólico",
+    "explanation": "Los antiespasmódicos se usan para tratar el dolor cólico."
+  },
+  {
+    "question": "¿Qué hacen los anticolinérgicos dentro de A03?",
+    "options": ["Disminuyen el peristaltismo", "Producen el vómito", "Evitan que los nutrientes entren al organismo", "Aportan enzimas digestivas"],
+    "correctAnswer": "Disminuyen el peristaltismo",
+    "explanation": "Los anticolinérgicos disminuyen el peristaltismo."
+  },
+  {
+    "question": "¿Qué grupo actúa sobre el bulbo raquídeo?",
+    "options": ["A04 - Eméticos y antieméticos", "A06 - Laxantes", "A01 - Estomatológicos", "A09 - Digestivos"],
+    "correctAnswer": "A04 - Eméticos y antieméticos",
+    "explanation": "A04 actúa sobre el bulbo raquídeo."
+  },
+  {
+    "question": "¿Qué hacen los eméticos?",
+    "options": ["Producen el vómito", "Impiden el vómito", "Reducen gases", "Aumentan la flora intestinal"],
+    "correctAnswer": "Producen el vómito",
+    "explanation": "Los eméticos producen el vómito."
+  },
+  {
+    "question": "¿Qué hacen los antieméticos?",
+    "options": ["Impiden el vómito", "Producen el vómito", "Alcalinizan la acidez", "Aumentan el volumen de las heces"],
+    "correctAnswer": "Impiden el vómito",
+    "explanation": "Los antieméticos impiden el vómito."
+  },
+  {
+    "question": "¿Qué grupo se utiliza para estreñimiento, hemorroides o cirugía del digestivo?",
+    "options": ["A06 - Laxantes", "A07 - Antidiarreicos", "A08 - Antiobesidad", "A10 - Antidiabéticos"],
+    "correctAnswer": "A06 - Laxantes",
+    "explanation": "A06 corresponde a laxantes, indicados en estreñimiento, hemorroides o cirugía del digestivo."
+  },
+  {
+    "question": "¿Qué hacen los formadores de masa?",
+    "options": ["Aumentan el volumen de las heces y las hacen más esponjosas", "Impiden el vómito", "Reducen la acidez", "Retardan la absorción de glúcidos"],
+    "correctAnswer": "Aumentan el volumen de las heces y las hacen más esponjosas",
+    "explanation": "Los formadores de masa aumentan el volumen de las heces y las hacen más esponjosas."
+  },
+  {
+    "question": "¿Qué hacen los laxantes lubricantes?",
+    "options": ["Facilitan el desplazamiento del bolo fecal", "Aumentan la producción de insulina", "Reducen la tensión superficial de las burbujas", "Producen el vómito"],
+    "correctAnswer": "Facilitan el desplazamiento del bolo fecal",
+    "explanation": "Los lubricantes facilitan el desplazamiento del bolo fecal."
+  },
+  {
+    "question": "¿Qué hacen los laxantes osmóticos?",
+    "options": ["Hacen que las heces absorban agua del intestino", "Disminuyen el peristaltismo", "Impiden fabricar HCl", "Restauran la flora intestinal"],
+    "correctAnswer": "Hacen que las heces absorban agua del intestino",
+    "explanation": "Los osmóticos hacen que las heces absorban agua del intestino."
+  },
+  {
+    "question": "¿Qué hacen los estimulantes por contacto?",
+    "options": ["Irritan la mucosa aumentando el peristaltismo", "No se absorben", "Dan sensación de plenitud", "Aportan proteasa"],
+    "correctAnswer": "Irritan la mucosa aumentando el peristaltismo",
+    "explanation": "Los estimulantes por contacto irritan la mucosa y aumentan el peristaltismo."
+  },
+  {
+    "question": "¿Qué grupo actúa contra la eliminación excesiva de heces o deposiciones líquidas?",
+    "options": ["A07 - Antidiarreicos", "A06 - Laxantes", "A04 - Eméticos y antieméticos", "A02 - Afectan a la secreción gástrica"],
+    "correctAnswer": "A07 - Antidiarreicos",
+    "explanation": "A07 se utiliza contra la eliminación excesiva de heces y/o deposiciones líquidas."
+  },
+  {
+    "question": "¿Qué hacen los antidiarreicos antipropulsivos?",
+    "options": ["Disminuyen el peristaltismo", "Aumentan el peristaltismo", "Impiden fabricar HCl", "Aportan enzimas digestivas"],
+    "correctAnswer": "Disminuyen el peristaltismo",
+    "explanation": "Los antipropulsivos disminuyen el peristaltismo."
+  },
+  {
+    "question": "¿Para qué se usan los electrolitos en A07?",
+    "options": ["Para la deshidratación mediante suero oral", "Para impedir la absorción de grasas", "Para producir vómito", "Para proteger la mucosa bucal"],
+    "correctAnswer": "Para la deshidratación mediante suero oral",
+    "explanation": "Los electrolitos se emplean como suero oral para la deshidratación."
+  },
+  {
+    "question": "¿Qué función tienen los microorganismos en A07?",
+    "options": ["Restauran la flora intestinal", "Alcalinizan la acidez", "Aumentan la producción de insulina", "Impiden el vómito"],
+    "correctAnswer": "Restauran la flora intestinal",
+    "explanation": "Los microorganismos actúan como probióticos restauradores de la flora."
+  },
+  {
+    "question": "¿Qué grupo corresponde a preparados contra la obesidad?",
+    "options": ["A08", "A09", "A01", "A04"],
+    "correctAnswer": "A08",
+    "explanation": "A08 corresponde a preparados contra la obesidad."
+  },
+  {
+    "question": "¿Qué hacen los saciantes?",
+    "options": ["Dan sensación de plenitud", "Producen el vómito", "Disminuyen el peristaltismo", "Se absorben como antiácidos sistémicos"],
+    "correctAnswer": "Dan sensación de plenitud",
+    "explanation": "Los saciantes dan sensación de estar lleno."
+  },
+  {
+    "question": "¿Qué hacen las disminuidoras de la absorción?",
+    "options": ["Evitan que los nutrientes entren al organismo", "Impiden fabricar HCl", "Aumentan el volumen de las heces", "Tratan la diabetes tipo 1"],
+    "correctAnswer": "Evitan que los nutrientes entren al organismo",
+    "explanation": "Las disminuidoras de la absorción evitan que los nutrientes entren al organismo."
+  },
+  {
+    "question": "¿Qué hacen los inhibidores de la lipogénesis?",
+    "options": ["Impiden que se forme la grasa", "Aumentan la secreción de HCl", "Producen gases", "Restauran la flora intestinal"],
+    "correctAnswer": "Impiden que se forme la grasa",
+    "explanation": "Los inhibidores de la lipogénesis impiden la formación de grasa."
+  },
+  {
+    "question": "¿Qué hacen las sustancias termogénicas?",
+    "options": ["Queman, dan calor", "Impiden el vómito", "No se absorben", "Disminuyen la glucosa por insulina externa"],
+    "correctAnswer": "Queman, dan calor",
+    "explanation": "Las termogénicas se asocian a quemar o dar calor."
+  },
+  {
+    "question": "¿Qué grupo favorece la producción de enzimas o aporta enzimas digestivas?",
+    "options": ["A09 - Digestivos", "A08 - Antiobesidad", "A07 - Antidiarreicos", "A03 - Alteraciones funcionales"],
+    "correctAnswer": "A09 - Digestivos",
+    "explanation": "A09 incluye digestivos que favorecen la producción de enzimas o las aportan."
+  },
+  {
+    "question": "¿Cuál de estos aparece como enzima digestiva en A09?",
+    "options": ["Amilasa", "Ranitidina", "Loperamida", "Fucus"],
+    "correctAnswer": "Amilasa",
+    "explanation": "En A09 aparecen amilasa, lipasa y proteasa."
+  },
+  {
+    "question": "¿Cuál es la finalidad general de A10?",
+    "options": ["Tratar el exceso de glucosa en sangre", "Tratar el exceso de HCl", "Proteger la mucosa bucal", "Producir el vómito"],
+    "correctAnswer": "Tratar el exceso de glucosa en sangre",
+    "explanation": "A10 agrupa antidiabéticos para tratar el exceso de glucosa en sangre."
+  },
+  {
+    "question": "¿Para qué se usan las insulinas según el temario?",
+    "options": ["Diabetes mellitus 1 y diabetes mellitus 2 no controlada", "Solo estreñimiento", "Solo gastritis", "Obesidad por exceso de absorción"],
+    "correctAnswer": "Diabetes mellitus 1 y diabetes mellitus 2 no controlada",
+    "explanation": "Las insulinas se usan en diabetes mellitus 1 y diabetes mellitus 2 no controlada."
+  },
+  {
+    "question": "¿Para qué se usan los hipoglucemiantes orales?",
+    "options": ["Diabetes mellitus 2", "Vómitos", "Caries", "Meteorismo"],
+    "correctAnswer": "Diabetes mellitus 2",
+    "explanation": "Los hipoglucemiantes orales tratan la diabetes mellitus 2."
+  },
+  {
+    "question": "¿Qué hacen las sulfonilureas?",
+    "options": ["Aumentan la producción de insulina", "Disminuyen la producción de insulina", "Impiden fabricar HCl", "Forman una película protectora"],
+    "correctAnswer": "Aumentan la producción de insulina",
+    "explanation": "Las sulfonilureas hacen que las células funcionales del páncreas trabajen más."
+  },
+  {
+    "question": "¿Qué hacen las biguanidas?",
+    "options": ["Hacen que la insulina producida sea más eficiente", "Aumentan la producción directa de HCl", "Dan sensación de plenitud", "Producen el vómito"],
+    "correctAnswer": "Hacen que la insulina producida sea más eficiente",
+    "explanation": "Las biguanidas apoyan a la insulina haciendo que sea más eficiente."
+  },
+  {
+    "question": "¿Qué hacen los inhibidores de la alfa-glucosidasa?",
+    "options": ["Retardan la absorción de glúcidos", "Aumentan la absorción de glúcidos", "Disminuyen el volumen de las heces", "Estimulan el vómito"],
+    "correctAnswer": "Retardan la absorción de glúcidos",
+    "explanation": "Retardan la absorción de glúcidos para que pasen más lento a sangre."
+  },
+  {
+    "question": "¿Qué hacen las tiazolidinedionas según el temario?",
+    "options": ["Aumentan la utilización de glucosa e inhiben su síntesis en el hígado", "Alcalinizan todo el organismo", "Reducen la tensión superficial de las burbujas", "Facilitan el desplazamiento del bolo fecal"],
+    "correctAnswer": "Aumentan la utilización de glucosa e inhiben su síntesis en el hígado",
+    "explanation": "Las tiazolidinedionas favorecen que la glucosa se utilice más rápido y evitan liberar reservas de glucógeno."
+  },
+  {
+    "question": "¿Cuál de estos subgrupos pertenece a A06?",
+    "options": ["Osmóticos", "Antihistamínicos H2", "Termogénicas", "Biguanidas"],
+    "correctAnswer": "Osmóticos",
+    "explanation": "Los osmóticos son un subgrupo de laxantes A06."
+  },
+  {
+    "question": "¿Cuál de estos subgrupos pertenece a A08?",
+    "options": ["Saciantes", "Antieméticos", "Antipropulsivos", "Protectores de la mucosa"],
+    "correctAnswer": "Saciantes",
+    "explanation": "Los saciantes pertenecen a A08, antiobesidad."
+  },
+  {
+    "question": "¿Cuál de estos subgrupos pertenece a A07?",
+    "options": ["Antipropulsivos", "Lubricantes", "Inhibidores de la bomba de H+", "Eméticos"],
+    "correctAnswer": "Antipropulsivos",
+    "explanation": "Los antipropulsivos forman parte de A07, antidiarreicos."
+  },
+  {
+    "question": "¿Cuál de estos subgrupos pertenece a A02?",
+    "options": ["Neutralizantes", "Microorganismos", "Saciantes", "Tiazolidinedionas"],
+    "correctAnswer": "Neutralizantes",
+    "explanation": "Los neutralizantes son un subgrupo de A02."
+  },
+  {
+    "question": "¿Cuál de estos subgrupos pertenece a A03?",
+    "options": ["Antiflatulentos", "Formadores de masa", "Electrolitos", "Inhibidores de la lipogénesis"],
+    "correctAnswer": "Antiflatulentos",
+    "explanation": "Los antiflatulentos pertenecen a A03."
+  },
+  {
+    "question": "¿Qué grupo incluye antisépticos, protectores y antifúngicos?",
+    "options": ["A01 - Estomatológicos", "A04 - Eméticos y antieméticos", "A09 - Digestivos", "A10 - Antidiabéticos"],
+    "correctAnswer": "A01 - Estomatológicos",
+    "explanation": "A01 incluye antisépticos, protectores y otros como antifúngicos."
+  },
+  {
+    "question": "¿Qué grupo incluye eméticos y antieméticos?",
+    "options": ["A04", "A02", "A06", "A08"],
+    "correctAnswer": "A04",
+    "explanation": "A04 agrupa eméticos y antieméticos."
+  },
+  {
+    "question": "¿Qué grupo incluye insulinas e hipoglucemiantes orales?",
+    "options": ["A10", "A07", "A03", "A01"],
+    "correctAnswer": "A10",
+    "explanation": "A10 incluye insulinas e hipoglucemiantes orales."
+  },
+  {
+    "question": "¿Qué grupo incluye amilasa, lipasa y proteasa?",
+    "options": ["A09 - Digestivos", "A02 - Antiácidos", "A04 - Antieméticos", "A06 - Laxantes"],
+    "correctAnswer": "A09 - Digestivos",
+    "explanation": "A09 incluye enzimas como amilasa, lipasa y proteasa."
+  },
+  {
+    "question": "¿Qué tipo de insulina se usa para glucemias muy altas o situaciones de urgencia?",
+    "options": ["De acción rápida", "De acción intermedia", "De acción prolongada", "Hipoglucemiante oral"],
+    "correctAnswer": "De acción rápida",
+    "explanation": "La insulina de acción rápida se usa para glucemias muy altas, de urgencia."
+  },
+  {
+    "question": "¿Qué tipo de insulina se usa para tratamientos habituales?",
+    "options": ["De acción intermedia", "De acción rápida", "De acción prolongada", "Sulfonilureas"],
+    "correctAnswer": "De acción intermedia",
+    "explanation": "La insulina de acción intermedia se utiliza para tratamientos habituales."
+  },
+  {
+    "question": "¿Qué tipo de insulina empieza a actuar más tarde pero durante más tiempo?",
+    "options": ["De acción prolongada", "De acción rápida", "De acción intermedia", "Biguanidas"],
+    "correctAnswer": "De acción prolongada",
+    "explanation": "La insulina de acción prolongada tarda más en actuar, pero mantiene su efecto durante más tiempo."
+  }
+]
