@@ -20,7 +20,9 @@ function goHome() {
 
 function selectActivity(activity) {
   if (activity === "definiciones") {
-    loadDefinitions(); 
+    loadDefinitions();
+  } else if (activity === "ef-principio-activo") {
+    loadEFPrincipioActivo();
   } else if (activity === "repaso-fallos") {
     alert("Repaso de fallos aún no implementado.");
   } else {
