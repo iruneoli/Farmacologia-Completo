@@ -167,3 +167,22 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<!-- PANTALLA EF PRINCIPIO ACTIVO -->
+<section id="ef-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="backToActivities()">← Volver</button>
+    <div class="hero-badge">EF ↔ PRINCIPIO ACTIVO</div>
+    <h1 class="subpage-title">Relaciona EF y principio activo</h1>
+  </div>
+
+  <div class="quiz-card">
+    <p id="ef-question" class="quiz-question"></p>
+    <div id="ef-options" class="quiz-options"></div>
+    <div id="ef-result" class="quiz-result"></div>
+
+    <button id="ef-next-button" class="next-button hidden" onclick="nextEFQuestion()">
+      Siguiente
+    </button>
+  </div>
+</section>
