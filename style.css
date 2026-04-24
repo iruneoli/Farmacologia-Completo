@@ -502,3 +502,13 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+.match-item.selected {
+  outline: 3px solid var(--bondi-blue);
+  background: #dceef0;
+}
+
+.match-item.matched {
+  background: #e4f2f4;
+  border: 2px solid var(--bondi-blue);
+}
