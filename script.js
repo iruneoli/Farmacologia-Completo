@@ -5,6 +5,9 @@ let userMatches = {};
 let efQuestions = [];
 let currentEFQuestion = null;
 
+let vfQuestions = [];
+let currentVFQuestion = null;
+
 /* NAVEGACIÓN */
 
 function selectGroup(group) {
@@ -25,17 +28,21 @@ function goHome() {
 
   document.getElementById("definiciones-screen")?.classList.add("hidden");
   document.getElementById("ef-screen")?.classList.add("hidden");
+  document.getElementById("vf-screen")?.classList.add("hidden");
 }
 
 function backToActivities() {
   document.getElementById("definiciones-screen")?.classList.add("hidden");
   document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("digestivo-screen").classList.remove("hidden");
+  document.getElementById("vf-screen")?.classList.add("hidden");
 }
 
 function selectActivity(activity) {
   if (activity === "definiciones") {
     loadDefinitions();
+  } else if (activity === "verdadero-falso") {
+    loadVFQuestions();
   } else if (activity === "ef-principio-activo") {
     loadEFPrincipioActivo();
   } else if (activity === "repaso-fallos") {
@@ -322,4 +329,78 @@ function checkEFAnswer(button, selectedAnswer) {
   }
 
   document.getElementById("ef-next-button").classList.remove("hidden");
+}
+
+async function loadVFQuestions() {
+  document.getElementById("digestivo-screen").classList.add("hidden");
+  document.getElementById("vf-screen").classList.remove("hidden");
+
+  const response = await fetch("data/atc-digestivo/questions/verdadero-falso.json");
+  vfQuestions = await response.json();
+
+  nextVFQuestion();
+}
+
+function nextVFQuestion() {
+  const result = document.getElementById("vf-result");
+  const justification = document.getElementById("vf-justification");
+  const nextButton = document.getElementById("vf-next-button");
+
+  result.innerText = "";
+  justification.innerText = "";
+  justification.classList.remove("show");
+  nextButton.classList.add("hidden");
+
+  document.querySelectorAll(".vf-button").forEach(button => {
+    button.disabled = false;
+    button.classList.remove("correct", "incorrect");
+  });
+
+  currentVFQuestion =
+    vfQuestions[Math.floor(Math.random() * vfQuestions.length)];
+
+  document.getElementById("vf-question").innerText =
+    currentVFQuestion.statement;
+}
+
+function checkVFAnswer(userAnswer) {
+  if (!currentVFQuestion) return;
+
+  const isCorrect = userAnswer === currentVFQuestion.answer;
+
+  document.querySelectorAll(".vf-button").forEach(button => {
+    button.disabled = true;
+  });
+
+  const trueButton = document.querySelector(".true-button");
+  const falseButton = document.querySelector(".false-button");
+
+  if (currentVFQuestion.answer === true) {
+    trueButton.classList.add("correct");
+    if (!isCorrect) falseButton.classList.add("incorrect");
+  } else {
+    falseButton.classList.add("correct");
+    if (!isCorrect) trueButton.classList.add("incorrect");
+  }
+
+  document.getElementById("vf-result").innerText = isCorrect
+    ? "Correcto."
+    : "Incorrecto.";
+
+  const justification = document.getElementById("vf-justification");
+  justification.innerText = currentVFQuestion.justification;
+  justification.classList.add("show");
+
+  if (!isCorrect) {
+    saveWrongAnswer({
+      activity: "verdadero-falso",
+      prompt: currentVFQuestion.statement,
+      questionData: currentVFQuestion,
+      userAnswer: userAnswer ? "Verdadero" : "Falso",
+      correctAnswer: currentVFQuestion.answer ? "Verdadero" : "Falso",
+      justification: currentVFQuestion.justification
+    });
+  }
+
+  document.getElementById("vf-next-button").classList.remove("hidden");
 }
