@@ -232,3 +232,23 @@
     </button>
   </div>
 </section>
+
+<!-- PANTALLA EFECTOS ADVERSOS -->
+<section id="adverse-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="backToActivities()">← Volver</button>
+    <div class="hero-badge">EFECTOS ADVERSOS</div>
+    <h1 class="subpage-title">Identifica el efecto adverso</h1>
+  </div>
+
+  <div class="quiz-card">
+    <p id="adverse-question" class="quiz-question"></p>
+    <div id="adverse-options" class="quiz-options"></div>
+
+    <div id="adverse-result" class="quiz-result"></div>
+
+    <button id="adverse-next-button" class="next-button hidden" onclick="nextAdverseQuestion()">
+      Siguiente
+    </button>
+  </div>
+</section>
