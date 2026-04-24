@@ -202,15 +202,15 @@ body {
   color: white;
 }
 
-/* Antiinflamatorio */
-.antiinflamatorio .card-icon {
+/* antiinfeccion */
+.antiinfeccion .card-icon {
   background: #dfe5f6;
   color: var(--san-marino);
 }
-.antiinflamatorio .card-line {
+.antiinfeccion .card-line {
   background: var(--san-marino);
 }
-.antiinflamatorio .card-button {
+.antiinfeccion .card-button {
   background: var(--san-marino);
   color: white;
 }
