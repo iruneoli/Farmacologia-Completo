@@ -1,3 +1,10 @@
+let currentQuestion = null;
+let selectedLeft = null;
+let userMatches = {};
+
+let efQuestions = [];
+let currentEFQuestion = null;
+
 function selectGroup(group) {
   const homeScreen = document.getElementById("home-screen");
   const digestivoScreen = document.getElementById("digestivo-screen");
@@ -11,11 +18,20 @@ function selectGroup(group) {
 }
 
 function goHome() {
-  const homeScreen = document.getElementById("home-screen");
-  const digestivoScreen = document.getElementById("digestivo-screen");
+  document.getElementById("digestivo-screen").classList.add("hidden");
+  document.getElementById("home-screen").classList.remove("hidden");
 
-  digestivoScreen.classList.add("hidden");
-  homeScreen.classList.remove("hidden");
+  const definicionesScreen = document.getElementById("definiciones-screen");
+  const efScreen = document.getElementById("ef-screen");
+
+  if (definicionesScreen) definicionesScreen.classList.add("hidden");
+  if (efScreen) efScreen.classList.add("hidden");
+}
+
+function backToActivities() {
+  document.getElementById("definiciones-screen")?.classList.add("hidden");
+  document.getElementById("ef-screen")?.classList.add("hidden");
+  document.getElementById("digestivo-screen").classList.remove("hidden");
 }
 
 function selectActivity(activity) {
@@ -26,18 +42,11 @@ function selectActivity(activity) {
   } else if (activity === "repaso-fallos") {
     alert("Repaso de fallos aún no implementado.");
   } else {
-    alert("Has seleccionado la actividad: " + activity);
+    alert("Actividad aún no implementada: " + activity);
   }
 }
 
-function backToActivities() {
-  document.getElementById("definiciones-screen").classList.add("hidden");
-  document.getElementById("digestivo-screen").classList.remove("hidden");
-}
-
-let currentQuestion = null;
-let selectedLeft = null;
-let userMatches = {};
+/* DEFINICIONES */
 
 async function loadDefinitions() {
   document.getElementById("digestivo-screen").classList.add("hidden");
@@ -47,7 +56,6 @@ async function loadDefinitions() {
   const data = await response.json();
 
   currentQuestion = data[Math.floor(Math.random() * data.length)];
-
   renderMatch(currentQuestion);
 }
 
@@ -59,11 +67,14 @@ function renderMatch(question) {
   const leftCol = document.getElementById("left-column");
   const rightCol = document.getElementById("right-column");
   const result = document.getElementById("result");
+  const nextButton = document.getElementById("next-button");
 
   leftCol.innerHTML = "";
   rightCol.innerHTML = "";
   result.innerHTML = "";
-document.getElementById("next-button").classList.add("hidden");
+
+  if (nextButton) nextButton.classList.add("hidden");
+
   selectedLeft = null;
   userMatches = {};
 
@@ -102,15 +113,15 @@ document.getElementById("next-button").classList.add("hidden");
 
       userMatches[selectedLeft] = item;
 
-      const leftSelected = document.querySelector(
-        `#left-column .match-item[data-value="${CSS.escape(selectedLeft)}"]`
-      );
+      const leftItems = document.querySelectorAll("#left-column .match-item");
 
-      if (leftSelected) {
-        leftSelected.classList.remove("selected");
-        leftSelected.classList.add("matched");
-        leftSelected.innerText = selectedLeft + " → " + item;
-      }
+      leftItems.forEach(leftItem => {
+        if (leftItem.dataset.value === selectedLeft) {
+          leftItem.classList.remove("selected");
+          leftItem.classList.add("matched");
+          leftItem.innerText = selectedLeft + " → " + item;
+        }
+      });
 
       selectedLeft = null;
       result.innerText = "";
@@ -133,13 +144,15 @@ function checkAnswers() {
   });
 
   document.getElementById("result").innerText =
-  `Has acertado ${correct} de ${total}.`;
+    `Has acertado ${correct} de ${total}.`;
 
-if (correct < total) {
-  saveWrongAnswer(currentQuestion, userMatches, correct, total);
+  if (correct < total) {
+    saveWrongAnswer(currentQuestion, userMatches, correct, total);
+  }
+
+  const nextButton = document.getElementById("next-button");
+  if (nextButton) nextButton.classList.remove("hidden");
 }
-
-document.getElementById("next-button").classList.remove("hidden");
 
 function nextDefinitionQuestion() {
   loadDefinitions();
@@ -148,7 +161,7 @@ function nextDefinitionQuestion() {
 function saveWrongAnswer(question, userMatches, score, total) {
   const wrongAnswers = JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
 
-  const wrongQuestion = {
+  wrongAnswers.push({
     activity: "definiciones",
     date: new Date().toISOString(),
     prompt: question.prompt,
@@ -156,15 +169,12 @@ function saveWrongAnswer(question, userMatches, score, total) {
     userMatches: userMatches,
     score: score,
     total: total
-  };
-
-  wrongAnswers.push(wrongQuestion);
+  });
 
   localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
 }
 
-let efQuestions = [];
-let currentEFQuestion = null;
+/* EF ↔ PRINCIPIO ACTIVO */
 
 async function loadEFPrincipioActivo() {
   document.getElementById("digestivo-screen").classList.add("hidden");
@@ -188,7 +198,7 @@ function extractPrincipiosActivos(content) {
     });
   });
 
-  return principios.filter(item => item.nombre);
+  return principios.filter(item => item.principioActivo);
 }
 
 function collectPrincipios(node, grupo, principios) {
@@ -248,8 +258,11 @@ function generateOptions(correctAnswer, allPossibleAnswers) {
 }
 
 function nextEFQuestion() {
-  document.getElementById("ef-result").innerText = "";
-  document.getElementById("ef-next-button").classList.add("hidden");
+  const result = document.getElementById("ef-result");
+  const nextButton = document.getElementById("ef-next-button");
+
+  result.innerText = "";
+  nextButton.classList.add("hidden");
 
   currentEFQuestion = efQuestions[Math.floor(Math.random() * efQuestions.length)];
 
