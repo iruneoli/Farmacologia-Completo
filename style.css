@@ -444,3 +444,61 @@ body {
     font-size: 21px;
   }
 }
+
+.match-container {
+  max-width: 1000px;
+  margin: 30px auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.match-column {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.match-item {
+  background: white;
+  border-radius: 20px;
+  padding: 18px 20px;
+  box-shadow: var(--shadow);
+  font-size: 16px;
+  line-height: 1.35;
+  color: var(--navy);
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.match-item:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+}
+
+.check-button {
+  display: block;
+  margin: 32px auto 0;
+  border: none;
+  border-radius: 999px;
+  background: var(--bondi-blue);
+  color: white;
+  padding: 16px 34px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+@media (max-width: 800px) {
+  .match-container {
+    grid-template-columns: 1fr;
+  }
+}
