@@ -14,6 +14,10 @@ let currentTestQuestion = null;
 let adverseQuestions = [];
 let currentAdverseQuestion = null;
 
+let wrongQuestions = [];
+let currentWrongIndex = 0;
+let currentWrongQuestion = null;
+
 /* NAVEGACIÓN */
 
 function selectGroup(group) {
@@ -37,6 +41,7 @@ function goHome() {
   document.getElementById("vf-screen")?.classList.add("hidden");
   document.getElementById("test-screen")?.classList.add("hidden");
   document.getElementById("adverse-screen")?.classList.add("hidden");
+  document.getElementById("wrong-screen")?.classList.add("hidden");
 }
 
 function backToActivities() {
@@ -46,6 +51,7 @@ function backToActivities() {
   document.getElementById("vf-screen")?.classList.add("hidden");
   document.getElementById("test-screen")?.classList.add("hidden");
   document.getElementById("adverse-screen")?.classList.add("hidden");
+  document.getElementById("wrong-screen")?.classList.add("hidden");
 }
 
 function selectActivity(activity) {
@@ -60,7 +66,7 @@ function selectActivity(activity) {
   } else if (activity === "efectos-adversos") {
     loadAdverseQuestions();
   } else if (activity === "repaso-fallos") {
-    alert("Repaso de fallos aún no implementado.");
+    loadWrongQuestions();
   } else {
     alert("Actividad aún no implementada: " + activity);
   }
@@ -630,4 +636,266 @@ function checkAdverseAnswer(button, selectedAnswer) {
   }
 
   document.getElementById("adverse-next-button").classList.remove("hidden");
+}
+
+function loadWrongQuestions() {
+  document.getElementById("digestivo-screen").classList.add("hidden");
+  document.getElementById("wrong-screen").classList.remove("hidden");
+
+  wrongQuestions =
+    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+
+  currentWrongIndex = 0;
+
+  renderWrongQuestion();
+}
+
+function renderWrongQuestion() {
+  const counter = document.getElementById("wrong-counter");
+  const content = document.getElementById("wrong-content");
+
+  wrongQuestions =
+    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+
+  counter.innerText = `Tienes ${wrongQuestions.length} pregunta(s) fallada(s) guardada(s).`;
+
+  if (wrongQuestions.length === 0) {
+    content.innerHTML = `
+      <p class="quiz-question">No tienes preguntas falladas pendientes.</p>
+      <p class="quiz-result">Cuando falles alguna pregunta, aparecerá aquí para repasarla.</p>
+    `;
+    return;
+  }
+
+  if (currentWrongIndex >= wrongQuestions.length) {
+    currentWrongIndex = 0;
+  }
+
+  currentWrongQuestion = wrongQuestions[currentWrongIndex];
+
+  if (currentWrongQuestion.activity === "definiciones") {
+    renderWrongDefinition(currentWrongQuestion, content);
+  } else if (
+    currentWrongQuestion.activity === "verdadero-falso" ||
+    currentWrongQuestion.activity === "test" ||
+    currentWrongQuestion.activity === "ef-principio-activo" ||
+    currentWrongQuestion.activity === "efectos-adversos"
+  ) {
+    renderWrongQuiz(currentWrongQuestion, content);
+  } else {
+    content.innerHTML = `
+      <p class="quiz-question">Tipo de pregunta no reconocido.</p>
+      <button class="next-button" onclick="removeCurrentWrongQuestion()">Eliminar de fallos</button>
+    `;
+  }
+}
+
+function renderWrongQuiz(wrongQuestion, content) {
+  const questionData = wrongQuestion.questionData;
+
+  let questionText =
+    wrongQuestion.prompt ||
+    questionData.question ||
+    questionData.statement ||
+    "Pregunta sin texto";
+
+  let options = [];
+
+  if (wrongQuestion.activity === "verdadero-falso") {
+    options = ["Verdadero", "Falso"];
+  } else {
+    options = questionData.options || [];
+  }
+
+  content.innerHTML = `
+    <p class="quiz-question">${questionText}</p>
+    <div id="wrong-options" class="quiz-options"></div>
+    <div id="wrong-result" class="quiz-result"></div>
+    <div id="wrong-explanation" class="quiz-justification"></div>
+  `;
+
+  const optionsContainer = document.getElementById("wrong-options");
+
+  options.forEach(option => {
+    const button = document.createElement("button");
+    button.className = "quiz-option";
+    button.innerText = option;
+
+    button.onclick = () => checkWrongQuizAnswer(button, option);
+
+    optionsContainer.appendChild(button);
+  });
+}
+
+function checkWrongQuizAnswer(button, selectedAnswer) {
+  const wrongQuestion = currentWrongQuestion;
+
+  let correctAnswer = wrongQuestion.correctAnswer;
+
+  document.querySelectorAll("#wrong-options .quiz-option").forEach(option => {
+    option.disabled = true;
+
+    if (option.innerText === correctAnswer) {
+      option.classList.add("correct");
+    }
+  });
+
+  const isCorrect = selectedAnswer === correctAnswer;
+
+  const result = document.getElementById("wrong-result");
+  const explanation = document.getElementById("wrong-explanation");
+
+  if (isCorrect) {
+    result.innerText = "Correcto. Esta pregunta sale del repaso de fallos.";
+    removeCurrentWrongQuestion();
+
+    setTimeout(() => {
+      renderWrongQuestion();
+    }, 900);
+  } else {
+    button.classList.add("incorrect");
+    result.innerText = `Incorrecto. La respuesta correcta es: ${correctAnswer}`;
+
+    if (wrongQuestion.justification || wrongQuestion.explanation) {
+      explanation.innerText = wrongQuestion.justification || wrongQuestion.explanation;
+      explanation.classList.add("show");
+    }
+
+    const nextButton = document.createElement("button");
+    nextButton.className = "next-button";
+    nextButton.innerText = "Siguiente fallo";
+    nextButton.onclick = nextWrongQuestion;
+
+    result.after(nextButton);
+  }
+}
+
+function renderWrongDefinition(wrongQuestion, content) {
+  const question = wrongQuestion.questionData;
+
+  content.innerHTML = `
+    <p class="quiz-question">${question.prompt}</p>
+
+    <div class="match-container">
+      <div id="wrong-left-column" class="match-column"></div>
+      <div id="wrong-right-column" class="match-column"></div>
+    </div>
+
+    <div class="definition-actions">
+      <button class="check-button" onclick="checkWrongDefinitionAnswer()">Comprobar</button>
+    </div>
+
+    <div id="wrong-result" class="quiz-result"></div>
+  `;
+
+  const leftCol = document.getElementById("wrong-left-column");
+  const rightCol = document.getElementById("wrong-right-column");
+
+  selectedLeft = null;
+  userMatches = {};
+
+  const shuffledLeft = shuffleArray(question.leftItems);
+  const shuffledRight = shuffleArray(question.rightItems);
+
+  shuffledLeft.forEach(item => {
+    const div = document.createElement("div");
+    div.className = "match-item";
+    div.innerText = item;
+    div.dataset.value = item;
+
+    div.onclick = () => {
+      document.querySelectorAll("#wrong-left-column .match-item").forEach(el => {
+        el.classList.remove("selected");
+      });
+
+      div.classList.add("selected");
+      selectedLeft = item;
+    };
+
+    leftCol.appendChild(div);
+  });
+
+  shuffledRight.forEach(item => {
+    const div = document.createElement("div");
+    div.className = "match-item";
+    div.innerText = item;
+    div.dataset.value = item;
+
+    div.onclick = () => {
+      if (!selectedLeft) {
+        document.getElementById("wrong-result").innerText =
+          "Primero selecciona un concepto de la columna izquierda.";
+        return;
+      }
+
+      userMatches[selectedLeft] = item;
+
+      document.querySelectorAll("#wrong-left-column .match-item").forEach(leftItem => {
+        if (leftItem.dataset.value === selectedLeft) {
+          leftItem.classList.remove("selected");
+          leftItem.classList.add("matched");
+          leftItem.innerText = selectedLeft + " → " + item;
+        }
+      });
+
+      selectedLeft = null;
+      document.getElementById("wrong-result").innerText = "";
+    };
+
+    rightCol.appendChild(div);
+  });
+}
+
+function checkWrongDefinitionAnswer() {
+  const question = currentWrongQuestion.questionData;
+
+  let correct = 0;
+  const total = question.leftItems.length;
+
+  question.leftItems.forEach(leftItem => {
+    if (userMatches[leftItem] === question.correctMatches[leftItem]) {
+      correct++;
+    }
+  });
+
+  const result = document.getElementById("wrong-result");
+
+  if (correct === total) {
+    result.innerText = `Correcto. Has acertado ${correct} de ${total}. Esta pregunta sale del repaso de fallos.`;
+    removeCurrentWrongQuestion();
+
+    setTimeout(() => {
+      renderWrongQuestion();
+    }, 900);
+  } else {
+    result.innerText = `Incorrecto. Has acertado ${correct} de ${total}. Esta pregunta seguirá en fallos.`;
+
+    const nextButton = document.createElement("button");
+    nextButton.className = "next-button";
+    nextButton.innerText = "Siguiente fallo";
+    nextButton.onclick = nextWrongQuestion;
+
+    result.after(nextButton);
+  }
+}
+
+function removeCurrentWrongQuestion() {
+  const wrongAnswers =
+    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+
+  wrongAnswers.splice(currentWrongIndex, 1);
+
+  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
+
+  wrongQuestions = wrongAnswers;
+}
+
+function nextWrongQuestion() {
+  currentWrongIndex++;
+
+  if (currentWrongIndex >= wrongQuestions.length) {
+    currentWrongIndex = 0;
+  }
+
+  renderWrongQuestion();
 }
