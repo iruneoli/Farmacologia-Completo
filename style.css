@@ -535,3 +535,58 @@ body {
 .check-button:hover {
   transform: translateY(-2px);
 }
+
+.quiz-card {
+  max-width: 760px;
+  margin: 30px auto 0;
+  background: white;
+  border-radius: 30px;
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+
+.quiz-question {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 24px;
+  line-height: 1.35;
+}
+
+.quiz-options {
+  display: grid;
+  gap: 14px;
+}
+
+.quiz-option {
+  border: none;
+  border-radius: 18px;
+  background: #eef3f7;
+  color: var(--navy);
+  padding: 18px 20px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.quiz-option:hover {
+  transform: translateY(-2px);
+  background: #dceef0;
+}
+
+.quiz-option.correct {
+  background: #c8f3d6;
+}
+
+.quiz-option.incorrect {
+  background: #ffd4d4;
+}
+
+.quiz-result {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--navy);
+}
