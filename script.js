@@ -27,6 +27,8 @@ function selectGroup(group) {
   if (group === "digestivo") {
     homeScreen.classList.add("hidden");
     digestivoScreen.classList.remove("hidden");
+  } else if (group === "antiinfeccion") {
+    alert("ATC Antiinfección todavía no está programado.");
   } else {
     alert("De momento solo está programado ATC Digestivo.");
   }
