@@ -8,6 +8,9 @@ let currentEFQuestion = null;
 let vfQuestions = [];
 let currentVFQuestion = null;
 
+let testQuestions = [];
+let currentTestQuestion = null;
+
 /* NAVEGACIÓN */
 
 function selectGroup(group) {
@@ -29,6 +32,7 @@ function goHome() {
   document.getElementById("definiciones-screen")?.classList.add("hidden");
   document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("vf-screen")?.classList.add("hidden");
+  document.getElementById("test-screen")?.classList.add("hidden");
 }
 
 function backToActivities() {
@@ -36,6 +40,7 @@ function backToActivities() {
   document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("digestivo-screen").classList.remove("hidden");
   document.getElementById("vf-screen")?.classList.add("hidden");
+  document.getElementById("test-screen")?.classList.add("hidden");
 }
 
 function selectActivity(activity) {
@@ -43,6 +48,8 @@ function selectActivity(activity) {
     loadDefinitions();
   } else if (activity === "verdadero-falso") {
     loadVFQuestions();
+  } else if (activity === "test") {
+    loadTestQuestions();
   } else if (activity === "ef-principio-activo") {
     loadEFPrincipioActivo();
   } else if (activity === "repaso-fallos") {
@@ -403,4 +410,80 @@ function checkVFAnswer(userAnswer) {
   }
 
   document.getElementById("vf-next-button").classList.remove("hidden");
+}
+async function loadTestQuestions() {
+  document.getElementById("digestivo-screen").classList.add("hidden");
+  document.getElementById("test-screen").classList.remove("hidden");
+
+  const response = await fetch("data/atc-digestivo/questions/test.json");
+  testQuestions = await response.json();
+
+  nextTestQuestion();
+}
+
+function nextTestQuestion() {
+  const result = document.getElementById("test-result");
+  const explanation = document.getElementById("test-explanation");
+  const nextButton = document.getElementById("test-next-button");
+
+  result.innerText = "";
+  explanation.innerText = "";
+  explanation.classList.remove("show");
+  nextButton.classList.add("hidden");
+
+  currentTestQuestion =
+    testQuestions[Math.floor(Math.random() * testQuestions.length)];
+
+  document.getElementById("test-question").innerText =
+    currentTestQuestion.question;
+
+  const optionsContainer = document.getElementById("test-options");
+  optionsContainer.innerHTML = "";
+
+  currentTestQuestion.options.forEach(option => {
+    const button = document.createElement("button");
+    button.className = "quiz-option";
+    button.innerText = option;
+
+    button.onclick = () => checkTestAnswer(button, option);
+
+    optionsContainer.appendChild(button);
+  });
+}
+
+function checkTestAnswer(button, selectedAnswer) {
+  if (!currentTestQuestion) return;
+
+  const isCorrect = selectedAnswer === currentTestQuestion.correctAnswer;
+
+  document.querySelectorAll("#test-options .quiz-option").forEach(option => {
+    option.disabled = true;
+
+    if (option.innerText === currentTestQuestion.correctAnswer) {
+      option.classList.add("correct");
+    }
+  });
+
+  if (isCorrect) {
+    document.getElementById("test-result").innerText = "Correcto.";
+  } else {
+    button.classList.add("incorrect");
+    document.getElementById("test-result").innerText =
+      `Incorrecto. La respuesta correcta es: ${currentTestQuestion.correctAnswer}`;
+
+    saveWrongAnswer({
+      activity: "test",
+      prompt: currentTestQuestion.question,
+      questionData: currentTestQuestion,
+      userAnswer: selectedAnswer,
+      correctAnswer: currentTestQuestion.correctAnswer,
+      explanation: currentTestQuestion.explanation
+    });
+  }
+
+  const explanation = document.getElementById("test-explanation");
+  explanation.innerText = currentTestQuestion.explanation;
+  explanation.classList.add("show");
+
+  document.getElementById("test-next-button").classList.remove("hidden");
 }
