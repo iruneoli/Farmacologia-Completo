@@ -11,12 +11,14 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="bg-shape bg-shape-1"></div>
   <div class="bg-shape bg-shape-2"></div>
   <div class="bg-dots"></div>
 
   <div class="container">
+
     <!-- PANTALLA PRINCIPAL -->
     <section id="home-screen">
       <header class="hero">
@@ -37,7 +39,7 @@
           <span class="card-button">Entrar <span>→</span></span>
         </button>
 
-       <button class="atc-card antiinfeccion" onclick="selectGroup('antiinfeccion')">
+        <button class="atc-card antiinfeccion" onclick="selectGroup('antiinfeccion')">
           <div class="card-icon">J</div>
           <h2>ATC Antiinfección</h2>
           <div class="card-line"></div>
@@ -135,174 +137,178 @@
           <h3>Efectos adversos</h3>
           <p>Identifica el efecto adverso asociado a cada medicamento.</p>
         </button>
-<button class="activity-card" onclick="selectActivity('repaso-fallos')">
-  <h3>Repaso de fallos</h3>
-  <p>Vuelve a practicar las preguntas que hayas fallado en este ATC.</p>
-</button>
 
-        <!-- PANTALLA ATC ANTIINFECCIÓN -->
-<section id="antiinfeccion-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="goHome()">← Volver al inicio</button>
-    <div class="hero-badge">ATC ANTIINFECCIÓN</div>
-    <h1 class="subpage-title">Selecciona el tipo de actividad</h1>
-    <p class="subpage-text">
-      Elige cómo quieres estudiar el contenido del ATC Antiinfección.
-    </p>
-  </div>
+        <button class="activity-card" onclick="selectActivity('repaso-fallos')">
+          <h3>Repaso de fallos</h3>
+          <p>Vuelve a practicar las preguntas que hayas fallado en este ATC.</p>
+        </button>
+      </div>
+    </section>
 
-  <div class="activity-grid">
-    <button class="activity-card" onclick="selectActivity('definiciones')">
-      <h3>Definiciones</h3>
-      <p>Emparejar conceptos, familias, grupos, tipos e indicaciones.</p>
-    </button>
+    <!-- PANTALLA ATC ANTIINFECCIÓN -->
+    <section id="antiinfeccion-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="goHome()">← Volver al inicio</button>
+        <div class="hero-badge">ATC ANTIINFECCIÓN</div>
+        <h1 class="subpage-title">Selecciona el tipo de actividad</h1>
+        <p class="subpage-text">
+          Elige cómo quieres estudiar el contenido del ATC Antiinfección.
+        </p>
+      </div>
 
-    <button class="activity-card" onclick="selectActivity('verdadero-falso')">
-      <h3>Verdadero / Falso</h3>
-      <p>Preguntas con justificación inmediata al responder.</p>
-    </button>
+      <div class="activity-grid">
+        <button class="activity-card" onclick="selectActivity('definiciones')">
+          <h3>Definiciones</h3>
+          <p>Emparejar conceptos, familias, grupos, tipos e indicaciones.</p>
+        </button>
 
-    <button class="activity-card" onclick="selectActivity('test')">
-      <h3>Preguntas tipo test</h3>
-      <p>4 opciones y una única respuesta correcta.</p>
-    </button>
+        <button class="activity-card" onclick="selectActivity('verdadero-falso')">
+          <h3>Verdadero / Falso</h3>
+          <p>Preguntas con justificación inmediata al responder.</p>
+        </button>
 
-    <button class="activity-card" onclick="selectActivity('ef-principio-activo')">
-      <h3>EF ↔ Principio activo</h3>
-      <p>Relaciona especialidades farmacéuticas y principios activos.</p>
-    </button>
+        <button class="activity-card" onclick="selectActivity('test')">
+          <h3>Preguntas tipo test</h3>
+          <p>4 opciones y una única respuesta correcta.</p>
+        </button>
 
-    <button class="activity-card" onclick="selectActivity('efectos-adversos')">
-      <h3>Reacciones adversas</h3>
-      <p>Identifica la reacción adversa asociada a cada medicamento.</p>
-    </button>
+        <button class="activity-card" onclick="selectActivity('ef-principio-activo')">
+          <h3>EF ↔ Principio activo</h3>
+          <p>Relaciona especialidades farmacéuticas y principios activos.</p>
+        </button>
 
-    <button class="activity-card" onclick="selectActivity('repaso-fallos')">
-      <h3>Repaso de fallos</h3>
-      <p>Vuelve a practicar las preguntas falladas de este ATC.</p>
-    </button>
-  </div>
-</section>
+        <button class="activity-card" onclick="selectActivity('efectos-adversos')">
+          <h3>Reacciones adversas</h3>
+          <p>Identifica la reacción adversa asociada a cada medicamento.</p>
+        </button>
+
+        <button class="activity-card" onclick="selectActivity('repaso-fallos')">
+          <h3>Repaso de fallos</h3>
+          <p>Vuelve a practicar las preguntas falladas de este ATC.</p>
+        </button>
+      </div>
+    </section>
 
     <!-- PANTALLA DEFINICIONES -->
-<section id="definiciones-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="backToActivities()">← Volver</button>
-    <div class="hero-badge">DEFINICIONES</div>
-    <h1 class="subpage-title">Empareja los conceptos</h1>
-  </div>
+    <section id="definiciones-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="backToActivities()">← Volver</button>
+        <div class="hero-badge">DEFINICIONES</div>
+        <h1 class="subpage-title">Empareja los conceptos</h1>
+      </div>
 
-  <div class="match-container">
-    <div id="left-column" class="match-column"></div>
-    <div id="right-column" class="match-column"></div>
-  </div>
+      <div class="match-container">
+        <div id="left-column" class="match-column"></div>
+        <div id="right-column" class="match-column"></div>
+      </div>
 
-  <div class="definition-actions">
-  <button class="check-button" onclick="checkAnswers()">Comprobar</button>
-  <button id="next-button" class="next-button hidden" onclick="nextDefinitionQuestion()">Siguiente</button>
-</div>
+      <div class="definition-actions">
+        <button class="check-button" onclick="checkAnswers()">Comprobar</button>
+        <button id="next-button" class="next-button hidden" onclick="nextDefinitionQuestion()">Siguiente</button>
+      </div>
 
-<div id="result"></div>
-</section>
+      <div id="result"></div>
+    </section>
+
+    <!-- PANTALLA EF PRINCIPIO ACTIVO -->
+    <section id="ef-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="backToActivities()">← Volver</button>
+        <div class="hero-badge">EF ↔ PRINCIPIO ACTIVO</div>
+        <h1 class="subpage-title">Relaciona EF y principio activo</h1>
+      </div>
+
+      <div class="quiz-card">
+        <p id="ef-question" class="quiz-question"></p>
+        <div id="ef-options" class="quiz-options"></div>
+        <div id="ef-result" class="quiz-result"></div>
+
+        <button id="ef-next-button" class="next-button hidden" onclick="nextEFQuestion()">
+          Siguiente
+        </button>
+      </div>
+    </section>
+
+    <!-- PANTALLA VERDADERO / FALSO -->
+    <section id="vf-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="backToActivities()">← Volver</button>
+        <div class="hero-badge">VERDADERO / FALSO</div>
+        <h1 class="subpage-title">Responde y revisa la justificación</h1>
+      </div>
+
+      <div class="quiz-card">
+        <p id="vf-question" class="quiz-question"></p>
+
+        <div class="vf-buttons">
+          <button class="vf-button true-button" onclick="checkVFAnswer(true)">Verdadero</button>
+          <button class="vf-button false-button" onclick="checkVFAnswer(false)">Falso</button>
+        </div>
+
+        <div id="vf-result" class="quiz-result"></div>
+        <div id="vf-justification" class="quiz-justification"></div>
+
+        <button id="vf-next-button" class="next-button hidden" onclick="nextVFQuestion()">
+          Siguiente
+        </button>
+      </div>
+    </section>
+
+    <!-- PANTALLA TEST -->
+    <section id="test-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="backToActivities()">← Volver</button>
+        <div class="hero-badge">PREGUNTAS TIPO TEST</div>
+        <h1 class="subpage-title">Elige la respuesta correcta</h1>
+      </div>
+
+      <div class="quiz-card">
+        <p id="test-question" class="quiz-question"></p>
+        <div id="test-options" class="quiz-options"></div>
+
+        <div id="test-result" class="quiz-result"></div>
+        <div id="test-explanation" class="quiz-justification"></div>
+
+        <button id="test-next-button" class="next-button hidden" onclick="nextTestQuestion()">
+          Siguiente
+        </button>
+      </div>
+    </section>
+
+    <!-- PANTALLA EFECTOS ADVERSOS -->
+    <section id="adverse-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="backToActivities()">← Volver</button>
+        <div class="hero-badge">EFECTOS ADVERSOS</div>
+        <h1 class="subpage-title">Identifica el efecto adverso</h1>
+      </div>
+
+      <div class="quiz-card">
+        <p id="adverse-question" class="quiz-question"></p>
+        <div id="adverse-options" class="quiz-options"></div>
+
+        <div id="adverse-result" class="quiz-result"></div>
+
+        <button id="adverse-next-button" class="next-button hidden" onclick="nextAdverseQuestion()">
+          Siguiente
+        </button>
+      </div>
+    </section>
+
+    <!-- PANTALLA REPASO DE FALLOS -->
+    <section id="wrong-screen" class="hidden">
+      <div class="subpage-header">
+        <button class="back-button" onclick="backToActivities()">← Volver</button>
+        <div class="hero-badge">REPASO DE FALLOS</div>
+        <h1 class="subpage-title">Repite las preguntas falladas</h1>
+        <p id="wrong-counter" class="subpage-text"></p>
+      </div>
+
+      <div id="wrong-content" class="quiz-card"></div>
+    </section>
+
   </div>
 
   <script src="script.js"></script>
 </body>
 </html>
-
-<!-- PANTALLA EF PRINCIPIO ACTIVO -->
-<section id="ef-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="backToActivities()">← Volver</button>
-    <div class="hero-badge">EF ↔ PRINCIPIO ACTIVO</div>
-    <h1 class="subpage-title">Relaciona EF y principio activo</h1>
-  </div>
-
-  <div class="quiz-card">
-    <p id="ef-question" class="quiz-question"></p>
-    <div id="ef-options" class="quiz-options"></div>
-    <div id="ef-result" class="quiz-result"></div>
-
-    <button id="ef-next-button" class="next-button hidden" onclick="nextEFQuestion()">
-      Siguiente
-    </button>
-  </div>
-</section>
-
-<!-- PANTALLA VERDADERO / FALSO -->
-<section id="vf-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="backToActivities()">← Volver</button>
-    <div class="hero-badge">VERDADERO / FALSO</div>
-    <h1 class="subpage-title">Responde y revisa la justificación</h1>
-  </div>
-
-  <div class="quiz-card">
-    <p id="vf-question" class="quiz-question"></p>
-
-    <div class="vf-buttons">
-      <button class="vf-button true-button" onclick="checkVFAnswer(true)">Verdadero</button>
-      <button class="vf-button false-button" onclick="checkVFAnswer(false)">Falso</button>
-    </div>
-
-    <div id="vf-result" class="quiz-result"></div>
-    <div id="vf-justification" class="quiz-justification"></div>
-
-    <button id="vf-next-button" class="next-button hidden" onclick="nextVFQuestion()">
-      Siguiente
-    </button>
-  </div>
-</section>
-
-<!-- PANTALLA TEST -->
-<section id="test-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="backToActivities()">← Volver</button>
-    <div class="hero-badge">PREGUNTAS TIPO TEST</div>
-    <h1 class="subpage-title">Elige la respuesta correcta</h1>
-  </div>
-
-  <div class="quiz-card">
-    <p id="test-question" class="quiz-question"></p>
-    <div id="test-options" class="quiz-options"></div>
-
-    <div id="test-result" class="quiz-result"></div>
-    <div id="test-explanation" class="quiz-justification"></div>
-
-    <button id="test-next-button" class="next-button hidden" onclick="nextTestQuestion()">
-      Siguiente
-    </button>
-  </div>
-</section>
-
-<!-- PANTALLA EFECTOS ADVERSOS -->
-<section id="adverse-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="backToActivities()">← Volver</button>
-    <div class="hero-badge">EFECTOS ADVERSOS</div>
-    <h1 class="subpage-title">Identifica el efecto adverso</h1>
-  </div>
-
-  <div class="quiz-card">
-    <p id="adverse-question" class="quiz-question"></p>
-    <div id="adverse-options" class="quiz-options"></div>
-
-    <div id="adverse-result" class="quiz-result"></div>
-
-    <button id="adverse-next-button" class="next-button hidden" onclick="nextAdverseQuestion()">
-      Siguiente
-    </button>
-  </div>
-</section>
-
-<!-- PANTALLA REPASO DE FALLOS -->
-<section id="wrong-screen" class="hidden">
-  <div class="subpage-header">
-    <button class="back-button" onclick="backToActivities()">← Volver</button>
-    <div class="hero-badge">REPASO DE FALLOS</div>
-    <h1 class="subpage-title">Repite las preguntas falladas</h1>
-    <p id="wrong-counter" class="subpage-text"></p>
-  </div>
-
-  <div id="wrong-content" class="quiz-card"></div>
-</section>
