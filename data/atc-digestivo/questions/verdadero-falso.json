@@ -1,1 +1,252 @@
-[]
+[
+  {
+    "statement": "El grupo A01 (estomatológicos) protege la mucosa bucal.",
+    "answer": true,
+    "justification": "Los estomatológicos se emplean para proteger la mucosa bucal."
+  },
+  {
+    "statement": "La povidona yodada es un protector de la mucosa bucal.",
+    "answer": false,
+    "justification": "La povidona yodada es un antiséptico, no un protector."
+  },
+  {
+    "statement": "La nistatina se utiliza como antifúngico en la mucosa bucal.",
+    "answer": true,
+    "justification": "Se incluye dentro de otros estomatológicos como antifúngico."
+  },
+  {
+    "statement": "A02 actúa contra el exceso de HCl.",
+    "answer": true,
+    "justification": "Los medicamentos de A02 tratan la acidez gástrica."
+  },
+  {
+    "statement": "Los neutralizantes impiden la formación de HCl.",
+    "answer": false,
+    "justification": "Los neutralizantes alcalinizan la acidez, no impiden su formación."
+  },
+  {
+    "statement": "Los inhibidores de la secreción impiden que se forme HCl.",
+    "answer": true,
+    "justification": "Actúan bloqueando la producción de ácido."
+  },
+  {
+    "statement": "El bicarbonato sódico es un antiácido no sistémico.",
+    "answer": false,
+    "justification": "Es sistémico porque se absorbe."
+  },
+  {
+    "statement": "El Al(OH)3 produce estreñimiento.",
+    "answer": true,
+    "justification": "Es un efecto adverso típico de los compuestos de aluminio."
+  },
+  {
+    "statement": "El Mg(OH)2 produce diarrea.",
+    "answer": true,
+    "justification": "El magnesio tiene efecto laxante."
+  },
+  {
+    "statement": "Los protectores de la mucosa forman una película o aumentan el moco.",
+    "answer": true,
+    "justification": "Esa es su función principal."
+  },
+  {
+    "statement": "La ranitidina es un inhibidor de la bomba de protones.",
+    "answer": false,
+    "justification": "Es un antihistamínico H2."
+  },
+  {
+    "statement": "El omeprazol impide fabricar HCl.",
+    "answer": true,
+    "justification": "Actúa como inhibidor de la bomba de protones."
+  },
+  {
+    "statement": "Los antiflatulentos reducen la tensión superficial de las burbujas.",
+    "answer": true,
+    "justification": "Facilitan la eliminación de gases."
+  },
+  {
+    "statement": "La dimeticona es un antiflatulento.",
+    "answer": true,
+    "justification": "Es el principal ejemplo del grupo."
+  },
+  {
+    "statement": "Los antiespasmódicos aumentan el peristaltismo.",
+    "answer": false,
+    "justification": "Lo disminuyen para aliviar el dolor cólico."
+  },
+  {
+    "statement": "La escopolamina pertenece a los anticolinérgicos.",
+    "answer": true,
+    "justification": "Disminuye el peristaltismo."
+  },
+  {
+    "statement": "El metamizol se usa como analgésico en dolor cólico.",
+    "answer": true,
+    "justification": "Es un analgésico potente."
+  },
+  {
+    "statement": "Los eméticos impiden el vómito.",
+    "answer": false,
+    "justification": "Lo provocan."
+  },
+  {
+    "statement": "Los antieméticos bloquean el vómito.",
+    "answer": true,
+    "justification": "Actúan sobre el bulbo raquídeo."
+  },
+  {
+    "statement": "La metoclopramida es un antiemético.",
+    "answer": true,
+    "justification": "Se usa para evitar el vómito."
+  },
+  {
+    "statement": "Los laxantes osmóticos aumentan el volumen de las heces.",
+    "answer": false,
+    "justification": "Eso lo hacen los formadores de masa."
+  },
+  {
+    "statement": "Los laxantes osmóticos hacen que las heces absorban agua.",
+    "answer": true,
+    "justification": "Ese es su mecanismo."
+  },
+  {
+    "statement": "Los lubricantes facilitan el desplazamiento del bolo fecal.",
+    "answer": true,
+    "justification": "Reducen la fricción."
+  },
+  {
+    "statement": "La lactulosa es un laxante osmótico.",
+    "answer": true,
+    "justification": "Es un ejemplo típico."
+  },
+  {
+    "statement": "Los estimulantes por contacto no irritan la mucosa.",
+    "answer": false,
+    "justification": "La irritan para aumentar el peristaltismo."
+  },
+  {
+    "statement": "El sen es un laxante natural estimulante.",
+    "answer": true,
+    "justification": "Pertenece a los estimulantes naturales."
+  },
+  {
+    "statement": "Los antipropulsivos aumentan el peristaltismo.",
+    "answer": false,
+    "justification": "Lo disminuyen."
+  },
+  {
+    "statement": "La loperamida es un antipropulsivo.",
+    "answer": true,
+    "justification": "Se usa como antidiarreico."
+  },
+  {
+    "statement": "Los electrolitos se usan para rehidratar.",
+    "answer": true,
+    "justification": "Forman el suero oral."
+  },
+  {
+    "statement": "Los microorganismos restauran la flora intestinal.",
+    "answer": true,
+    "justification": "Son probióticos."
+  },
+  {
+    "statement": "Los saciantes dan sensación de plenitud.",
+    "answer": true,
+    "justification": "Se usan en antiobesidad."
+  },
+  {
+    "statement": "Los inhibidores de la lipogénesis favorecen la formación de grasa.",
+    "answer": false,
+    "justification": "La inhiben."
+  },
+  {
+    "statement": "El té verde es termogénico.",
+    "answer": true,
+    "justification": "Aumenta el gasto energético."
+  },
+  {
+    "statement": "Los digestivos aportan enzimas.",
+    "answer": true,
+    "justification": "Favorecen la digestión."
+  },
+  {
+    "statement": "La amilasa digiere proteínas.",
+    "answer": false,
+    "justification": "Digieren hidratos de carbono."
+  },
+  {
+    "statement": "La lipasa digiere grasas.",
+    "answer": true,
+    "justification": "Actúa sobre lípidos."
+  },
+  {
+    "statement": "Los antidiabéticos tratan el exceso de glucosa.",
+    "answer": true,
+    "justification": "Controlan la glucemia."
+  },
+  {
+    "statement": "Las insulinas se usan en diabetes tipo 1.",
+    "answer": true,
+    "justification": "Son necesarias en DM1."
+  },
+  {
+    "statement": "Las sulfonilureas disminuyen la producción de insulina.",
+    "answer": false,
+    "justification": "La aumentan."
+  },
+  {
+    "statement": "La metformina mejora la eficacia de la insulina.",
+    "answer": true,
+    "justification": "Pertenece a las biguanidas."
+  },
+  {
+    "statement": "Los inhibidores de la alfa-glucosidasa aceleran la absorción de glucosa.",
+    "answer": false,
+    "justification": "La ralentizan."
+  },
+  {
+    "statement": "Las tiazolidinedionas aumentan el uso de glucosa.",
+    "answer": true,
+    "justification": "Mejoran su utilización."
+  },
+  {
+    "statement": "Los laxantes pueden generar hábito.",
+    "answer": true,
+    "justification": "Es un efecto adverso frecuente."
+  },
+  {
+    "statement": "El omeprazol puede producir problemas en tratamientos prolongados.",
+    "answer": true,
+    "justification": "Se asocia a efectos a largo plazo."
+  },
+  {
+    "statement": "Los opiáceos pueden usarse como antidiarreicos.",
+    "answer": true,
+    "justification": "Ejemplo: loperamida."
+  },
+  {
+    "statement": "El fucus es un saciante.",
+    "answer": false,
+    "justification": "Es disminuidor de absorción."
+  },
+  {
+    "statement": "El plantago es un saciante.",
+    "answer": true,
+    "justification": "Aporta sensación de plenitud."
+  },
+  {
+    "statement": "La cleboprida es un antiemético.",
+    "answer": true,
+    "justification": "Se usa contra el vómito."
+  },
+  {
+    "statement": "El primperan contiene metoclopramida.",
+    "answer": true,
+    "justification": "Es su EF."
+  },
+  {
+    "statement": "El ALMAX contiene almagato.",
+    "answer": true,
+    "justification": "Es un antiácido no sistémico."
+  }
+]
