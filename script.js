@@ -1,3 +1,5 @@
+let currentATC = "digestivo";
+
 let currentQuestion = null;
 let selectedLeft = null;
 let userMatches = {};
@@ -18,8 +20,7 @@ let wrongQuestions = [];
 let currentWrongIndex = 0;
 let currentWrongQuestion = null;
 
-/*Antiinfeccioso*/
-let currentATC = "digestivo";
+
 
 /* NAVEGACIÓN */
 
