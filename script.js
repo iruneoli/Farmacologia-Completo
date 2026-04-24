@@ -33,6 +33,10 @@ function backToActivities() {
   document.getElementById("digestivo-screen").classList.remove("hidden");
 }
 
+let currentQuestion = null;
+let selectedLeft = null;
+let userMatches = {};
+
 async function loadDefinitions() {
   document.getElementById("digestivo-screen").classList.add("hidden");
   document.getElementById("definiciones-screen").classList.remove("hidden");
@@ -40,29 +44,92 @@ async function loadDefinitions() {
   const response = await fetch("data/atc-digestivo/questions/definiciones.json");
   const data = await response.json();
 
-  const question = data[0]; // primera pregunta
+  currentQuestion = data[Math.floor(Math.random() * data.length)];
 
-  renderMatch(question);
+  renderMatch(currentQuestion);
+}
+
+function shuffleArray(array) {
+  return [...array].sort(() => Math.random() - 0.5);
 }
 
 function renderMatch(question) {
   const leftCol = document.getElementById("left-column");
   const rightCol = document.getElementById("right-column");
+  const result = document.getElementById("result");
 
   leftCol.innerHTML = "";
   rightCol.innerHTML = "";
+  result.innerHTML = "";
 
-  question.leftItems.forEach(item => {
+  selectedLeft = null;
+  userMatches = {};
+
+  const shuffledLeft = shuffleArray(question.leftItems);
+  const shuffledRight = shuffleArray(question.rightItems);
+
+  shuffledLeft.forEach(item => {
     const div = document.createElement("div");
     div.className = "match-item";
     div.innerText = item;
+    div.dataset.value = item;
+
+    div.onclick = () => {
+      document.querySelectorAll("#left-column .match-item").forEach(el => {
+        el.classList.remove("selected");
+      });
+
+      div.classList.add("selected");
+      selectedLeft = item;
+    };
+
     leftCol.appendChild(div);
   });
 
-  question.rightItems.forEach(item => {
+  shuffledRight.forEach(item => {
     const div = document.createElement("div");
     div.className = "match-item";
     div.innerText = item;
+    div.dataset.value = item;
+
+    div.onclick = () => {
+      if (!selectedLeft) {
+        result.innerText = "Primero selecciona un concepto de la columna izquierda.";
+        return;
+      }
+
+      userMatches[selectedLeft] = item;
+
+      const leftSelected = document.querySelector(
+        `#left-column .match-item[data-value="${CSS.escape(selectedLeft)}"]`
+      );
+
+      if (leftSelected) {
+        leftSelected.classList.remove("selected");
+        leftSelected.classList.add("matched");
+        leftSelected.innerText = selectedLeft + " → " + item;
+      }
+
+      selectedLeft = null;
+      result.innerText = "";
+    };
+
     rightCol.appendChild(div);
   });
+}
+
+function checkAnswers() {
+  if (!currentQuestion) return;
+
+  let correct = 0;
+  const total = currentQuestion.leftItems.length;
+
+  currentQuestion.leftItems.forEach(leftItem => {
+    if (userMatches[leftItem] === currentQuestion.correctMatches[leftItem]) {
+      correct++;
+    }
+  });
+
+  document.getElementById("result").innerText =
+    `Has acertado ${correct} de ${total}.`;
 }
