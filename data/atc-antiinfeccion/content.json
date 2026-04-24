@@ -2,5 +2,588 @@
   "atc": "antiinfeccion",
   "nombre": "ATC Antiinfección",
   "descripcion": "Antiinfecciosos para uso sistémico",
-  "grupos": []
+  "bloquesTeoricos": [
+    {
+      "titulo": "Definición de antibiótico",
+      "contenido": "Un antibiótico es una sustancia secretada por un microorganismo, aunque hoy también existen antibióticos sintéticos, con capacidad para matar o impedir el crecimiento de microorganismos."
+    },
+    {
+      "titulo": "Toxicidad selectiva",
+      "contenido": "Los antibióticos presentan toxicidad selectiva, siendo superior para los organismos invasores que para los animales o seres humanos que los hospedan."
+    },
+    {
+      "titulo": "Bacteriostático y bactericida",
+      "contenido": "Un antibiótico es bacteriostático si impide el crecimiento de los gérmenes y bactericida si los destruye."
+    },
+    {
+      "titulo": "Automedicación y resistencias",
+      "contenido": "La automedicación con antibióticos puede generar bacterias resistentes por elección inadecuada del antibiótico o posología incorrecta."
+    },
+    {
+      "titulo": "Uso frente a virus",
+      "contenido": "Los antibióticos y antimicrobianos son inefectivos frente a enfermedades virales."
+    }
+  ],
+  "criterios": [
+    {
+      "criterio": "Mecanismos de acción",
+      "tipos": [
+        {
+          "nombre": "Inhibidores de la síntesis de la pared bacteriana",
+          "indicacion": "Destruyen o impiden la formación de la pared bacteriana y por tanto las bacterias mueren."
+        },
+        {
+          "nombre": "Inhibidores de la síntesis proteica",
+          "indicacion": "Actúan sobre los ribosomas bacterianos."
+        },
+        {
+          "nombre": "Inhibidores de la síntesis o actividad de los ácidos nucleicos",
+          "indicacion": "Inhiben enzimas bacterianas que transcriben ADN a ARN o duplican el ADN."
+        },
+        {
+          "nombre": "Que actúan sobre la membrana plasmática",
+          "indicacion": "Disuelven la membrana produciendo la muerte del hongo."
+        }
+      ]
+    },
+    {
+      "criterio": "Efecto sobre los microorganismos",
+      "tipos": [
+        {
+          "nombre": "Bactericidas",
+          "indicacion": "Matan bacterias."
+        },
+        {
+          "nombre": "Bacteriostáticos",
+          "indicacion": "Detienen el crecimiento y la proliferación."
+        }
+      ]
+    },
+    {
+      "criterio": "Espectro de actuación",
+      "tipos": [
+        {
+          "nombre": "Amplio espectro",
+          "indicacion": "Actúan sobre la mayoría de los microorganismos."
+        },
+        {
+          "nombre": "Selectivos",
+          "indicacion": "Solo son activos frente a unas bacterias determinadas."
+        }
+      ]
+    }
+  ],
+  "mecanismosResistencia": [
+    "Resistencia natural",
+    "Resistencia adquirida por adaptación al ambiente o por aparición de mutantes resistentes",
+    "Modificación del lugar bacteriano sobre el que actúa el antibiótico",
+    "Pérdida de permeabilidad para el antibiótico",
+    "Síntesis de enzimas que inactivan el antibiótico"
+  ],
+  "grupos": [
+    {
+      "codigo": "J01",
+      "nombre": "Antibióticos",
+      "familias": [
+        {
+          "familia": "Beta-lactámicos",
+          "grupos": [
+            {
+              "nombre": "Penicilinas propiamente dichas",
+              "tipos": [
+                {
+                  "nombre": "Orales de amplio espectro",
+                  "indicaciones": "Infecciones respiratorias y de todo tipo",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Ampicilina",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Malestar gastrointestinal",
+                        "Diarrea",
+                        "Alergias con serias reacciones anafilácticas"
+                      ]
+                    },
+                    {
+                      "nombre": "Amoxicilina",
+                      "ef": ["CLAMOXIL"],
+                      "reaccionesAdversas": [
+                        "Malestar gastrointestinal",
+                        "Diarrea",
+                        "Alergias con serias reacciones anafilácticas"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nombre": "Penicilinasa-resistentes",
+                  "indicaciones": "Infecciones por estafilococos resistentes a la penicilina",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Cloxacilina",
+                      "ef": ["ORBENIN"],
+                      "reaccionesAdversas": [
+                        "Malestar gastrointestinal",
+                        "Diarrea",
+                        "Alergias con serias reacciones anafilácticas"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Cefalosporinas",
+              "tipos": [
+                {
+                  "nombre": "Primera generación",
+                  "indicaciones": "Infecciones respiratorias y óticas por gram +",
+                  "principiosActivos": [],
+                  "reaccionesAdversas": [
+                    "Malestar estomacal",
+                    "Diarrea",
+                    "Náuseas con la ingesta de alcohol",
+                    "Reacciones alérgicas"
+                  ]
+                },
+                {
+                  "nombre": "Segunda generación",
+                  "indicaciones": "Infecciones respiratorias y óticas por gram + y -",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Cefuroxima",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Malestar estomacal",
+                        "Diarrea",
+                        "Náuseas con la ingesta de alcohol",
+                        "Reacciones alérgicas"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nombre": "Tercera generación",
+                  "indicaciones": "Infecciones respiratorias y óticas por bacterias resistentes tipo pseudomonas. Uso hospitalario.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Ceftazidima",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Malestar estomacal",
+                        "Diarrea",
+                        "Náuseas con la ingesta de alcohol",
+                        "Reacciones alérgicas"
+                      ]
+                    },
+                    {
+                      "nombre": "Ceftriaxona",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Malestar estomacal",
+                        "Diarrea",
+                        "Náuseas con la ingesta de alcohol",
+                        "Reacciones alérgicas"
+                      ]
+                    },
+                    {
+                      "nombre": "Cefotaxima",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Malestar estomacal",
+                        "Diarrea",
+                        "Náuseas con la ingesta de alcohol",
+                        "Reacciones alérgicas"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Inhibidores de beta-lactamasas",
+              "tipos": [
+                {
+                  "nombre": "Asociaciones",
+                  "indicaciones": "Con otra penicilina evitan las resistencias",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Amoxicilina + Ácido clavulánico",
+                      "ef": ["AUGMENTINE"],
+                      "reaccionesAdversas": [
+                        "Diarreas",
+                        "Náuseas",
+                        "Problemas gástricos"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Otros",
+              "tipos": [
+                {
+                  "nombre": "Otros beta-lactámicos",
+                  "indicaciones": null,
+                  "principiosActivos": [
+                    {
+                      "nombre": "Imipenem",
+                      "ef": ["IMIPENEM"],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Aminoglucósidos",
+          "grupos": [
+            {
+              "nombre": "Aminoglucósidos",
+              "tipos": [
+                {
+                  "nombre": "Aminoglucósidos",
+                  "indicaciones": "Colirios y pomadas oftálmicas activas contra gram - y estafilococos. Vía parenteral de uso hospitalario.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Gentamicina",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Ototóxicos por acumulación",
+                        "Sordera",
+                        "Vértigo",
+                        "Nefrotóxicos",
+                        "Daño renal por acumulación"
+                      ]
+                    },
+                    {
+                      "nombre": "Tobramicina",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Ototóxicos por acumulación",
+                        "Sordera",
+                        "Vértigo",
+                        "Nefrotóxicos",
+                        "Daño renal por acumulación"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Tetraciclinas",
+          "grupos": [
+            {
+              "nombre": "Tetraciclinas",
+              "tipos": [
+                {
+                  "nombre": "Tetraciclinas",
+                  "indicaciones": "Colirios y pomadas oftálmicas. Bacteriostáticos de amplio espectro. Activas frente a bacterias intracelulares tipo rickettsias.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Doxiciclina",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Malestar gastrointestinal",
+                        "Sensibilidad a la luz solar",
+                        "Mancha en los dientes, especialmente en niños",
+                        "Potencialmente tóxico para la madre y el feto durante el embarazo",
+                        "Producen flora de sustitución",
+                        "Muchas resistencias",
+                        "Se acumulan en huesos y dientes"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Macrólidos",
+          "grupos": [
+            {
+              "nombre": "Macrólidos",
+              "tipos": [
+                {
+                  "nombre": "Macrólidos",
+                  "indicaciones": "Sustituyen a las penicilinas por tener una actividad similar en alérgicos.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Eritromicina",
+                      "ef": ["PANTOMICINA"],
+                      "reaccionesAdversas": [
+                        "Náuseas",
+                        "Vómitos",
+                        "Diarrea",
+                        "Ictericia"
+                      ],
+                      "observaciones": "Tratamiento de neumonías atípicas por Legionella y Mycoplasma."
+                    },
+                    {
+                      "nombre": "Claritromicina",
+                      "ef": ["KLACID"],
+                      "reaccionesAdversas": [
+                        "Náuseas",
+                        "Vómitos",
+                        "Diarrea",
+                        "Ictericia"
+                      ]
+                    },
+                    {
+                      "nombre": "Azitromicina",
+                      "ef": ["ZITROMAX"],
+                      "reaccionesAdversas": [
+                        "Náuseas",
+                        "Vómitos",
+                        "Diarrea",
+                        "Ictericia"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Quinolonas",
+          "grupos": [
+            {
+              "nombre": "Quinolonas",
+              "tipos": [
+                {
+                  "nombre": "Quimioterápicos de amplio espectro",
+                  "indicaciones": "Infecciones urinarias principalmente, también respiratorias y heridas.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Norfloxacino",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Náuseas"
+                      ]
+                    },
+                    {
+                      "nombre": "Ciprofloxacino",
+                      "ef": ["BAYCIP"],
+                      "reaccionesAdversas": [
+                        "Náuseas"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Terapia antituberculosa",
+          "grupos": [
+            {
+              "nombre": "Antibióticos",
+              "tipos": [
+                {
+                  "nombre": "Antibióticos antituberculosos",
+                  "indicaciones": "La tuberculosis se trata con varios antibióticos en ciclos alternativos por resistencias rápidas.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Rifampicina",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Quimioterápicos",
+              "tipos": [
+                {
+                  "nombre": "Quimioterápicos antituberculosos",
+                  "indicaciones": "Tratamiento de la tuberculosis en combinación y ciclos alternativos.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Isoniazida",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    },
+                    {
+                      "nombre": "Etambutol",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Antifúngicos",
+          "grupos": [
+            {
+              "nombre": "Poliénicos",
+              "tipos": [
+                {
+                  "nombre": "Poliénicos",
+                  "indicaciones": "Infecciones por hongos.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Nistatina",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    },
+                    {
+                      "nombre": "Anfotericina B",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Quimioterápicos azólicos",
+              "tipos": [
+                {
+                  "nombre": "Azólicos",
+                  "indicaciones": "Infecciones por hongos.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Miconazol",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Hepatotóxicos"
+                      ]
+                    },
+                    {
+                      "nombre": "Ketoconazol",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Hepatotóxicos"
+                      ]
+                    },
+                    {
+                      "nombre": "Fluconazol",
+                      "ef": [],
+                      "reaccionesAdversas": [
+                        "Hepatotóxicos"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "familia": "Otros antibióticos",
+          "grupos": [
+            {
+              "nombre": "Glucopéptidos",
+              "tipos": [
+                {
+                  "nombre": "Glucopéptidos",
+                  "indicaciones": "Enterococos y estafilococos resistentes. Uso hospitalario, vía oral.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Vancomicina",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Rifampicina",
+              "tipos": [
+                {
+                  "nombre": "Rifampicina",
+                  "indicaciones": "Cocos gram +, quimioprofilaxis de la meningitis y tuberculosis.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Rifampicina",
+                      "ef": [],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Imidazoles",
+              "tipos": [
+                {
+                  "nombre": "Imidazoles",
+                  "indicaciones": "Quimioterápicos contra anaerobios y protozoos.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Metronidazol",
+                      "ef": ["FLAGYL"],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Nitrofuranos",
+              "tipos": [
+                {
+                  "nombre": "Nitrofuranos",
+                  "indicaciones": "Quimioterápicos en infecciones urinarias y vía tópica en heridas y quemaduras.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Nitrofurantoína",
+                      "ef": ["FURACIN"],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Lincosaminas",
+              "tipos": [
+                {
+                  "nombre": "Lincosaminas",
+                  "indicaciones": "Infecciones hospitalarias y vía tópica para el acné.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Clindamicina",
+                      "ef": ["DALACIN"],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nombre": "Fosfomicina",
+              "tipos": [
+                {
+                  "nombre": "Fosfomicina",
+                  "indicaciones": "De amplio espectro para infecciones urinarias, de la piel y de tejidos blandos.",
+                  "principiosActivos": [
+                    {
+                      "nombre": "Fosfomicina",
+                      "ef": ["MONUROL"],
+                      "reaccionesAdversas": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
