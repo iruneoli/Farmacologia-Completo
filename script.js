@@ -11,6 +11,9 @@ let currentVFQuestion = null;
 let testQuestions = [];
 let currentTestQuestion = null;
 
+let adverseQuestions = [];
+let currentAdverseQuestion = null;
+
 /* NAVEGACIÓN */
 
 function selectGroup(group) {
@@ -33,6 +36,7 @@ function goHome() {
   document.getElementById("ef-screen")?.classList.add("hidden");
   document.getElementById("vf-screen")?.classList.add("hidden");
   document.getElementById("test-screen")?.classList.add("hidden");
+  document.getElementById("adverse-screen")?.classList.add("hidden");
 }
 
 function backToActivities() {
@@ -41,6 +45,7 @@ function backToActivities() {
   document.getElementById("digestivo-screen").classList.remove("hidden");
   document.getElementById("vf-screen")?.classList.add("hidden");
   document.getElementById("test-screen")?.classList.add("hidden");
+  document.getElementById("adverse-screen")?.classList.add("hidden");
 }
 
 function selectActivity(activity) {
@@ -52,6 +57,8 @@ function selectActivity(activity) {
     loadTestQuestions();
   } else if (activity === "ef-principio-activo") {
     loadEFPrincipioActivo();
+  } else if (activity === "efectos-adversos") {
+    loadAdverseQuestions();
   } else if (activity === "repaso-fallos") {
     alert("Repaso de fallos aún no implementado.");
   } else {
@@ -486,4 +493,141 @@ function checkTestAnswer(button, selectedAnswer) {
   explanation.classList.add("show");
 
   document.getElementById("test-next-button").classList.remove("hidden");
+}
+
+async function loadAdverseQuestions() {
+  document.getElementById("digestivo-screen").classList.add("hidden");
+  document.getElementById("adverse-screen").classList.remove("hidden");
+
+  const response = await fetch("data/atc-digestivo/content.json");
+  const content = await response.json();
+
+  const medicines = extractMedicinesForAdverse(content);
+  adverseQuestions = generateAdverseQuestions(medicines);
+
+  nextAdverseQuestion();
+}
+
+function extractMedicinesForAdverse(content) {
+  const medicines = [];
+
+  content.grupos.forEach(grupo => {
+    grupo.subgrupos.forEach(subgrupo => {
+      collectMedicinesForAdverse(subgrupo, grupo, medicines);
+    });
+  });
+
+  return medicines.filter(item => item.name);
+}
+
+function collectMedicinesForAdverse(node, grupo, medicines) {
+  if (node.principiosActivos) {
+    node.principiosActivos.forEach(pa => {
+      const adverse =
+        pa.efectosAdversos && pa.efectosAdversos.length > 0
+          ? pa.efectosAdversos.join(" / ")
+          : "No consta efecto adverso en el temario";
+
+      medicines.push({
+        name: pa.nombre,
+        ef: pa.ef || [],
+        adverse: adverse,
+        grupo: grupo.codigo,
+        subgrupo: node.nombre
+      });
+
+      if (pa.ef && pa.ef.length > 0) {
+        pa.ef.forEach(efName => {
+          medicines.push({
+            name: efName,
+            ef: [],
+            adverse: adverse,
+            grupo: grupo.codigo,
+            subgrupo: node.nombre
+          });
+        });
+      }
+    });
+  }
+
+  if (node.subgruposInternos) {
+    node.subgruposInternos.forEach(interno => {
+      collectMedicinesForAdverse(interno, grupo, medicines);
+    });
+  }
+}
+
+function generateAdverseQuestions(medicines) {
+  const allAnswers = [
+    ...new Set(medicines.map(item => item.adverse))
+  ];
+
+  return shuffleArray(
+    medicines.map(item => {
+      return {
+        question: `El medicamento "${item.name}", ¿qué efecto adverso tiene?`,
+        correctAnswer: item.adverse,
+        options: generateOptions(item.adverse, allAnswers)
+      };
+    })
+  );
+}
+
+function nextAdverseQuestion() {
+  const result = document.getElementById("adverse-result");
+  const nextButton = document.getElementById("adverse-next-button");
+
+  result.innerText = "";
+  nextButton.classList.add("hidden");
+
+  currentAdverseQuestion =
+    adverseQuestions[Math.floor(Math.random() * adverseQuestions.length)];
+
+  document.getElementById("adverse-question").innerText =
+    currentAdverseQuestion.question;
+
+  const optionsContainer = document.getElementById("adverse-options");
+  optionsContainer.innerHTML = "";
+
+  currentAdverseQuestion.options.forEach(option => {
+    const button = document.createElement("button");
+    button.className = "quiz-option";
+    button.innerText = option;
+
+    button.onclick = () => checkAdverseAnswer(button, option);
+
+    optionsContainer.appendChild(button);
+  });
+}
+
+function checkAdverseAnswer(button, selectedAnswer) {
+  if (!currentAdverseQuestion) return;
+
+  const isCorrect = selectedAnswer === currentAdverseQuestion.correctAnswer;
+
+  document.querySelectorAll("#adverse-options .quiz-option").forEach(option => {
+    option.disabled = true;
+
+    if (option.innerText === currentAdverseQuestion.correctAnswer) {
+      option.classList.add("correct");
+    }
+  });
+
+  if (isCorrect) {
+    document.getElementById("adverse-result").innerText = "Correcto.";
+  } else {
+    button.classList.add("incorrect");
+    document.getElementById("adverse-result").innerText =
+      `Incorrecto. La respuesta correcta es: ${currentAdverseQuestion.correctAnswer}`;
+
+    saveWrongAnswer({
+      activity: "efectos-adversos",
+      prompt: currentAdverseQuestion.question,
+      questionData: currentAdverseQuestion,
+      userAnswer: selectedAnswer,
+      correctAnswer: currentAdverseQuestion.correctAnswer
+    });
+  }
+
+  document.getElementById("adverse-next-button").classList.remove("hidden");
 }
