@@ -1,0 +1,12 @@
+{
+  "color": "#5a73b5",
+  "icon": "antiinfeccion",
+  "ordenActividades": [
+    "definiciones",
+    "verdadero-falso",
+    "test",
+    "ef-principio-activo",
+    "efectos-adversos",
+    "repaso-fallos"
+  ]
+}
