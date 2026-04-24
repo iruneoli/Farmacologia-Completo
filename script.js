@@ -131,10 +131,32 @@ function checkAnswers() {
   });
 
   document.getElementById("result").innerText =
-    `Has acertado ${correct} de ${total}.`;
-  document.getElementById("next-button").classList.remove("hidden");
+  `Has acertado ${correct} de ${total}.`;
+
+if (correct < total) {
+  saveWrongAnswer(currentQuestion, userMatches, correct, total);
 }
+
+document.getElementById("next-button").classList.remove("hidden");
 
 function nextDefinitionQuestion() {
   loadDefinitions();
+}
+
+function saveWrongAnswer(question, userMatches, score, total) {
+  const wrongAnswers = JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+
+  const wrongQuestion = {
+    activity: "definiciones",
+    date: new Date().toISOString(),
+    prompt: question.prompt,
+    questionData: question,
+    userMatches: userMatches,
+    score: score,
+    total: total
+  };
+
+  wrongAnswers.push(wrongQuestion);
+
+  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
 }
