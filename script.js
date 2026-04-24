@@ -20,25 +20,34 @@ let wrongQuestions = [];
 let currentWrongIndex = 0;
 let currentWrongQuestion = null;
 
+function getATCPath() {
+  return `data/atc-${currentATC}`;
+}
 
+function getWrongStorageKey() {
+  return `${currentATC}WrongAnswers`;
+}
+
+function hideATCScreens() {
+  document.getElementById("digestivo-screen")?.classList.add("hidden");
+  document.getElementById("antiinfeccion-screen")?.classList.add("hidden");
+}
 
 /* NAVEGACIÓN */
 
 function selectGroup(group) {
-  const homeScreen = document.getElementById("home-screen");
-  const digestivoScreen = document.getElementById("digestivo-screen");
-  const antiinfeccionScreen = document.getElementById("antiinfeccion-screen");
+  document.getElementById("home-screen").classList.add("hidden");
 
-  homeScreen.classList.add("hidden");
+  hideATCScreens();
 
   if (group === "digestivo") {
     currentATC = "digestivo";
-    digestivoScreen.classList.remove("hidden");
+    document.getElementById("digestivo-screen").classList.remove("hidden");
   } else if (group === "antiinfeccion") {
     currentATC = "antiinfeccion";
-    antiinfeccionScreen.classList.remove("hidden");
+    document.getElementById("antiinfeccion-screen").classList.remove("hidden");
   } else {
-    homeScreen.classList.remove("hidden");
+    document.getElementById("home-screen").classList.remove("hidden");
     alert("Este ATC todavía no está programado.");
   }
 }
@@ -94,7 +103,7 @@ function selectActivity(activity) {
 
 function saveWrongAnswer(entry) {
   const wrongAnswers =
-    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+    JSON.parse(localStorage.getItem(getWrongStorageKey())) || [];
 
   wrongAnswers.push({
     atc: "digestivo",
@@ -102,16 +111,16 @@ function saveWrongAnswer(entry) {
     ...entry
   });
 
-  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
+  localStorage.setItem(getWrongStorageKey(), JSON.stringify(wrongAnswers));
 }
 
 /* DEFINICIONES */
 
 async function loadDefinitions() {
-  document.getElementById("digestivo-screen").classList.add("hidden");
+  hideATCScreens();
   document.getElementById("definiciones-screen").classList.remove("hidden");
 
-  const response = await fetch("data/atc-digestivo/questions/definiciones.json");
+  const response = await fetch(`${getATCPath()}/questions/definiciones.json`);
   const data = await response.json();
 
   currentQuestion = data[Math.floor(Math.random() * data.length)];
@@ -225,10 +234,11 @@ function nextDefinitionQuestion() {
 /* EF ↔ PRINCIPIO ACTIVO */
 
 async function loadEFPrincipioActivo() {
+  hideATCScreens();
   document.getElementById("digestivo-screen").classList.add("hidden");
   document.getElementById("ef-screen").classList.remove("hidden");
 
-  const response = await fetch("data/atc-digestivo/content.json");
+  const response = await fetch(`${getATCPath()}/content.json`)
   const content = await response.json();
 
   const principios = extractPrincipiosActivos(content);
@@ -370,10 +380,11 @@ function checkEFAnswer(button, selectedAnswer) {
 }
 
 async function loadVFQuestions() {
+  hideATCScreens();
   document.getElementById("digestivo-screen").classList.add("hidden");
   document.getElementById("vf-screen").classList.remove("hidden");
 
-  const response = await fetch("data/atc-digestivo/questions/verdadero-falso.json");
+  const response = await fetch(`${getATCPath()}/questions/verdadero-falso.json`);
   vfQuestions = await response.json();
 
   nextVFQuestion();
@@ -443,10 +454,11 @@ function checkVFAnswer(userAnswer) {
   document.getElementById("vf-next-button").classList.remove("hidden");
 }
 async function loadTestQuestions() {
+  hideATCScreens();
   document.getElementById("digestivo-screen").classList.add("hidden");
   document.getElementById("test-screen").classList.remove("hidden");
 
-  const response = await fetch("data/atc-digestivo/questions/test.json");
+  const response = await fetch(`${getATCPath()}/questions/test.json`);
   testQuestions = await response.json();
 
   nextTestQuestion();
@@ -520,10 +532,11 @@ function checkTestAnswer(button, selectedAnswer) {
 }
 
 async function loadAdverseQuestions() {
+  hideATCScreens();
   document.getElementById("digestivo-screen").classList.add("hidden");
   document.getElementById("adverse-screen").classList.remove("hidden");
 
-  const response = await fetch("data/atc-digestivo/content.json");
+  const response = await fetch(`${getATCPath()}/content.json`);
   const content = await response.json();
 
   const medicines = extractMedicinesForAdverse(content);
@@ -547,10 +560,14 @@ function extractMedicinesForAdverse(content) {
 function collectMedicinesForAdverse(node, grupo, medicines) {
   if (node.principiosActivos) {
     node.principiosActivos.forEach(pa => {
+      const adverseList = pa.efectosAdversos || pa.reaccionesAdversas || [];
+
       const adverse =
-        pa.efectosAdversos && pa.efectosAdversos.length > 0
-          ? pa.efectosAdversos.join(" / ")
-          : "No consta efecto adverso en el temario";
+        adverseList.length > 0
+          ? adverseList.join(" / ")
+          : currentATC === "antiinfeccion"
+            ? "No consta reacción adversa en el temario"
+            : "No consta efecto adverso en el temario";
 
       medicines.push({
         name: pa.nombre,
