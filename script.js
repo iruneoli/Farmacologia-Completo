@@ -5,6 +5,8 @@ let userMatches = {};
 let efQuestions = [];
 let currentEFQuestion = null;
 
+/* NAVEGACIÓN */
+
 function selectGroup(group) {
   const homeScreen = document.getElementById("home-screen");
   const digestivoScreen = document.getElementById("digestivo-screen");
@@ -18,14 +20,11 @@ function selectGroup(group) {
 }
 
 function goHome() {
-  document.getElementById("digestivo-screen").classList.add("hidden");
   document.getElementById("home-screen").classList.remove("hidden");
+  document.getElementById("digestivo-screen").classList.add("hidden");
 
-  const definicionesScreen = document.getElementById("definiciones-screen");
-  const efScreen = document.getElementById("ef-screen");
-
-  if (definicionesScreen) definicionesScreen.classList.add("hidden");
-  if (efScreen) efScreen.classList.add("hidden");
+  document.getElementById("definiciones-screen")?.classList.add("hidden");
+  document.getElementById("ef-screen")?.classList.add("hidden");
 }
 
 function backToActivities() {
@@ -44,6 +43,21 @@ function selectActivity(activity) {
   } else {
     alert("Actividad aún no implementada: " + activity);
   }
+}
+
+/* GUARDADO GENERAL DE ERRORES */
+
+function saveWrongAnswer(entry) {
+  const wrongAnswers =
+    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+
+  wrongAnswers.push({
+    atc: "digestivo",
+    date: new Date().toISOString(),
+    ...entry
+  });
+
+  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
 }
 
 /* DEFINICIONES */
@@ -113,9 +127,7 @@ function renderMatch(question) {
 
       userMatches[selectedLeft] = item;
 
-      const leftItems = document.querySelectorAll("#left-column .match-item");
-
-      leftItems.forEach(leftItem => {
+      document.querySelectorAll("#left-column .match-item").forEach(leftItem => {
         if (leftItem.dataset.value === selectedLeft) {
           leftItem.classList.remove("selected");
           leftItem.classList.add("matched");
@@ -147,31 +159,22 @@ function checkAnswers() {
     `Has acertado ${correct} de ${total}.`;
 
   if (correct < total) {
-    saveWrongAnswer(currentQuestion, userMatches, correct, total);
+    saveWrongAnswer({
+      activity: "definiciones",
+      prompt: currentQuestion.prompt,
+      questionData: currentQuestion,
+      userAnswer: userMatches,
+      correctAnswer: currentQuestion.correctMatches,
+      score: correct,
+      total: total
+    });
   }
 
-  const nextButton = document.getElementById("next-button");
-  if (nextButton) nextButton.classList.remove("hidden");
+  document.getElementById("next-button")?.classList.remove("hidden");
 }
 
 function nextDefinitionQuestion() {
   loadDefinitions();
-}
-
-function saveWrongAnswer(question, userMatches, score, total) {
-  const wrongAnswers = JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
-
-  wrongAnswers.push({
-    activity: "definiciones",
-    date: new Date().toISOString(),
-    prompt: question.prompt,
-    questionData: question,
-    userMatches: userMatches,
-    score: score,
-    total: total
-  });
-
-  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
 }
 
 /* EF ↔ PRINCIPIO ACTIVO */
@@ -206,7 +209,10 @@ function collectPrincipios(node, grupo, principios) {
     node.principiosActivos.forEach(pa => {
       principios.push({
         principioActivo: pa.nombre,
-        ef: pa.ef && pa.ef.length > 0 ? pa.ef : ["No consta EF en el temario"],
+        ef:
+          pa.ef && pa.ef.length > 0
+            ? pa.ef
+            : ["No consta EF en el temario"],
         grupo: grupo.codigo,
         subgrupo: node.nombre
       });
@@ -230,7 +236,10 @@ function generateEFQuestions(principios) {
       type: "pa-to-ef",
       question: `¿Qué EF corresponde a "${item.principioActivo}"?`,
       correctAnswer: correctAnswer,
-      options: generateOptions(correctAnswer, principios.map(p => p.ef.join(" / ")))
+      options: generateOptions(
+        correctAnswer,
+        principios.map(p => p.ef.join(" / "))
+      )
     });
 
     item.ef.forEach(efName => {
@@ -239,7 +248,10 @@ function generateEFQuestions(principios) {
           type: "ef-to-pa",
           question: `¿Qué principio activo corresponde a "${efName}"?`,
           correctAnswer: item.principioActivo,
-          options: generateOptions(item.principioActivo, principios.map(p => p.principioActivo))
+          options: generateOptions(
+            item.principioActivo,
+            principios.map(p => p.principioActivo)
+          )
         });
       }
     });
@@ -264,9 +276,11 @@ function nextEFQuestion() {
   result.innerText = "";
   nextButton.classList.add("hidden");
 
-  currentEFQuestion = efQuestions[Math.floor(Math.random() * efQuestions.length)];
+  currentEFQuestion =
+    efQuestions[Math.floor(Math.random() * efQuestions.length)];
 
-  document.getElementById("ef-question").innerText = currentEFQuestion.question;
+  document.getElementById("ef-question").innerText =
+    currentEFQuestion.question;
 
   const optionsContainer = document.getElementById("ef-options");
   optionsContainer.innerHTML = "";
@@ -283,9 +297,7 @@ function nextEFQuestion() {
 }
 
 function checkEFAnswer(button, selectedAnswer) {
-  const options = document.querySelectorAll(".quiz-option");
-
-  options.forEach(option => {
+  document.querySelectorAll(".quiz-option").forEach(option => {
     option.disabled = true;
 
     if (option.innerText === currentEFQuestion.correctAnswer) {
@@ -300,23 +312,14 @@ function checkEFAnswer(button, selectedAnswer) {
     document.getElementById("ef-result").innerText =
       `Incorrecto. La respuesta correcta es: ${currentEFQuestion.correctAnswer}`;
 
-    saveWrongEFAnswer(currentEFQuestion, selectedAnswer);
+    saveWrongAnswer({
+      activity: "ef-principio-activo",
+      prompt: currentEFQuestion.question,
+      questionData: currentEFQuestion,
+      userAnswer: selectedAnswer,
+      correctAnswer: currentEFQuestion.correctAnswer
+    });
   }
 
   document.getElementById("ef-next-button").classList.remove("hidden");
-}
-
-function saveWrongEFAnswer(question, selectedAnswer) {
-  const wrongAnswers = JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
-
-  wrongAnswers.push({
-    activity: "ef-principio-activo",
-    date: new Date().toISOString(),
-    prompt: question.question,
-    questionData: question,
-    userAnswer: selectedAnswer,
-    correctAnswer: question.correctAnswer
-  });
-
-  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
 }
