@@ -186,3 +186,28 @@
     </button>
   </div>
 </section>
+
+<!-- PANTALLA VERDADERO / FALSO -->
+<section id="vf-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="backToActivities()">← Volver</button>
+    <div class="hero-badge">VERDADERO / FALSO</div>
+    <h1 class="subpage-title">Responde y revisa la justificación</h1>
+  </div>
+
+  <div class="quiz-card">
+    <p id="vf-question" class="quiz-question"></p>
+
+    <div class="vf-buttons">
+      <button class="vf-button true-button" onclick="checkVFAnswer(true)">Verdadero</button>
+      <button class="vf-button false-button" onclick="checkVFAnswer(false)">Falso</button>
+    </div>
+
+    <div id="vf-result" class="quiz-result"></div>
+    <div id="vf-justification" class="quiz-justification"></div>
+
+    <button id="vf-next-button" class="next-button hidden" onclick="nextVFQuestion()">
+      Siguiente
+    </button>
+  </div>
+</section>
