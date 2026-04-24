@@ -61,7 +61,7 @@ function renderMatch(question) {
   leftCol.innerHTML = "";
   rightCol.innerHTML = "";
   result.innerHTML = "";
-
+document.getElementById("next-button").classList.add("hidden");
   selectedLeft = null;
   userMatches = {};
 
@@ -132,4 +132,9 @@ function checkAnswers() {
 
   document.getElementById("result").innerText =
     `Has acertado ${correct} de ${total}.`;
+  document.getElementById("next-button").classList.remove("hidden");
+}
+
+function nextDefinitionQuestion() {
+  loadDefinitions();
 }
