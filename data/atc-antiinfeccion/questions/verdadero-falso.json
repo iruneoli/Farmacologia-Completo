@@ -1,1 +1,287 @@
-[]
+[
+  {
+    "statement": "Un antibiótico puede matar o impedir el crecimiento de microorganismos.",
+    "answer": true,
+    "justification": "El temario define los antibióticos como sustancias capaces de matar o impedir el crecimiento de microorganismos."
+  },
+  {
+    "statement": "Los antibióticos son eficaces frente a enfermedades virales.",
+    "answer": false,
+    "justification": "El temario indica que los antibióticos y antimicrobianos son inefectivos frente a enfermedades virales."
+  },
+  {
+    "statement": "Un antibiótico bacteriostático destruye directamente las bacterias.",
+    "answer": false,
+    "justification": "Bacteriostático significa que impide el crecimiento de los gérmenes; bactericida es el que los destruye."
+  },
+  {
+    "statement": "Un antibiótico bactericida mata bacterias.",
+    "answer": true,
+    "justification": "Los bactericidas destruyen bacterias."
+  },
+  {
+    "statement": "La automedicación con antibióticos puede favorecer resistencias bacterianas.",
+    "answer": true,
+    "justification": "El uso inadecuado o una posología incorrecta puede generar bacterias resistentes."
+  },
+  {
+    "statement": "Los inhibidores de la síntesis de la pared bacteriana actúan sobre los ribosomas.",
+    "answer": false,
+    "justification": "Los que actúan sobre ribosomas son los inhibidores de la síntesis proteica."
+  },
+  {
+    "statement": "Los inhibidores de la síntesis proteica actúan sobre los ribosomas bacterianos.",
+    "answer": true,
+    "justification": "Este mecanismo bloquea la síntesis de proteínas bacterianas."
+  },
+  {
+    "statement": "Los antibióticos de amplio espectro actúan sobre la mayoría de microorganismos.",
+    "answer": true,
+    "justification": "El temario define amplio espectro como activo frente a la mayoría de microorganismos."
+  },
+  {
+    "statement": "Los antibióticos selectivos actúan frente a cualquier bacteria.",
+    "answer": false,
+    "justification": "Los selectivos solo son activos frente a bacterias determinadas."
+  },
+  {
+    "statement": "La resistencia adquirida puede aparecer por adaptación al ambiente o por mutantes resistentes.",
+    "answer": true,
+    "justification": "Así aparece recogido en los mecanismos de resistencia."
+  },
+  {
+    "statement": "La pérdida de permeabilidad puede ser un mecanismo de resistencia bacteriana.",
+    "answer": true,
+    "justification": "El temario incluye la pérdida de permeabilidad para el antibiótico como mecanismo de resistencia."
+  },
+  {
+    "statement": "La síntesis de enzimas que inactivan el antibiótico es un mecanismo de resistencia.",
+    "answer": true,
+    "justification": "Las bacterias pueden producir enzimas que inactivan el antibiótico."
+  },
+  {
+    "statement": "Las penicilinas orales de amplio espectro se usan en infecciones respiratorias y de todo tipo.",
+    "answer": true,
+    "justification": "El temario asocia las penicilinas orales de amplio espectro a infecciones respiratorias y de todo tipo."
+  },
+  {
+    "statement": "La amoxicilina pertenece a las penicilinas orales de amplio espectro.",
+    "answer": true,
+    "justification": "Amoxicilina aparece dentro de las penicilinas orales de amplio espectro."
+  },
+  {
+    "statement": "La cloxacilina es una penicilina penicilinasa-resistente.",
+    "answer": true,
+    "justification": "Cloxacilina aparece dentro de las penicilinas resistentes a penicilinasa."
+  },
+  {
+    "statement": "ORBENIN es EF de amoxicilina.",
+    "answer": false,
+    "justification": "ORBENIN corresponde a cloxacilina."
+  },
+  {
+    "statement": "CLAMOXIL es EF de amoxicilina.",
+    "answer": true,
+    "justification": "El temario asocia CLAMOXIL con amoxicilina."
+  },
+  {
+    "statement": "AUGMENTINE corresponde a amoxicilina + ácido clavulánico.",
+    "answer": true,
+    "justification": "AUGMENTINE aparece asociado a amoxicilina + ácido clavulánico."
+  },
+  {
+    "statement": "Los inhibidores de beta-lactamasas se asocian con otra penicilina para evitar resistencias.",
+    "answer": true,
+    "justification": "El temario indica que estas asociaciones evitan resistencias."
+  },
+  {
+    "statement": "Las cefalosporinas de primera generación se usan frente a bacterias resistentes tipo pseudomonas.",
+    "answer": false,
+    "justification": "Esa indicación corresponde a cefalosporinas de tercera generación."
+  },
+  {
+    "statement": "Las cefalosporinas de segunda generación se usan en infecciones respiratorias y óticas por gram + y -.",
+    "answer": true,
+    "justification": "El temario asigna esta indicación a la segunda generación."
+  },
+  {
+    "statement": "Cefuroxima pertenece a cefalosporinas de segunda generación.",
+    "answer": true,
+    "justification": "Cefuroxima aparece dentro de la segunda generación."
+  },
+  {
+    "statement": "Ceftazidima, ceftriaxona y cefotaxima pertenecen a cefalosporinas de tercera generación.",
+    "answer": true,
+    "justification": "Las tres aparecen en la tercera generación."
+  },
+  {
+    "statement": "Las cefalosporinas pueden producir malestar estomacal, diarrea, náuseas con alcohol y reacciones alérgicas.",
+    "answer": true,
+    "justification": "Estas reacciones adversas aparecen asociadas a cefalosporinas."
+  },
+  {
+    "statement": "Los aminoglucósidos pueden ser ototóxicos y nefrotóxicos por acumulación.",
+    "answer": true,
+    "justification": "El temario indica toxicidad auditiva y renal por acumulación."
+  },
+  {
+    "statement": "Gentamicina y tobramicina son aminoglucósidos.",
+    "answer": true,
+    "justification": "Ambos principios activos aparecen dentro de aminoglucósidos."
+  },
+  {
+    "statement": "Los aminoglucósidos se usan exclusivamente por vía oral.",
+    "answer": false,
+    "justification": "El temario menciona colirios, pomadas oftálmicas y vía parenteral hospitalaria."
+  },
+  {
+    "statement": "Las tetraciclinas son bacteriostáticas de amplio espectro.",
+    "answer": true,
+    "justification": "El temario describe las tetraciclinas como bacteriostáticos de amplio espectro."
+  },
+  {
+    "statement": "La doxiciclina aparece relacionada con tratamiento de acné y uretritis.",
+    "answer": true,
+    "justification": "El temario menciona doxiciclina para acné y uretritis."
+  },
+  {
+    "statement": "Las tetraciclinas pueden producir sensibilidad a la luz solar y manchas en los dientes.",
+    "answer": true,
+    "justification": "Estas reacciones adversas aparecen asociadas a tetraciclinas."
+  },
+  {
+    "statement": "Las tetraciclinas son especialmente seguras durante el embarazo.",
+    "answer": false,
+    "justification": "El temario indica que pueden ser tóxicas para la madre y el feto durante el embarazo."
+  },
+  {
+    "statement": "Los macrólidos pueden sustituir a las penicilinas en pacientes alérgicos.",
+    "answer": true,
+    "justification": "El temario dice que sustituyen a las penicilinas por tener actividad similar en alérgicos."
+  },
+  {
+    "statement": "Eritromicina, claritromicina y azitromicina son macrólidos.",
+    "answer": true,
+    "justification": "Los tres aparecen dentro del grupo de macrólidos."
+  },
+  {
+    "statement": "PANTOMICINA corresponde a eritromicina.",
+    "answer": true,
+    "justification": "El temario asocia PANTOMICINA con eritromicina."
+  },
+  {
+    "statement": "KLACID corresponde a azitromicina.",
+    "answer": false,
+    "justification": "KLACID corresponde a claritromicina. Azitromicina corresponde a ZITROMAX."
+  },
+  {
+    "statement": "Los macrólidos pueden producir náuseas, vómitos, diarrea e ictericia.",
+    "answer": true,
+    "justification": "Estas reacciones adversas aparecen asociadas a macrólidos."
+  },
+  {
+    "statement": "Las quinolonas se usan principalmente en infecciones urinarias, también respiratorias y heridas.",
+    "answer": true,
+    "justification": "Así aparece descrita su indicación principal."
+  },
+  {
+    "statement": "Ciprofloxacino es una quinolona.",
+    "answer": true,
+    "justification": "Ciprofloxacino aparece dentro de quinolonas."
+  },
+  {
+    "statement": "BAYCIP corresponde a norfloxacino.",
+    "answer": false,
+    "justification": "BAYCIP corresponde a ciprofloxacino."
+  },
+  {
+    "statement": "Las quinolonas tienen como reacción adversa náuseas.",
+    "answer": true,
+    "justification": "El temario indica náuseas como reacción adversa."
+  },
+  {
+    "statement": "La tuberculosis se trata con varios antibióticos en ciclos alternativos por resistencias rápidas.",
+    "answer": true,
+    "justification": "El temario explica que se usan varios antibióticos en ciclos alternativos."
+  },
+  {
+    "statement": "Rifampicina aparece dentro de la terapia antituberculosa.",
+    "answer": true,
+    "justification": "Rifampicina aparece como antibiótico antituberculoso."
+  },
+  {
+    "statement": "Isoniazida y etambutol aparecen como quimioterápicos antituberculosos.",
+    "answer": true,
+    "justification": "Ambos aparecen dentro de quimioterápicos de terapia antituberculosa."
+  },
+  {
+    "statement": "Los antifúngicos se utilizan en infecciones por hongos.",
+    "answer": true,
+    "justification": "El temario define antifúngicos como fármacos para infecciones por hongos."
+  },
+  {
+    "statement": "Nistatina y anfotericina B son poliénicos.",
+    "answer": true,
+    "justification": "Ambos principios activos aparecen dentro de poliénicos."
+  },
+  {
+    "statement": "Miconazol, ketoconazol y fluconazol son quimioterápicos azólicos.",
+    "answer": true,
+    "justification": "El temario los sitúa dentro de los azólicos."
+  },
+  {
+    "statement": "Los azólicos pueden ser hepatotóxicos.",
+    "answer": true,
+    "justification": "La hepatotoxicidad aparece como reacción adversa de los azólicos."
+  },
+  {
+    "statement": "Vancomicina es un glucopéptido.",
+    "answer": true,
+    "justification": "Vancomicina aparece dentro de glucopéptidos."
+  },
+  {
+    "statement": "Los glucopéptidos se usan frente a enterococos y estafilococos resistentes.",
+    "answer": true,
+    "justification": "Esa es la indicación que aparece en el temario."
+  },
+  {
+    "statement": "Metronidazol pertenece a imidazoles.",
+    "answer": true,
+    "justification": "Metronidazol aparece dentro de imidazoles."
+  },
+  {
+    "statement": "FLAGYL corresponde a metronidazol.",
+    "answer": true,
+    "justification": "El temario asocia FLAGYL con metronidazol."
+  },
+  {
+    "statement": "Nitrofurantoína pertenece a nitrofuranos.",
+    "answer": true,
+    "justification": "Nitrofurantoína aparece dentro de nitrofuranos."
+  },
+  {
+    "statement": "FURACIN corresponde a nitrofurantoína.",
+    "answer": true,
+    "justification": "El temario asocia FURACIN con nitrofurantoína."
+  },
+  {
+    "statement": "Clindamicina pertenece a lincosaminas.",
+    "answer": true,
+    "justification": "Clindamicina aparece dentro de lincosaminas."
+  },
+  {
+    "statement": "DALACIN corresponde a clindamicina.",
+    "answer": true,
+    "justification": "El temario asocia DALACIN con clindamicina."
+  },
+  {
+    "statement": "Fosfomicina se usa para infecciones urinarias, de piel y tejidos blandos.",
+    "answer": true,
+    "justification": "El temario indica que es de amplio espectro para esas infecciones."
+  },
+  {
+    "statement": "MONUROL corresponde a fosfomicina.",
+    "answer": true,
+    "justification": "El temario asocia MONUROL con fosfomicina."
+  }
+]
