@@ -1,1 +1,390 @@
-[]
+[
+  {
+    "question": "¿Qué es un antibiótico?",
+    "options": [
+      "Una sustancia que solo mata virus",
+      "Una sustancia que puede matar o impedir el crecimiento de microorganismos",
+      "Un fármaco exclusivo para hongos",
+      "Una hormona reguladora"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los antibióticos pueden matar o impedir el crecimiento de microorganismos."
+  },
+  {
+    "question": "¿Qué significa toxicidad selectiva?",
+    "options": [
+      "Afecta por igual a huésped y bacteria",
+      "Es más tóxico para el huésped",
+      "Es más tóxico para el microorganismo que para el huésped",
+      "No tiene toxicidad"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La toxicidad selectiva es mayor para el microorganismo que para el huésped."
+  },
+  {
+    "question": "Un antibiótico bactericida:",
+    "options": [
+      "Impide el crecimiento",
+      "Destruye bacterias",
+      "Solo actúa en virus",
+      "No tiene efecto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Bactericida significa que mata bacterias."
+  },
+  {
+    "question": "Un antibiótico bacteriostático:",
+    "options": [
+      "Mata bacterias",
+      "Destruye virus",
+      "Impide el crecimiento bacteriano",
+      "Activa el sistema inmune"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Bacteriostático detiene el crecimiento bacteriano."
+  },
+  {
+    "question": "¿Qué ocurre con los antibióticos en infecciones virales?",
+    "options": [
+      "Son muy eficaces",
+      "Solo en casos graves",
+      "Son ineficaces",
+      "Depende del virus"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los antibióticos no actúan frente a virus."
+  },
+  {
+    "question": "¿Qué favorece la automedicación con antibióticos?",
+    "options": [
+      "Curación rápida",
+      "Resistencias bacterianas",
+      "Menor toxicidad",
+      "Mayor eficacia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El uso incorrecto favorece resistencias."
+  },
+  {
+    "question": "Los inhibidores de la pared bacteriana:",
+    "options": [
+      "Actúan sobre ADN",
+      "Destruyen o impiden la pared bacteriana",
+      "Actúan sobre ribosomas",
+      "Disuelven membrana"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Impiden la formación de la pared bacteriana."
+  },
+  {
+    "question": "Los inhibidores de la síntesis proteica actúan sobre:",
+    "options": [
+      "Membrana",
+      "ADN",
+      "Ribosomas",
+      "Enzimas digestivas"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Actúan sobre los ribosomas bacterianos."
+  },
+  {
+    "question": "Un antibiótico de amplio espectro:",
+    "options": [
+      "Actúa sobre pocas bacterias",
+      "Actúa sobre la mayoría de microorganismos",
+      "Solo actúa en virus",
+      "Solo en hongos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Amplio espectro = muchas bacterias."
+  },
+  {
+    "question": "Las penicilinas pertenecen a:",
+    "options": [
+      "Macrólidos",
+      "Beta-lactámicos",
+      "Quinolonas",
+      "Tetraciclinas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Son antibióticos beta-lactámicos."
+  },
+
+  {
+    "question": "¿Cuál es una penicilina de amplio espectro?",
+    "options": ["Cloxacilina", "Amoxicilina", "Vancomicina", "Gentamicina"],
+    "correctAnswer": 1,
+    "explanation": "Amoxicilina es de amplio espectro."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a CLAMOXIL?",
+    "options": ["Ampicilina", "Amoxicilina", "Cloxacilina", "Cefuroxima"],
+    "correctAnswer": 1,
+    "explanation": "CLAMOXIL es amoxicilina."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ORBENIN?",
+    "options": ["Amoxicilina", "Cloxacilina", "Ceftriaxona", "Doxiciclina"],
+    "correctAnswer": 1,
+    "explanation": "ORBENIN corresponde a cloxacilina."
+  },
+  {
+    "question": "¿Para qué sirven las penicilinas resistentes a penicilinasa?",
+    "options": [
+      "Virus",
+      "Estafilococos resistentes",
+      "Hongos",
+      "Parásitos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usan frente a estafilococos resistentes."
+  },
+  {
+    "question": "¿Qué es AUGMENTINE?",
+    "options": [
+      "Cefalosporina",
+      "Macrólido",
+      "Amoxicilina + ácido clavulánico",
+      "Quinolona"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Es una asociación con inhibidor de beta-lactamasas."
+  },
+
+  {
+    "question": "Las cefalosporinas de 1ª generación actúan sobre:",
+    "options": ["Gram +", "Virus", "Hongos", "Parásitos"],
+    "correctAnswer": 0,
+    "explanation": "Principalmente gram positivos."
+  },
+  {
+    "question": "Cefuroxima es:",
+    "options": [
+      "1ª generación",
+      "2ª generación",
+      "3ª generación",
+      "Macrólido"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pertenece a la segunda generación."
+  },
+  {
+    "question": "Ceftriaxona pertenece a:",
+    "options": [
+      "1ª generación",
+      "2ª generación",
+      "3ª generación",
+      "Penicilina"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Es cefalosporina de 3ª generación."
+  },
+  {
+    "question": "Efecto adverso típico de cefalosporinas:",
+    "options": [
+      "Ceguera",
+      "Diarrea",
+      "Parálisis",
+      "Hipoglucemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Frecuente malestar gastrointestinal."
+  },
+
+  {
+    "question": "Gentamicina pertenece a:",
+    "options": [
+      "Macrólidos",
+      "Aminoglucósidos",
+      "Quinolonas",
+      "Azoles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Es un aminoglucósido."
+  },
+  {
+    "question": "Efecto adverso típico de aminoglucósidos:",
+    "options": [
+      "Cefalea",
+      "Ototoxicidad",
+      "Aumento apetito",
+      "Hipotensión"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pueden causar sordera."
+  },
+  {
+    "question": "Las tetraciclinas son:",
+    "options": [
+      "Bactericidas",
+      "Bacteriostáticos",
+      "Antivirales",
+      "Antifúngicos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Son bacteriostáticos."
+  },
+  {
+    "question": "Efecto adverso de tetraciclinas:",
+    "options": [
+      "Fotosensibilidad",
+      "Hipertensión",
+      "Arritmias",
+      "Somnolencia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Provocan sensibilidad al sol."
+  },
+
+  {
+    "question": "Los macrólidos se usan en alérgicos a:",
+    "options": ["Insulina", "Penicilina", "Corticoides", "AINE"],
+    "correctAnswer": 1,
+    "explanation": "Sustituyen a penicilinas."
+  },
+  {
+    "question": "Eritromicina corresponde a:",
+    "options": ["KLACID", "ZITROMAX", "PANTOMICINA", "BAYCIP"],
+    "correctAnswer": 2,
+    "explanation": "PANTOMICINA es eritromicina."
+  },
+  {
+    "question": "Azitromicina corresponde a:",
+    "options": ["KLACID", "ZITROMAX", "DALACIN", "FLAGYL"],
+    "correctAnswer": 1,
+    "explanation": "ZITROMAX es azitromicina."
+  },
+
+  {
+    "question": "Las quinolonas se usan principalmente en:",
+    "options": [
+      "Infecciones urinarias",
+      "Virus",
+      "Hongos",
+      "Cáncer"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Principal uso: infecciones urinarias."
+  },
+  {
+    "question": "Ciprofloxacino pertenece a:",
+    "options": [
+      "Macrólidos",
+      "Quinolonas",
+      "Beta-lactámicos",
+      "Azoles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Es una quinolona."
+  },
+  {
+    "question": "BAYCIP corresponde a:",
+    "options": [
+      "Norfloxacino",
+      "Ciprofloxacino",
+      "Amoxicilina",
+      "Metronidazol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BAYCIP es ciprofloxacino."
+  },
+
+  {
+    "question": "Rifampicina se usa en:",
+    "options": [
+      "Gripe",
+      "Tuberculosis",
+      "Diabetes",
+      "Dolor"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Es antituberculoso."
+  },
+  {
+    "question": "Isoniazida es:",
+    "options": [
+      "Antibiótico digestivo",
+      "Antituberculoso",
+      "Antifúngico",
+      "Antiviral"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usa en tuberculosis."
+  },
+
+  {
+    "question": "Los antifúngicos tratan:",
+    "options": ["Virus", "Bacterias", "Hongos", "Parásitos"],
+    "correctAnswer": 2,
+    "explanation": "Actúan contra hongos."
+  },
+  {
+    "question": "Nistatina pertenece a:",
+    "options": [
+      "Poliénicos",
+      "Macrólidos",
+      "Quinolonas",
+      "Beta-lactámicos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Es un poliénico."
+  },
+  {
+    "question": "Miconazol es:",
+    "options": [
+      "Poliénico",
+      "Azólico",
+      "Macrólido",
+      "Quinolona"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Pertenece a azólicos."
+  },
+  {
+    "question": "Efecto adverso de azoles:",
+    "options": [
+      "Hepatotoxicidad",
+      "Hipotensión",
+      "Ceguera",
+      "Hipoglucemia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pueden afectar al hígado."
+  },
+
+  {
+    "question": "Vancomicina es:",
+    "options": [
+      "Glucopéptido",
+      "Macrólido",
+      "Quinolona",
+      "Azol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pertenece a glucopéptidos."
+  },
+  {
+    "question": "Metronidazol corresponde a:",
+    "options": ["DALACIN", "FLAGYL", "MONUROL", "KLACID"],
+    "correctAnswer": 1,
+    "explanation": "FLAGYL es metronidazol."
+  },
+  {
+    "question": "Clindamicina corresponde a:",
+    "options": ["DALACIN", "FLAGYL", "MONUROL", "BAYCIP"],
+    "correctAnswer": 0,
+    "explanation": "DALACIN es clindamicina."
+  },
+  {
+    "question": "Fosfomicina corresponde a:",
+    "options": ["MONUROL", "FURACIN", "FLAGYL", "KLACID"],
+    "correctAnswer": 0,
+    "explanation": "MONUROL es fosfomicina."
+  },
+  {
+    "question": "Nitrofurantoína corresponde a:",
+    "options": ["FURACIN", "DALACIN", "FLAGYL", "BAYCIP"],
+    "correctAnswer": 0,
+    "explanation": "FURACIN es nitrofurantoína."
+  }
+]
