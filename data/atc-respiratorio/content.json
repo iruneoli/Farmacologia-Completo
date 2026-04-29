@@ -1,1 +1,184 @@
-
+{
+  "atc": "respiratorio",
+  "nombre": "ATC Respiratorio",
+  "descripcion": "Aparato respiratorio",
+  "codigos": [
+    {
+      "codigo": "R01",
+      "nombre": "Preparados de uso nasal, descongestivos y otros preparados para uso tópico",
+      "descripcion": "Simpaticomiméticos, antialérgicos y corticoides"
+    },
+    {
+      "codigo": "R02",
+      "nombre": "Preparados para la garganta",
+      "descripcion": "Antisépticos, antibióticos y anestésicos"
+    },
+    {
+      "codigo": "R03",
+      "nombre": "Agentes contra padecimientos obstructivos de las vías respiratorias"
+    },
+    {
+      "codigo": "R05",
+      "nombre": "Preparados para la tos y el resfriado"
+    },
+    {
+      "codigo": "R06",
+      "nombre": "Antihistamínicos para uso sistémico"
+    },
+    {
+      "codigo": "R07",
+      "nombre": "Otros productos para el sistema respiratorio"
+    }
+  ],
+  "grupos": [
+    {
+      "codigo": "R03",
+      "nombre": "Broncodilatadores",
+      "actividadGrupo": "Dilatan los bronquios y facilitan la respiración. Se usan en asma y EPOC.",
+      "subgrupos": [
+        {
+          "nombre": "Adrenalina y análogos",
+          "actividadSubgrupo": "Hormona neurotransmisora del sistema nervioso simpático. También se relaciona con el choque anafiláctico.",
+          "principiosActivos": [
+            {
+              "nombre": "Salbutamol",
+              "forma": "Inhalador",
+              "ef": ["VENTOLIN"],
+              "efectosAdversos": ["Taquicardia", "Temblor"]
+            },
+            {
+              "nombre": "Terbutalina",
+              "forma": "Inhalador",
+              "ef": ["TERBASMIN"],
+              "efectosAdversos": ["Taquicardia", "Temblor"]
+            },
+            {
+              "nombre": "Adrenalina",
+              "ef": [],
+              "efectosAdversos": ["Taquicardia", "Temblor"]
+            }
+          ]
+        },
+        {
+          "nombre": "Xantinas",
+          "actividadSubgrupo": "Se usan en caso de urgencia.",
+          "principiosActivos": [
+            {
+              "nombre": "Teofilina",
+              "ef": [],
+              "efectosAdversos": ["Taquicardia", "Temblor"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "R05",
+      "nombre": "Antitusígenos o antitusivos",
+      "actividadGrupo": "Inhiben el reflejo por el que se expulsa de forma violenta el contenido de los pulmones.",
+      "subgrupos": [
+        {
+          "nombre": "Opiáceos",
+          "actividadSubgrupo": "Derivados de la adormidera.",
+          "principiosActivos": [
+            {
+              "nombre": "Codeína",
+              "ef": ["CODEISAN"],
+              "efectosAdversos": [
+                "Depresión respiratoria",
+                "Somnolencia",
+                "Estreñimiento",
+                "Dependencia"
+              ]
+            },
+            {
+              "nombre": "Dextrometorfano",
+              "ef": ["CINFATOS", "ROMIÑAR", "INISTON"],
+              "efectosAdversos": [
+                "Depresión respiratoria",
+                "Somnolencia",
+                "Estreñimiento",
+                "Dependencia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Antihistamínicos antitusivos",
+          "actividadSubgrupo": "Inhiben una sustancia que se produce en caso de alergia y que, entre otras cosas, produce estornudos.",
+          "principiosActivos": [
+            {
+              "nombre": null,
+              "ef": ["FLUTOX", "SEKISAN"],
+              "efectosAdversos": ["Somnolencia"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "R05",
+      "nombre": "Modificadores de la secreción bronquial",
+      "actividadGrupo": null,
+      "subgrupos": [
+        {
+          "nombre": "Mucolíticos",
+          "actividadSubgrupo": "Destruyen el moco.",
+          "principiosActivos": [
+            {
+              "nombre": "Ambroxol",
+              "ef": ["MUCOSAN"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Acetilcisteína",
+              "ef": ["FLUMIL", "FLUIMUCIL"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Expectorantes",
+          "actividadSubgrupo": "Hacen el moco más fluido para que salga mejor.",
+          "principiosActivos": [
+            {
+              "nombre": null,
+              "ef": ["BISOLVON"],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "R06",
+      "nombre": "Antihistamínicos",
+      "actividadGrupo": "Combaten los efectos de la histamina, sustancia que se libera en los procesos alérgicos. Sirven para la urticaria, la rinitis, la dermatitis y las picaduras.",
+      "subgrupos": [
+        {
+          "nombre": "Antihistamínicos para uso sistémico",
+          "actividadSubgrupo": "Combaten los efectos de la histamina en procesos alérgicos.",
+          "principiosActivos": [
+            {
+              "nombre": "Cetirizina",
+              "ef": ["ZYRTEC"],
+              "efectosAdversos": ["Somnolencia"]
+            },
+            {
+              "nombre": "Loratadina",
+              "ef": ["CLARITYNE"],
+              "observaciones": "Sin somnolencia",
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Dimenhidrinato",
+              "ef": ["BIODRAMINA"],
+              "observaciones": "Cinetosis",
+              "efectosAdversos": ["Somnolencia"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
