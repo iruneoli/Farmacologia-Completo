@@ -1,1 +1,349 @@
-[]
+[
+  {
+    "question": "¿A qué corresponde el código ATC R?",
+    "options": [
+      "Sistema cardiovascular",
+      "Sistema nervioso",
+      "Aparato respiratorio",
+      "Aparato digestivo"
+    ],
+    "correctAnswer": 2,
+    "explanation": "El código R corresponde al aparato respiratorio."
+  },
+  {
+    "question": "¿Qué incluye el grupo R01?",
+    "options": [
+      "Preparados para la tos",
+      "Preparados nasales y descongestivos",
+      "Antihistamínicos sistémicos",
+      "Broncodilatadores"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R01 incluye preparados nasales y descongestivos."
+  },
+  {
+    "question": "¿Qué código corresponde a preparados para la garganta?",
+    "options": ["R01", "R02", "R03", "R05"],
+    "correctAnswer": 1,
+    "explanation": "R02 corresponde a preparados para la garganta."
+  },
+  {
+    "question": "¿Qué grupo incluye broncodilatadores?",
+    "options": ["R02", "R03", "R05", "R06"],
+    "correctAnswer": 1,
+    "explanation": "R03 incluye broncodilatadores."
+  },
+  {
+    "question": "¿Qué hacen los broncodilatadores?",
+    "options": [
+      "Aumentan la mucosidad",
+      "Dilatan los bronquios",
+      "Inhiben la tos",
+      "Destruyen bacterias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Facilitan la respiración dilatando los bronquios."
+  },
+  {
+    "question": "¿En qué patologías se usan los broncodilatadores?",
+    "options": [
+      "Gastritis",
+      "Asma y EPOC",
+      "Diabetes",
+      "Hipertensión"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usan en asma y EPOC."
+  },
+  {
+    "question": "¿Cuál pertenece a adrenalina y análogos?",
+    "options": [
+      "Teofilina",
+      "Salbutamol",
+      "Codeína",
+      "Cetirizina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Salbutamol pertenece a ese subgrupo."
+  },
+  {
+    "question": "¿Qué EF corresponde a salbutamol?",
+    "options": [
+      "VENTOLIN",
+      "TERBASMIN",
+      "CODEISAN",
+      "MUCOSAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VENTOLIN es salbutamol."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a TERBASMIN?",
+    "options": [
+      "Salbutamol",
+      "Terbutalina",
+      "Teofilina",
+      "Ambroxol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "TERBASMIN corresponde a terbutalina."
+  },
+  {
+    "question": "¿Cuál es un efecto adverso típico de broncodilatadores?",
+    "options": [
+      "Somnolencia",
+      "Taquicardia y temblor",
+      "Estreñimiento",
+      "Hipoglucemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se asocian con taquicardia y temblor."
+  },
+
+  {
+    "question": "¿Qué subgrupo incluye la teofilina?",
+    "options": [
+      "Opiáceos",
+      "Xantinas",
+      "Antihistamínicos",
+      "Mucolíticos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Teofilina pertenece a xantinas."
+  },
+  {
+    "question": "¿Para qué se usan las xantinas?",
+    "options": [
+      "Tratamiento crónico",
+      "Uso en urgencias",
+      "Alergias",
+      "Resfriado"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usan en situaciones de urgencia."
+  },
+  {
+    "question": "¿Qué hacen los antitusivos?",
+    "options": [
+      "Aumentan el moco",
+      "Inhiben la tos",
+      "Dilatan bronquios",
+      "Destruyen bacterias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Inhiben el reflejo de la tos."
+  },
+  {
+    "question": "¿Qué principio activo es un opiáceo antitusivo?",
+    "options": [
+      "Ambroxol",
+      "Codeína",
+      "Cetirizina",
+      "Salbutamol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Codeína es opiáceo."
+  },
+  {
+    "question": "¿Qué EF corresponde a codeína?",
+    "options": [
+      "CODEISAN",
+      "MUCOSAN",
+      "VENTOLIN",
+      "ZYRTEC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CODEISAN es codeína."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a CINFATOS?",
+    "options": [
+      "Codeína",
+      "Dextrometorfano",
+      "Ambroxol",
+      "Teofilina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CINFATOS es dextrometorfano."
+  },
+  {
+    "question": "¿Qué efecto adverso tienen los opiáceos antitusivos?",
+    "options": [
+      "Taquicardia",
+      "Depresión respiratoria",
+      "Hipertensión",
+      "Diarrea"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Provocan depresión respiratoria, somnolencia, etc."
+  },
+
+  {
+    "question": "¿Qué hacen los mucolíticos?",
+    "options": [
+      "Inhiben tos",
+      "Destruyen moco",
+      "Aumentan moco",
+      "Dilatan bronquios"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Destruyen el moco."
+  },
+  {
+    "question": "¿Qué hacen los expectorantes?",
+    "options": [
+      "Bloquean tos",
+      "Fluidifican el moco",
+      "Destruyen bacterias",
+      "Relajan músculos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Hacen el moco más fluido."
+  },
+  {
+    "question": "¿Qué principio activo es mucolítico?",
+    "options": [
+      "Ambroxol",
+      "Codeína",
+      "Cetirizina",
+      "Teofilina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ambroxol es mucolítico."
+  },
+  {
+    "question": "¿Qué EF corresponde a acetilcisteína?",
+    "options": [
+      "FLUMIL / FLUIMUCIL",
+      "VENTOLIN",
+      "CODEISAN",
+      "ZYRTEC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ambos corresponden a acetilcisteína."
+  },
+
+  {
+    "question": "¿Qué hacen los antihistamínicos?",
+    "options": [
+      "Dilatan bronquios",
+      "Combaten histamina",
+      "Destruyen moco",
+      "Inhiben bacterias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Combaten la histamina en alergias."
+  },
+  {
+    "question": "¿Para qué se usan antihistamínicos?",
+    "options": [
+      "Dolor",
+      "Alergias",
+      "Infecciones",
+      "Diabetes"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usan en procesos alérgicos."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ZYRTEC?",
+    "options": [
+      "Loratadina",
+      "Cetirizina",
+      "Dimenhidrinato",
+      "Codeína"
+    ],
+    "correctAnswer": 1,
+    "explanation": "ZYRTEC es cetirizina."
+  },
+  {
+    "question": "¿Qué EF corresponde a loratadina?",
+    "options": [
+      "CLARITYNE",
+      "BIODRAMINA",
+      "VENTOLIN",
+      "MUCOSAN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CLARITYNE es loratadina."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a BIODRAMINA?",
+    "options": [
+      "Cetirizina",
+      "Dimenhidrinato",
+      "Loratadina",
+      "Ambroxol"
+    ],
+    "correctAnswer": 1,
+    "explanation": "BIODRAMINA es dimenhidrinato."
+  },
+  {
+    "question": "¿Qué efecto adverso tienen antihistamínicos?",
+    "options": [
+      "Taquicardia",
+      "Somnolencia",
+      "Hipoglucemia",
+      "Diarrea"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Producen somnolencia."
+  },
+
+  {
+    "question": "¿Cuál no produce somnolencia según el temario?",
+    "options": [
+      "Cetirizina",
+      "Dimenhidrinato",
+      "Loratadina",
+      "Codeína"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Loratadina aparece como sin somnolencia."
+  },
+  {
+    "question": "¿Para qué se usa dimenhidrinato?",
+    "options": [
+      "Asma",
+      "Cinetosis",
+      "Dolor",
+      "Gripe"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usa para cinetosis."
+  },
+
+  {
+    "question": "¿Qué incluye R05?",
+    "options": [
+      "Antihistamínicos",
+      "Tos y resfriado",
+      "Broncodilatadores",
+      "Hormonas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R05 es tos y resfriado."
+  },
+  {
+    "question": "¿Qué incluye R06?",
+    "options": [
+      "Broncodilatadores",
+      "Antihistamínicos sistémicos",
+      "Expectorantes",
+      "Antibióticos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "R06 corresponde a antihistamínicos."
+  },
+  {
+    "question": "¿Qué incluye R07?",
+    "options": [
+      "Tos",
+      "Alergias",
+      "Otros productos respiratorios",
+      "Broncodilatadores"
+    ],
+    "correctAnswer": 2,
+    "explanation": "R07 incluye otros productos respiratorios."
+  }
+]
