@@ -1,1 +1,386 @@
-[]
+[
+  {
+    "prompt": "Relaciona cada código ATC respiratorio con su descripción.",
+    "leftItems": [
+      "R01",
+      "R02",
+      "R03",
+      "R05",
+      "R06"
+    ],
+    "rightItems": [
+      "Preparados de uso nasal, descongestivos y otros preparados tópicos",
+      "Preparados para la garganta",
+      "Agentes contra padecimientos obstructivos de las vías respiratorias",
+      "Preparados para la tos y el resfriado",
+      "Antihistamínicos para uso sistémico"
+    ],
+    "correctMatches": {
+      "R01": "Preparados de uso nasal, descongestivos y otros preparados tópicos",
+      "R02": "Preparados para la garganta",
+      "R03": "Agentes contra padecimientos obstructivos de las vías respiratorias",
+      "R05": "Preparados para la tos y el resfriado",
+      "R06": "Antihistamínicos para uso sistémico"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo terapéutico con su actividad principal.",
+    "leftItems": [
+      "Broncodilatadores",
+      "Antitusígenos o antitusivos",
+      "Modificadores de la secreción bronquial",
+      "Antihistamínicos",
+      "Preparados para la garganta"
+    ],
+    "rightItems": [
+      "Dilatan los bronquios y facilitan la respiración",
+      "Inhiben el reflejo de la tos",
+      "Actúan sobre el moco bronquial",
+      "Combaten los efectos de la histamina",
+      "Incluyen antisépticos, antibióticos y anestésicos"
+    ],
+    "correctMatches": {
+      "Broncodilatadores": "Dilatan los bronquios y facilitan la respiración",
+      "Antitusígenos o antitusivos": "Inhiben el reflejo de la tos",
+      "Modificadores de la secreción bronquial": "Actúan sobre el moco bronquial",
+      "Antihistamínicos": "Combaten los efectos de la histamina",
+      "Preparados para la garganta": "Incluyen antisépticos, antibióticos y anestésicos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo o subgrupo con su uso o indicación.",
+    "leftItems": [
+      "Broncodilatadores",
+      "Adrenalina y análogos",
+      "Xantinas",
+      "Antihistamínicos",
+      "Dimenhidrinato"
+    ],
+    "rightItems": [
+      "Asma y EPOC",
+      "Choque anafiláctico",
+      "Caso de urgencia",
+      "Urticaria, rinitis, dermatitis y picaduras",
+      "Cinetosis"
+    ],
+    "correctMatches": {
+      "Broncodilatadores": "Asma y EPOC",
+      "Adrenalina y análogos": "Choque anafiláctico",
+      "Xantinas": "Caso de urgencia",
+      "Antihistamínicos": "Urticaria, rinitis, dermatitis y picaduras",
+      "Dimenhidrinato": "Cinetosis"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo terapéutico con su actividad.",
+    "leftItems": [
+      "Adrenalina y análogos",
+      "Xantinas",
+      "Opiáceos",
+      "Mucolíticos",
+      "Expectorantes"
+    ],
+    "rightItems": [
+      "Hormona neurotransmisora del sistema nervioso simpático",
+      "Se usan en caso de urgencia",
+      "Derivados de la adormidera",
+      "Destruyen el moco",
+      "Hacen el moco más fluido para que salga mejor"
+    ],
+    "correctMatches": {
+      "Adrenalina y análogos": "Hormona neurotransmisora del sistema nervioso simpático",
+      "Xantinas": "Se usan en caso de urgencia",
+      "Opiáceos": "Derivados de la adormidera",
+      "Mucolíticos": "Destruyen el moco",
+      "Expectorantes": "Hacen el moco más fluido para que salga mejor"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su grupo o subgrupo.",
+    "leftItems": [
+      "Salbutamol",
+      "Terbutalina",
+      "Teofilina",
+      "Codeína",
+      "Dextrometorfano"
+    ],
+    "rightItems": [
+      "Adrenalina y análogos",
+      "Adrenalina y análogos",
+      "Xantinas",
+      "Opiáceos",
+      "Opiáceos"
+    ],
+    "correctMatches": {
+      "Salbutamol": "Adrenalina y análogos",
+      "Terbutalina": "Adrenalina y análogos",
+      "Teofilina": "Xantinas",
+      "Codeína": "Opiáceos",
+      "Dextrometorfano": "Opiáceos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su grupo o subgrupo.",
+    "leftItems": [
+      "Ambroxol",
+      "Acetilcisteína",
+      "Cetirizina",
+      "Loratadina",
+      "Dimenhidrinato"
+    ],
+    "rightItems": [
+      "Mucolítico",
+      "Mucolítico",
+      "Antihistamínico",
+      "Antihistamínico",
+      "Antihistamínico"
+    ],
+    "correctMatches": {
+      "Ambroxol": "Mucolítico",
+      "Acetilcisteína": "Mucolítico",
+      "Cetirizina": "Antihistamínico",
+      "Loratadina": "Antihistamínico",
+      "Dimenhidrinato": "Antihistamínico"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Salbutamol",
+      "Terbutalina",
+      "Codeína",
+      "Dextrometorfano",
+      "Ambroxol"
+    ],
+    "rightItems": [
+      "VENTOLIN",
+      "TERBASMIN",
+      "CODEISAN",
+      "CINFATOS / ROMIÑAR / INISTON",
+      "MUCOSAN"
+    ],
+    "correctMatches": {
+      "Salbutamol": "VENTOLIN",
+      "Terbutalina": "TERBASMIN",
+      "Codeína": "CODEISAN",
+      "Dextrometorfano": "CINFATOS / ROMIÑAR / INISTON",
+      "Ambroxol": "MUCOSAN"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Acetilcisteína",
+      "Cetirizina",
+      "Loratadina",
+      "Dimenhidrinato",
+      "Teofilina"
+    ],
+    "rightItems": [
+      "FLUMIL / FLUIMUCIL",
+      "ZYRTEC",
+      "CLARITYNE",
+      "BIODRAMINA",
+      "No consta EF en el temario"
+    ],
+    "correctMatches": {
+      "Acetilcisteína": "FLUMIL / FLUIMUCIL",
+      "Cetirizina": "ZYRTEC",
+      "Loratadina": "CLARITYNE",
+      "Dimenhidrinato": "BIODRAMINA",
+      "Teofilina": "No consta EF en el temario"
+    }
+  },
+  {
+    "prompt": "Relaciona cada medicamento o EF con su principio activo.",
+    "leftItems": [
+      "VENTOLIN",
+      "TERBASMIN",
+      "CODEISAN",
+      "MUCOSAN",
+      "ZYRTEC"
+    ],
+    "rightItems": [
+      "Salbutamol",
+      "Terbutalina",
+      "Codeína",
+      "Ambroxol",
+      "Cetirizina"
+    ],
+    "correctMatches": {
+      "VENTOLIN": "Salbutamol",
+      "TERBASMIN": "Terbutalina",
+      "CODEISAN": "Codeína",
+      "MUCOSAN": "Ambroxol",
+      "ZYRTEC": "Cetirizina"
+    }
+  },
+  {
+    "prompt": "Relaciona cada medicamento o EF con su principio activo.",
+    "leftItems": [
+      "FLUMIL",
+      "FLUIMUCIL",
+      "CLARITYNE",
+      "BIODRAMINA",
+      "CINFATOS"
+    ],
+    "rightItems": [
+      "Acetilcisteína",
+      "Acetilcisteína",
+      "Loratadina",
+      "Dimenhidrinato",
+      "Dextrometorfano"
+    ],
+    "correctMatches": {
+      "FLUMIL": "Acetilcisteína",
+      "FLUIMUCIL": "Acetilcisteína",
+      "CLARITYNE": "Loratadina",
+      "BIODRAMINA": "Dimenhidrinato",
+      "CINFATOS": "Dextrometorfano"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo con su efecto adverso característico.",
+    "leftItems": [
+      "Broncodilatadores",
+      "Xantinas",
+      "Opiáceos antitusivos",
+      "Antihistamínicos antitusivos",
+      "Antihistamínicos sistémicos"
+    ],
+    "rightItems": [
+      "Taquicardia y temblor",
+      "Taquicardia y temblor",
+      "Depresión respiratoria, somnolencia, estreñimiento y dependencia",
+      "Somnolencia",
+      "Somnolencia"
+    ],
+    "correctMatches": {
+      "Broncodilatadores": "Taquicardia y temblor",
+      "Xantinas": "Taquicardia y temblor",
+      "Opiáceos antitusivos": "Depresión respiratoria, somnolencia, estreñimiento y dependencia",
+      "Antihistamínicos antitusivos": "Somnolencia",
+      "Antihistamínicos sistémicos": "Somnolencia"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su efecto adverso.",
+    "leftItems": [
+      "Salbutamol",
+      "Terbutalina",
+      "Teofilina",
+      "Codeína",
+      "Dextrometorfano"
+    ],
+    "rightItems": [
+      "Taquicardia y temblor",
+      "Taquicardia y temblor",
+      "Taquicardia y temblor",
+      "Depresión respiratoria, somnolencia, estreñimiento y dependencia",
+      "Depresión respiratoria, somnolencia, estreñimiento y dependencia"
+    ],
+    "correctMatches": {
+      "Salbutamol": "Taquicardia y temblor",
+      "Terbutalina": "Taquicardia y temblor",
+      "Teofilina": "Taquicardia y temblor",
+      "Codeína": "Depresión respiratoria, somnolencia, estreñimiento y dependencia",
+      "Dextrometorfano": "Depresión respiratoria, somnolencia, estreñimiento y dependencia"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su efecto adverso o ausencia de dato.",
+    "leftItems": [
+      "Cetirizina",
+      "Loratadina",
+      "Dimenhidrinato",
+      "Ambroxol",
+      "Acetilcisteína"
+    ],
+    "rightItems": [
+      "Somnolencia",
+      "No consta efecto adverso en el temario",
+      "Somnolencia",
+      "No consta efecto adverso en el temario",
+      "No consta efecto adverso en el temario"
+    ],
+    "correctMatches": {
+      "Cetirizina": "Somnolencia",
+      "Loratadina": "No consta efecto adverso en el temario",
+      "Dimenhidrinato": "Somnolencia",
+      "Ambroxol": "No consta efecto adverso en el temario",
+      "Acetilcisteína": "No consta efecto adverso en el temario"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto con su explicación.",
+    "leftItems": [
+      "Broncodilatadores",
+      "Antitusivos",
+      "Mucolíticos",
+      "Expectorantes",
+      "Antihistamínicos"
+    ],
+    "rightItems": [
+      "Facilitan la respiración al dilatar los bronquios",
+      "Bloquean el reflejo de la tos",
+      "Destruyen el moco",
+      "Hacen el moco más fluido para expulsarlo mejor",
+      "Combaten los efectos de la histamina"
+    ],
+    "correctMatches": {
+      "Broncodilatadores": "Facilitan la respiración al dilatar los bronquios",
+      "Antitusivos": "Bloquean el reflejo de la tos",
+      "Mucolíticos": "Destruyen el moco",
+      "Expectorantes": "Hacen el moco más fluido para expulsarlo mejor",
+      "Antihistamínicos": "Combaten los efectos de la histamina"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo terapéutico con uno de sus subgrupos.",
+    "leftItems": [
+      "Broncodilatadores",
+      "Antitusivos",
+      "Modificadores de la secreción bronquial",
+      "Antihistamínicos",
+      "Preparados nasales"
+    ],
+    "rightItems": [
+      "Xantinas",
+      "Opiáceos",
+      "Mucolíticos",
+      "Antihistamínicos para uso sistémico",
+      "Descongestivos y preparados tópicos"
+    ],
+    "correctMatches": {
+      "Broncodilatadores": "Xantinas",
+      "Antitusivos": "Opiáceos",
+      "Modificadores de la secreción bronquial": "Mucolíticos",
+      "Antihistamínicos": "Antihistamínicos para uso sistémico",
+      "Preparados nasales": "Descongestivos y preparados tópicos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con su grupo terapéutico.",
+    "leftItems": [
+      "VENTOLIN",
+      "TERBASMIN",
+      "CODEISAN",
+      "FLUMIL",
+      "BIODRAMINA"
+    ],
+    "rightItems": [
+      "Broncodilatadores",
+      "Broncodilatadores",
+      "Antitusivos",
+      "Modificadores de la secreción bronquial",
+      "Antihistamínicos"
+    ],
+    "correctMatches": {
+      "VENTOLIN": "Broncodilatadores",
+      "TERBASMIN": "Broncodilatadores",
+      "CODEISAN": "Antitusivos",
+      "FLUMIL": "Modificadores de la secreción bronquial",
+      "BIODRAMINA": "Antihistamínicos"
+    }
+  }
+]
