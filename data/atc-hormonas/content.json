@@ -1,1 +1,708 @@
-[]
+{
+  "atc": "hormonas",
+  "nombre": "ATC Hormonas",
+  "descripcion": "Sistema endocrino y hormonas",
+  "grupos": [
+    {
+      "codigo": "H01",
+      "nombre": "Hormonas hipotalámicas o hipofisarias",
+      "actividadGrupo": "Hormonas relacionadas con funciones hipotalámicas o hipofisarias.",
+      "subgrupos": [
+        {
+          "nombre": "Hormona antidiurética",
+          "actividadSubgrupo": "Evita pérdidas excesivas de agua y actúa como vasoconstrictor.",
+          "principiosActivos": [
+            {
+              "nombre": "ADH",
+              "ef": [],
+              "indicaciones": [
+                "Diabetes insípida",
+                "Enuresis",
+                "Varices esofágicas"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Hormona del crecimiento",
+          "actividadSubgrupo": "Hormona de uso hospitalario relacionada con el crecimiento.",
+          "principiosActivos": [
+            {
+              "nombre": "Somatotropina",
+              "ef": [],
+              "indicaciones": [
+                "Trastornos del crecimiento infantil"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Oxitocina",
+          "actividadSubgrupo": "Produce contracciones uterinas y actúa como vasoconstrictor. Uso hospitalario.",
+          "principiosActivos": [
+            {
+              "nombre": "Oxitocina",
+              "ef": [],
+              "indicaciones": [
+                "Inducir el parto",
+                "Controlar las hemorragias postparto"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H03",
+      "nombre": "Hormonas tiroideas",
+      "actividadGrupo": "Hormonas relacionadas con la actividad tiroidea y el metabolismo.",
+      "subgrupos": [
+        {
+          "nombre": "Tiroxina",
+          "actividadSubgrupo": "Aumenta el consumo de oxígeno y estimula el metabolismo de glúcidos, lípidos y proteínas.",
+          "principiosActivos": [
+            {
+              "nombre": "Levotiroxina",
+              "ef": [
+                "LEVOTHROID",
+                "EUTIROX"
+              ],
+              "indicaciones": [
+                "Hipotiroidismo"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H05",
+      "nombre": "Homeostasis del calcio",
+      "actividadGrupo": "Regulación del calcio y del metabolismo óseo.",
+      "subgrupos": [
+        {
+          "nombre": "Calcitonina",
+          "actividadSubgrupo": "Favorece la formación de hueso e inhibe los osteoclastos, disminuyendo los niveles de calcio en sangre.",
+          "principiosActivos": [
+            {
+              "nombre": "Calcitonina",
+              "ef": [
+                "MIACALCIC"
+              ],
+              "indicaciones": [
+                "Osteoporosis",
+                "Dolor óseo en tumores",
+                "Enfermedad de Paget"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H04",
+      "nombre": "Hormonas pancreáticas",
+      "actividadGrupo": "Hormonas relacionadas con el control de la glucosa en sangre.",
+      "subgrupos": [
+        {
+          "nombre": "Insulinas",
+          "actividadSubgrupo": "Disminuyen la concentración de glucosa en sangre y estimulan su captación por la célula.",
+          "indicaciones": [
+            "Diabetes mellitus tipo I",
+            "Diabetes mellitus tipo II no controlada con medidas higiénicas e hipoglucemiantes"
+          ],
+          "principiosActivos": [
+            {
+              "nombre": "Insulina de acción rápida",
+              "actividadPrincipioActivo": "Para glucemias muy altas, de urgencia.",
+              "ef": [
+                "ACTRAPID",
+                "HUMALOG",
+                "NOVORAPID"
+              ],
+              "indicaciones": [
+                "Glucemias muy altas",
+                "Situaciones de urgencia"
+              ],
+              "efectosAdversos": [
+                "Hipoglucemia",
+                "Taquicardia",
+                "Mareos",
+                "Confusión mental"
+              ]
+            },
+            {
+              "nombre": "Insulina de acción intermedia",
+              "actividadPrincipioActivo": "Para tratamientos habituales.",
+              "ef": [
+                "INSULATARD"
+              ],
+              "indicaciones": [
+                "Tratamientos habituales"
+              ],
+              "efectosAdversos": [
+                "Hipoglucemia",
+                "Taquicardia",
+                "Mareos",
+                "Confusión mental"
+              ]
+            },
+            {
+              "nombre": "Insulina de acción prolongada",
+              "actividadPrincipioActivo": "Empieza a actuar más tarde, pero durante más tiempo.",
+              "ef": [
+                "LANTUS"
+              ],
+              "indicaciones": [
+                "Control prolongado de la glucemia"
+              ],
+              "efectosAdversos": [
+                "Hipoglucemia",
+                "Taquicardia",
+                "Mareos",
+                "Confusión mental"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Glucagón",
+          "actividadSubgrupo": "Aumenta los niveles de glucosa en sangre liberando las reservas del hígado.",
+          "principiosActivos": [
+            {
+              "nombre": "Glucagón",
+              "ef": [],
+              "indicaciones": [
+                "Algunas hipoglucemias"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "H02",
+      "nombre": "Corticoesteroides sistémicos",
+      "actividadGrupo": "Corticoides antiinflamatorios esteroides más potentes que los AINE. También actúan como inmunosupresores para evitar el rechazo en trasplantes y en enfermedades autoinmunes.",
+      "subgrupos": [
+        {
+          "nombre": "Corticoides sistémicos",
+          "actividadSubgrupo": "Antiinflamatorios esteroides e inmunosupresores de uso sistémico.",
+          "efectosAdversos": [
+            "Hiperglucemia",
+            "Efecto sobre las proteínas: disminuye la masa muscular",
+            "Osteoporosis",
+            "Retención de líquidos",
+            "Hipertensión",
+            "Anovulación",
+            "Irregularidades menstruales",
+            "Oligospermia",
+            "Retraso del crecimiento por afectar a la producción de somatotropina",
+            "Síndrome de Cushing",
+            "Obesidad",
+            "Cefalea",
+            "Acné",
+            "Aumento del vello corporal",
+            "Cara muy redonda",
+            "Depósito de grasa en los hombros"
+          ],
+          "principiosActivos": [
+            {
+              "nombre": "Dexametasona",
+              "ef": [
+                "FORTECORTIN"
+              ],
+              "indicaciones": [
+                "Estados alérgicos",
+                "Estados asmáticos",
+                "Reuma",
+                "Deficiencias de corticoides",
+                "Problemas dermatológicos",
+                "Pomadas oftálmicas",
+                "Colirios"
+              ],
+              "observaciones": "En el temario aparece relacionado también con COLIRCUSI en problemas oftálmicos.",
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Prednisona",
+              "ef": [
+                "DACORTIN"
+              ],
+              "indicaciones": [
+                "Vía oral",
+                "Antiinflamatorio",
+                "Alergia",
+                "Asma",
+                "Enfermedades reumáticas"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Deflazacort",
+              "ef": [
+                "ZAMENE"
+              ],
+              "indicaciones": [
+                "Vía oral",
+                "Antiinflamatorio",
+                "Alergia",
+                "Asma",
+                "Enfermedades reumáticas"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Metilprednisolona",
+              "ef": [
+                "URBASON"
+              ],
+              "indicaciones": [
+                "Shock anafiláctico",
+                "Reacción alérgica grave",
+                "Tratamiento paliativo de leucemias",
+                "Evitar el rechazo de trasplantes"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "D07",
+      "nombre": "Corticoesteroides tópicos",
+      "actividadGrupo": "Corticoides usados en problemas dermatológicos de origen inflamatorio o alérgico como eccemas, dermatitis, eritema y psoriasis.",
+      "subgrupos": [
+        {
+          "nombre": "Corticoides respiratorios tópicos",
+          "actividadSubgrupo": "Uso respiratorio en rinitis alérgica y asma.",
+          "principiosActivos": [
+            {
+              "nombre": "Budesonida",
+              "ef": [
+                "RINOCORT",
+                "PULMICORT"
+              ],
+              "indicaciones": [
+                "Rinitis alérgica",
+                "Asma"
+              ],
+              "observaciones": "RINOCORT aparece como aerosol nasal y PULMICORT como aerosol inhalado por boca.",
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Corticoides dermatológicos, oftálmicos y bucales",
+          "actividadSubgrupo": "Uso en problemas dermatológicos, problemas oftálmicos en pomadas y colirios, y aftas por vía bucal.",
+          "principiosActivos": [
+            {
+              "nombre": "Hidrocortisona",
+              "ef": [],
+              "indicaciones": [
+                "Problemas dermatológicos",
+                "Problemas oftálmicos",
+                "Pomadas y colirios",
+                "Aftas por vía bucal"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Metilprednisolona",
+              "ef": [
+                "ADVENTAN",
+                "LEXXEMA"
+              ],
+              "indicaciones": [
+                "Problemas dermatológicos"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Betametasona",
+              "ef": [
+                "CELESTODERM"
+              ],
+              "indicaciones": [
+                "Problemas dermatológicos"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Fluocinolona",
+              "ef": [
+                "SYNALAR"
+              ],
+              "indicaciones": [
+                "Problemas dermatológicos"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            },
+            {
+              "nombre": "Beclometasona",
+              "ef": [
+                "MENADERM"
+              ],
+              "indicaciones": [
+                "Problemas dermatológicos"
+              ],
+              "efectosAdversos": [
+                "Hiperglucemia",
+                "Efecto sobre las proteínas: disminuye la masa muscular",
+                "Osteoporosis",
+                "Retención de líquidos",
+                "Hipertensión",
+                "Anovulación",
+                "Irregularidades menstruales",
+                "Oligospermia",
+                "Retraso del crecimiento por afectar a la producción de somatotropina",
+                "Síndrome de Cushing",
+                "Obesidad",
+                "Cefalea",
+                "Acné",
+                "Aumento del vello corporal",
+                "Cara muy redonda",
+                "Depósito de grasa en los hombros"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "G03",
+      "nombre": "Hormonas sexuales",
+      "actividadGrupo": "Hormonas sexuales y moduladores relacionados con funciones reproductivas, anticoncepción y tratamientos hormonales.",
+      "subgrupos": [
+        {
+          "nombre": "Andrógenos",
+          "actividadSubgrupo": "Hormonas sexuales masculinas.",
+          "principiosActivos": [
+            {
+              "nombre": "Testosterona",
+              "ef": [],
+              "indicaciones": [
+                "Esterilidad",
+                "Climaterio masculino",
+                "Osteoporosis postmenopáusica",
+                "Carcinoma de mama",
+                "Carcinoma de ovario",
+                "Carcinoma de útero"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Antiandrógenos",
+          "actividadSubgrupo": "Bloquean o reducen la acción androgénica.",
+          "principiosActivos": [
+            {
+              "nombre": "Ciproterona",
+              "ef": [],
+              "indicaciones": [
+                "Hipersexualidad masculina",
+                "Carcinoma de próstata",
+                "Postmenopausia"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Estrógenos",
+          "actividadSubgrupo": "Hormonas sexuales femeninas relacionadas con el tratamiento hormonal.",
+          "principiosActivos": [
+            {
+              "nombre": "Estradiol",
+              "ef": [
+                "EVOPAD",
+                "PROGYNOVA"
+              ],
+              "indicaciones": [
+                "Menopausia"
+              ],
+              "observaciones": "EVOPAD aparece como parches y PROGYNOVA como vía oral.",
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Progestágenos",
+          "actividadSubgrupo": "Hormonas relacionadas con el ciclo menstrual y tratamientos ginecológicos.",
+          "principiosActivos": [
+            {
+              "nombre": "Medroxiprogesterona",
+              "ef": [
+                "PROGEVERA"
+              ],
+              "indicaciones": [
+                "Menopausia",
+                "Dismenorreas",
+                "Amenorreas",
+                "Esterilidad femenina"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Anticonceptivos",
+          "actividadSubgrupo": "Preparados hormonales con finalidad anticonceptiva.",
+          "subgruposInternos": [
+            {
+              "nombre": "Combinación fija",
+              "actividadSubgrupo": "Asociaciones hormonales fijas con finalidad anticonceptiva.",
+              "principiosActivos": [
+                {
+                  "nombre": "Levonorgestrel / etinilestradiol",
+                  "ef": [
+                    "NEOGYNONA",
+                    "OVOPLEX"
+                  ],
+                  "indicaciones": [
+                    "Anticoncepción"
+                  ],
+                  "efectosAdversos": []
+                },
+                {
+                  "nombre": "Levonorgestrel",
+                  "ef": [
+                    "NORLEVO",
+                    "POSTINOR"
+                  ],
+                  "indicaciones": [
+                    "Anticonceptivo de urgencia",
+                    "Píldora del día después"
+                  ],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Combinación secuencial",
+              "actividadSubgrupo": "Asociaciones hormonales secuenciales.",
+              "principiosActivos": [
+                {
+                  "nombre": "Ciproterona / etinilestradiol",
+                  "ef": [
+                    "DIANE"
+                  ],
+                  "indicaciones": [
+                    "Anticoncepción hormonal secuencial"
+                  ],
+                  "efectosAdversos": []
+                },
+                {
+                  "nombre": "Etinilestradiol / gestodeno",
+                  "ef": [
+                    "TRIMINULET"
+                  ],
+                  "indicaciones": [
+                    "Anticoncepción hormonal secuencial"
+                  ],
+                  "efectosAdversos": []
+                }
+              ]
+            },
+            {
+              "nombre": "Tópicos",
+              "actividadSubgrupo": "Anticonceptivos hormonales de uso tópico o local.",
+              "principiosActivos": [
+                {
+                  "nombre": "Etonogestrel / etinilestradiol",
+                  "ef": [
+                    "NUVARING"
+                  ],
+                  "indicaciones": [
+                    "Anticoncepción"
+                  ],
+                  "observaciones": "NUVARING aparece como anillo.",
+                  "efectosAdversos": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Conceptivos",
+          "actividadSubgrupo": "Preparados relacionados con estimulación ovárica y reproducción asistida.",
+          "principiosActivos": [
+            {
+              "nombre": "Gonadotropina coriónica",
+              "ef": [
+                "OVITRELLE"
+              ],
+              "indicaciones": [
+                "Estimulación ovárica",
+                "Reproducción asistida",
+                "Test de embarazo"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
