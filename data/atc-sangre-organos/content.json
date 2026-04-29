@@ -1,0 +1,127 @@
+{
+  "atc": "sangre-organos",
+  "nombre": "ATC Sangre y órganos hematopoyéticos",
+  "descripcion": "Sangre y órganos hematopoyéticos",
+  "codigos": [
+    {
+      "codigo": "B01",
+      "nombre": "Agentes antitrombóticos",
+      "descripcion": "Evitan coágulos de sangre en el interior de un vaso sanguíneo o en el corazón. Impiden la coagulación sanguínea o la agregación de las plaquetas."
+    },
+    {
+      "codigo": "B02",
+      "nombre": "Antihemorrágicos",
+      "descripcion": "Evitan la salida de sangre de las arterias, venas o capilares por donde circula."
+    },
+    {
+      "codigo": "B03",
+      "nombre": "Preparados antianémicos",
+      "descripcion": "Se usan cuando la sangre no es capaz de transportar todo el oxígeno que se necesita."
+    },
+    {
+      "codigo": "B05",
+      "nombre": "Sustitutos del plasma y soluciones para perfusión"
+    },
+    {
+      "codigo": "B06",
+      "nombre": "Otros agentes hematológicos"
+    }
+  ],
+  "grupos": [
+    {
+      "codigo": "B01",
+      "nombre": "Antitrombóticos",
+      "actividadGrupo": "Evitan coágulos de sangre en el interior de un vaso sanguíneo o en el corazón. Impiden la coagulación sanguínea o la agregación de las plaquetas.",
+      "subgrupos": [
+        {
+          "nombre": "Anticoagulantes fisiológicos",
+          "actividadSubgrupo": "Impiden la coagulación sanguínea.",
+          "principiosActivos": [
+            {
+              "nombre": "Heparina",
+              "ef": ["CLEXANE", "HIBOR"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Anticoagulantes orales",
+          "actividadSubgrupo": "Se emplean en tratamientos prolongados.",
+          "principiosActivos": [
+            {
+              "nombre": "Acenocumarol",
+              "ef": ["SINTROM"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Rivaroxaban",
+              "ef": ["XARELTO"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Antiagregantes plaquetarios",
+          "actividadSubgrupo": "Impiden la agregación de las plaquetas.",
+          "principiosActivos": [
+            {
+              "nombre": "Ácido acetilsalicílico",
+              "ef": ["ADIRO", "TROMALYT", "ASPIRINA"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Clopidogrel",
+              "ef": ["ISCOVER", "PLAVIX"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Prasugrel",
+              "ef": ["EFFIENT"],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "B03",
+      "nombre": "Antianémicos",
+      "actividadGrupo": "Se usan cuando la sangre no es capaz de transportar todo el oxígeno que se necesita.",
+      "subgrupos": [
+        {
+          "nombre": "Anemias microcíticas",
+          "actividadSubgrupo": "Anemia ferropénica.",
+          "principiosActivos": [
+            {
+              "nombre": "Sulfato ferroso",
+              "ef": ["TARDYFERON", "FEROGRADUMET"],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Anemias macrocíticas",
+          "actividadSubgrupo": "Anemias con tamaño grande del glóbulo rojo.",
+          "principiosActivos": [
+            {
+              "nombre": "Ácido fólico",
+              "ef": ["ACFOL"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Ácido fólico + B12",
+              "ef": ["FOLIDOCE"],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "B12",
+              "ef": ["OPTOVITE"],
+              "observaciones": "Vía intravenosa",
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
