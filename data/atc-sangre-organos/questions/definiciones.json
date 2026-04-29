@@ -1,1 +1,260 @@
-
+[
+  {
+    "prompt": "Relaciona cada código ATC con su grupo.",
+    "leftItems": ["B01", "B02", "B03", "B05", "B06"],
+    "rightItems": [
+      "Agentes antitrombóticos",
+      "Antihemorrágicos",
+      "Preparados antianémicos",
+      "Sustitutos del plasma y soluciones para perfusión",
+      "Otros agentes hematológicos"
+    ],
+    "correctMatches": {
+      "B01": "Agentes antitrombóticos",
+      "B02": "Antihemorrágicos",
+      "B03": "Preparados antianémicos",
+      "B05": "Sustitutos del plasma y soluciones para perfusión",
+      "B06": "Otros agentes hematológicos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo con su actividad principal.",
+    "leftItems": [
+      "B01 - Antitrombóticos",
+      "B02 - Antihemorrágicos",
+      "B03 - Antianémicos",
+      "B05 - Sustitutos del plasma",
+      "B06 - Otros agentes hematológicos"
+    ],
+    "rightItems": [
+      "Evitan coágulos en vasos sanguíneos o en el corazón",
+      "Evitan la salida de sangre de arterias, venas o capilares",
+      "Se usan cuando la sangre no transporta todo el oxígeno necesario",
+      "Sustituyen plasma y soluciones para perfusión",
+      "Incluyen otros productos relacionados con la sangre"
+    ],
+    "correctMatches": {
+      "B01 - Antitrombóticos": "Evitan coágulos en vasos sanguíneos o en el corazón",
+      "B02 - Antihemorrágicos": "Evitan la salida de sangre de arterias, venas o capilares",
+      "B03 - Antianémicos": "Se usan cuando la sangre no transporta todo el oxígeno necesario",
+      "B05 - Sustitutos del plasma": "Sustituyen plasma y soluciones para perfusión",
+      "B06 - Otros agentes hematológicos": "Incluyen otros productos relacionados con la sangre"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo de B01 con su función o uso.",
+    "leftItems": [
+      "Anticoagulantes fisiológicos",
+      "Anticoagulantes orales",
+      "Antiagregantes plaquetarios",
+      "Antitrombóticos",
+      "Agregación plaquetaria"
+    ],
+    "rightItems": [
+      "Impiden la coagulación sanguínea",
+      "Se usan en tratamientos prolongados",
+      "Impiden la agregación de las plaquetas",
+      "Evitan la formación de coágulos",
+      "Unión de plaquetas que puede participar en la formación del coágulo"
+    ],
+    "correctMatches": {
+      "Anticoagulantes fisiológicos": "Impiden la coagulación sanguínea",
+      "Anticoagulantes orales": "Se usan en tratamientos prolongados",
+      "Antiagregantes plaquetarios": "Impiden la agregación de las plaquetas",
+      "Antitrombóticos": "Evitan la formación de coágulos",
+      "Agregación plaquetaria": "Unión de plaquetas que puede participar en la formación del coágulo"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo con sus principios activos.",
+    "leftItems": [
+      "Anticoagulantes fisiológicos",
+      "Anticoagulantes orales",
+      "Antiagregantes plaquetarios",
+      "Anemias microcíticas",
+      "Anemias macrocíticas"
+    ],
+    "rightItems": [
+      "Heparina",
+      "Acenocumarol y rivaroxaban",
+      "Ácido acetilsalicílico, clopidogrel y prasugrel",
+      "Sulfato ferroso",
+      "Ácido fólico, ácido fólico + B12 y B12"
+    ],
+    "correctMatches": {
+      "Anticoagulantes fisiológicos": "Heparina",
+      "Anticoagulantes orales": "Acenocumarol y rivaroxaban",
+      "Antiagregantes plaquetarios": "Ácido acetilsalicílico, clopidogrel y prasugrel",
+      "Anemias microcíticas": "Sulfato ferroso",
+      "Anemias macrocíticas": "Ácido fólico, ácido fólico + B12 y B12"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su subgrupo terapéutico.",
+    "leftItems": [
+      "Heparina",
+      "Acenocumarol",
+      "Rivaroxaban",
+      "Ácido acetilsalicílico",
+      "Clopidogrel"
+    ],
+    "rightItems": [
+      "Anticoagulantes fisiológicos",
+      "Anticoagulantes orales",
+      "Anticoagulantes orales",
+      "Antiagregantes plaquetarios",
+      "Antiagregantes plaquetarios"
+    ],
+    "correctMatches": {
+      "Heparina": "Anticoagulantes fisiológicos",
+      "Acenocumarol": "Anticoagulantes orales",
+      "Rivaroxaban": "Anticoagulantes orales",
+      "Ácido acetilsalicílico": "Antiagregantes plaquetarios",
+      "Clopidogrel": "Antiagregantes plaquetarios"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su subgrupo terapéutico.",
+    "leftItems": [
+      "Prasugrel",
+      "Sulfato ferroso",
+      "Ácido fólico",
+      "Ácido fólico + B12",
+      "B12"
+    ],
+    "rightItems": [
+      "Antiagregantes plaquetarios",
+      "Anemias microcíticas",
+      "Anemias macrocíticas",
+      "Anemias macrocíticas",
+      "Anemias macrocíticas"
+    ],
+    "correctMatches": {
+      "Prasugrel": "Antiagregantes plaquetarios",
+      "Sulfato ferroso": "Anemias microcíticas",
+      "Ácido fólico": "Anemias macrocíticas",
+      "Ácido fólico + B12": "Anemias macrocíticas",
+      "B12": "Anemias macrocíticas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Heparina",
+      "Acenocumarol",
+      "Rivaroxaban",
+      "Ácido acetilsalicílico",
+      "Clopidogrel"
+    ],
+    "rightItems": [
+      "CLEXANE / HIBOR",
+      "SINTROM",
+      "XARELTO",
+      "ADIRO / TROMALYT / ASPIRINA",
+      "ISCOVER / PLAVIX"
+    ],
+    "correctMatches": {
+      "Heparina": "CLEXANE / HIBOR",
+      "Acenocumarol": "SINTROM",
+      "Rivaroxaban": "XARELTO",
+      "Ácido acetilsalicílico": "ADIRO / TROMALYT / ASPIRINA",
+      "Clopidogrel": "ISCOVER / PLAVIX"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Prasugrel",
+      "Sulfato ferroso",
+      "Ácido fólico",
+      "Ácido fólico + B12",
+      "B12"
+    ],
+    "rightItems": [
+      "EFFIENT",
+      "TARDYFERON / FEROGRADUMET",
+      "ACFOL",
+      "FOLIDOCE",
+      "OPTOVITE"
+    ],
+    "correctMatches": {
+      "Prasugrel": "EFFIENT",
+      "Sulfato ferroso": "TARDYFERON / FEROGRADUMET",
+      "Ácido fólico": "ACFOL",
+      "Ácido fólico + B12": "FOLIDOCE",
+      "B12": "OPTOVITE"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con su principio activo.",
+    "leftItems": [
+      "SINTROM",
+      "XARELTO",
+      "EFFIENT",
+      "ACFOL",
+      "FOLIDOCE"
+    ],
+    "rightItems": [
+      "Acenocumarol",
+      "Rivaroxaban",
+      "Prasugrel",
+      "Ácido fólico",
+      "Ácido fólico + B12"
+    ],
+    "correctMatches": {
+      "SINTROM": "Acenocumarol",
+      "XARELTO": "Rivaroxaban",
+      "EFFIENT": "Prasugrel",
+      "ACFOL": "Ácido fólico",
+      "FOLIDOCE": "Ácido fólico + B12"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con su principio activo.",
+    "leftItems": [
+      "CLEXANE",
+      "HIBOR",
+      "ADIRO",
+      "PLAVIX",
+      "TARDYFERON"
+    ],
+    "rightItems": [
+      "Heparina",
+      "Heparina",
+      "Ácido acetilsalicílico",
+      "Clopidogrel",
+      "Sulfato ferroso"
+    ],
+    "correctMatches": {
+      "CLEXANE": "Heparina",
+      "HIBOR": "Heparina",
+      "ADIRO": "Ácido acetilsalicílico",
+      "PLAVIX": "Clopidogrel",
+      "TARDYFERON": "Sulfato ferroso"
+    }
+  },
+  {
+    "prompt": "Relaciona cada tipo de anemia con su explicación o tratamiento.",
+    "leftItems": [
+      "Anemia microcítica",
+      "Anemia ferropénica",
+      "Anemia macrocítica",
+      "Sulfato ferroso",
+      "B12"
+    ],
+    "rightItems": [
+      "Anemia con glóbulos rojos de menor tamaño",
+      "Anemia relacionada con déficit de hierro",
+      "Anemia con tamaño grande del glóbulo rojo",
+      "Principio activo usado en anemias microcíticas",
+      "Principio activo usado en anemias macrocíticas"
+    ],
+    "correctMatches": {
+      "Anemia microcítica": "Anemia con glóbulos rojos de menor tamaño",
+      "Anemia ferropénica": "Anemia relacionada con déficit de hierro",
+      "Anemia macrocítica": "Anemia con tamaño grande del glóbulo rojo",
+      "Sulfato ferroso": "Principio activo usado en anemias microcíticas",
+      "B12": "Principio activo usado en anemias macrocíticas"
+    }
+  }
+]
