@@ -47,6 +47,7 @@ function hideATCScreens() {
   document.getElementById("digestivo-screen")?.classList.add("hidden");
   document.getElementById("antiinfeccion-screen")?.classList.add("hidden");
   document.getElementById("respiratorio-screen")?.classList.add("hidden");
+  document.getElementById("sangre-organos-screen")?.classList.add("hidden");
 }
 
 function hideActivityScreens() {
@@ -83,7 +84,11 @@ function selectGroup(group) {
   } else if (group === "respiratorio") {
     currentATC = "respiratorio";
     document.getElementById("respiratorio-screen").classList.remove("hidden");
- 
+
+ } else if (group === "sangre-organos") {
+  currentATC = "sangre-organos";
+  document.getElementById("sangre-organos-screen").classList.remove("hidden");
+     
   } else {
     document.getElementById("home-screen").classList.remove("hidden");
     alert("Este ATC todavía no está programado.");
@@ -105,6 +110,8 @@ function backToActivities() {
     document.getElementById("antiinfeccion-screen").classList.remove("hidden");
   } else if (currentATC === "respiratorio") {
     document.getElementById("respiratorio-screen").classList.remove("hidden");
+ } else if (currentATC === "sangre-organos") {
+  document.getElementById("sangre-organos-screen").classList.remove("hidden");
   }
 }
 
