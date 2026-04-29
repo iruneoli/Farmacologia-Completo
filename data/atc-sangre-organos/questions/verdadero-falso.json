@@ -1,1 +1,177 @@
-[]
+[
+  {
+    "statement": "El grupo B corresponde a sangre y órganos hematopoyéticos.",
+    "answer": true,
+    "justification": "El temario identifica este ATC como sangre y órganos hematopoyéticos."
+  },
+  {
+    "statement": "B01 corresponde a agentes antitrombóticos.",
+    "answer": true,
+    "justification": "B01 aparece como agentes antitrombóticos."
+  },
+  {
+    "statement": "Los antitrombóticos evitan coágulos de sangre en vasos sanguíneos o en el corazón.",
+    "answer": true,
+    "justification": "Esa es la actividad indicada para B01."
+  },
+  {
+    "statement": "Los antitrombóticos favorecen la coagulación sanguínea.",
+    "answer": false,
+    "justification": "Los antitrombóticos impiden la coagulación sanguínea o la agregación plaquetaria."
+  },
+  {
+    "statement": "B02 corresponde a antihemorrágicos.",
+    "answer": true,
+    "justification": "B02 aparece como antihemorrágicos."
+  },
+  {
+    "statement": "Los antihemorrágicos evitan la salida de sangre de arterias, venas o capilares.",
+    "answer": true,
+    "justification": "Esa es la definición dada para B02."
+  },
+  {
+    "statement": "B03 corresponde a preparados antianémicos.",
+    "answer": true,
+    "justification": "B03 aparece como preparados antianémicos."
+  },
+  {
+    "statement": "Los antianémicos se usan cuando la sangre no transporta todo el oxígeno necesario.",
+    "answer": true,
+    "justification": "El temario define así los preparados antianémicos."
+  },
+  {
+    "statement": "B05 corresponde a sustitutos del plasma y soluciones para perfusión.",
+    "answer": true,
+    "justification": "B05 aparece con esa denominación."
+  },
+  {
+    "statement": "B06 corresponde a otros agentes hematológicos.",
+    "answer": true,
+    "justification": "B06 aparece como otros agentes hematológicos."
+  },
+  {
+    "statement": "La heparina pertenece a los anticoagulantes fisiológicos.",
+    "answer": true,
+    "justification": "Heparina aparece dentro de anticoagulantes fisiológicos."
+  },
+  {
+    "statement": "CLEXANE y HIBOR son EF de heparina.",
+    "answer": true,
+    "justification": "Ambos EF aparecen asociados a heparina."
+  },
+  {
+    "statement": "Acenocumarol pertenece a los anticoagulantes orales.",
+    "answer": true,
+    "justification": "Acenocumarol aparece dentro de anticoagulantes orales."
+  },
+  {
+    "statement": "Rivaroxaban pertenece a los anticoagulantes fisiológicos.",
+    "answer": false,
+    "justification": "Rivaroxaban aparece dentro de anticoagulantes orales."
+  },
+  {
+    "statement": "SINTROM es EF de acenocumarol.",
+    "answer": true,
+    "justification": "El temario asocia SINTROM con acenocumarol."
+  },
+  {
+    "statement": "XARELTO es EF de rivaroxaban.",
+    "answer": true,
+    "justification": "El temario asocia XARELTO con rivaroxaban."
+  },
+  {
+    "statement": "Los anticoagulantes orales se usan en tratamientos prolongados.",
+    "answer": true,
+    "justification": "El temario indica que los anticoagulantes orales son para tratamientos prolongados."
+  },
+  {
+    "statement": "Los antiagregantes plaquetarios impiden la agregación de las plaquetas.",
+    "answer": true,
+    "justification": "Esa es la función indicada para este subgrupo."
+  },
+  {
+    "statement": "Ácido acetilsalicílico pertenece a los antiagregantes plaquetarios.",
+    "answer": true,
+    "justification": "Ácido acetilsalicílico aparece dentro de antiagregantes plaquetarios."
+  },
+  {
+    "statement": "ADIRO, TROMALYT y ASPIRINA son EF de ácido acetilsalicílico.",
+    "answer": true,
+    "justification": "Los tres EF aparecen asociados a ácido acetilsalicílico."
+  },
+  {
+    "statement": "Clopidogrel pertenece a los anticoagulantes orales.",
+    "answer": false,
+    "justification": "Clopidogrel pertenece a los antiagregantes plaquetarios."
+  },
+  {
+    "statement": "ISCOVER y PLAVIX son EF de clopidogrel.",
+    "answer": true,
+    "justification": "Ambos EF aparecen asociados a clopidogrel."
+  },
+  {
+    "statement": "Prasugrel pertenece a los antiagregantes plaquetarios.",
+    "answer": true,
+    "justification": "Prasugrel aparece dentro de antiagregantes plaquetarios."
+  },
+  {
+    "statement": "EFFIENT es EF de prasugrel.",
+    "answer": true,
+    "justification": "El temario asocia EFFIENT con prasugrel."
+  },
+  {
+    "statement": "Las anemias microcíticas del temario son ferropénicas.",
+    "answer": true,
+    "justification": "El temario indica anemias microcíticas y añade ferropénica."
+  },
+  {
+    "statement": "Sulfato ferroso se usa en anemias microcíticas.",
+    "answer": true,
+    "justification": "Sulfato ferroso aparece en el subgrupo de anemias microcíticas."
+  },
+  {
+    "statement": "TARDYFERON y FEROGRADUMET son EF de sulfato ferroso.",
+    "answer": true,
+    "justification": "Ambos EF aparecen asociados a sulfato ferroso."
+  },
+  {
+    "statement": "Las anemias macrocíticas se asocian a un tamaño grande del glóbulo rojo.",
+    "answer": true,
+    "justification": "El temario define así las anemias macrocíticas."
+  },
+  {
+    "statement": "Ácido fólico aparece dentro de anemias macrocíticas.",
+    "answer": true,
+    "justification": "Ácido fólico aparece en el subgrupo de anemias macrocíticas."
+  },
+  {
+    "statement": "ACFOL es EF de ácido fólico.",
+    "answer": true,
+    "justification": "El temario asocia ACFOL con ácido fólico."
+  },
+  {
+    "statement": "FOLIDOCE es EF de ácido fólico + B12.",
+    "answer": true,
+    "justification": "El temario asocia FOLIDOCE con ácido fólico + B12."
+  },
+  {
+    "statement": "OPTOVITE es EF de B12.",
+    "answer": true,
+    "justification": "El temario asocia OPTOVITE con B12."
+  },
+  {
+    "statement": "OPTOVITE aparece indicado como vía intravenosa.",
+    "answer": true,
+    "justification": "En el temario aparece OPTOVITE con la anotación iv."
+  },
+  {
+    "statement": "Sulfato ferroso pertenece a anemias macrocíticas.",
+    "answer": false,
+    "justification": "Sulfato ferroso pertenece a anemias microcíticas ferropénicas."
+  },
+  {
+    "statement": "B12 aparece dentro de anemias microcíticas.",
+    "answer": false,
+    "justification": "B12 aparece dentro de anemias macrocíticas."
+  }
+]
