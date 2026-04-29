@@ -1,1 +1,232 @@
-[]
+[
+  {
+    "statement": "El grupo R corresponde al aparato respiratorio.",
+    "answer": true,
+    "justification": "El temario identifica R como aparato respiratorio."
+  },
+  {
+    "statement": "R01 incluye preparados de uso nasal, descongestivos y otros preparados tópicos.",
+    "answer": true,
+    "justification": "R01 corresponde a preparados nasales, descongestivos y otros preparados para uso tópico."
+  },
+  {
+    "statement": "R02 corresponde a antihistamínicos para uso sistémico.",
+    "answer": false,
+    "justification": "R02 corresponde a preparados para la garganta. Los antihistamínicos sistémicos son R06."
+  },
+  {
+    "statement": "R03 incluye agentes contra padecimientos obstructivos de las vías respiratorias.",
+    "answer": true,
+    "justification": "R03 agrupa medicamentos contra padecimientos obstructivos respiratorios."
+  },
+  {
+    "statement": "R05 corresponde a preparados para la tos y el resfriado.",
+    "answer": true,
+    "justification": "R05 incluye preparados para la tos y el resfriado."
+  },
+  {
+    "statement": "R06 corresponde a antihistamínicos para uso sistémico.",
+    "answer": true,
+    "justification": "R06 agrupa antihistamínicos para uso sistémico."
+  },
+  {
+    "statement": "Los broncodilatadores dilatan los bronquios y facilitan la respiración.",
+    "answer": true,
+    "justification": "Esa es la actividad principal de los broncodilatadores."
+  },
+  {
+    "statement": "Los broncodilatadores se utilizan en asma y EPOC.",
+    "answer": true,
+    "justification": "El temario los relaciona con asma y EPOC."
+  },
+  {
+    "statement": "Salbutamol pertenece al subgrupo de adrenalina y análogos.",
+    "answer": true,
+    "justification": "Salbutamol aparece dentro de adrenalina y análogos."
+  },
+  {
+    "statement": "Terbutalina pertenece al subgrupo de xantinas.",
+    "answer": false,
+    "justification": "Terbutalina pertenece a adrenalina y análogos. La teofilina pertenece a xantinas."
+  },
+  {
+    "statement": "VENTOLIN es EF de salbutamol.",
+    "answer": true,
+    "justification": "El temario asocia salbutamol con VENTOLIN."
+  },
+  {
+    "statement": "TERBASMIN es EF de terbutalina.",
+    "answer": true,
+    "justification": "El temario asocia terbutalina con TERBASMIN."
+  },
+  {
+    "statement": "La adrenalina no aparece dentro de broncodilatadores.",
+    "answer": false,
+    "justification": "Adrenalina aparece dentro de adrenalina y análogos."
+  },
+  {
+    "statement": "La teofilina pertenece a las xantinas.",
+    "answer": true,
+    "justification": "Teofilina aparece dentro del subgrupo xantinas."
+  },
+  {
+    "statement": "Las xantinas se usan en caso de urgencia.",
+    "answer": true,
+    "justification": "El temario indica que las xantinas se emplean en caso de urgencia."
+  },
+  {
+    "statement": "Salbutamol, terbutalina y teofilina pueden producir taquicardia y temblor.",
+    "answer": true,
+    "justification": "En el temario, estos broncodilatadores se asocian con taquicardia y temblor."
+  },
+  {
+    "statement": "Los antitusígenos inhiben el reflejo de la tos.",
+    "answer": true,
+    "justification": "Inhiben el reflejo por el que se expulsa violentamente el contenido de los pulmones."
+  },
+  {
+    "statement": "Los antitusígenos favorecen la expulsión del moco.",
+    "answer": false,
+    "justification": "Eso corresponde a los expectorantes. Los antitusígenos inhiben el reflejo de la tos."
+  },
+  {
+    "statement": "Los opiáceos antitusivos son derivados de la adormidera.",
+    "answer": true,
+    "justification": "El temario describe los opiáceos como derivados de la adormidera."
+  },
+  {
+    "statement": "Codeína y dextrometorfano aparecen dentro de los antitusivos opiáceos.",
+    "answer": true,
+    "justification": "Ambos aparecen dentro del subgrupo opiáceos."
+  },
+  {
+    "statement": "CODEISAN es EF de codeína.",
+    "answer": true,
+    "justification": "El temario asocia CODEISAN con codeína."
+  },
+  {
+    "statement": "CINFATOS, ROMIÑAR e INISTON son EF de dextrometorfano.",
+    "answer": true,
+    "justification": "Estos EF aparecen asociados a dextrometorfano."
+  },
+  {
+    "statement": "Los opiáceos antitusivos pueden producir depresión respiratoria, somnolencia, estreñimiento y dependencia.",
+    "answer": true,
+    "justification": "Esos efectos adversos aparecen asociados a codeína y dextrometorfano."
+  },
+  {
+    "statement": "Los antihistamínicos antitusivos producen taquicardia y temblor.",
+    "answer": false,
+    "justification": "Los antihistamínicos antitusivos se asocian con somnolencia."
+  },
+  {
+    "statement": "FLUTOX y SEKISAN aparecen como EF de antihistamínicos antitusivos.",
+    "answer": true,
+    "justification": "El temario los coloca dentro del apartado de antihistamínicos antitusivos."
+  },
+  {
+    "statement": "Los modificadores de la secreción bronquial incluyen mucolíticos y expectorantes.",
+    "answer": true,
+    "justification": "El temario divide este grupo en mucolíticos y expectorantes."
+  },
+  {
+    "statement": "Los mucolíticos destruyen el moco.",
+    "answer": true,
+    "justification": "Esa es la actividad indicada para los mucolíticos."
+  },
+  {
+    "statement": "Los expectorantes hacen el moco más fluido para que salga mejor.",
+    "answer": true,
+    "justification": "Esa es la actividad indicada para los expectorantes."
+  },
+  {
+    "statement": "Ambroxol es un mucolítico.",
+    "answer": true,
+    "justification": "Ambroxol aparece dentro de mucolíticos."
+  },
+  {
+    "statement": "Acetilcisteína es un expectorante.",
+    "answer": false,
+    "justification": "Acetilcisteína aparece como mucolítico."
+  },
+  {
+    "statement": "MUCOSAN es EF de ambroxol.",
+    "answer": true,
+    "justification": "El temario asocia ambroxol con MUCOSAN."
+  },
+  {
+    "statement": "FLUMIL y FLUIMUCIL son EF de acetilcisteína.",
+    "answer": true,
+    "justification": "Ambos aparecen asociados a acetilcisteína."
+  },
+  {
+    "statement": "BISOLVON aparece dentro del apartado de expectorantes.",
+    "answer": true,
+    "justification": "El temario coloca BISOLVON en la fila de expectorantes."
+  },
+  {
+    "statement": "Los antihistamínicos combaten los efectos de la histamina.",
+    "answer": true,
+    "justification": "Combaten la histamina liberada en procesos alérgicos."
+  },
+  {
+    "statement": "Los antihistamínicos sirven para urticaria, rinitis, dermatitis y picaduras.",
+    "answer": true,
+    "justification": "Esas indicaciones aparecen en el temario."
+  },
+  {
+    "statement": "Cetirizina, loratadina y dimenhidrinato son antihistamínicos.",
+    "answer": true,
+    "justification": "Los tres principios activos aparecen dentro de antihistamínicos."
+  },
+  {
+    "statement": "ZYRTEC es EF de cetirizina.",
+    "answer": true,
+    "justification": "El temario asocia cetirizina con ZYRTEC."
+  },
+  {
+    "statement": "CLARITYNE es EF de loratadina.",
+    "answer": true,
+    "justification": "El temario asocia loratadina con CLARITYNE."
+  },
+  {
+    "statement": "BIODRAMINA es EF de dimenhidrinato.",
+    "answer": true,
+    "justification": "El temario asocia dimenhidrinato con BIODRAMINA."
+  },
+  {
+    "statement": "Loratadina se indica en el temario como sin somnolencia.",
+    "answer": true,
+    "justification": "CLARITYNE aparece anotado como sin somnolencia."
+  },
+  {
+    "statement": "Dimenhidrinato aparece relacionado con cinetosis.",
+    "answer": true,
+    "justification": "BIODRAMINA aparece anotada como cinetosis."
+  },
+  {
+    "statement": "Cetirizina y dimenhidrinato pueden producir somnolencia.",
+    "answer": true,
+    "justification": "La somnolencia aparece asociada a antihistamínicos, incluyendo cetirizina y dimenhidrinato."
+  },
+  {
+    "statement": "Loratadina tiene como efecto adverso principal la depresión respiratoria.",
+    "answer": false,
+    "justification": "En el temario, loratadina aparece como sin somnolencia; la depresión respiratoria se asocia a opiáceos antitusivos."
+  },
+  {
+    "statement": "Los preparados para la garganta pueden incluir antisépticos, antibióticos y anestésicos.",
+    "answer": true,
+    "justification": "R02 corresponde a preparados para la garganta: antisépticos, antibióticos y anestésicos."
+  },
+  {
+    "statement": "Los preparados de uso nasal pueden incluir simpaticomiméticos, antialérgicos y corticoides.",
+    "answer": true,
+    "justification": "R01 incluye preparados nasales, descongestivos y tópicos como simpaticomiméticos, antialérgicos y corticoides."
+  },
+  {
+    "statement": "R07 corresponde a otros productos para el sistema respiratorio.",
+    "answer": true,
+    "justification": "R07 aparece como otros productos para el sistema respiratorio."
+  }
+]
