@@ -1,1 +1,384 @@
+[
+  {
+    "question": "¿Qué grupo ATC corresponde a hormonas?",
+    "options": ["A", "B", "H", "R"],
+    "correctAnswer": 2,
+    "explanation": "El grupo H corresponde a hormonas."
+  },
+  {
+    "question": "¿Qué hace la ADH?",
+    "options": [
+      "Aumenta la glucosa",
+      "Evita la pérdida de agua",
+      "Disminuye calcio",
+      "Aumenta metabolismo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La ADH evita la pérdida de agua."
+  },
+  {
+    "question": "¿En qué patología se usa la ADH?",
+    "options": [
+      "Diabetes mellitus",
+      "Diabetes insípida",
+      "Hipotiroidismo",
+      "Osteoporosis"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usa en diabetes insípida."
+  },
+  {
+    "question": "¿Qué hormona produce contracciones uterinas?",
+    "options": [
+      "Somatotropina",
+      "Oxitocina",
+      "ADH",
+      "Calcitonina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La oxitocina produce contracciones uterinas."
+  },
+  {
+    "question": "¿Para qué se usa la somatotropina?",
+    "options": [
+      "Alergia",
+      "Crecimiento infantil",
+      "Hipoglucemia",
+      "Menopausia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Es la hormona del crecimiento."
+  },
 
+  {
+    "question": "¿Qué hace la tiroxina?",
+    "options": [
+      "Disminuye metabolismo",
+      "Aumenta metabolismo",
+      "Aumenta calcio",
+      "Inhibe glucosa"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aumenta metabolismo y consumo de oxígeno."
+  },
+  {
+    "question": "¿Para qué se usa la levotiroxina?",
+    "options": [
+      "Hipertiroidismo",
+      "Hipotiroidismo",
+      "Diabetes",
+      "Cáncer"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usa en hipotiroidismo."
+  },
+
+  {
+    "question": "¿Qué hace la calcitonina?",
+    "options": [
+      "Aumenta calcio",
+      "Disminuye calcio",
+      "Aumenta glucosa",
+      "Disminuye metabolismo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Reduce calcio en sangre."
+  },
+  {
+    "question": "¿En qué se usa la calcitonina?",
+    "options": [
+      "Asma",
+      "Osteoporosis",
+      "Hipoglucemia",
+      "Cáncer pulmonar"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usa en osteoporosis."
+  },
+
+  {
+    "question": "¿Qué hacen las insulinas?",
+    "options": [
+      "Aumentan glucosa",
+      "Disminuyen glucosa",
+      "Aumentan calcio",
+      "Disminuyen metabolismo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Disminuyen la glucosa en sangre."
+  },
+  {
+    "question": "¿Qué insulina se usa en urgencias?",
+    "options": [
+      "Prolongada",
+      "Intermedia",
+      "Rápida",
+      "Ninguna"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La rápida se usa en urgencias."
+  },
+  {
+    "question": "¿Qué EF corresponde a insulina prolongada?",
+    "options": [
+      "LANTUS",
+      "INSULATARD",
+      "ACTRAPID",
+      "NOVORAPID"
+    ],
+    "correctAnswer": 0,
+    "explanation": "LANTUS es prolongada."
+  },
+  {
+    "question": "¿Cuál es el principal efecto adverso de la insulina?",
+    "options": [
+      "Hiperglucemia",
+      "Hipoglucemia",
+      "Hipertensión",
+      "Fiebre"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Puede provocar hipoglucemia."
+  },
+  {
+    "question": "¿Qué hace el glucagón?",
+    "options": [
+      "Disminuye glucosa",
+      "Aumenta glucosa",
+      "Disminuye calcio",
+      "Aumenta metabolismo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Aumenta la glucosa."
+  },
+
+  {
+    "question": "¿Qué caracteriza a los corticoides sistémicos?",
+    "options": [
+      "Son antibióticos",
+      "Son antiinflamatorios potentes",
+      "Son analgésicos",
+      "Son antihistamínicos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Son antiinflamatorios esteroides."
+  },
+  {
+    "question": "¿Qué efecto adverso es típico de corticoides?",
+    "options": [
+      "Hipoglucemia",
+      "Síndrome de Cushing",
+      "Hipotensión",
+      "Diarrea"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Es un efecto característico."
+  },
+  {
+    "question": "¿Qué corticoide se usa en shock anafiláctico?",
+    "options": [
+      "Prednisona",
+      "Dexametasona",
+      "Metilprednisolona",
+      "Deflazacort"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Metilprednisolona."
+  },
+  {
+    "question": "¿Qué EF corresponde a prednisona?",
+    "options": [
+      "ZAMENE",
+      "DACORTIN",
+      "URBASON",
+      "FORTECORTIN"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DACORTIN es prednisona."
+  },
+  {
+    "question": "¿Qué corticoide es FORTECORTIN?",
+    "options": [
+      "Dexametasona",
+      "Prednisona",
+      "Deflazacort",
+      "Hidrocortisona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Es dexametasona."
+  },
+
+  {
+    "question": "¿Para qué se usan corticoides tópicos?",
+    "options": [
+      "Diabetes",
+      "Dermatitis",
+      "Hipotiroidismo",
+      "Anemia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usan en problemas dermatológicos."
+  },
+  {
+    "question": "¿Qué corticoide se usa en asma inhalado?",
+    "options": [
+      "Betametasona",
+      "Budesonida",
+      "Hidrocortisona",
+      "Fluocinolona"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Budesonida."
+  },
+  {
+    "question": "¿Qué EF corresponde a budesonida?",
+    "options": [
+      "RINOCORT",
+      "SYNALAR",
+      "CELESTODERM",
+      "MENADERM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "RINOCORT."
+  },
+
+  {
+    "question": "¿Qué hormona es un andrógeno?",
+    "options": [
+      "Estradiol",
+      "Testosterona",
+      "Progesterona",
+      "Calcitonina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Testosterona."
+  },
+  {
+    "question": "¿Qué hace la ciproterona?",
+    "options": [
+      "Aumenta estrógenos",
+      "Bloquea andrógenos",
+      "Aumenta glucosa",
+      "Disminuye calcio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Es antiandrógeno."
+  },
+  {
+    "question": "¿Qué hormona se usa en menopausia?",
+    "options": [
+      "Estradiol",
+      "Testosterona",
+      "Insulina",
+      "Glucagón"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Estradiol."
+  },
+  {
+    "question": "¿Qué EF corresponde a estradiol?",
+    "options": [
+      "EVOPAD",
+      "DACORTIN",
+      "LANTUS",
+      "PLAVIX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EVOPAD."
+  },
+
+  {
+    "question": "¿Qué hace la medroxiprogesterona?",
+    "options": [
+      "Control glucosa",
+      "Regula ciclo menstrual",
+      "Aumenta calcio",
+      "Evita coágulos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Regula el ciclo."
+  },
+
+  {
+    "question": "¿Qué tipo de anticonceptivo es NUVARING?",
+    "options": [
+      "Oral",
+      "Inyectable",
+      "Anillo vaginal",
+      "Parche"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Es un anillo."
+  },
+  {
+    "question": "¿Qué anticonceptivo es de urgencia?",
+    "options": [
+      "DIANE",
+      "NORLEVO",
+      "EVOPAD",
+      "URBASON"
+    ],
+    "correctAnswer": 1,
+    "explanation": "NORLEVO."
+  },
+
+  {
+    "question": "¿Qué tipo de anticonceptivo es combinación fija?",
+    "options": [
+      "Dosis variable",
+      "Dosis constante",
+      "Uso local",
+      "Uso hospitalario"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Dosis constante."
+  },
+
+  {
+    "question": "¿Qué es OVITRELLE?",
+    "options": [
+      "Anticonceptivo",
+      "Hormona tiroidea",
+      "Conceptivo",
+      "Insulina"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Se usa en reproducción asistida."
+  },
+
+  {
+    "question": "¿Qué hace la gonadotropina coriónica?",
+    "options": [
+      "Disminuye glucosa",
+      "Estimula ovulación",
+      "Aumenta calcio",
+      "Reduce inflamación"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Se usa en fertilidad."
+  },
+
+  {
+    "question": "¿Qué grupo tiene más efectos adversos?",
+    "options": [
+      "Insulinas",
+      "Corticoides",
+      "Estrógenos",
+      "Calcitonina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los corticoides tienen muchos efectos adversos."
+  },
+
+  {
+    "question": "¿Qué síntoma NO es de hipoglucemia?",
+    "options": [
+      "Taquicardia",
+      "Mareo",
+      "Confusión",
+      "Hipertensión"
+    ],
+    "correctAnswer": 3,
+    "explanation": "Hipertensión no es típico."
+  }
+]
