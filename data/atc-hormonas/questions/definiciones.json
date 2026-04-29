@@ -1,1 +1,314 @@
-[]
+[
+  {
+    "prompt": "Relaciona cada grupo hormonal con su función principal.",
+    "leftItems": [
+      "H01 - Hormonas hipotalámicas o hipofisarias",
+      "H03 - Hormonas tiroideas",
+      "H04 - Hormonas pancreáticas",
+      "H02 - Corticoesteroides sistémicos",
+      "G03 - Hormonas sexuales"
+    ],
+    "rightItems": [
+      "Regulan funciones del hipotálamo y la hipófisis",
+      "Aumentan el metabolismo",
+      "Controlan la glucosa en sangre",
+      "Antiinflamatorios e inmunosupresores potentes",
+      "Regulan funciones reproductivas y hormonales"
+    ],
+    "correctMatches": {
+      "H01 - Hormonas hipotalámicas o hipofisarias": "Regulan funciones del hipotálamo y la hipófisis",
+      "H03 - Hormonas tiroideas": "Aumentan el metabolismo",
+      "H04 - Hormonas pancreáticas": "Controlan la glucosa en sangre",
+      "H02 - Corticoesteroides sistémicos": "Antiinflamatorios e inmunosupresores potentes",
+      "G03 - Hormonas sexuales": "Regulan funciones reproductivas y hormonales"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada hormona con su actividad.",
+    "leftItems": [
+      "ADH",
+      "Somatotropina",
+      "Oxitocina",
+      "Levotiroxina",
+      "Calcitonina"
+    ],
+    "rightItems": [
+      "Evita la pérdida de agua",
+      "Estimula el crecimiento",
+      "Produce contracciones uterinas",
+      "Aumenta el metabolismo",
+      "Disminuye el calcio en sangre"
+    ],
+    "correctMatches": {
+      "ADH": "Evita la pérdida de agua",
+      "Somatotropina": "Estimula el crecimiento",
+      "Oxitocina": "Produce contracciones uterinas",
+      "Levotiroxina": "Aumenta el metabolismo",
+      "Calcitonina": "Disminuye el calcio en sangre"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada hormona con su indicación.",
+    "leftItems": [
+      "ADH",
+      "Somatotropina",
+      "Oxitocina",
+      "Levotiroxina",
+      "Calcitonina"
+    ],
+    "rightItems": [
+      "Diabetes insípida",
+      "Trastornos del crecimiento",
+      "Inducir el parto",
+      "Hipotiroidismo",
+      "Osteoporosis"
+    ],
+    "correctMatches": {
+      "ADH": "Diabetes insípida",
+      "Somatotropina": "Trastornos del crecimiento",
+      "Oxitocina": "Inducir el parto",
+      "Levotiroxina": "Hipotiroidismo",
+      "Calcitonina": "Osteoporosis"
+    }
+  },
+
+  {
+    "prompt": "Relaciona los tipos de insulina con su uso.",
+    "leftItems": [
+      "Insulina rápida",
+      "Insulina intermedia",
+      "Insulina prolongada",
+      "Glucagón",
+      "Hormonas pancreáticas"
+    ],
+    "rightItems": [
+      "Uso en urgencias",
+      "Tratamiento habitual",
+      "Control prolongado",
+      "Aumenta la glucosa",
+      "Regulan la glucosa en sangre"
+    ],
+    "correctMatches": {
+      "Insulina rápida": "Uso en urgencias",
+      "Insulina intermedia": "Tratamiento habitual",
+      "Insulina prolongada": "Control prolongado",
+      "Glucagón": "Aumenta la glucosa",
+      "Hormonas pancreáticas": "Regulan la glucosa en sangre"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada insulina con su EF.",
+    "leftItems": [
+      "Insulina rápida",
+      "Insulina intermedia",
+      "Insulina prolongada"
+    ],
+    "rightItems": [
+      "ACTRAPID / HUMALOG / NOVORAPID",
+      "INSULATARD",
+      "LANTUS"
+    ],
+    "correctMatches": {
+      "Insulina rápida": "ACTRAPID / HUMALOG / NOVORAPID",
+      "Insulina intermedia": "INSULATARD",
+      "Insulina prolongada": "LANTUS"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada grupo con su efecto adverso característico.",
+    "leftItems": [
+      "Insulinas",
+      "Corticoides sistémicos",
+      "Corticoides tópicos",
+      "Hormonas tiroideas",
+      "Calcitonina"
+    ],
+    "rightItems": [
+      "Hipoglucemia",
+      "Síndrome de Cushing",
+      "Efectos similares a corticoides sistémicos",
+      "Alteraciones metabólicas",
+      "No destacado en el temario"
+    ],
+    "correctMatches": {
+      "Insulinas": "Hipoglucemia",
+      "Corticoides sistémicos": "Síndrome de Cushing",
+      "Corticoides tópicos": "Efectos similares a corticoides sistémicos",
+      "Hormonas tiroideas": "Alteraciones metabólicas",
+      "Calcitonina": "No destacado en el temario"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada corticoide con su indicación principal.",
+    "leftItems": [
+      "Dexametasona",
+      "Prednisona",
+      "Deflazacort",
+      "Metilprednisolona"
+    ],
+    "rightItems": [
+      "Problemas oftálmicos y alergias",
+      "Uso oral en inflamación",
+      "Tratamiento similar a prednisona",
+      "Shock anafiláctico"
+    ],
+    "correctMatches": {
+      "Dexametasona": "Problemas oftálmicos y alergias",
+      "Prednisona": "Uso oral en inflamación",
+      "Deflazacort": "Tratamiento similar a prednisona",
+      "Metilprednisolona": "Shock anafiláctico"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada corticoide con su EF.",
+    "leftItems": [
+      "Dexametasona",
+      "Prednisona",
+      "Deflazacort",
+      "Metilprednisolona"
+    ],
+    "rightItems": [
+      "FORTECORTIN",
+      "DACORTIN",
+      "ZAMENE",
+      "URBASON"
+    ],
+    "correctMatches": {
+      "Dexametasona": "FORTECORTIN",
+      "Prednisona": "DACORTIN",
+      "Deflazacort": "ZAMENE",
+      "Metilprednisolona": "URBASON"
+    }
+  },
+
+  {
+    "prompt": "Relaciona los corticoides tópicos con su uso.",
+    "leftItems": [
+      "Budesonida",
+      "Hidrocortisona",
+      "Betametasona",
+      "Fluocinolona",
+      "Beclometasona"
+    ],
+    "rightItems": [
+      "Rinitis y asma",
+      "Aftas y problemas dermatológicos",
+      "Dermatitis",
+      "Problemas cutáneos",
+      "Dermatología"
+    ],
+    "correctMatches": {
+      "Budesonida": "Rinitis y asma",
+      "Hidrocortisona": "Aftas y problemas dermatológicos",
+      "Betametasona": "Dermatitis",
+      "Fluocinolona": "Problemas cutáneos",
+      "Beclometasona": "Dermatología"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada hormona sexual con su función.",
+    "leftItems": [
+      "Andrógenos",
+      "Antiandrógenos",
+      "Estrógenos",
+      "Progestágenos",
+      "Anticonceptivos"
+    ],
+    "rightItems": [
+      "Hormonas masculinas",
+      "Bloquean hormonas masculinas",
+      "Hormonas femeninas",
+      "Regulan el ciclo menstrual",
+      "Previenen el embarazo"
+    ],
+    "correctMatches": {
+      "Andrógenos": "Hormonas masculinas",
+      "Antiandrógenos": "Bloquean hormonas masculinas",
+      "Estrógenos": "Hormonas femeninas",
+      "Progestágenos": "Regulan el ciclo menstrual",
+      "Anticonceptivos": "Previenen el embarazo"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada hormona sexual con su indicación.",
+    "leftItems": [
+      "Testosterona",
+      "Ciproterona",
+      "Estradiol",
+      "Medroxiprogesterona",
+      "Levonorgestrel"
+    ],
+    "rightItems": [
+      "Climaterio masculino",
+      "Cáncer de próstata",
+      "Menopausia",
+      "Amenorrea",
+      "Anticoncepción de urgencia"
+    ],
+    "correctMatches": {
+      "Testosterona": "Climaterio masculino",
+      "Ciproterona": "Cáncer de próstata",
+      "Estradiol": "Menopausia",
+      "Medroxiprogesterona": "Amenorrea",
+      "Levonorgestrel": "Anticoncepción de urgencia"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada tipo de anticonceptivo con su característica.",
+    "leftItems": [
+      "Combinación fija",
+      "Combinación secuencial",
+      "Tópicos",
+      "Píldora del día después",
+      "Anillo vaginal"
+    ],
+    "rightItems": [
+      "Dosis hormonal constante",
+      "Variación hormonal",
+      "Uso local",
+      "Anticoncepción de urgencia",
+      "Administración vaginal"
+    ],
+    "correctMatches": {
+      "Combinación fija": "Dosis hormonal constante",
+      "Combinación secuencial": "Variación hormonal",
+      "Tópicos": "Uso local",
+      "Píldora del día después": "Anticoncepción de urgencia",
+      "Anillo vaginal": "Administración vaginal"
+    }
+  },
+
+  {
+    "prompt": "Relaciona cada EF con su principio activo.",
+    "leftItems": [
+      "LEVOTHROID",
+      "MIACALCIC",
+      "LANTUS",
+      "URBASON",
+      "NUVARING"
+    ],
+    "rightItems": [
+      "Levotiroxina",
+      "Calcitonina",
+      "Insulina prolongada",
+      "Metilprednisolona",
+      "Etonogestrel + etinilestradiol"
+    ],
+    "correctMatches": {
+      "LEVOTHROID": "Levotiroxina",
+      "MIACALCIC": "Calcitonina",
+      "LANTUS": "Insulina prolongada",
+      "URBASON": "Metilprednisolona",
+      "NUVARING": "Etonogestrel + etinilestradiol"
+    }
+  }
+]
