@@ -1,1 +1,277 @@
-[]
+[
+  {
+    "question": "¿A qué corresponde el ATC B?",
+    "options": [
+      "Aparato respiratorio",
+      "Sangre y órganos hematopoyéticos",
+      "Aparato digestivo",
+      "Sistema cardiovascular"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El ATC B corresponde a sangre y órganos hematopoyéticos."
+  },
+  {
+    "question": "¿Qué grupo corresponde a B01?",
+    "options": [
+      "Antihemorrágicos",
+      "Antianémicos",
+      "Agentes antitrombóticos",
+      "Sustitutos del plasma"
+    ],
+    "correctAnswer": 2,
+    "explanation": "B01 corresponde a agentes antitrombóticos."
+  },
+  {
+    "question": "¿Qué hacen los antitrombóticos?",
+    "options": [
+      "Favorecen la salida de sangre",
+      "Evitan coágulos de sangre",
+      "Aumentan el oxígeno",
+      "Sustituyen el plasma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los antitrombóticos evitan coágulos en vasos sanguíneos o en el corazón."
+  },
+  {
+    "question": "¿Qué grupo corresponde a B02?",
+    "options": [
+      "Antihemorrágicos",
+      "Antitrombóticos",
+      "Antianémicos",
+      "Otros agentes hematológicos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "B02 corresponde a antihemorrágicos."
+  },
+  {
+    "question": "¿Qué hacen los antihemorrágicos?",
+    "options": [
+      "Evitan la salida de sangre",
+      "Impiden transportar oxígeno",
+      "Dilatan bronquios",
+      "Destruyen plaquetas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los antihemorrágicos evitan la salida de sangre de arterias, venas o capilares."
+  },
+  {
+    "question": "¿Qué grupo corresponde a B03?",
+    "options": [
+      "Antitrombóticos",
+      "Preparados antianémicos",
+      "Antihemorrágicos",
+      "Sustitutos del plasma"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B03 corresponde a preparados antianémicos."
+  },
+  {
+    "question": "¿Cuándo se usan los antianémicos?",
+    "options": [
+      "Cuando hay coágulos",
+      "Cuando la sangre no transporta todo el oxígeno necesario",
+      "Cuando hay tos",
+      "Cuando hay alergia"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los antianémicos se usan cuando la sangre no transporta todo el oxígeno necesario."
+  },
+  {
+    "question": "¿Qué grupo corresponde a B05?",
+    "options": [
+      "Sustitutos del plasma y soluciones para perfusión",
+      "Anticoagulantes orales",
+      "Antianémicos",
+      "Antiagregantes plaquetarios"
+    ],
+    "correctAnswer": 0,
+    "explanation": "B05 corresponde a sustitutos del plasma y soluciones para perfusión."
+  },
+  {
+    "question": "¿Qué grupo corresponde a B06?",
+    "options": [
+      "Antitrombóticos",
+      "Otros agentes hematológicos",
+      "Antianémicos",
+      "Antihemorrágicos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "B06 corresponde a otros agentes hematológicos."
+  },
+  {
+    "question": "¿Qué principio activo pertenece a anticoagulantes fisiológicos?",
+    "options": [
+      "Heparina",
+      "Acenocumarol",
+      "Clopidogrel",
+      "Sulfato ferroso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Heparina aparece como anticoagulante fisiológico."
+  },
+  {
+    "question": "¿Qué EF corresponde a heparina?",
+    "options": [
+      "SINTROM / XARELTO",
+      "CLEXANE / HIBOR",
+      "ADIRO / ASPIRINA",
+      "ACFOL / FOLIDOCE"
+    ],
+    "correctAnswer": 1,
+    "explanation": "CLEXANE e HIBOR corresponden a heparina."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a SINTROM?",
+    "options": [
+      "Heparina",
+      "Acenocumarol",
+      "Rivaroxaban",
+      "Prasugrel"
+    ],
+    "correctAnswer": 1,
+    "explanation": "SINTROM corresponde a acenocumarol."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a XARELTO?",
+    "options": [
+      "Rivaroxaban",
+      "Acenocumarol",
+      "Clopidogrel",
+      "Sulfato ferroso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XARELTO corresponde a rivaroxaban."
+  },
+  {
+    "question": "¿Qué subgrupo se usa en tratamientos prolongados?",
+    "options": [
+      "Anticoagulantes orales",
+      "Anticoagulantes fisiológicos",
+      "Anemias macrocíticas",
+      "Sustitutos del plasma"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los anticoagulantes orales aparecen como tratamientos prolongados."
+  },
+  {
+    "question": "¿Cuál pertenece a los antiagregantes plaquetarios?",
+    "options": [
+      "Ácido acetilsalicílico",
+      "Heparina",
+      "B12",
+      "Sulfato ferroso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ácido acetilsalicílico aparece dentro de antiagregantes plaquetarios."
+  },
+  {
+    "question": "¿Qué EF corresponden al ácido acetilsalicílico?",
+    "options": [
+      "ADIRO / TROMALYT / ASPIRINA",
+      "ISCOVER / PLAVIX",
+      "CLEXANE / HIBOR",
+      "TARDYFERON / FEROGRADUMET"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ADIRO, TROMALYT y ASPIRINA corresponden a ácido acetilsalicílico."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a PLAVIX?",
+    "options": [
+      "Prasugrel",
+      "Clopidogrel",
+      "Acenocumarol",
+      "Rivaroxaban"
+    ],
+    "correctAnswer": 1,
+    "explanation": "PLAVIX corresponde a clopidogrel."
+  },
+  {
+    "question": "¿Qué EF corresponde a prasugrel?",
+    "options": [
+      "EFFIENT",
+      "PLAVIX",
+      "XARELTO",
+      "ACFOL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EFFIENT corresponde a prasugrel."
+  },
+  {
+    "question": "¿Qué subgrupo incluye sulfato ferroso?",
+    "options": [
+      "Anemias microcíticas",
+      "Anemias macrocíticas",
+      "Anticoagulantes orales",
+      "Antiagregantes plaquetarios"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Sulfato ferroso aparece en anemias microcíticas ferropénicas."
+  },
+  {
+    "question": "¿Qué EF corresponden a sulfato ferroso?",
+    "options": [
+      "TARDYFERON / FEROGRADUMET",
+      "ACFOL / FOLIDOCE",
+      "CLEXANE / HIBOR",
+      "ISCOVER / PLAVIX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TARDYFERON y FEROGRADUMET corresponden a sulfato ferroso."
+  },
+  {
+    "question": "¿Qué caracteriza a las anemias macrocíticas según el temario?",
+    "options": [
+      "Glóbulo rojo de tamaño grande",
+      "Formación de coágulos",
+      "Salida de sangre por capilares",
+      "Agregación plaquetaria"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que son anemias con tamaño grande del glóbulo rojo."
+  },
+  {
+    "question": "¿Qué EF corresponde a ácido fólico?",
+    "options": [
+      "ACFOL",
+      "FOLIDOCE",
+      "OPTOVITE",
+      "SINTROM"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ACFOL corresponde a ácido fólico."
+  },
+  {
+    "question": "¿Qué EF corresponde a ácido fólico + B12?",
+    "options": [
+      "ACFOL",
+      "FOLIDOCE",
+      "OPTOVITE",
+      "FEROGRADUMET"
+    ],
+    "correctAnswer": 1,
+    "explanation": "FOLIDOCE corresponde a ácido fólico + B12."
+  },
+  {
+    "question": "¿Qué EF corresponde a B12?",
+    "options": [
+      "OPTOVITE",
+      "ACFOL",
+      "FOLIDOCE",
+      "EFFIENT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OPTOVITE corresponde a B12."
+  },
+  {
+    "question": "¿Qué EF aparece indicado como vía intravenosa?",
+    "options": [
+      "OPTOVITE",
+      "ACFOL",
+      "TARDYFERON",
+      "PLAVIX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "OPTOVITE aparece anotado como iv."
+  }
+]
