@@ -1,0 +1,12 @@
+{
+  "color": "#4a6eb0",
+  "icon": "sangre-organos",
+  "ordenActividades": [
+    "definiciones",
+    "verdadero-falso",
+    "test",
+    "ef-principio-activo",
+    "efectos-adversos",
+    "repaso-fallos"
+  ]
+}
