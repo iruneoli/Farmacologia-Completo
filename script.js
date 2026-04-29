@@ -1,24 +1,39 @@
+/* =========================================================
+   VARIABLES GLOBALES
+   ========================================================= */
+
 let currentATC = "digestivo";
 
+/* Definiciones */
 let currentQuestion = null;
 let selectedLeft = null;
 let userMatches = {};
 
+/* EF ↔ Principio activo */
 let efQuestions = [];
 let currentEFQuestion = null;
 
+/* Verdadero / Falso */
 let vfQuestions = [];
 let currentVFQuestion = null;
 
+/* Test */
 let testQuestions = [];
 let currentTestQuestion = null;
 
+/* Efectos / Reacciones adversas */
 let adverseQuestions = [];
 let currentAdverseQuestion = null;
 
+/* Repaso de fallos */
 let wrongQuestions = [];
 let currentWrongIndex = 0;
 let currentWrongQuestion = null;
+
+
+/* =========================================================
+   FUNCIONES GENERALES DEL ATC ACTIVO
+   ========================================================= */
 
 function getATCPath() {
   return `data/atc-${currentATC}`;
@@ -33,19 +48,37 @@ function hideATCScreens() {
   document.getElementById("antiinfeccion-screen")?.classList.add("hidden");
 }
 
-/* NAVEGACIÓN */
+function hideActivityScreens() {
+  document.getElementById("definiciones-screen")?.classList.add("hidden");
+  document.getElementById("vf-screen")?.classList.add("hidden");
+  document.getElementById("test-screen")?.classList.add("hidden");
+  document.getElementById("ef-screen")?.classList.add("hidden");
+  document.getElementById("adverse-screen")?.classList.add("hidden");
+  document.getElementById("wrong-screen")?.classList.add("hidden");
+}
+
+function shuffleArray(array) {
+  return [...array].sort(() => Math.random() - 0.5);
+}
+
+
+/* =========================================================
+   NAVEGACIÓN PRINCIPAL
+   ========================================================= */
 
 function selectGroup(group) {
   document.getElementById("home-screen").classList.add("hidden");
-
   hideATCScreens();
+  hideActivityScreens();
 
   if (group === "digestivo") {
     currentATC = "digestivo";
     document.getElementById("digestivo-screen").classList.remove("hidden");
+
   } else if (group === "antiinfeccion") {
     currentATC = "antiinfeccion";
     document.getElementById("antiinfeccion-screen").classList.remove("hidden");
+
   } else {
     document.getElementById("home-screen").classList.remove("hidden");
     alert("Este ATC todavía no está programado.");
@@ -54,29 +87,18 @@ function selectGroup(group) {
 
 function goHome() {
   document.getElementById("home-screen").classList.remove("hidden");
-
-  document.getElementById("digestivo-screen")?.classList.add("hidden");
-  document.getElementById("antiinfeccion-screen")?.classList.add("hidden");
-
-  document.getElementById("definiciones-screen")?.classList.add("hidden");
-  document.getElementById("vf-screen")?.classList.add("hidden");
-  document.getElementById("test-screen")?.classList.add("hidden");
-  document.getElementById("ef-screen")?.classList.add("hidden");
-  document.getElementById("adverse-screen")?.classList.add("hidden");
-  document.getElementById("wrong-screen")?.classList.add("hidden");
+  hideATCScreens();
+  hideActivityScreens();
 }
 
 function backToActivities() {
-  document.getElementById("definiciones-screen")?.classList.add("hidden");
-  document.getElementById("vf-screen")?.classList.add("hidden");
-  document.getElementById("test-screen")?.classList.add("hidden");
-  document.getElementById("ef-screen")?.classList.add("hidden");
-  document.getElementById("adverse-screen")?.classList.add("hidden");
-  document.getElementById("wrong-screen")?.classList.add("hidden");
+  hideActivityScreens();
 
   if (currentATC === "digestivo") {
     document.getElementById("digestivo-screen").classList.remove("hidden");
-  } else if (currentATC === "antiinfeccion") {
+  }
+
+  if (currentATC === "antiinfeccion") {
     document.getElementById("antiinfeccion-screen").classList.remove("hidden");
   }
 }
@@ -99,14 +121,18 @@ function selectActivity(activity) {
   }
 }
 
-/* GUARDADO GENERAL DE ERRORES */
+
+/* =========================================================
+   GUARDADO GENERAL DE ERRORES
+   Sirve para todos los ATC y todas las actividades.
+   ========================================================= */
 
 function saveWrongAnswer(entry) {
   const wrongAnswers =
     JSON.parse(localStorage.getItem(getWrongStorageKey())) || [];
 
   wrongAnswers.push({
-    atc: "digestivo",
+    atc: currentATC,
     date: new Date().toISOString(),
     ...entry
   });
@@ -114,21 +140,24 @@ function saveWrongAnswer(entry) {
   localStorage.setItem(getWrongStorageKey(), JSON.stringify(wrongAnswers));
 }
 
-/* DEFINICIONES */
+
+/* =========================================================
+   ACTIVIDAD: DEFINICIONES
+   Lee: data/atc-X/questions/definiciones.json
+   ========================================================= */
 
 async function loadDefinitions() {
   hideATCScreens();
+  hideActivityScreens();
+
   document.getElementById("definiciones-screen").classList.remove("hidden");
 
   const response = await fetch(`${getATCPath()}/questions/definiciones.json`);
   const data = await response.json();
 
   currentQuestion = data[Math.floor(Math.random() * data.length)];
-  renderMatch(currentQuestion);
-}
 
-function shuffleArray(array) {
-  return [...array].sort(() => Math.random() - 0.5);
+  renderMatch(currentQuestion);
 }
 
 function renderMatch(question) {
@@ -231,14 +260,191 @@ function nextDefinitionQuestion() {
   loadDefinitions();
 }
 
-/* EF ↔ PRINCIPIO ACTIVO */
+
+/* =========================================================
+   ACTIVIDAD: VERDADERO / FALSO
+   Lee: data/atc-X/questions/verdadero-falso.json
+   ========================================================= */
+
+async function loadVFQuestions() {
+  hideATCScreens();
+  hideActivityScreens();
+
+  document.getElementById("vf-screen").classList.remove("hidden");
+
+  const response = await fetch(`${getATCPath()}/questions/verdadero-falso.json`);
+  vfQuestions = await response.json();
+
+  nextVFQuestion();
+}
+
+function nextVFQuestion() {
+  const result = document.getElementById("vf-result");
+  const justification = document.getElementById("vf-justification");
+  const nextButton = document.getElementById("vf-next-button");
+
+  result.innerText = "";
+  justification.innerText = "";
+  justification.classList.remove("show");
+  nextButton.classList.add("hidden");
+
+  document.querySelectorAll(".vf-button").forEach(button => {
+    button.disabled = false;
+    button.classList.remove("correct", "incorrect");
+  });
+
+  currentVFQuestion =
+    vfQuestions[Math.floor(Math.random() * vfQuestions.length)];
+
+  document.getElementById("vf-question").innerText =
+    currentVFQuestion.statement;
+}
+
+function checkVFAnswer(userAnswer) {
+  if (!currentVFQuestion) return;
+
+  const isCorrect = userAnswer === currentVFQuestion.answer;
+
+  document.querySelectorAll(".vf-button").forEach(button => {
+    button.disabled = true;
+  });
+
+  const trueButton = document.querySelector(".true-button");
+  const falseButton = document.querySelector(".false-button");
+
+  if (currentVFQuestion.answer === true) {
+    trueButton.classList.add("correct");
+    if (!isCorrect) falseButton.classList.add("incorrect");
+  } else {
+    falseButton.classList.add("correct");
+    if (!isCorrect) trueButton.classList.add("incorrect");
+  }
+
+  document.getElementById("vf-result").innerText =
+    isCorrect ? "Correcto." : "Incorrecto.";
+
+  const justification = document.getElementById("vf-justification");
+  justification.innerText = currentVFQuestion.justification;
+  justification.classList.add("show");
+
+  if (!isCorrect) {
+    saveWrongAnswer({
+      activity: "verdadero-falso",
+      prompt: currentVFQuestion.statement,
+      questionData: currentVFQuestion,
+      userAnswer: userAnswer ? "Verdadero" : "Falso",
+      correctAnswer: currentVFQuestion.answer ? "Verdadero" : "Falso",
+      justification: currentVFQuestion.justification
+    });
+  }
+
+  document.getElementById("vf-next-button").classList.remove("hidden");
+}
+
+
+/* =========================================================
+   ACTIVIDAD: PREGUNTAS TIPO TEST
+   Lee: data/atc-X/questions/test.json
+   ========================================================= */
+
+async function loadTestQuestions() {
+  hideATCScreens();
+  hideActivityScreens();
+
+  document.getElementById("test-screen").classList.remove("hidden");
+
+  const response = await fetch(`${getATCPath()}/questions/test.json`);
+  testQuestions = await response.json();
+
+  nextTestQuestion();
+}
+
+function nextTestQuestion() {
+  const result = document.getElementById("test-result");
+  const explanation = document.getElementById("test-explanation");
+  const nextButton = document.getElementById("test-next-button");
+
+  result.innerText = "";
+  explanation.innerText = "";
+  explanation.classList.remove("show");
+  nextButton.classList.add("hidden");
+
+  currentTestQuestion =
+    testQuestions[Math.floor(Math.random() * testQuestions.length)];
+
+  document.getElementById("test-question").innerText =
+    currentTestQuestion.question;
+
+  const optionsContainer = document.getElementById("test-options");
+  optionsContainer.innerHTML = "";
+
+  currentTestQuestion.options.forEach(option => {
+    const button = document.createElement("button");
+    button.className = "quiz-option";
+    button.innerText = option;
+
+    button.onclick = () => checkTestAnswer(button, option);
+
+    optionsContainer.appendChild(button);
+  });
+}
+
+function checkTestAnswer(button, selectedAnswer) {
+  if (!currentTestQuestion) return;
+
+  let correctAnswer = currentTestQuestion.correctAnswer;
+
+  if (typeof correctAnswer === "number") {
+    correctAnswer = currentTestQuestion.options[correctAnswer];
+  }
+
+  const isCorrect = selectedAnswer === correctAnswer;
+
+  document.querySelectorAll("#test-options .quiz-option").forEach(option => {
+    option.disabled = true;
+
+    if (option.innerText === correctAnswer) {
+      option.classList.add("correct");
+    }
+  });
+
+  if (isCorrect) {
+    document.getElementById("test-result").innerText = "Correcto.";
+  } else {
+    button.classList.add("incorrect");
+    document.getElementById("test-result").innerText =
+      `Incorrecto. La respuesta correcta es: ${correctAnswer}`;
+
+    saveWrongAnswer({
+      activity: "test",
+      prompt: currentTestQuestion.question,
+      questionData: currentTestQuestion,
+      userAnswer: selectedAnswer,
+      correctAnswer: correctAnswer,
+      explanation: currentTestQuestion.explanation
+    });
+  }
+
+  const explanation = document.getElementById("test-explanation");
+  explanation.innerText = currentTestQuestion.explanation || "";
+  explanation.classList.add("show");
+
+  document.getElementById("test-next-button").classList.remove("hidden");
+}
+
+
+/* =========================================================
+   ACTIVIDAD: EF ↔ PRINCIPIO ACTIVO
+   Lee: data/atc-X/content.json
+   ========================================================= */
 
 async function loadEFPrincipioActivo() {
   hideATCScreens();
-  document.getElementById("digestivo-screen").classList.add("hidden");
+  hideActivityScreens();
+
   document.getElementById("ef-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/content.json`)
+  const response = await fetch(`${getATCPath()}/content.json`);
   const content = await response.json();
 
   const principios = extractPrincipiosActivos(content);
@@ -251,9 +457,7 @@ function extractPrincipiosActivos(content) {
   const principios = [];
 
   content.grupos.forEach(grupo => {
-    grupo.subgrupos.forEach(subgrupo => {
-      collectPrincipios(subgrupo, grupo, principios);
-    });
+    collectPrincipios(grupo, grupo, principios);
   });
 
   return principios.filter(item => item.principioActivo);
@@ -268,16 +472,30 @@ function collectPrincipios(node, grupo, principios) {
           pa.ef && pa.ef.length > 0
             ? pa.ef
             : ["No consta EF en el temario"],
-        grupo: grupo.codigo,
-        subgrupo: node.nombre
+        grupo: grupo.codigo || currentATC,
+        subgrupo: node.nombre || node.familia || ""
       });
     });
   }
 
+  if (node.subgrupos) {
+    node.subgrupos.forEach(item => collectPrincipios(item, grupo, principios));
+  }
+
   if (node.subgruposInternos) {
-    node.subgruposInternos.forEach(interno => {
-      collectPrincipios(interno, grupo, principios);
-    });
+    node.subgruposInternos.forEach(item => collectPrincipios(item, grupo, principios));
+  }
+
+  if (node.familias) {
+    node.familias.forEach(item => collectPrincipios(item, grupo, principios));
+  }
+
+  if (node.grupos) {
+    node.grupos.forEach(item => collectPrincipios(item, grupo, principios));
+  }
+
+  if (node.tipos) {
+    node.tipos.forEach(item => collectPrincipios(item, grupo, principios));
   }
 }
 
@@ -352,7 +570,7 @@ function nextEFQuestion() {
 }
 
 function checkEFAnswer(button, selectedAnswer) {
-  document.querySelectorAll(".quiz-option").forEach(option => {
+  document.querySelectorAll("#ef-options .quiz-option").forEach(option => {
     option.disabled = true;
 
     if (option.innerText === currentEFQuestion.correctAnswer) {
@@ -379,161 +597,19 @@ function checkEFAnswer(button, selectedAnswer) {
   document.getElementById("ef-next-button").classList.remove("hidden");
 }
 
-async function loadVFQuestions() {
-  hideATCScreens();
-  document.getElementById("digestivo-screen").classList.add("hidden");
-  document.getElementById("vf-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/questions/verdadero-falso.json`);
-  vfQuestions = await response.json();
-
-  nextVFQuestion();
-}
-
-function nextVFQuestion() {
-  const result = document.getElementById("vf-result");
-  const justification = document.getElementById("vf-justification");
-  const nextButton = document.getElementById("vf-next-button");
-
-  result.innerText = "";
-  justification.innerText = "";
-  justification.classList.remove("show");
-  nextButton.classList.add("hidden");
-
-  document.querySelectorAll(".vf-button").forEach(button => {
-    button.disabled = false;
-    button.classList.remove("correct", "incorrect");
-  });
-
-  currentVFQuestion =
-    vfQuestions[Math.floor(Math.random() * vfQuestions.length)];
-
-  document.getElementById("vf-question").innerText =
-    currentVFQuestion.statement;
-}
-
-function checkVFAnswer(userAnswer) {
-  if (!currentVFQuestion) return;
-
-  const isCorrect = userAnswer === currentVFQuestion.answer;
-
-  document.querySelectorAll(".vf-button").forEach(button => {
-    button.disabled = true;
-  });
-
-  const trueButton = document.querySelector(".true-button");
-  const falseButton = document.querySelector(".false-button");
-
-  if (currentVFQuestion.answer === true) {
-    trueButton.classList.add("correct");
-    if (!isCorrect) falseButton.classList.add("incorrect");
-  } else {
-    falseButton.classList.add("correct");
-    if (!isCorrect) trueButton.classList.add("incorrect");
-  }
-
-  document.getElementById("vf-result").innerText = isCorrect
-    ? "Correcto."
-    : "Incorrecto.";
-
-  const justification = document.getElementById("vf-justification");
-  justification.innerText = currentVFQuestion.justification;
-  justification.classList.add("show");
-
-  if (!isCorrect) {
-    saveWrongAnswer({
-      activity: "verdadero-falso",
-      prompt: currentVFQuestion.statement,
-      questionData: currentVFQuestion,
-      userAnswer: userAnswer ? "Verdadero" : "Falso",
-      correctAnswer: currentVFQuestion.answer ? "Verdadero" : "Falso",
-      justification: currentVFQuestion.justification
-    });
-  }
-
-  document.getElementById("vf-next-button").classList.remove("hidden");
-}
-async function loadTestQuestions() {
-  hideATCScreens();
-  document.getElementById("digestivo-screen").classList.add("hidden");
-  document.getElementById("test-screen").classList.remove("hidden");
-
-  const response = await fetch(`${getATCPath()}/questions/test.json`);
-  testQuestions = await response.json();
-
-  nextTestQuestion();
-}
-
-function nextTestQuestion() {
-  const result = document.getElementById("test-result");
-  const explanation = document.getElementById("test-explanation");
-  const nextButton = document.getElementById("test-next-button");
-
-  result.innerText = "";
-  explanation.innerText = "";
-  explanation.classList.remove("show");
-  nextButton.classList.add("hidden");
-
-  currentTestQuestion =
-    testQuestions[Math.floor(Math.random() * testQuestions.length)];
-
-  document.getElementById("test-question").innerText =
-    currentTestQuestion.question;
-
-  const optionsContainer = document.getElementById("test-options");
-  optionsContainer.innerHTML = "";
-
-  currentTestQuestion.options.forEach(option => {
-    const button = document.createElement("button");
-    button.className = "quiz-option";
-    button.innerText = option;
-
-    button.onclick = () => checkTestAnswer(button, option);
-
-    optionsContainer.appendChild(button);
-  });
-}
-
-function checkTestAnswer(button, selectedAnswer) {
-  if (!currentTestQuestion) return;
-
-  const isCorrect = selectedAnswer === currentTestQuestion.correctAnswer;
-
-  document.querySelectorAll("#test-options .quiz-option").forEach(option => {
-    option.disabled = true;
-
-    if (option.innerText === currentTestQuestion.correctAnswer) {
-      option.classList.add("correct");
-    }
-  });
-
-  if (isCorrect) {
-    document.getElementById("test-result").innerText = "Correcto.";
-  } else {
-    button.classList.add("incorrect");
-    document.getElementById("test-result").innerText =
-      `Incorrecto. La respuesta correcta es: ${currentTestQuestion.correctAnswer}`;
-
-    saveWrongAnswer({
-      activity: "test",
-      prompt: currentTestQuestion.question,
-      questionData: currentTestQuestion,
-      userAnswer: selectedAnswer,
-      correctAnswer: currentTestQuestion.correctAnswer,
-      explanation: currentTestQuestion.explanation
-    });
-  }
-
-  const explanation = document.getElementById("test-explanation");
-  explanation.innerText = currentTestQuestion.explanation;
-  explanation.classList.add("show");
-
-  document.getElementById("test-next-button").classList.remove("hidden");
-}
+/* =========================================================
+   ACTIVIDAD: EFECTOS / REACCIONES ADVERSAS
+   Lee: data/atc-X/content.json
+   Compatible con:
+   - efectosAdversos
+   - reaccionesAdversas
+   ========================================================= */
 
 async function loadAdverseQuestions() {
   hideATCScreens();
-  document.getElementById("digestivo-screen").classList.add("hidden");
+  hideActivityScreens();
+
   document.getElementById("adverse-screen").classList.remove("hidden");
 
   const response = await fetch(`${getATCPath()}/content.json`);
@@ -549,9 +625,7 @@ function extractMedicinesForAdverse(content) {
   const medicines = [];
 
   content.grupos.forEach(grupo => {
-    grupo.subgrupos.forEach(subgrupo => {
-      collectMedicinesForAdverse(subgrupo, grupo, medicines);
-    });
+    collectMedicinesForAdverse(grupo, grupo, medicines);
   });
 
   return medicines.filter(item => item.name);
@@ -573,8 +647,8 @@ function collectMedicinesForAdverse(node, grupo, medicines) {
         name: pa.nombre,
         ef: pa.ef || [],
         adverse: adverse,
-        grupo: grupo.codigo,
-        subgrupo: node.nombre
+        grupo: grupo.codigo || currentATC,
+        subgrupo: node.nombre || node.familia || ""
       });
 
       if (pa.ef && pa.ef.length > 0) {
@@ -583,30 +657,47 @@ function collectMedicinesForAdverse(node, grupo, medicines) {
             name: efName,
             ef: [],
             adverse: adverse,
-            grupo: grupo.codigo,
-            subgrupo: node.nombre
+            grupo: grupo.codigo || currentATC,
+            subgrupo: node.nombre || node.familia || ""
           });
         });
       }
     });
   }
 
+  if (node.subgrupos) {
+    node.subgrupos.forEach(item => collectMedicinesForAdverse(item, grupo, medicines));
+  }
+
   if (node.subgruposInternos) {
-    node.subgruposInternos.forEach(interno => {
-      collectMedicinesForAdverse(interno, grupo, medicines);
-    });
+    node.subgruposInternos.forEach(item => collectMedicinesForAdverse(item, grupo, medicines));
+  }
+
+  if (node.familias) {
+    node.familias.forEach(item => collectMedicinesForAdverse(item, grupo, medicines));
+  }
+
+  if (node.grupos) {
+    node.grupos.forEach(item => collectMedicinesForAdverse(item, grupo, medicines));
+  }
+
+  if (node.tipos) {
+    node.tipos.forEach(item => collectMedicinesForAdverse(item, grupo, medicines));
   }
 }
 
 function generateAdverseQuestions(medicines) {
-  const allAnswers = [
-    ...new Set(medicines.map(item => item.adverse))
-  ];
+  const allAnswers = [...new Set(medicines.map(item => item.adverse))];
 
   return shuffleArray(
     medicines.map(item => {
+      const label =
+        currentATC === "antiinfeccion"
+          ? "reacción adversa"
+          : "efecto adverso";
+
       return {
-        question: `El medicamento "${item.name}", ¿qué efecto adverso tiene?`,
+        question: `El medicamento "${item.name}", ¿qué ${label} tiene?`,
         correctAnswer: item.adverse,
         options: generateOptions(item.adverse, allAnswers)
       };
@@ -673,12 +764,20 @@ function checkAdverseAnswer(button, selectedAnswer) {
   document.getElementById("adverse-next-button").classList.remove("hidden");
 }
 
+
+/* =========================================================
+   ACTIVIDAD: REPASO DE FALLOS
+   Lee errores del ATC activo.
+   ========================================================= */
+
 function loadWrongQuestions() {
-  document.getElementById("digestivo-screen").classList.add("hidden");
+  hideATCScreens();
+  hideActivityScreens();
+
   document.getElementById("wrong-screen").classList.remove("hidden");
 
   wrongQuestions =
-    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+    JSON.parse(localStorage.getItem(getWrongStorageKey())) || [];
 
   currentWrongIndex = 0;
 
@@ -690,9 +789,10 @@ function renderWrongQuestion() {
   const content = document.getElementById("wrong-content");
 
   wrongQuestions =
-    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+    JSON.parse(localStorage.getItem(getWrongStorageKey())) || [];
 
-  counter.innerText = `Tienes ${wrongQuestions.length} pregunta(s) fallada(s) guardada(s).`;
+  counter.innerText =
+    `Tienes ${wrongQuestions.length} pregunta(s) fallada(s) guardada(s).`;
 
   if (wrongQuestions.length === 0) {
     content.innerHTML = `
@@ -710,25 +810,15 @@ function renderWrongQuestion() {
 
   if (currentWrongQuestion.activity === "definiciones") {
     renderWrongDefinition(currentWrongQuestion, content);
-  } else if (
-    currentWrongQuestion.activity === "verdadero-falso" ||
-    currentWrongQuestion.activity === "test" ||
-    currentWrongQuestion.activity === "ef-principio-activo" ||
-    currentWrongQuestion.activity === "efectos-adversos"
-  ) {
-    renderWrongQuiz(currentWrongQuestion, content);
   } else {
-    content.innerHTML = `
-      <p class="quiz-question">Tipo de pregunta no reconocido.</p>
-      <button class="next-button" onclick="removeCurrentWrongQuestion()">Eliminar de fallos</button>
-    `;
+    renderWrongQuiz(currentWrongQuestion, content);
   }
 }
 
 function renderWrongQuiz(wrongQuestion, content) {
   const questionData = wrongQuestion.questionData;
 
-  let questionText =
+  const questionText =
     wrongQuestion.prompt ||
     questionData.question ||
     questionData.statement ||
@@ -764,8 +854,7 @@ function renderWrongQuiz(wrongQuestion, content) {
 
 function checkWrongQuizAnswer(button, selectedAnswer) {
   const wrongQuestion = currentWrongQuestion;
-
-  let correctAnswer = wrongQuestion.correctAnswer;
+  const correctAnswer = wrongQuestion.correctAnswer;
 
   document.querySelectorAll("#wrong-options .quiz-option").forEach(option => {
     option.disabled = true;
@@ -789,10 +878,12 @@ function checkWrongQuizAnswer(button, selectedAnswer) {
     }, 900);
   } else {
     button.classList.add("incorrect");
-    result.innerText = `Incorrecto. La respuesta correcta es: ${correctAnswer}`;
+    result.innerText =
+      `Incorrecto. La respuesta correcta es: ${correctAnswer}`;
 
     if (wrongQuestion.justification || wrongQuestion.explanation) {
-      explanation.innerText = wrongQuestion.justification || wrongQuestion.explanation;
+      explanation.innerText =
+        wrongQuestion.justification || wrongQuestion.explanation;
       explanation.classList.add("show");
     }
 
@@ -896,14 +987,17 @@ function checkWrongDefinitionAnswer() {
   const result = document.getElementById("wrong-result");
 
   if (correct === total) {
-    result.innerText = `Correcto. Has acertado ${correct} de ${total}. Esta pregunta sale del repaso de fallos.`;
+    result.innerText =
+      `Correcto. Has acertado ${correct} de ${total}. Esta pregunta sale del repaso de fallos.`;
+
     removeCurrentWrongQuestion();
 
     setTimeout(() => {
       renderWrongQuestion();
     }, 900);
   } else {
-    result.innerText = `Incorrecto. Has acertado ${correct} de ${total}. Esta pregunta seguirá en fallos.`;
+    result.innerText =
+      `Incorrecto. Has acertado ${correct} de ${total}. Esta pregunta seguirá en fallos.`;
 
     const nextButton = document.createElement("button");
     nextButton.className = "next-button";
@@ -916,11 +1010,11 @@ function checkWrongDefinitionAnswer() {
 
 function removeCurrentWrongQuestion() {
   const wrongAnswers =
-    JSON.parse(localStorage.getItem("digestivoWrongAnswers")) || [];
+    JSON.parse(localStorage.getItem(getWrongStorageKey())) || [];
 
   wrongAnswers.splice(currentWrongIndex, 1);
 
-  localStorage.setItem("digestivoWrongAnswers", JSON.stringify(wrongAnswers));
+  localStorage.setItem(getWrongStorageKey(), JSON.stringify(wrongAnswers));
 
   wrongQuestions = wrongAnswers;
 }
