@@ -101,10 +101,10 @@ function backToActivities() {
 
   if (currentATC === "digestivo") {
     document.getElementById("digestivo-screen").classList.remove("hidden");
-  }
-
-  if (currentATC === "antiinfeccion") {
+  } else if (currentATC === "antiinfeccion") {
     document.getElementById("antiinfeccion-screen").classList.remove("hidden");
+  } else if (currentATC === "respiratorio") {
+    document.getElementById("respiratorio-screen").classList.remove("hidden");
   }
 }
 
