@@ -1,1 +1,217 @@
-[]
+[
+  {
+    "statement": "El grupo H corresponde a hormonas del sistema endocrino.",
+    "answer": true,
+    "justification": "El ATC H incluye hormonas relacionadas con el sistema endocrino."
+  },
+  {
+    "statement": "La ADH evita pérdidas excesivas de agua y actúa como vasoconstrictor.",
+    "answer": true,
+    "justification": "La hormona antidiurética reduce la pérdida de agua y tiene efecto vasoconstrictor."
+  },
+  {
+    "statement": "La ADH se utiliza en el tratamiento de la diabetes mellitus.",
+    "answer": false,
+    "justification": "Se utiliza en diabetes insípida, no en diabetes mellitus."
+  },
+  {
+    "statement": "La somatotropina se usa en trastornos del crecimiento infantil.",
+    "answer": true,
+    "justification": "Es la hormona del crecimiento."
+  },
+  {
+    "statement": "La oxitocina produce contracciones uterinas.",
+    "answer": true,
+    "justification": "Se utiliza para inducir el parto y controlar hemorragias postparto."
+  },
+  {
+    "statement": "La levotiroxina se usa en hipertiroidismo.",
+    "answer": false,
+    "justification": "Se usa en hipotiroidismo."
+  },
+  {
+    "statement": "La tiroxina aumenta el metabolismo y el consumo de oxígeno.",
+    "answer": true,
+    "justification": "Estimula el metabolismo de glúcidos, lípidos y proteínas."
+  },
+  {
+    "statement": "La calcitonina aumenta los niveles de calcio en sangre.",
+    "answer": false,
+    "justification": "Los disminuye, inhibiendo osteoclastos."
+  },
+  {
+    "statement": "La calcitonina se utiliza en osteoporosis.",
+    "answer": true,
+    "justification": "Favorece la formación de hueso."
+  },
+  {
+    "statement": "Las insulinas aumentan la glucosa en sangre.",
+    "answer": false,
+    "justification": "Disminuyen la glucosa en sangre."
+  },
+  {
+    "statement": "La insulina rápida se usa en situaciones de urgencia.",
+    "answer": true,
+    "justification": "Se usa en hiperglucemias elevadas."
+  },
+  {
+    "statement": "La insulina prolongada actúa rápidamente.",
+    "answer": false,
+    "justification": "Empieza más tarde pero dura más tiempo."
+  },
+  {
+    "statement": "El principal efecto adverso de la insulina es la hipoglucemia.",
+    "answer": true,
+    "justification": "Puede producir bajadas peligrosas de glucosa."
+  },
+  {
+    "statement": "Las insulinas pueden producir taquicardia, mareos y confusión.",
+    "answer": true,
+    "justification": "Son síntomas asociados a la hipoglucemia."
+  },
+  {
+    "statement": "El glucagón disminuye la glucosa en sangre.",
+    "answer": false,
+    "justification": "La aumenta liberando reservas hepáticas."
+  },
+  {
+    "statement": "El glucagón se usa en hipoglucemias.",
+    "answer": true,
+    "justification": "Se utiliza cuando la glucosa está baja."
+  },
+
+  {
+    "statement": "Los corticoides sistémicos son más potentes que los AINE.",
+    "answer": true,
+    "justification": "Son antiinflamatorios esteroides más potentes."
+  },
+  {
+    "statement": "Los corticoides solo tienen efecto antiinflamatorio.",
+    "answer": false,
+    "justification": "También tienen efecto inmunosupresor."
+  },
+  {
+    "statement": "La metilprednisolona se usa en shock anafiláctico.",
+    "answer": true,
+    "justification": "Es una indicación importante en urgencias."
+  },
+  {
+    "statement": "La prednisona se administra por vía oral.",
+    "answer": true,
+    "justification": "El temario indica vía oral."
+  },
+  {
+    "statement": "La dexametasona se usa solo para enfermedades dermatológicas.",
+    "answer": false,
+    "justification": "Tiene múltiples usos: alergias, asma, reuma, oftalmología..."
+  },
+  {
+    "statement": "Los corticoides pueden producir osteoporosis.",
+    "answer": true,
+    "justification": "Es uno de sus efectos adversos principales."
+  },
+  {
+    "statement": "Los corticoides disminuyen la masa muscular.",
+    "answer": true,
+    "justification": "Afectan al metabolismo proteico."
+  },
+  {
+    "statement": "Los corticoides producen síndrome de Cushing.",
+    "answer": true,
+    "justification": "Es un efecto adverso característico."
+  },
+  {
+    "statement": "Los corticoides no afectan al sistema hormonal.",
+    "answer": false,
+    "justification": "Provocan alteraciones hormonales como anovulación."
+  },
+
+  {
+    "statement": "Los corticoides tópicos se usan en dermatitis y psoriasis.",
+    "answer": true,
+    "justification": "Son indicaciones dermatológicas típicas."
+  },
+  {
+    "statement": "La budesonida se usa en asma y rinitis.",
+    "answer": true,
+    "justification": "Tiene uso respiratorio tópico."
+  },
+  {
+    "statement": "La hidrocortisona se usa en aftas bucales.",
+    "answer": true,
+    "justification": "Puede utilizarse por vía bucal."
+  },
+  {
+    "statement": "Los corticoides tópicos no tienen efectos adversos.",
+    "answer": false,
+    "justification": "Comparten efectos adversos con los sistémicos."
+  },
+
+  {
+    "statement": "La testosterona es un andrógeno.",
+    "answer": true,
+    "justification": "Es la principal hormona masculina."
+  },
+  {
+    "statement": "La testosterona se usa en menopausia.",
+    "answer": false,
+    "justification": "Se usa en climaterio masculino y otras patologías."
+  },
+  {
+    "statement": "Los antiandrógenos bloquean la acción de los andrógenos.",
+    "answer": true,
+    "justification": "Esa es su función principal."
+  },
+  {
+    "statement": "La ciproterona se usa en cáncer de próstata.",
+    "answer": true,
+    "justification": "Es una indicación relevante."
+  },
+  {
+    "statement": "El estradiol se usa en menopausia.",
+    "answer": true,
+    "justification": "Es una terapia hormonal sustitutiva."
+  },
+  {
+    "statement": "PROGYNOVA es un EF de estradiol.",
+    "answer": true,
+    "justification": "Es una especialidad farmacéutica de estradiol."
+  },
+  {
+    "statement": "La medroxiprogesterona se usa en amenorrea.",
+    "answer": true,
+    "justification": "Es una de sus indicaciones."
+  },
+
+  {
+    "statement": "Los anticonceptivos combinados contienen solo una hormona.",
+    "answer": false,
+    "justification": "Combinan estrógeno y gestágeno."
+  },
+  {
+    "statement": "NORLEVO es un anticonceptivo de urgencia.",
+    "answer": true,
+    "justification": "Se usa como píldora del día después."
+  },
+  {
+    "statement": "NUVARING es un anticonceptivo oral.",
+    "answer": false,
+    "justification": "Es un anillo vaginal."
+  },
+  {
+    "statement": "Los anticonceptivos pueden ser de combinación fija, secuencial o tópicos.",
+    "answer": true,
+    "justification": "El temario los clasifica en tres tipos."
+  },
+
+  {
+    "statement": "Los conceptivos se usan en reproducción asistida.",
+    "answer": true,
+    "justification": "Incluyen estimulación ovárica."
+  },
+  {
+    "statement": "OVITRELLE contiene gonadotropina coriónica.",
+    "answer": true,
+    "justification": "Se usa en fertilidad."
+  }
+]
