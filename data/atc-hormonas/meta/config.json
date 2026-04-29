@@ -1,1 +1,12 @@
-[]
+{
+  "color": "#a86bbf",
+  "icon": "hormonas",
+  "ordenActividades": [
+    "definiciones",
+    "verdadero-falso",
+    "test",
+    "ef-principio-activo",
+    "efectos-adversos",
+    "repaso-fallos"
+  ]
+}
