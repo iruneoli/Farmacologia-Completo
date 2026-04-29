@@ -46,6 +46,7 @@ function getWrongStorageKey() {
 function hideATCScreens() {
   document.getElementById("digestivo-screen")?.classList.add("hidden");
   document.getElementById("antiinfeccion-screen")?.classList.add("hidden");
+  document.getElementById("respiratorio-screen")?.classList.add("hidden");
 }
 
 function hideActivityScreens() {
@@ -78,7 +79,11 @@ function selectGroup(group) {
   } else if (group === "antiinfeccion") {
     currentATC = "antiinfeccion";
     document.getElementById("antiinfeccion-screen").classList.remove("hidden");
-
+ 
+  } else if (group === "respiratorio") {
+    currentATC = "respiratorio";
+    document.getElementById("respiratorio-screen").classList.remove("hidden");
+ 
   } else {
     document.getElementById("home-screen").classList.remove("hidden");
     alert("Este ATC todavía no está programado.");
