@@ -1,0 +1,447 @@
+{
+  "atc": "analgesicos",
+  "nombre": "ATC Analgésicos",
+  "descripcion": "Tratamiento del dolor y la inflamación",
+  "grupos": [
+    {
+      "codigo": "N02",
+      "nombre": "Analgésicos opiáceos",
+      "actividadGrupo": "Se utilizan para dolores intensos. No son antiinflamatorios. Se unen a receptores específicos que hay en las neuronas.",
+      "subgrupos": [
+        {
+          "nombre": "Morfina",
+          "actividadSubgrupo": "Analgésico opiáceo estupefaciente.",
+          "principiosActivos": [
+            {
+              "nombre": "Morfina",
+              "ef": [],
+              "indicaciones": [
+                "Dolores intensos"
+              ],
+              "observaciones": "Estupefaciente.",
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Derivados de la fenilpiperidina",
+          "actividadSubgrupo": "Analgésicos opiáceos estupefacientes.",
+          "principiosActivos": [
+            {
+              "nombre": "Meperidina",
+              "ef": [
+                "DOLANTINA",
+                "DEMEROL"
+              ],
+              "indicaciones": [
+                "Dolores intensos",
+                "Uso hospitalario"
+              ],
+              "observaciones": "Hospital.",
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
+            },
+            {
+              "nombre": "Fentanilo",
+              "ef": [
+                "FENTANEST",
+                "DUROGESIC"
+              ],
+              "indicaciones": [
+                "Dolores intensos"
+              ],
+              "observaciones": "Puede aparecer en parches.",
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Derivados del benzomorfano",
+          "actividadSubgrupo": "Analgésicos opiáceos psicótropos.",
+          "principiosActivos": [
+            {
+              "nombre": "Pentazocina",
+              "ef": [],
+              "indicaciones": [
+                "Dolores intensos"
+              ],
+              "observaciones": "Psicótropo.",
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Antagonistas de la morfina",
+          "actividadSubgrupo": "Se utilizan en el tratamiento de sobredosis con opiáceos.",
+          "principiosActivos": [
+            {
+              "nombre": "Naloxona",
+              "ef": [],
+              "indicaciones": [
+                "Sobredosis con opiáceos"
+              ],
+              "observaciones": "Uso hospitalario.",
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Naltrexona",
+              "ef": [],
+              "indicaciones": [
+                "Sobredosis con opiáceos"
+              ],
+              "observaciones": "Uso hospitalario.",
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Derivados de la fenilpropilamina",
+          "actividadSubgrupo": "Analgésicos opiáceos estupefacientes.",
+          "principiosActivos": [
+            {
+              "nombre": "Metadona",
+              "ef": [],
+              "indicaciones": [
+                "Deshabituación a opiáceos"
+              ],
+              "observaciones": "Estupefaciente.",
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
+            },
+            {
+              "nombre": "Tramadol",
+              "ef": [
+                "ADOLONTA"
+              ],
+              "indicaciones": [
+                "Tratamiento habitual para dolores moderados o intensos"
+              ],
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "N02",
+      "nombre": "Analgésicos no opiáceos",
+      "actividadGrupo": "Se utilizan para el dolor leve o moderado y la fiebre. Incluyen fármacos que no son AINE.",
+      "subgrupos": [
+        {
+          "nombre": "Para-amino-fenoles",
+          "actividadSubgrupo": "No son AINE. Tienen actividad analgésica y antipirética.",
+          "principiosActivos": [
+            {
+              "nombre": "Paracetamol",
+              "ef": [
+                "GELOCATIL",
+                "EFFERALGAN",
+                "XUMADOL"
+              ],
+              "indicaciones": [
+                "Dolor leve o moderado",
+                "Fiebre"
+              ],
+              "efectosAdversos": [
+                "Hepatotoxicidad"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Pirazolonas",
+          "actividadSubgrupo": "No son AINE. Tienen actividad analgésica y antipirética. También se usan como antiespasmódicos en cólicos.",
+          "principiosActivos": [
+            {
+              "nombre": "Metamizol magnésico",
+              "ef": [
+                "NOLOTIL"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Fiebre",
+                "Cólicos"
+              ],
+              "efectosAdversos": [
+                "Casi no tiene riesgo gástrico",
+                "Puede producir trastornos sanguíneos por uso continuado"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Mezclas",
+          "actividadSubgrupo": "Combinaciones de analgésicos.",
+          "principiosActivos": [
+            {
+              "nombre": "Tramadol + paracetamol",
+              "ef": [
+                "ZALDIAR"
+              ],
+              "indicaciones": [
+                "Dolor moderado o intenso"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "M01",
+      "nombre": "AINE",
+      "actividadGrupo": "Antiinflamatorios no esteroideos. Son analgésicos, antiinflamatorios y antitérmicos. Inhiben una enzima necesaria para la formación de prostaglandinas, implicadas en inflamación, dolor, fiebre y protección de la mucosa gástrica.",
+      "subgrupos": [
+        {
+          "nombre": "Salicilatos",
+          "actividadSubgrupo": "Poseen las cuatro acciones. Se usan como antiinflamatorios a dosis altas y como antiagregantes a dosis bajas.",
+          "principiosActivos": [
+            {
+              "nombre": "Ácido acetilsalicílico",
+              "ef": [
+                "ASPIRINA",
+                "ADIRO"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación",
+                "Fiebre",
+                "Antiagregante a dosis bajas",
+                "Antiinflamatorio a dosis altas"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Derivados del ácido fenilacético",
+          "actividadSubgrupo": "Tienen actividad antiinflamatoria y analgésica. Pueden producir cefaleas y mareos.",
+          "principiosActivos": [
+            {
+              "nombre": "Diclofenaco",
+              "ef": [
+                "VOLTAREN",
+                "DOLOTREN"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia",
+                "Cefaleas",
+                "Mareos"
+              ]
+            },
+            {
+              "nombre": "Aceclofenaco",
+              "ef": [
+                "AIRTAL"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia",
+                "Cefaleas",
+                "Mareos"
+              ]
+            },
+            {
+              "nombre": "Indometazina",
+              "ef": [
+                "INACID"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia",
+                "Cefaleas",
+                "Mareos"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Derivados del ácido fenilpropiónico",
+          "actividadSubgrupo": "Tienen actividad analgésica, antiinflamatoria y antipirética. En dosis inferiores a 600 mg algunos son EFP.",
+          "principiosActivos": [
+            {
+              "nombre": "Ibuprofeno",
+              "ef": [
+                "NUROFEN",
+                "NEOBRUFEN",
+                "DALSY",
+                "ESPIDIFEN"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación",
+                "Fiebre"
+              ],
+              "observaciones": "DALSY aparece indicado para niños.",
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            },
+            {
+              "nombre": "Naproxeno",
+              "ef": [
+                "NAPROSYN"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación",
+                "Fiebre"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            },
+            {
+              "nombre": "Ketoprofeno",
+              "ef": [
+                "ORUDIS"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación",
+                "Fiebre"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            },
+            {
+              "nombre": "Ketorolaco",
+              "ef": [
+                "TORADOL"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación",
+                "Fiebre"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Oxicams",
+          "actividadSubgrupo": "Antiinflamatorios muy potentes. Se administran una vez al día. Se usan en enfermedades reumáticas.",
+          "principiosActivos": [
+            {
+              "nombre": "Piroxicam",
+              "ef": [
+                "FELDENE"
+              ],
+              "indicaciones": [
+                "Enfermedades reumáticas",
+                "Inflamación"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Otros AINE",
+          "actividadSubgrupo": "Otros medicamentos dentro del grupo de AINE.",
+          "principiosActivos": [
+            {
+              "nombre": null,
+              "ef": [
+                "DOLALGIAL"
+              ],
+              "indicaciones": [
+                "Dolor",
+                "Inflamación"
+              ],
+              "efectosAdversos": [
+                "Abrasión de la mucosa gástrica",
+                "Gastritis",
+                "Úlceras",
+                "Riesgo de hemorragia"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
