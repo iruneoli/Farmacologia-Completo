@@ -1,0 +1,794 @@
+[
+  {
+    "prompt": "Relaciona cada código ATC cardiovascular con su grupo.",
+    "leftItems": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05"
+    ],
+    "rightItems": [
+      "Terapia cardíaca",
+      "Antihipertensivos",
+      "Diuréticos",
+      "Vasodilatadores periféricos",
+      "Vasoprotectores"
+    ],
+    "correctMatches": {
+      "C01": "Terapia cardíaca",
+      "C02": "Antihipertensivos",
+      "C03": "Diuréticos",
+      "C04": "Vasodilatadores periféricos",
+      "C05": "Vasoprotectores"
+    }
+  },
+  {
+    "prompt": "Relaciona cada código ATC cardiovascular con su grupo.",
+    "leftItems": [
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "Grupo C"
+    ],
+    "rightItems": [
+      "Agentes beta-bloqueantes",
+      "Bloqueantes de canales de calcio",
+      "Agentes que actúan sobre el sistema renina-angiotensina",
+      "Agentes que reducen los lípidos séricos",
+      "Sistema cardiovascular"
+    ],
+    "correctMatches": {
+      "C07": "Agentes beta-bloqueantes",
+      "C08": "Bloqueantes de canales de calcio",
+      "C09": "Agentes que actúan sobre el sistema renina-angiotensina",
+      "C10": "Agentes que reducen los lípidos séricos",
+      "Grupo C": "Sistema cardiovascular"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo general con su definición.",
+    "leftItems": [
+      "Antihipertensivos",
+      "Diuréticos",
+      "Vasodilatadores periféricos",
+      "Vasoprotectores",
+      "Hipolipemiantes"
+    ],
+    "rightItems": [
+      "Actúan contra el aumento continuo de la presión arterial",
+      "Provocan eliminación de agua y electrolitos",
+      "Relajan vasos sanguíneos y disminuyen la resistencia",
+      "Mejoran fragilidad, permeabilidad y resistencia de los vasos",
+      "Reducen colesterol y triglicéridos"
+    ],
+    "correctMatches": {
+      "Antihipertensivos": "Actúan contra el aumento continuo de la presión arterial",
+      "Diuréticos": "Provocan eliminación de agua y electrolitos",
+      "Vasodilatadores periféricos": "Relajan vasos sanguíneos y disminuyen la resistencia",
+      "Vasoprotectores": "Mejoran fragilidad, permeabilidad y resistencia de los vasos",
+      "Hipolipemiantes": "Reducen colesterol y triglicéridos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo cardiovascular con su actividad principal.",
+    "leftItems": [
+      "Insuficiencia cardiaca",
+      "Insuficiencia coronaria",
+      "Hipertensión arterial",
+      "Arritmias cardiacas",
+      "Antivaricosos"
+    ],
+    "rightItems": [
+      "Incapacidad de bombeo del corazón",
+      "Las arterias coronarias no aportan suficiente sangre al miocardio",
+      "Aumento de la fuerza de la sangre contra las arterias",
+      "Alteraciones del ritmo de los latidos",
+      "Evitan venas dilatadas y mejoran la circulación venosa"
+    ],
+    "correctMatches": {
+      "Insuficiencia cardiaca": "Incapacidad de bombeo del corazón",
+      "Insuficiencia coronaria": "Las arterias coronarias no aportan suficiente sangre al miocardio",
+      "Hipertensión arterial": "Aumento de la fuerza de la sangre contra las arterias",
+      "Arritmias cardiacas": "Alteraciones del ritmo de los latidos",
+      "Antivaricosos": "Evitan venas dilatadas y mejoran la circulación venosa"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto de insuficiencia cardiaca con su explicación.",
+    "leftItems": [
+      "Fallo cardiaco",
+      "Poscarga",
+      "Precarga",
+      "Insuficiencia cardiaca",
+      "Volemia"
+    ],
+    "rightItems": [
+      "El corazón funciona mal",
+      "Aumento de resistencias contra las que bombea el corazón",
+      "Aumento de sangre que llega al corazón",
+      "Incapacidad de bombeo del corazón",
+      "Volumen de sangre circulante"
+    ],
+    "correctMatches": {
+      "Fallo cardiaco": "El corazón funciona mal",
+      "Poscarga": "Aumento de resistencias contra las que bombea el corazón",
+      "Precarga": "Aumento de sangre que llega al corazón",
+      "Insuficiencia cardiaca": "Incapacidad de bombeo del corazón",
+      "Volemia": "Volumen de sangre circulante"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo usado en insuficiencia cardiaca con su actividad.",
+    "leftItems": [
+      "Digitálicos",
+      "Diuréticos",
+      "Vasodilatadores",
+      "Digoxina",
+      "Furosemida"
+    ],
+    "rightItems": [
+      "Aumentan la fuerza de contracción, disminuyen la frecuencia y tienen efecto diurético",
+      "Disminuyen la volemia",
+      "Disminuyen la precarga y/o la poscarga",
+      "Principio activo digitálico",
+      "Principio activo diurético"
+    ],
+    "correctMatches": {
+      "Digitálicos": "Aumentan la fuerza de contracción, disminuyen la frecuencia y tienen efecto diurético",
+      "Diuréticos": "Disminuyen la volemia",
+      "Vasodilatadores": "Disminuyen la precarga y/o la poscarga",
+      "Digoxina": "Principio activo digitálico",
+      "Furosemida": "Principio activo diurético"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo de insuficiencia cardiaca con su subgrupo.",
+    "leftItems": [
+      "Digoxina",
+      "Furosemida",
+      "Nifedipino",
+      "Bisoprolol",
+      "SEGURIL"
+    ],
+    "rightItems": [
+      "Digitálicos",
+      "Diuréticos",
+      "Vasodilatadores",
+      "Vasodilatadores",
+      "EF de furosemida"
+    ],
+    "correctMatches": {
+      "Digoxina": "Digitálicos",
+      "Furosemida": "Diuréticos",
+      "Nifedipino": "Vasodilatadores",
+      "Bisoprolol": "Vasodilatadores",
+      "SEGURIL": "EF de furosemida"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto con insuficiencia cardiaca o su tratamiento.",
+    "leftItems": [
+      "Digoxina",
+      "Estrecho margen terapéutico",
+      "Arritmias",
+      "Bloqueos cardiacos",
+      "ENCORCOR"
+    ],
+    "rightItems": [
+      "Digitálico",
+      "Efecto adverso de digoxina",
+      "Efecto adverso de digoxina",
+      "Efecto adverso de digoxina",
+      "EF de bisoprolol"
+    ],
+    "correctMatches": {
+      "Digoxina": "Digitálico",
+      "Estrecho margen terapéutico": "Efecto adverso de digoxina",
+      "Arritmias": "Efecto adverso de digoxina",
+      "Bloqueos cardiacos": "Efecto adverso de digoxina",
+      "ENCORCOR": "EF de bisoprolol"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto de insuficiencia coronaria con su explicación.",
+    "leftItems": [
+      "Insuficiencia coronaria",
+      "Ángor",
+      "Angina de pecho",
+      "Infarto de miocardio",
+      "Miocardio"
+    ],
+    "rightItems": [
+      "Las coronarias no aportan al miocardio la sangre que necesita",
+      "Dolor torácico por insuficiente aporte sanguíneo coronario",
+      "Equivalente a ángor",
+      "Crisis cardiovascular por daño del músculo cardíaco",
+      "Músculo del corazón"
+    ],
+    "correctMatches": {
+      "Insuficiencia coronaria": "Las coronarias no aportan al miocardio la sangre que necesita",
+      "Ángor": "Dolor torácico por insuficiente aporte sanguíneo coronario",
+      "Angina de pecho": "Equivalente a ángor",
+      "Infarto de miocardio": "Crisis cardiovascular por daño del músculo cardíaco",
+      "Miocardio": "Músculo del corazón"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo de insuficiencia coronaria con su actividad.",
+    "leftItems": [
+      "Nitratos / Nitritos",
+      "Betabloqueantes",
+      "Calcioantagonistas",
+      "Nitroglicerina",
+      "Bisoprolol"
+    ],
+    "rightItems": [
+      "Vasodilatadores usados en angina",
+      "Reducen los efectos de la adrenalina y el trabajo cardiaco",
+      "Vasodilatadores que reducen el trabajo cardiaco",
+      "Principio activo de nitratos / nitritos",
+      "Principio activo betabloqueante"
+    ],
+    "correctMatches": {
+      "Nitratos / Nitritos": "Vasodilatadores usados en angina",
+      "Betabloqueantes": "Reducen los efectos de la adrenalina y el trabajo cardiaco",
+      "Calcioantagonistas": "Vasodilatadores que reducen el trabajo cardiaco",
+      "Nitroglicerina": "Principio activo de nitratos / nitritos",
+      "Bisoprolol": "Principio activo betabloqueante"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo de insuficiencia coronaria con su subgrupo.",
+    "leftItems": [
+      "Nitroglicerina",
+      "Bisoprolol",
+      "Atenolol",
+      "Verapamilo",
+      "Diltiazem"
+    ],
+    "rightItems": [
+      "Nitratos / Nitritos",
+      "Betabloqueantes",
+      "Betabloqueantes",
+      "Calcioantagonistas",
+      "Calcioantagonistas"
+    ],
+    "correctMatches": {
+      "Nitroglicerina": "Nitratos / Nitritos",
+      "Bisoprolol": "Betabloqueantes",
+      "Atenolol": "Betabloqueantes",
+      "Verapamilo": "Calcioantagonistas",
+      "Diltiazem": "Calcioantagonistas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo de insuficiencia coronaria con su subgrupo.",
+    "leftItems": [
+      "Nifedipino",
+      "Amlodipino",
+      "Nitroglicerina",
+      "Atenolol",
+      "Verapamilo"
+    ],
+    "rightItems": [
+      "Calcioantagonistas",
+      "Calcioantagonistas",
+      "Nitratos / Nitritos",
+      "Betabloqueantes",
+      "Calcioantagonistas"
+    ],
+    "correctMatches": {
+      "Nifedipino": "Calcioantagonistas",
+      "Amlodipino": "Calcioantagonistas",
+      "Nitroglicerina": "Nitratos / Nitritos",
+      "Atenolol": "Betabloqueantes",
+      "Verapamilo": "Calcioantagonistas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF cardiovascular con su principio activo.",
+    "leftItems": [
+      "SOLINITRINA",
+      "NITRODERM",
+      "ENCORCOR",
+      "BLOKIUM / TENORMIN",
+      "MANIDON"
+    ],
+    "rightItems": [
+      "Nitroglicerina",
+      "Nitroglicerina",
+      "Bisoprolol",
+      "Atenolol",
+      "Verapamilo"
+    ],
+    "correctMatches": {
+      "SOLINITRINA": "Nitroglicerina",
+      "NITRODERM": "Nitroglicerina",
+      "ENCORCOR": "Bisoprolol",
+      "BLOKIUM / TENORMIN": "Atenolol",
+      "MANIDON": "Verapamilo"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF cardiovascular con su principio activo.",
+    "leftItems": [
+      "MASDIL",
+      "ADALAT",
+      "SEGURIL",
+      "HIGROTONA",
+      "ALDACTONE"
+    ],
+    "rightItems": [
+      "Diltiazem",
+      "Nifedipino",
+      "Furosemida",
+      "Clortalidona",
+      "Espironolactona"
+    ],
+    "correctMatches": {
+      "MASDIL": "Diltiazem",
+      "ADALAT": "Nifedipino",
+      "SEGURIL": "Furosemida",
+      "HIGROTONA": "Clortalidona",
+      "ALDACTONE": "Espironolactona"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF cardiovascular con su principio activo.",
+    "leftItems": [
+      "CAPOTEN",
+      "TRANGOREX",
+      "DAFLON",
+      "THROMBOCID",
+      "No consta EF en el temario para enalapril"
+    ],
+    "rightItems": [
+      "Captopril",
+      "Amiodarona",
+      "Diosmina",
+      "Pentosano de sodio",
+      "Enalapril"
+    ],
+    "correctMatches": {
+      "CAPOTEN": "Captopril",
+      "TRANGOREX": "Amiodarona",
+      "DAFLON": "Diosmina",
+      "THROMBOCID": "Pentosano de sodio",
+      "No consta EF en el temario para enalapril": "Enalapril"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo de hipertensión arterial con su actividad.",
+    "leftItems": [
+      "Diuréticos",
+      "Betabloqueantes",
+      "Calcioantagonistas",
+      "IECA",
+      "Hipertensión arterial"
+    ],
+    "rightItems": [
+      "Disminuyen la volemia",
+      "Vasodilatadores y reducen el gasto cardiaco",
+      "Relajan vasos al reducir el paso de calcio",
+      "Inhiben la síntesis de angiotensina",
+      "Aumento de la fuerza de la sangre contra las paredes arteriales"
+    ],
+    "correctMatches": {
+      "Diuréticos": "Disminuyen la volemia",
+      "Betabloqueantes": "Vasodilatadores y reducen el gasto cardiaco",
+      "Calcioantagonistas": "Relajan vasos al reducir el paso de calcio",
+      "IECA": "Inhiben la síntesis de angiotensina",
+      "Hipertensión arterial": "Aumento de la fuerza de la sangre contra las paredes arteriales"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo antihipertensivo con su subgrupo.",
+    "leftItems": [
+      "Furosemida",
+      "Clortalidona",
+      "Espironolactona",
+      "Hidroclorotiazida",
+      "Bisoprolol"
+    ],
+    "rightItems": [
+      "Diuréticos",
+      "Diuréticos",
+      "Diuréticos",
+      "Diuréticos",
+      "Betabloqueantes"
+    ],
+    "correctMatches": {
+      "Furosemida": "Diuréticos",
+      "Clortalidona": "Diuréticos",
+      "Espironolactona": "Diuréticos",
+      "Hidroclorotiazida": "Diuréticos",
+      "Bisoprolol": "Betabloqueantes"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo antihipertensivo con su subgrupo.",
+    "leftItems": [
+      "Nifedipino",
+      "Amlodipino",
+      "Captopril",
+      "Enalapril",
+      "ADALAT"
+    ],
+    "rightItems": [
+      "Calcioantagonistas",
+      "Calcioantagonistas",
+      "IECA",
+      "IECA",
+      "EF de nifedipino"
+    ],
+    "correctMatches": {
+      "Nifedipino": "Calcioantagonistas",
+      "Amlodipino": "Calcioantagonistas",
+      "Captopril": "IECA",
+      "Enalapril": "IECA",
+      "ADALAT": "EF de nifedipino"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto de hipertensión con su explicación.",
+    "leftItems": [
+      "Angiotensina",
+      "IECA",
+      "Captopril",
+      "Enalapril",
+      "CAPOTEN"
+    ],
+    "rightItems": [
+      "Sustancia hipertensora",
+      "Inhiben la síntesis de angiotensina",
+      "Principio activo IECA",
+      "Principio activo IECA sin EF en el temario",
+      "EF de captopril"
+    ],
+    "correctMatches": {
+      "Angiotensina": "Sustancia hipertensora",
+      "IECA": "Inhiben la síntesis de angiotensina",
+      "Captopril": "Principio activo IECA",
+      "Enalapril": "Principio activo IECA sin EF en el temario",
+      "CAPOTEN": "EF de captopril"
+    }
+  },
+  {
+    "prompt": "Relaciona cada tipo de arritmia con su explicación.",
+    "leftItems": [
+      "Taquicardia",
+      "Bradicardia",
+      "Fibrilación",
+      "Bloqueos cardiacos",
+      "Arritmias cardiacas"
+    ],
+    "rightItems": [
+      "Ritmo alto",
+      "Ritmo lento",
+      "Ritmo irregular",
+      "Alteración de la conducción cardíaca",
+      "Alteraciones del ritmo de los latidos del corazón"
+    ],
+    "correctMatches": {
+      "Taquicardia": "Ritmo alto",
+      "Bradicardia": "Ritmo lento",
+      "Fibrilación": "Ritmo irregular",
+      "Bloqueos cardiacos": "Alteración de la conducción cardíaca",
+      "Arritmias cardiacas": "Alteraciones del ritmo de los latidos del corazón"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo antiarrítmico con su mecanismo.",
+    "leftItems": [
+      "Grupo 1",
+      "Grupo 2",
+      "Grupo 3",
+      "Grupo 4",
+      "Calcioantagonistas antiarrítmicos"
+    ],
+    "rightItems": [
+      "Bloqueantes de canales de sodio",
+      "Betabloqueantes",
+      "Bloqueantes de canales de potasio",
+      "Bloqueantes de canales de calcio",
+      "Diltiazem y verapamilo"
+    ],
+    "correctMatches": {
+      "Grupo 1": "Bloqueantes de canales de sodio",
+      "Grupo 2": "Betabloqueantes",
+      "Grupo 3": "Bloqueantes de canales de potasio",
+      "Grupo 4": "Bloqueantes de canales de calcio",
+      "Calcioantagonistas antiarrítmicos": "Diltiazem y verapamilo"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo antiarrítmico con su grupo.",
+    "leftItems": [
+      "Lidocaína",
+      "Procainamida",
+      "Propranolol",
+      "Atenolol",
+      "Amiodarona"
+    ],
+    "rightItems": [
+      "Grupo 1",
+      "Grupo 1",
+      "Grupo 2",
+      "Grupo 2",
+      "Grupo 3"
+    ],
+    "correctMatches": {
+      "Lidocaína": "Grupo 1",
+      "Procainamida": "Grupo 1",
+      "Propranolol": "Grupo 2",
+      "Atenolol": "Grupo 2",
+      "Amiodarona": "Grupo 3"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo antiarrítmico con su grupo.",
+    "leftItems": [
+      "Diltiazem",
+      "Verapamilo",
+      "TRANGOREX",
+      "Amiodarona",
+      "Grupo 4"
+    ],
+    "rightItems": [
+      "Grupo 4",
+      "Grupo 4",
+      "EF de amiodarona",
+      "Bloqueante de canales de potasio",
+      "Bloqueantes de canales de calcio"
+    ],
+    "correctMatches": {
+      "Diltiazem": "Grupo 4",
+      "Verapamilo": "Grupo 4",
+      "TRANGOREX": "EF de amiodarona",
+      "Amiodarona": "Bloqueante de canales de potasio",
+      "Grupo 4": "Bloqueantes de canales de calcio"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo hipolipemiante con su actividad.",
+    "leftItems": [
+      "Hipolipemiantes",
+      "Estatinas",
+      "Fibratos",
+      "Lovastatina",
+      "Genfibrocilo"
+    ],
+    "rightItems": [
+      "Rebajan colesterol y lípidos en sangre",
+      "Impiden fabricación de colesterol y promueven reabsorción del depositado",
+      "Disminuyen triglicéridos",
+      "Principio activo de estatinas",
+      "Principio activo de fibratos"
+    ],
+    "correctMatches": {
+      "Hipolipemiantes": "Rebajan colesterol y lípidos en sangre",
+      "Estatinas": "Impiden fabricación de colesterol y promueven reabsorción del depositado",
+      "Fibratos": "Disminuyen triglicéridos",
+      "Lovastatina": "Principio activo de estatinas",
+      "Genfibrocilo": "Principio activo de fibratos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo hipolipemiante con su subgrupo.",
+    "leftItems": [
+      "Lovastatina",
+      "Simvastatina",
+      "Atorvastatina",
+      "Genfibrocilo",
+      "Triglicéridos"
+    ],
+    "rightItems": [
+      "Estatinas",
+      "Estatinas",
+      "Estatinas",
+      "Fibratos",
+      "Disminuyen con fibratos"
+    ],
+    "correctMatches": {
+      "Lovastatina": "Estatinas",
+      "Simvastatina": "Estatinas",
+      "Atorvastatina": "Estatinas",
+      "Genfibrocilo": "Fibratos",
+      "Triglicéridos": "Disminuyen con fibratos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada antivaricoso con su información.",
+    "leftItems": [
+      "Antivaricosos",
+      "Diosmina",
+      "Pentosano de sodio",
+      "DAFLON",
+      "THROMBOCID"
+    ],
+    "rightItems": [
+      "Evitan venas dilatadas y mejoran circulación venosa",
+      "Principio activo antivaricoso",
+      "Principio activo antivaricoso",
+      "EF de diosmina",
+      "EF de pentosano de sodio"
+    ],
+    "correctMatches": {
+      "Antivaricosos": "Evitan venas dilatadas y mejoran circulación venosa",
+      "Diosmina": "Principio activo antivaricoso",
+      "Pentosano de sodio": "Principio activo antivaricoso",
+      "DAFLON": "EF de diosmina",
+      "THROMBOCID": "EF de pentosano de sodio"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF o ausencia de EF.",
+    "leftItems": [
+      "Furosemida",
+      "Clortalidona",
+      "Espironolactona",
+      "Hidroclorotiazida",
+      "Amlodipino"
+    ],
+    "rightItems": [
+      "SEGURIL",
+      "HIGROTONA",
+      "ALDACTONE",
+      "No consta EF en el temario",
+      "No consta EF en el temario"
+    ],
+    "correctMatches": {
+      "Furosemida": "SEGURIL",
+      "Clortalidona": "HIGROTONA",
+      "Espironolactona": "ALDACTONE",
+      "Hidroclorotiazida": "No consta EF en el temario",
+      "Amlodipino": "No consta EF en el temario"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF o ausencia de EF.",
+    "leftItems": [
+      "Captopril",
+      "Enalapril",
+      "Amiodarona",
+      "Lovastatina",
+      "Genfibrocilo"
+    ],
+    "rightItems": [
+      "CAPOTEN",
+      "No consta EF en el temario",
+      "TRANGOREX",
+      "No consta EF en el temario",
+      "No consta EF en el temario"
+    ],
+    "correctMatches": {
+      "Captopril": "CAPOTEN",
+      "Enalapril": "No consta EF en el temario",
+      "Amiodarona": "TRANGOREX",
+      "Lovastatina": "No consta EF en el temario",
+      "Genfibrocilo": "No consta EF en el temario"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su indicación o contexto principal.",
+    "leftItems": [
+      "Nitroglicerina",
+      "Bisoprolol",
+      "Captopril",
+      "Amiodarona",
+      "Diosmina"
+    ],
+    "rightItems": [
+      "Angina de pecho",
+      "Insuficiencia cardiaca, coronaria o hipertensión según contexto",
+      "Hipertensión arterial",
+      "Arritmias cardiacas",
+      "Venas dilatadas y circulación venosa"
+    ],
+    "correctMatches": {
+      "Nitroglicerina": "Angina de pecho",
+      "Bisoprolol": "Insuficiencia cardiaca, coronaria o hipertensión según contexto",
+      "Captopril": "Hipertensión arterial",
+      "Amiodarona": "Arritmias cardiacas",
+      "Diosmina": "Venas dilatadas y circulación venosa"
+    }
+  },
+  {
+    "prompt": "Relaciona cada medicamento con el bloque donde aparece.",
+    "leftItems": [
+      "Digoxina",
+      "Nitroglicerina",
+      "Captopril",
+      "Amiodarona",
+      "Atorvastatina"
+    ],
+    "rightItems": [
+      "Insuficiencia cardiaca",
+      "Insuficiencia coronaria",
+      "Hipertensión arterial",
+      "Arritmias cardiacas",
+      "Hipolipemiantes"
+    ],
+    "correctMatches": {
+      "Digoxina": "Insuficiencia cardiaca",
+      "Nitroglicerina": "Insuficiencia coronaria",
+      "Captopril": "Hipertensión arterial",
+      "Amiodarona": "Arritmias cardiacas",
+      "Atorvastatina": "Hipolipemiantes"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con el bloque terapéutico donde aparece.",
+    "leftItems": [
+      "SEGURIL",
+      "SOLINITRINA",
+      "CAPOTEN",
+      "TRANGOREX",
+      "DAFLON"
+    ],
+    "rightItems": [
+      "Diuréticos",
+      "Nitratos / Nitritos",
+      "IECA",
+      "Antiarrítmicos grupo 3",
+      "Antivaricosos"
+    ],
+    "correctMatches": {
+      "SEGURIL": "Diuréticos",
+      "SOLINITRINA": "Nitratos / Nitritos",
+      "CAPOTEN": "IECA",
+      "TRANGOREX": "Antiarrítmicos grupo 3",
+      "DAFLON": "Antivaricosos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto cardiovascular con su explicación.",
+    "leftItems": [
+      "Betabloqueantes",
+      "Calcioantagonistas",
+      "IECA",
+      "Digitálicos",
+      "Estatinas"
+    ],
+    "rightItems": [
+      "Reducen efectos de la adrenalina y trabajo cardiaco",
+      "Reducen el paso de calcio y relajan vasos",
+      "Inhiben angiotensina",
+      "Aumentan fuerza de contracción y disminuyen frecuencia",
+      "Impiden fabricar colesterol"
+    ],
+    "correctMatches": {
+      "Betabloqueantes": "Reducen efectos de la adrenalina y trabajo cardiaco",
+      "Calcioantagonistas": "Reducen el paso de calcio y relajan vasos",
+      "IECA": "Inhiben angiotensina",
+      "Digitálicos": "Aumentan fuerza de contracción y disminuyen frecuencia",
+      "Estatinas": "Impiden fabricar colesterol"
+    }
+  },
+  {
+    "prompt": "Relaciona cada situación clínica con un grupo del temario.",
+    "leftItems": [
+      "Angina de pecho",
+      "Hipertensión arterial",
+      "Arritmias cardiacas",
+      "Colesterol elevado",
+      "Venas dilatadas"
+    ],
+    "rightItems": [
+      "Insuficiencia coronaria",
+      "Antihipertensivos",
+      "Antiarrítmicos",
+      "Hipolipemiantes",
+      "Antivaricosos"
+    ],
+    "correctMatches": {
+      "Angina de pecho": "Insuficiencia coronaria",
+      "Hipertensión arterial": "Antihipertensivos",
+      "Arritmias cardiacas": "Antiarrítmicos",
+      "Colesterol elevado": "Hipolipemiantes",
+      "Venas dilatadas": "Antivaricosos"
+    }
+  }
+]
