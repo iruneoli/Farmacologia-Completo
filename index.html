@@ -363,6 +363,50 @@
     </button>
   </div>
 </section>
+
+    <!-- PANTALLA ATC CARDIOVASCULAR -->
+<section id="cardiovascular-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="goHome()">← Volver al inicio</button>
+    <div class="hero-badge">ATC CARDIOVASCULAR</div>
+    <h1 class="subpage-title">Selecciona el tipo de actividad</h1>
+    <p class="subpage-text">
+      Elige cómo quieres estudiar el contenido del sistema cardiovascular.
+    </p>
+  </div>
+
+  <div class="activity-grid">
+    <button class="activity-card" onclick="selectActivity('definiciones')">
+      <h3>Definiciones</h3>
+      <p>Emparejar códigos, grupos, actividades, principios activos, EF e indicaciones.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('verdadero-falso')">
+      <h3>Verdadero / Falso</h3>
+      <p>Preguntas con justificación inmediata al responder.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('test')">
+      <h3>Preguntas tipo test</h3>
+      <p>4 opciones y una única respuesta correcta.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('ef-principio-activo')">
+      <h3>EF ↔ Principio activo</h3>
+      <p>Relaciona especialidades farmacéuticas y principios activos.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('efectos-adversos')">
+      <h3>Efectos adversos</h3>
+      <p>Identifica el efecto adverso asociado a cada medicamento.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('repaso-fallos')">
+      <h3>Repaso de fallos</h3>
+      <p>Vuelve a practicar las preguntas falladas de este ATC.</p>
+    </button>
+  </div>
+</section>
     
     <!-- PANTALLA DEFINICIONES -->
     <section id="definiciones-screen" class="hidden">
