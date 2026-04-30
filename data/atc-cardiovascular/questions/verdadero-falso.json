@@ -1,0 +1,544 @@
+[
+  {
+    "statement": "El grupo anatómico C corresponde al sistema cardiovascular.",
+    "answer": true,
+    "justification": "El temario identifica el grupo C como sistema cardiovascular."
+  },
+  {
+    "statement": "C01 corresponde a terapia cardíaca.",
+    "answer": true,
+    "justification": "C01 aparece como terapia cardíaca."
+  },
+  {
+    "statement": "C02 corresponde a antihipertensivos.",
+    "answer": true,
+    "justification": "C02 agrupa los fármacos antihipertensivos."
+  },
+  {
+    "statement": "C03 corresponde a diuréticos.",
+    "answer": true,
+    "justification": "C03 aparece como diuréticos."
+  },
+  {
+    "statement": "C04 corresponde a vasodilatadores periféricos.",
+    "answer": true,
+    "justification": "C04 aparece como vasodilatadores periféricos."
+  },
+  {
+    "statement": "C05 corresponde a vasoprotectores.",
+    "answer": true,
+    "justification": "C05 aparece como vasoprotectores."
+  },
+  {
+    "statement": "C07 corresponde a agentes beta-bloqueantes.",
+    "answer": true,
+    "justification": "C07 agrupa los beta-bloqueantes."
+  },
+  {
+    "statement": "C08 corresponde a bloqueantes de canales de calcio.",
+    "answer": true,
+    "justification": "C08 corresponde a bloqueantes de canales de calcio."
+  },
+  {
+    "statement": "C09 corresponde a agentes que actúan sobre el sistema renina-angiotensina.",
+    "answer": true,
+    "justification": "C09 corresponde a fármacos que actúan sobre el sistema renina-angiotensina."
+  },
+  {
+    "statement": "C10 corresponde a agentes que reducen los lípidos séricos.",
+    "answer": true,
+    "justification": "C10 agrupa hipolipemiantes, que reducen colesterol y triglicéridos."
+  },
+  {
+    "statement": "Los antihipertensivos actúan contra el aumento continuo de la presión arterial.",
+    "answer": true,
+    "justification": "El temario los define como fármacos contra el incremento continuo de la fuerza ejercida por la sangre sobre los vasos."
+  },
+  {
+    "statement": "Los diuréticos aumentan la volemia.",
+    "answer": false,
+    "justification": "Los diuréticos disminuyen la volemia al favorecer la eliminación de agua y electrolitos."
+  },
+  {
+    "statement": "Los vasodilatadores periféricos relajan los vasos sanguíneos y reducen la resistencia.",
+    "answer": true,
+    "justification": "Su efecto es dilatar o relajar los vasos, disminuyendo la resistencia y la presión arterial."
+  },
+  {
+    "statement": "Los vasoprotectores mejoran la fragilidad, permeabilidad y resistencia de los vasos.",
+    "answer": true,
+    "justification": "Esa es la definición que aparece en el temario para C05."
+  },
+  {
+    "statement": "Los beta-bloqueantes bloquean receptores relacionados con mediadores adrenérgicos como la adrenalina.",
+    "answer": true,
+    "justification": "El temario indica que bloquean receptores de mediadores adrenérgicos como la adrenalina."
+  },
+  {
+    "statement": "Los bloqueantes de canales de calcio aumentan el paso del calcio al músculo cardíaco.",
+    "answer": false,
+    "justification": "Reducen el paso del calcio al músculo cardíaco y a las paredes de los vasos sanguíneos."
+  },
+  {
+    "statement": "Los bloqueantes de canales de calcio pueden utilizarse en hipertensión, angina y arritmias.",
+    "answer": true,
+    "justification": "El temario indica su uso en presión arterial alta, angina de pecho y ritmo cardíaco anormal."
+  },
+  {
+    "statement": "Los hipolipemiantes reducen colesterol y triglicéridos.",
+    "answer": true,
+    "justification": "C10 agrupa fármacos que reducen los lípidos séricos."
+  },
+
+  {
+    "statement": "La insuficiencia cardiaca es una incapacidad de bombeo del corazón.",
+    "answer": true,
+    "justification": "El temario define la insuficiencia cardiaca como incapacidad de bombeo del corazón."
+  },
+  {
+    "statement": "La insuficiencia cardiaca puede deberse a fallo cardiaco, aumento de poscarga o aumento de precarga.",
+    "answer": true,
+    "justification": "Esas tres causas aparecen en el temario."
+  },
+  {
+    "statement": "La poscarga se refiere al aumento de la sangre que llega al corazón.",
+    "answer": false,
+    "justification": "La poscarga es el aumento de las resistencias contra las que bombea el corazón. El aumento de sangre que llega al corazón corresponde a la precarga."
+  },
+  {
+    "statement": "La precarga se refiere al aumento de la sangre que llega al corazón.",
+    "answer": true,
+    "justification": "El temario define la precarga como aumento de la sangre que llega al corazón."
+  },
+  {
+    "statement": "Los digitálicos aumentan la fuerza de contracción del corazón.",
+    "answer": true,
+    "justification": "Los digitálicos aumentan la fuerza de contracción."
+  },
+  {
+    "statement": "Los digitálicos aumentan la frecuencia cardíaca.",
+    "answer": false,
+    "justification": "Los digitálicos disminuyen la frecuencia cardíaca."
+  },
+  {
+    "statement": "Los digitálicos tienen efecto diurético.",
+    "answer": true,
+    "justification": "En el temario se indica que tienen efecto diurético."
+  },
+  {
+    "statement": "Digoxina pertenece a los digitálicos.",
+    "answer": true,
+    "justification": "Digoxina aparece dentro del subgrupo digitálicos."
+  },
+  {
+    "statement": "La digoxina tiene estrecho margen terapéutico.",
+    "answer": true,
+    "justification": "El temario indica estrecho margen terapéutico como efecto adverso de digoxina."
+  },
+  {
+    "statement": "La digoxina puede producir arritmias y bloqueos cardíacos.",
+    "answer": true,
+    "justification": "Arritmias y bloqueos cardíacos aparecen como efectos adversos de digoxina."
+  },
+  {
+    "statement": "La furosemida aparece como diurético en insuficiencia cardiaca.",
+    "answer": true,
+    "justification": "Furosemida aparece en el subgrupo diuréticos de insuficiencia cardiaca."
+  },
+  {
+    "statement": "SEGURIL es EF de furosemida.",
+    "answer": true,
+    "justification": "SEGURIL aparece asociado a furosemida."
+  },
+  {
+    "statement": "Los vasodilatadores en insuficiencia cardiaca disminuyen la precarga y/o la poscarga.",
+    "answer": true,
+    "justification": "Ese es el efecto indicado en el temario."
+  },
+  {
+    "statement": "Bisoprolol aparece en insuficiencia cardiaca con el EF ENCORCOR.",
+    "answer": true,
+    "justification": "Bisoprolol aparece asociado a ENCORCOR."
+  },
+
+  {
+    "statement": "La insuficiencia coronaria es la incapacidad de las arterias coronarias para aportar al miocardio la sangre que necesita.",
+    "answer": true,
+    "justification": "Esa es la definición del temario."
+  },
+  {
+    "statement": "La insuficiencia coronaria se relaciona con ángor o angina de pecho e infarto de miocardio.",
+    "answer": true,
+    "justification": "El temario enumera ángor/angina de pecho e infarto de miocardio."
+  },
+  {
+    "statement": "Los nitratos y nitritos se usan en angina y actúan como vasodilatadores.",
+    "answer": true,
+    "justification": "Nitratos/nitritos aparecen como vasodilatadores para angina."
+  },
+  {
+    "statement": "Nitroglicerina pertenece a nitratos/nitritos.",
+    "answer": true,
+    "justification": "Nitroglicerina aparece como principio activo de nitratos/nitritos."
+  },
+  {
+    "statement": "SOLINITRINA es EF de nitroglicerina y aparece como sublingual.",
+    "answer": true,
+    "justification": "El temario asocia SOLINITRINA con nitroglicerina y vía sublingual."
+  },
+  {
+    "statement": "NITRODERM es EF de nitroglicerina y aparece como parche.",
+    "answer": true,
+    "justification": "NITRODERM aparece como parche de nitroglicerina."
+  },
+  {
+    "statement": "Los betabloqueantes reducen los efectos de la adrenalina en el corazón.",
+    "answer": true,
+    "justification": "El temario indica que reducen los efectos de la adrenalina en el corazón."
+  },
+  {
+    "statement": "Los betabloqueantes aumentan el trabajo cardiaco.",
+    "answer": false,
+    "justification": "Los betabloqueantes reducen el trabajo cardiaco, disminuyendo la fuerza del latido."
+  },
+  {
+    "statement": "Bisoprolol y atenolol aparecen como betabloqueantes en insuficiencia coronaria.",
+    "answer": true,
+    "justification": "Ambos aparecen en el subgrupo betabloqueantes para angina e infarto."
+  },
+  {
+    "statement": "BLOKIUM y TENORMIN son EF de atenolol.",
+    "answer": true,
+    "justification": "Ambos EF aparecen asociados a atenolol."
+  },
+  {
+    "statement": "ENCORCOR es EF de bisoprolol.",
+    "answer": true,
+    "justification": "ENCORCOR aparece asociado a bisoprolol."
+  },
+  {
+    "statement": "Los calcioantagonistas en angina son vasodilatadores y reducen el trabajo cardiaco.",
+    "answer": true,
+    "justification": "El temario indica ambas acciones para calcioantagonistas."
+  },
+  {
+    "statement": "Verapamilo, diltiazem, nifedipino y amlodipino aparecen como calcioantagonistas.",
+    "answer": true,
+    "justification": "Los cuatro principios activos aparecen en el subgrupo calcioantagonistas."
+  },
+  {
+    "statement": "MANIDON es EF de verapamilo.",
+    "answer": true,
+    "justification": "MANIDON aparece asociado a verapamilo."
+  },
+  {
+    "statement": "MASDIL es EF de diltiazem.",
+    "answer": true,
+    "justification": "MASDIL aparece asociado a diltiazem."
+  },
+  {
+    "statement": "ADALAT es EF de nifedipino.",
+    "answer": true,
+    "justification": "ADALAT aparece asociado a nifedipino."
+  },
+  {
+    "statement": "Amlodipino tiene EF indicado en el temario.",
+    "answer": false,
+    "justification": "En la tabla aparece amlodipino, pero no consta EF asociado."
+  },
+
+  {
+    "statement": "La hipertensión arterial es el aumento de la fuerza de la sangre contra las paredes de las arterias al salir del corazón.",
+    "answer": true,
+    "justification": "Esa es la definición indicada en el temario."
+  },
+  {
+    "statement": "Los diuréticos en hipertensión disminuyen la volemia.",
+    "answer": true,
+    "justification": "El temario indica que los diuréticos disminuyen la volemia."
+  },
+  {
+    "statement": "Furosemida, clortalidona, espironolactona e hidroclorotiazida aparecen como diuréticos en hipertensión.",
+    "answer": true,
+    "justification": "Los cuatro aparecen en el subgrupo diuréticos de hipertensión arterial."
+  },
+  {
+    "statement": "HIGROTONA es EF de clortalidona.",
+    "answer": true,
+    "justification": "HIGROTONA aparece asociado a clortalidona."
+  },
+  {
+    "statement": "ALDACTONE es EF de espironolactona.",
+    "answer": true,
+    "justification": "ALDACTONE aparece asociado a espironolactona."
+  },
+  {
+    "statement": "Hidroclorotiazida tiene EF indicado en el temario.",
+    "answer": false,
+    "justification": "Hidroclorotiazida aparece sin EF en la tabla."
+  },
+  {
+    "statement": "Los betabloqueantes en hipertensión reducen el gasto cardiaco.",
+    "answer": true,
+    "justification": "El temario indica que reducen el gasto cardiaco."
+  },
+  {
+    "statement": "El gasto cardiaco se refiere al caudal del corazón, es decir, cantidad de sangre por tiempo.",
+    "answer": true,
+    "justification": "La tabla define el gasto cardiaco como caudal del corazón o cantidad de sangre/tiempo."
+  },
+  {
+    "statement": "Los calcioantagonistas se usan también en hipertensión arterial.",
+    "answer": true,
+    "justification": "Nifedipino y amlodipino aparecen como calcioantagonistas en hipertensión."
+  },
+  {
+    "statement": "Los IECA inhiben la síntesis de angiotensina.",
+    "answer": true,
+    "justification": "El temario indica que los IECA inhiben la síntesis de angiotensina."
+  },
+  {
+    "statement": "La angiotensina aparece descrita como una sustancia hipertensora.",
+    "answer": true,
+    "justification": "El temario indica que la angiotensina es una sustancia hipertensora."
+  },
+  {
+    "statement": "Captopril y enalapril son IECA.",
+    "answer": true,
+    "justification": "Ambos aparecen en el subgrupo IECA."
+  },
+  {
+    "statement": "CAPOTEN es EF de captopril.",
+    "answer": true,
+    "justification": "CAPOTEN aparece asociado a captopril."
+  },
+  {
+    "statement": "Enalapril tiene EF indicado en el temario.",
+    "answer": false,
+    "justification": "Enalapril aparece sin EF asociado en la tabla."
+  },
+
+  {
+    "statement": "Las arritmias cardiacas son alteraciones del ritmo de los latidos del corazón.",
+    "answer": true,
+    "justification": "Esa es la definición indicada en el temario."
+  },
+  {
+    "statement": "La taquicardia es un ritmo alto.",
+    "answer": true,
+    "justification": "El temario define taquicardia como ritmo alto."
+  },
+  {
+    "statement": "La bradicardia es un ritmo lento.",
+    "answer": true,
+    "justification": "El temario define bradicardia como ritmo lento."
+  },
+  {
+    "statement": "La fibrilación es un ritmo regular.",
+    "answer": false,
+    "justification": "La fibrilación aparece definida como ritmo irregular."
+  },
+  {
+    "statement": "Los bloqueos cardiacos aparecen dentro de las alteraciones del ritmo cardíaco.",
+    "answer": true,
+    "justification": "Los bloqueos cardiacos se incluyen dentro de las arritmias."
+  },
+  {
+    "statement": "El Grupo 1 de antiarrítmicos bloquea canales de sodio.",
+    "answer": true,
+    "justification": "El Grupo 1 aparece como bloqueantes de canales de Na."
+  },
+  {
+    "statement": "Lidocaína y procainamida pertenecen al Grupo 1 antiarrítmico.",
+    "answer": true,
+    "justification": "Ambas aparecen en el Grupo 1."
+  },
+  {
+    "statement": "El Grupo 2 de antiarrítmicos corresponde a betabloqueantes.",
+    "answer": true,
+    "justification": "El Grupo 2 aparece como betabloqueantes."
+  },
+  {
+    "statement": "Propranolol y atenolol pertenecen al Grupo 2 antiarrítmico.",
+    "answer": true,
+    "justification": "Ambos aparecen en el Grupo 2."
+  },
+  {
+    "statement": "El Grupo 3 de antiarrítmicos bloquea canales de potasio.",
+    "answer": true,
+    "justification": "El Grupo 3 aparece como bloqueantes de canales de K."
+  },
+  {
+    "statement": "Amiodarona pertenece al Grupo 3 antiarrítmico.",
+    "answer": true,
+    "justification": "Amiodarona aparece en el Grupo 3."
+  },
+  {
+    "statement": "TRANGOREX es EF de amiodarona.",
+    "answer": true,
+    "justification": "TRANGOREX aparece asociado a amiodarona."
+  },
+  {
+    "statement": "El Grupo 4 de antiarrítmicos bloquea canales de calcio.",
+    "answer": true,
+    "justification": "El Grupo 4 aparece como bloqueantes de canales de Ca o calcioantagonistas."
+  },
+  {
+    "statement": "Diltiazem y verapamilo pertenecen al Grupo 4 antiarrítmico.",
+    "answer": true,
+    "justification": "Ambos aparecen en el Grupo 4."
+  },
+  {
+    "statement": "Amiodarona pertenece al Grupo 1 de antiarrítmicos.",
+    "answer": false,
+    "justification": "Amiodarona pertenece al Grupo 3, bloqueantes de canales de potasio."
+  },
+  {
+    "statement": "Lidocaína aparece como bloqueante de canales de calcio.",
+    "answer": false,
+    "justification": "Lidocaína aparece en el Grupo 1, bloqueantes de canales de sodio."
+  },
+
+  {
+    "statement": "Los hipolipemiantes rebajan el nivel de colesterol y lípidos en sangre.",
+    "answer": true,
+    "justification": "Esa es la actividad del grupo hipolipemiantes."
+  },
+  {
+    "statement": "Las estatinas impiden la fabricación de colesterol.",
+    "answer": true,
+    "justification": "El temario indica que las estatinas impiden la fabricación de colesterol."
+  },
+  {
+    "statement": "Las estatinas promueven la reabsorción del colesterol depositado.",
+    "answer": true,
+    "justification": "Esa actividad aparece indicada en el temario."
+  },
+  {
+    "statement": "Lovastatina, simvastatina y atorvastatina son estatinas.",
+    "answer": true,
+    "justification": "Los tres principios activos aparecen dentro de estatinas."
+  },
+  {
+    "statement": "Los fibratos disminuyen los triglicéridos.",
+    "answer": true,
+    "justification": "El temario indica que los fibratos disminuyen los triglicéridos."
+  },
+  {
+    "statement": "Genfibrocilo pertenece a los fibratos.",
+    "answer": true,
+    "justification": "Genfibrocilo aparece dentro del subgrupo fibratos."
+  },
+  {
+    "statement": "Las estatinas disminuyen exclusivamente los triglicéridos.",
+    "answer": false,
+    "justification": "Las estatinas se relacionan con colesterol; los fibratos son los que disminuyen triglicéridos."
+  },
+  {
+    "statement": "Genfibrocilo pertenece a las estatinas.",
+    "answer": false,
+    "justification": "Genfibrocilo pertenece a los fibratos."
+  },
+
+  {
+    "statement": "Los antivaricosos se usan para evitar venas dilatadas y mejorar la circulación venosa.",
+    "answer": true,
+    "justification": "Esa es la actividad indicada en el temario."
+  },
+  {
+    "statement": "Diosmina aparece como principio activo antivaricoso.",
+    "answer": true,
+    "justification": "Diosmina aparece dentro del grupo antivaricosos."
+  },
+  {
+    "statement": "Pentosano de sodio aparece como principio activo antivaricoso.",
+    "answer": true,
+    "justification": "Pentosano de sodio aparece dentro del grupo antivaricosos."
+  },
+  {
+    "statement": "DAFLON es EF de diosmina.",
+    "answer": true,
+    "justification": "DAFLON aparece asociado a diosmina."
+  },
+  {
+    "statement": "THROMBOCID es EF de pentosano de sodio.",
+    "answer": true,
+    "justification": "THROMBOCID aparece asociado a pentosano de sodio."
+  },
+  {
+    "statement": "DAFLON es EF de pentosano de sodio.",
+    "answer": false,
+    "justification": "DAFLON corresponde a diosmina. Pentosano de sodio corresponde a THROMBOCID."
+  },
+
+  {
+    "statement": "Bisoprolol aparece en más de un bloque del temario cardiovascular.",
+    "answer": true,
+    "justification": "Aparece en insuficiencia cardiaca, insuficiencia coronaria e hipertensión."
+  },
+  {
+    "statement": "Nifedipino aparece tanto en insuficiencia cardiaca como en insuficiencia coronaria e hipertensión.",
+    "answer": true,
+    "justification": "Nifedipino aparece como vasodilatador en insuficiencia cardiaca y como calcioantagonista en insuficiencia coronaria e hipertensión."
+  },
+  {
+    "statement": "Atenolol aparece en insuficiencia coronaria y también en arritmias.",
+    "answer": true,
+    "justification": "Atenolol aparece como betabloqueante en insuficiencia coronaria y en el Grupo 2 de arritmias."
+  },
+  {
+    "statement": "Diltiazem y verapamilo aparecen tanto como calcioantagonistas en angina como en arritmias del Grupo 4.",
+    "answer": true,
+    "justification": "Ambos aparecen en insuficiencia coronaria y en arritmias como bloqueantes de canales de calcio."
+  },
+  {
+    "statement": "Furosemida solo aparece en insuficiencia cardiaca.",
+    "answer": false,
+    "justification": "Furosemida aparece tanto en insuficiencia cardiaca como en hipertensión arterial."
+  },
+  {
+    "statement": "SEGURIL puede aparecer en el temario tanto en insuficiencia cardiaca como en hipertensión arterial.",
+    "answer": true,
+    "justification": "SEGURIL corresponde a furosemida, que aparece en ambos bloques."
+  },
+  {
+    "statement": "ADALAT corresponde a nifedipino.",
+    "answer": true,
+    "justification": "ADALAT aparece asociado a nifedipino."
+  },
+  {
+    "statement": "MASDIL corresponde a verapamilo.",
+    "answer": false,
+    "justification": "MASDIL corresponde a diltiazem. Verapamilo corresponde a MANIDON."
+  },
+  {
+    "statement": "MANIDON corresponde a verapamilo.",
+    "answer": true,
+    "justification": "MANIDON aparece asociado a verapamilo."
+  },
+  {
+    "statement": "BLOKIUM y TENORMIN corresponden a atenolol.",
+    "answer": true,
+    "justification": "Ambos aparecen asociados a atenolol."
+  },
+  {
+    "statement": "TRANGOREX corresponde a amiodarona.",
+    "answer": true,
+    "justification": "TRANGOREX aparece asociado a amiodarona."
+  },
+  {
+    "statement": "CAPOTEN corresponde a enalapril.",
+    "answer": false,
+    "justification": "CAPOTEN corresponde a captopril."
+  },
+  {
+    "statement": "HIGROTONA corresponde a clortalidona.",
+    "answer": true,
+    "justification": "HIGROTONA aparece asociado a clortalidona."
+  },
+  {
+    "statement": "ALDACTONE corresponde a espironolactona.",
+    "answer": true,
+    "justification": "ALDACTONE aparece asociado a espironolactona."
+  }
+]
