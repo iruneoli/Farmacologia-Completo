@@ -1,0 +1,442 @@
+[
+  {
+    "statement": "Los analgésicos opiáceos se utilizan para dolores intensos.",
+    "answer": true,
+    "justification": "Los analgésicos opiáceos o narcóticos están indicados para dolores intensos."
+  },
+  {
+    "statement": "Los analgésicos opiáceos son antiinflamatorios.",
+    "answer": false,
+    "justification": "El temario indica que los analgésicos opiáceos no son antiinflamatorios."
+  },
+  {
+    "statement": "Los analgésicos opiáceos se unen a receptores específicos que hay en las neuronas.",
+    "answer": true,
+    "justification": "Su mecanismo se basa en la unión a receptores específicos neuronales."
+  },
+  {
+    "statement": "La morfina es un analgésico opiáceo.",
+    "answer": true,
+    "justification": "La morfina aparece dentro del grupo de analgésicos opiáceos."
+  },
+  {
+    "statement": "La morfina aparece como estupefaciente en el temario.",
+    "answer": true,
+    "justification": "El temario la clasifica como estupefaciente."
+  },
+  {
+    "statement": "Los derivados de la fenilpiperidina incluyen meperidina y fentanilo.",
+    "answer": true,
+    "justification": "Meperidina y fentanilo aparecen dentro de derivados de la fenilpiperidina."
+  },
+  {
+    "statement": "La meperidina aparece como medicamento de uso hospitalario.",
+    "answer": true,
+    "justification": "En el temario, meperidina aparece indicada como hospitalaria."
+  },
+  {
+    "statement": "El fentanilo puede aparecer en parches.",
+    "answer": true,
+    "justification": "El temario señala fentanilo en parches."
+  },
+  {
+    "statement": "DOLANTINA y DEMEROL son EF de meperidina.",
+    "answer": true,
+    "justification": "Ambas especialidades farmacéuticas aparecen asociadas a meperidina."
+  },
+  {
+    "statement": "FENTANEST y DUROGESIC son EF de fentanilo.",
+    "answer": true,
+    "justification": "Ambas especialidades farmacéuticas aparecen asociadas a fentanilo."
+  },
+  {
+    "statement": "Pentazocina pertenece a los derivados del benzomorfano.",
+    "answer": true,
+    "justification": "Pentazocina aparece dentro de derivados del benzomorfano."
+  },
+  {
+    "statement": "Pentazocina aparece como psicótropo.",
+    "answer": true,
+    "justification": "El temario indica que los derivados del benzomorfano son psicótropos."
+  },
+  {
+    "statement": "Naloxona y naltrexona son antagonistas de la morfina.",
+    "answer": true,
+    "justification": "Ambos aparecen dentro del subgrupo antagonistas de la morfina."
+  },
+  {
+    "statement": "Naloxona se utiliza para tratar sobredosis con opiáceos.",
+    "answer": true,
+    "justification": "Los antagonistas de la morfina se utilizan en sobredosis con opiáceos."
+  },
+  {
+    "statement": "Naltrexona se utiliza para tratar sobredosis con opiáceos.",
+    "answer": true,
+    "justification": "Naltrexona aparece dentro de los antagonistas de la morfina, usados en sobredosis con opiáceos."
+  },
+  {
+    "statement": "La metadona se utiliza para la deshabituación a opiáceos.",
+    "answer": true,
+    "justification": "El temario indica la metadona para la deshabituación a opiáceos."
+  },
+  {
+    "statement": "Tramadol se utiliza en dolores moderados o intensos.",
+    "answer": true,
+    "justification": "Tramadol aparece como tratamiento habitual para dolores moderados o intensos."
+  },
+  {
+    "statement": "ADOLONTA es EF de tramadol.",
+    "answer": true,
+    "justification": "ADOLONTA aparece asociado a tramadol."
+  },
+  {
+    "statement": "Tramadol pertenece a los analgésicos no opiáceos.",
+    "answer": false,
+    "justification": "En este temario, tramadol aparece dentro de los analgésicos opiáceos."
+  },
+  {
+    "statement": "Los analgésicos opiáceos pueden producir somnolencia.",
+    "answer": true,
+    "justification": "La somnolencia aparece entre los efectos adversos de los opiáceos."
+  },
+  {
+    "statement": "Los analgésicos opiáceos pueden producir depresión respiratoria.",
+    "answer": true,
+    "justification": "La depresión respiratoria aparece como efecto adverso de los opiáceos."
+  },
+  {
+    "statement": "Los analgésicos opiáceos pueden producir gran adicción.",
+    "answer": true,
+    "justification": "El temario incluye gran adicción entre sus efectos adversos."
+  },
+  {
+    "statement": "Los analgésicos opiáceos no producen tolerancia.",
+    "answer": false,
+    "justification": "La tolerancia aparece como efecto adverso de los opiáceos."
+  },
+  {
+    "statement": "Los analgésicos opiáceos pueden producir síndrome de abstinencia.",
+    "answer": true,
+    "justification": "El síndrome de abstinencia aparece entre los efectos adversos de este grupo."
+  },
+  {
+    "statement": "Los antagonistas de la morfina tienen como finalidad principal tratar el dolor leve.",
+    "answer": false,
+    "justification": "Su finalidad principal en el temario es tratar sobredosis con opiáceos."
+  },
+  {
+    "statement": "Los analgésicos no opiáceos se usan para dolor leve o moderado y fiebre.",
+    "answer": true,
+    "justification": "El temario indica dolor leve o moderado y fiebre."
+  },
+  {
+    "statement": "Los para-amino-fenoles son AINE.",
+    "answer": false,
+    "justification": "El temario especifica que los para-amino-fenoles no son AINE."
+  },
+  {
+    "statement": "El paracetamol pertenece a los para-amino-fenoles.",
+    "answer": true,
+    "justification": "Paracetamol aparece dentro del subgrupo para-amino-fenoles."
+  },
+  {
+    "statement": "GELOCATIL, EFFERALGAN y XUMADOL son EF de paracetamol.",
+    "answer": true,
+    "justification": "Los tres aparecen asociados a paracetamol."
+  },
+  {
+    "statement": "El paracetamol tiene actividad analgésica y antipirética.",
+    "answer": true,
+    "justification": "El temario lo asocia a dolor y fiebre."
+  },
+  {
+    "statement": "El paracetamol tiene como efecto adverso la hepatotoxicidad.",
+    "answer": true,
+    "justification": "La hepatotoxicidad aparece como efecto adverso de paracetamol."
+  },
+  {
+    "statement": "El paracetamol es un antiinflamatorio no esteroideo.",
+    "answer": false,
+    "justification": "El temario indica que no es un AINE."
+  },
+  {
+    "statement": "Las pirazolonas no son AINE.",
+    "answer": true,
+    "justification": "El temario especifica que las pirazolonas no son AINE."
+  },
+  {
+    "statement": "Metamizol magnésico pertenece a las pirazolonas.",
+    "answer": true,
+    "justification": "Metamizol magnésico aparece dentro del subgrupo pirazolonas."
+  },
+  {
+    "statement": "NOLOTIL es EF de metamizol magnésico.",
+    "answer": true,
+    "justification": "NOLOTIL aparece asociado a metamizol magnésico."
+  },
+  {
+    "statement": "El metamizol magnésico puede utilizarse como antiespasmódico en cólicos.",
+    "answer": true,
+    "justification": "El temario indica actividad antiespasmódica en cólicos."
+  },
+  {
+    "statement": "El metamizol magnésico tiene mucho riesgo gástrico.",
+    "answer": false,
+    "justification": "El temario indica que casi no tiene riesgo gástrico."
+  },
+  {
+    "statement": "El metamizol magnésico puede producir trastornos sanguíneos por uso continuado.",
+    "answer": true,
+    "justification": "Ese efecto aparece señalado en el temario."
+  },
+  {
+    "statement": "ZALDIAR es una mezcla de tramadol + paracetamol.",
+    "answer": true,
+    "justification": "ZALDIAR aparece dentro del subgrupo mezclas como tramadol + paracetamol."
+  },
+  {
+    "statement": "ZALDIAR corresponde solo a paracetamol.",
+    "answer": false,
+    "justification": "ZALDIAR corresponde a la mezcla tramadol + paracetamol."
+  },
+  {
+    "statement": "Los AINE son antiinflamatorios no esteroideos.",
+    "answer": true,
+    "justification": "AINE significa antiinflamatorios no esteroideos."
+  },
+  {
+    "statement": "Los AINE tienen actividad analgésica, antiinflamatoria y antitérmica.",
+    "answer": true,
+    "justification": "El temario indica esas tres actividades."
+  },
+  {
+    "statement": "Los AINE inhiben una enzima necesaria para formar prostaglandinas.",
+    "answer": true,
+    "justification": "Ese es el mecanismo descrito en el temario."
+  },
+  {
+    "statement": "Las prostaglandinas están implicadas en inflamación, dolor, fiebre y protección de la mucosa gástrica.",
+    "answer": true,
+    "justification": "El temario relaciona las prostaglandinas con estos procesos."
+  },
+  {
+    "statement": "Los AINE aumentan la formación de prostaglandinas.",
+    "answer": false,
+    "justification": "Los AINE inhiben una enzima necesaria para la formación de prostaglandinas."
+  },
+  {
+    "statement": "Los salicilatos poseen las cuatro acciones.",
+    "answer": true,
+    "justification": "El temario indica que los salicilatos poseen las cuatro acciones."
+  },
+  {
+    "statement": "El ácido acetilsalicílico pertenece a los salicilatos.",
+    "answer": true,
+    "justification": "Ácido acetilsalicílico aparece dentro del subgrupo salicilatos."
+  },
+  {
+    "statement": "ASPIRINA y ADIRO son EF de ácido acetilsalicílico.",
+    "answer": true,
+    "justification": "Ambas especialidades aparecen asociadas al ácido acetilsalicílico."
+  },
+  {
+    "statement": "El ácido acetilsalicílico se usa como antiinflamatorio a dosis altas.",
+    "answer": true,
+    "justification": "El temario indica uso antiinflamatorio a dosis altas."
+  },
+  {
+    "statement": "El ácido acetilsalicílico se usa como antiagregante a dosis bajas.",
+    "answer": true,
+    "justification": "El temario indica uso antiagregante a dosis bajas."
+  },
+  {
+    "statement": "El ácido acetilsalicílico solo tiene acción analgésica.",
+    "answer": false,
+    "justification": "Los salicilatos poseen varias acciones, y el ácido acetilsalicílico se usa también como antiinflamatorio y antiagregante."
+  },
+  {
+    "statement": "Los derivados del ácido fenilacético tienen actividad antiinflamatoria y analgésica.",
+    "answer": true,
+    "justification": "Esa es la actividad indicada para este subgrupo."
+  },
+  {
+    "statement": "Diclofenaco, aceclofenaco e indometazina pertenecen a derivados del ácido fenilacético.",
+    "answer": true,
+    "justification": "Los tres aparecen en ese subgrupo."
+  },
+  {
+    "statement": "VOLTAREN y DOLOTREN son EF de diclofenaco.",
+    "answer": true,
+    "justification": "Ambas especialidades aparecen asociadas a diclofenaco."
+  },
+  {
+    "statement": "AIRTAL es EF de aceclofenaco.",
+    "answer": true,
+    "justification": "AIRTAL aparece asociado a aceclofenaco."
+  },
+  {
+    "statement": "INACID es EF de indometazina.",
+    "answer": true,
+    "justification": "INACID aparece asociado a indometazina."
+  },
+  {
+    "statement": "Los derivados del ácido fenilacético pueden producir cefaleas y mareos.",
+    "answer": true,
+    "justification": "El temario indica cefaleas y mareos en este subgrupo."
+  },
+  {
+    "statement": "Los derivados del ácido fenilpropiónico tienen actividad analgésica, antiinflamatoria y antipirética.",
+    "answer": true,
+    "justification": "El temario indica esas tres actividades."
+  },
+  {
+    "statement": "Ibuprofeno pertenece a los derivados del ácido fenilpropiónico.",
+    "answer": true,
+    "justification": "Ibuprofeno aparece dentro de derivados del ácido fenilpropiónico."
+  },
+  {
+    "statement": "Naproxeno, ketoprofeno y ketorolaco pertenecen a derivados del ácido fenilpropiónico.",
+    "answer": true,
+    "justification": "Los tres aparecen dentro de ese subgrupo."
+  },
+  {
+    "statement": "NUROFEN, NEOBRUFEN, DALSY y ESPIDIFEN son EF de ibuprofeno.",
+    "answer": true,
+    "justification": "Los cuatro EF aparecen asociados a ibuprofeno."
+  },
+  {
+    "statement": "DALSY aparece indicado para niños.",
+    "answer": true,
+    "justification": "En el temario DALSY aparece señalado como opción para niños."
+  },
+  {
+    "statement": "NAPROSYN es EF de naproxeno.",
+    "answer": true,
+    "justification": "NAPROSYN aparece asociado a naproxeno."
+  },
+  {
+    "statement": "ORUDIS es EF de ketoprofeno.",
+    "answer": true,
+    "justification": "ORUDIS aparece asociado a ketoprofeno."
+  },
+  {
+    "statement": "TORADOL es EF de ketorolaco.",
+    "answer": true,
+    "justification": "TORADOL aparece asociado a ketorolaco."
+  },
+  {
+    "statement": "En dosis inferiores a 600 mg, algunos derivados del ácido fenilpropiónico son EFP.",
+    "answer": true,
+    "justification": "El temario indica esta observación para el subgrupo."
+  },
+  {
+    "statement": "Los oxicams son antiinflamatorios muy potentes.",
+    "answer": true,
+    "justification": "El temario describe los oxicams como antiinflamatorios muy potentes."
+  },
+  {
+    "statement": "Los oxicams se administran varias veces al día obligatoriamente.",
+    "answer": false,
+    "justification": "El temario indica que se administran una vez al día."
+  },
+  {
+    "statement": "Piroxicam pertenece a los oxicams.",
+    "answer": true,
+    "justification": "Piroxicam aparece dentro del subgrupo oxicams."
+  },
+  {
+    "statement": "FELDENE es EF de piroxicam.",
+    "answer": true,
+    "justification": "FELDENE aparece asociado a piroxicam."
+  },
+  {
+    "statement": "Los oxicams se utilizan en enfermedades reumáticas.",
+    "answer": true,
+    "justification": "El temario indica su uso en enfermedades reumáticas."
+  },
+  {
+    "statement": "DOLALGIAL aparece dentro de otros AINE.",
+    "answer": true,
+    "justification": "DOLALGIAL aparece en el apartado de otros AINE."
+  },
+  {
+    "statement": "Los AINE pueden producir abrasión de la mucosa gástrica.",
+    "answer": true,
+    "justification": "Este efecto adverso aparece asociado a los AINE."
+  },
+  {
+    "statement": "Los AINE pueden producir gastritis y úlceras.",
+    "answer": true,
+    "justification": "Gastritis y úlceras aparecen como efectos adversos de los AINE."
+  },
+  {
+    "statement": "Algunos AINE pueden producir riesgo de hemorragia.",
+    "answer": true,
+    "justification": "El temario indica riesgo de hemorragia en algunos AINE."
+  },
+  {
+    "statement": "Los AINE protegen siempre la mucosa gástrica.",
+    "answer": false,
+    "justification": "Aunque las prostaglandinas participan en la protección gástrica, los AINE pueden dañar la mucosa."
+  },
+  {
+    "statement": "Paracetamol y metamizol son AINE.",
+    "answer": false,
+    "justification": "El temario indica que paracetamol y metamizol no son AINE."
+  },
+  {
+    "statement": "Ibuprofeno y naproxeno son AINE.",
+    "answer": true,
+    "justification": "Ambos pertenecen a los derivados del ácido fenilpropiónico, dentro de los AINE."
+  },
+  {
+    "statement": "Diclofenaco y aceclofenaco son analgésicos opiáceos.",
+    "answer": false,
+    "justification": "Diclofenaco y aceclofenaco son AINE derivados del ácido fenilacético."
+  },
+  {
+    "statement": "Morfina y fentanilo pertenecen a analgésicos opiáceos.",
+    "answer": true,
+    "justification": "Ambos aparecen dentro del grupo de analgésicos opiáceos."
+  },
+  {
+    "statement": "NOLOTIL corresponde a paracetamol.",
+    "answer": false,
+    "justification": "NOLOTIL corresponde a metamizol magnésico."
+  },
+  {
+    "statement": "GELOCATIL corresponde a paracetamol.",
+    "answer": true,
+    "justification": "GELOCATIL aparece como EF de paracetamol."
+  },
+  {
+    "statement": "ADOLONTA corresponde a tramadol.",
+    "answer": true,
+    "justification": "ADOLONTA aparece asociado a tramadol."
+  },
+  {
+    "statement": "DUROGESIC corresponde a fentanilo.",
+    "answer": true,
+    "justification": "DUROGESIC aparece asociado a fentanilo."
+  },
+  {
+    "statement": "AIRTAL corresponde a diclofenaco.",
+    "answer": false,
+    "justification": "AIRTAL corresponde a aceclofenaco."
+  },
+  {
+    "statement": "DOLOTREN corresponde a diclofenaco.",
+    "answer": true,
+    "justification": "DOLOTREN aparece asociado a diclofenaco."
+  },
+  {
+    "statement": "ESPIDIFEN corresponde a ibuprofeno.",
+    "answer": true,
+    "justification": "ESPIDIFEN aparece asociado a ibuprofeno."
+  },
+  {
+    "statement": "FELDENE corresponde a piroxicam.",
+    "answer": true,
+    "justification": "FELDENE aparece asociado a piroxicam."
+  }
+]
