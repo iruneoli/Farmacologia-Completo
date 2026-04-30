@@ -105,24 +105,38 @@
               "nombre": "Naloxona",
               "ef": [],
               "indicaciones": [
-                "Sobredosis con opiáceos"
+                "Tratamiento de sobredosis con opiáceos"
               ],
               "observaciones": "Uso hospitalario.",
-              "efectosAdversos": []
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
             },
             {
               "nombre": "Naltrexona",
               "ef": [],
               "indicaciones": [
-                "Sobredosis con opiáceos"
+                "Tratamiento de sobredosis con opiáceos"
               ],
               "observaciones": "Uso hospitalario.",
-              "efectosAdversos": []
+              "efectosAdversos": [
+                "Somnolencia",
+                "Inconsciencia",
+                "Depresión respiratoria",
+                "Gran adicción",
+                "Síndrome de abstinencia",
+                "Tolerancia"
+              ]
             }
           ]
         },
         {
-          "nombre": "Derivados de la fenilpropilamina",
+          "nombre": "Derivados de la fenilpropalinas",
           "actividadSubgrupo": "Analgésicos opiáceos estupefacientes.",
           "principiosActivos": [
             {
@@ -165,7 +179,7 @@
     {
       "codigo": "N02",
       "nombre": "Analgésicos no opiáceos",
-      "actividadGrupo": "Se utilizan para el dolor leve o moderado y la fiebre. Incluyen fármacos que no son AINE.",
+      "actividadGrupo": "Se utilizan para el dolor leve o moderado y la fiebre. Algunos tienen actividad analgésica, antipirética y antiespasmódica.",
       "subgrupos": [
         {
           "nombre": "Para-amino-fenoles",
@@ -190,7 +204,7 @@
         },
         {
           "nombre": "Pirazolonas",
-          "actividadSubgrupo": "No son AINE. Tienen actividad analgésica y antipirética. También se usan como antiespasmódicos en cólicos.",
+          "actividadSubgrupo": "No son AINE. Tienen actividad analgésica, antipirética y antiespasmódica en cólicos.",
           "principiosActivos": [
             {
               "nombre": "Metamizol magnésico",
@@ -230,7 +244,7 @@
     {
       "codigo": "M01",
       "nombre": "AINE",
-      "actividadGrupo": "Antiinflamatorios no esteroideos. Son analgésicos, antiinflamatorios y antitérmicos. Inhiben una enzima necesaria para la formación de prostaglandinas, implicadas en inflamación, dolor, fiebre y protección de la mucosa gástrica.",
+      "actividadGrupo": "Antiinflamatorios no esteroideos. Tienen actividad analgésica, antiinflamatoria y antitérmica. Inhiben una enzima necesaria para la formación de prostaglandinas, implicadas en inflamación, dolor, fiebre y protección de la mucosa gástrica.",
       "subgrupos": [
         {
           "nombre": "Salicilatos",
@@ -246,8 +260,8 @@
                 "Dolor",
                 "Inflamación",
                 "Fiebre",
-                "Antiagregante a dosis bajas",
-                "Antiinflamatorio a dosis altas"
+                "Antiinflamatorio a dosis altas",
+                "Antiagregante a dosis bajas"
               ],
               "efectosAdversos": [
                 "Abrasión de la mucosa gástrica",
