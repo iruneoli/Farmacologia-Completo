@@ -1,0 +1,1043 @@
+[
+  {
+    "question": "¿A qué sistema corresponde el grupo anatómico C?",
+    "options": [
+      "Sistema respiratorio",
+      "Sistema cardiovascular",
+      "Sistema digestivo",
+      "Sistema endocrino"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El grupo anatómico C corresponde al sistema cardiovascular."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C01?",
+    "options": [
+      "Terapia cardíaca",
+      "Antihipertensivos",
+      "Diuréticos",
+      "Hipolipemiantes"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C01 corresponde a terapia cardíaca."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C02?",
+    "options": [
+      "Vasoprotectores",
+      "Antihipertensivos",
+      "Agentes beta-bloqueantes",
+      "Bloqueantes de canales de calcio"
+    ],
+    "correctAnswer": 1,
+    "explanation": "C02 corresponde a antihipertensivos."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C03?",
+    "options": [
+      "Diuréticos",
+      "Vasodilatadores periféricos",
+      "Terapia cardíaca",
+      "Antivaricosos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C03 corresponde a diuréticos."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C04?",
+    "options": [
+      "Vasodilatadores periféricos",
+      "Vasoprotectores",
+      "Hipolipemiantes",
+      "IECA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C04 corresponde a vasodilatadores periféricos."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C05?",
+    "options": [
+      "Vasoprotectores",
+      "Diuréticos",
+      "Antiarrítmicos",
+      "Nitratos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C05 corresponde a vasoprotectores."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C07?",
+    "options": [
+      "Agentes beta-bloqueantes",
+      "Bloqueantes de canales de calcio",
+      "Diuréticos",
+      "Estatinas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C07 corresponde a agentes beta-bloqueantes."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C08?",
+    "options": [
+      "IECA",
+      "Bloqueantes de canales de calcio",
+      "Hipolipemiantes",
+      "Vasoprotectores"
+    ],
+    "correctAnswer": 1,
+    "explanation": "C08 corresponde a bloqueantes de canales de calcio."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C09?",
+    "options": [
+      "Agentes que actúan sobre el sistema renina-angiotensina",
+      "Agentes beta-bloqueantes",
+      "Vasodilatadores periféricos",
+      "Antiarrítmicos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C09 corresponde a agentes que actúan sobre el sistema renina-angiotensina."
+  },
+  {
+    "question": "¿Qué grupo corresponde a C10?",
+    "options": [
+      "Agentes que reducen los lípidos séricos",
+      "Antihipertensivos",
+      "Diuréticos",
+      "Vasoprotectores"
+    ],
+    "correctAnswer": 0,
+    "explanation": "C10 corresponde a hipolipemiantes, que reducen colesterol y triglicéridos."
+  },
+
+  {
+    "question": "¿Qué es la insuficiencia cardiaca según el temario?",
+    "options": [
+      "Alteración del ritmo de los latidos",
+      "Incapacidad de bombeo del corazón",
+      "Aumento de colesterol",
+      "Dilatación de venas superficiales"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La insuficiencia cardiaca es la incapacidad de bombeo del corazón."
+  },
+  {
+    "question": "¿Cuál de estas causas puede provocar insuficiencia cardiaca?",
+    "options": [
+      "Fallo cardiaco",
+      "Disminución del colesterol",
+      "Disminución de triglicéridos",
+      "Rinitis alérgica"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La insuficiencia cardiaca puede deberse a fallo cardiaco, aumento de poscarga o aumento de precarga."
+  },
+  {
+    "question": "¿Qué significa poscarga en el contexto de insuficiencia cardiaca?",
+    "options": [
+      "Aumento de sangre que llega al corazón",
+      "Aumento de resistencias contra las que bombea el corazón",
+      "Disminución de la frecuencia cardíaca",
+      "Eliminación de agua por orina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "La poscarga es el aumento de las resistencias contra las que bombea el corazón."
+  },
+  {
+    "question": "¿Qué significa precarga en el contexto de insuficiencia cardiaca?",
+    "options": [
+      "Aumento de la sangre que llega al corazón",
+      "Aumento de colesterol",
+      "Bloqueo de canales de sodio",
+      "Disminución de triglicéridos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La precarga es el aumento de sangre que llega al corazón."
+  },
+  {
+    "question": "¿Qué subgrupo aumenta la fuerza de contracción, disminuye la frecuencia y tiene efecto diurético?",
+    "options": [
+      "Digitálicos",
+      "IECA",
+      "Fibratos",
+      "Antivaricosos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los digitálicos aumentan la fuerza de contracción, disminuyen la frecuencia y tienen efecto diurético."
+  },
+  {
+    "question": "¿Qué principio activo pertenece a los digitálicos?",
+    "options": [
+      "Digoxina",
+      "Furosemida",
+      "Captopril",
+      "Amiodarona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digoxina pertenece a los digitálicos."
+  },
+  {
+    "question": "¿Qué efecto adverso se asocia a digoxina?",
+    "options": [
+      "Estrecho margen terapéutico",
+      "Hipoglucemia",
+      "Hepatotoxicidad",
+      "Somnolencia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digoxina tiene estrecho margen terapéutico y puede producir arritmias y bloqueos cardíacos."
+  },
+  {
+    "question": "¿Cuál de estos es un efecto adverso de digoxina?",
+    "options": [
+      "Bloqueos cardiacos",
+      "Úlceras gástricas",
+      "Síndrome de Cushing",
+      "Ototoxicidad"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los bloqueos cardiacos aparecen como efecto adverso de digoxina."
+  },
+  {
+    "question": "¿Qué hacen los diuréticos en insuficiencia cardiaca?",
+    "options": [
+      "Disminuyen la volemia",
+      "Aumentan la fuerza de contracción",
+      "Bloquean canales de potasio",
+      "Disminuyen triglicéridos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los diuréticos disminuyen la volemia."
+  },
+  {
+    "question": "¿Qué EF corresponde a furosemida?",
+    "options": [
+      "SEGURIL",
+      "CAPOTEN",
+      "TRANGOREX",
+      "DAFLON"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SEGURIL es EF de furosemida."
+  },
+  {
+    "question": "¿Qué hacen los vasodilatadores en insuficiencia cardiaca?",
+    "options": [
+      "Disminuyen la precarga y/o la poscarga",
+      "Aumentan la formación de colesterol",
+      "Bloquean canales de sodio",
+      "Aumentan triglicéridos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los vasodilatadores disminuyen la precarga y/o la poscarga."
+  },
+  {
+    "question": "¿Qué principio activo aparece como vasodilatador en insuficiencia cardiaca?",
+    "options": [
+      "Nifedipino",
+      "Lovastatina",
+      "Diosmina",
+      "Lidocaína"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nifedipino aparece como vasodilatador en insuficiencia cardiaca."
+  },
+  {
+    "question": "¿Qué EF corresponde a bisoprolol?",
+    "options": [
+      "ENCORCOR",
+      "MANIDON",
+      "MASDIL",
+      "HIGROTONA"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ENCORCOR corresponde a bisoprolol."
+  },
+
+  {
+    "question": "¿Qué es la insuficiencia coronaria?",
+    "options": [
+      "Incapacidad de las coronarias para aportar al miocardio la sangre que necesita",
+      "Aumento de triglicéridos",
+      "Ritmo cardíaco irregular",
+      "Aumento del volumen de orina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La insuficiencia coronaria es la incapacidad de las arterias coronarias para aportar al miocardio la sangre que necesita."
+  },
+  {
+    "question": "¿Qué situaciones se relacionan con insuficiencia coronaria?",
+    "options": [
+      "Angina de pecho e infarto de miocardio",
+      "Hipoglucemia y diabetes",
+      "Anemia y hemorragia",
+      "Asma y EPOC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La insuficiencia coronaria se relaciona con ángor o angina de pecho e infarto de miocardio."
+  },
+  {
+    "question": "¿Qué subgrupo se usa en angina y actúa como vasodilatador?",
+    "options": [
+      "Nitratos / Nitritos",
+      "Fibratos",
+      "Estatinas",
+      "Digitálicos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los nitratos/nitritos son vasodilatadores usados en angina."
+  },
+  {
+    "question": "¿Qué principio activo pertenece a nitratos / nitritos?",
+    "options": [
+      "Nitroglicerina",
+      "Captopril",
+      "Simvastatina",
+      "Diosmina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nitroglicerina pertenece a nitratos/nitritos."
+  },
+  {
+    "question": "¿Qué EF de nitroglicerina aparece como sublingual?",
+    "options": [
+      "SOLINITRINA",
+      "NITRODERM",
+      "MANIDON",
+      "ADALAT"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SOLINITRINA aparece como nitroglicerina sublingual."
+  },
+  {
+    "question": "¿Qué EF de nitroglicerina aparece como parche?",
+    "options": [
+      "NITRODERM",
+      "SOLINITRINA",
+      "CAPOTEN",
+      "THROMBOCID"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NITRODERM aparece como parche de nitroglicerina."
+  },
+  {
+    "question": "¿Qué hacen los betabloqueantes en insuficiencia coronaria?",
+    "options": [
+      "Reducen los efectos de la adrenalina y el trabajo cardiaco",
+      "Aumentan la volemia",
+      "Disminuyen exclusivamente triglicéridos",
+      "Aumentan la frecuencia cardíaca"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los betabloqueantes reducen los efectos de la adrenalina en el corazón y reducen el trabajo cardíaco."
+  },
+  {
+    "question": "¿Qué principio activo beta-bloqueante aparece en angina e infarto?",
+    "options": [
+      "Bisoprolol",
+      "Captopril",
+      "Diosmina",
+      "Digoxina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bisoprolol aparece como betabloqueante en angina e infarto."
+  },
+  {
+    "question": "¿Qué EF corresponden a atenolol?",
+    "options": [
+      "BLOKIUM / TENORMIN",
+      "SOLINITRINA / NITRODERM",
+      "MANIDON / MASDIL",
+      "DAFLON / THROMBOCID"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BLOKIUM y TENORMIN son EF de atenolol."
+  },
+  {
+    "question": "¿Qué hacen los calcioantagonistas en angina?",
+    "options": [
+      "Son vasodilatadores y reducen el trabajo cardiaco",
+      "Aumentan la volemia",
+      "Disminuyen exclusivamente colesterol",
+      "Estimulan la angiotensina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los calcioantagonistas son vasodilatadores y reducen el trabajo cardiaco."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a MANIDON?",
+    "options": [
+      "Verapamilo",
+      "Diltiazem",
+      "Nifedipino",
+      "Amiodarona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MANIDON corresponde a verapamilo."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a MASDIL?",
+    "options": [
+      "Diltiazem",
+      "Verapamilo",
+      "Amlodipino",
+      "Atenolol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MASDIL corresponde a diltiazem."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ADALAT?",
+    "options": [
+      "Nifedipino",
+      "Amlodipino",
+      "Captopril",
+      "Propranolol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ADALAT corresponde a nifedipino."
+  },
+  {
+    "question": "¿Cuál de estos calcioantagonistas aparece sin EF en el temario?",
+    "options": [
+      "Amlodipino",
+      "Nifedipino",
+      "Diltiazem",
+      "Verapamilo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amlodipino aparece sin EF en el temario."
+  },
+
+  {
+    "question": "¿Qué es la hipertensión arterial según el temario?",
+    "options": [
+      "Aumento de la fuerza de la sangre contra las paredes de las arterias",
+      "Disminución del colesterol sanguíneo",
+      "Alteración de la frecuencia respiratoria",
+      "Pérdida de calcio en sangre"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La hipertensión arterial es el aumento de la fuerza de la sangre contra las paredes de las arterias al salir del corazón."
+  },
+  {
+    "question": "¿Qué subgrupo antihipertensivo disminuye la volemia?",
+    "options": [
+      "Diuréticos",
+      "Fibratos",
+      "Estatinas",
+      "Antivaricosos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los diuréticos disminuyen la volemia."
+  },
+  {
+    "question": "¿Qué EF corresponde a clortalidona?",
+    "options": [
+      "HIGROTONA",
+      "ALDACTONE",
+      "SEGURIL",
+      "CAPOTEN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HIGROTONA es EF de clortalidona."
+  },
+  {
+    "question": "¿Qué EF corresponde a espironolactona?",
+    "options": [
+      "ALDACTONE",
+      "HIGROTONA",
+      "ADALAT",
+      "TRANGOREX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ALDACTONE es EF de espironolactona."
+  },
+  {
+    "question": "¿Qué principio activo diurético aparece sin EF en hipertensión arterial?",
+    "options": [
+      "Hidroclorotiazida",
+      "Furosemida",
+      "Clortalidona",
+      "Espironolactona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hidroclorotiazida aparece sin EF en el temario."
+  },
+  {
+    "question": "¿Qué hacen los betabloqueantes en hipertensión arterial?",
+    "options": [
+      "Reducen el gasto cardiaco",
+      "Aumentan el gasto cardiaco",
+      "Aumentan triglicéridos",
+      "Bloquean canales de potasio exclusivamente"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los betabloqueantes reducen el gasto cardiaco."
+  },
+  {
+    "question": "¿Qué significa gasto cardiaco según el temario?",
+    "options": [
+      "Cantidad de sangre por tiempo",
+      "Cantidad de colesterol depositado",
+      "Cantidad de calcio en músculo",
+      "Cantidad de orina eliminada"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El gasto cardiaco se define como caudal del corazón: cantidad de sangre por tiempo."
+  },
+  {
+    "question": "¿Qué subgrupo antihipertensivo inhibe la síntesis de angiotensina?",
+    "options": [
+      "IECA",
+      "Diuréticos",
+      "Fibratos",
+      "Digitálicos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los IECA inhiben la síntesis de angiotensina."
+  },
+  {
+    "question": "¿Qué es la angiotensina en este temario?",
+    "options": [
+      "Sustancia hipertensora",
+      "EF de captopril",
+      "Tipo de arritmia",
+      "Triglicérido"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La angiotensina aparece como una sustancia hipertensora."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a CAPOTEN?",
+    "options": [
+      "Captopril",
+      "Enalapril",
+      "Nifedipino",
+      "Bisoprolol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CAPOTEN corresponde a captopril."
+  },
+  {
+    "question": "¿Qué principio activo IECA aparece sin EF en el temario?",
+    "options": [
+      "Enalapril",
+      "Captopril",
+      "Bisoprolol",
+      "Diltiazem"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Enalapril aparece sin EF en el temario."
+  },
+  {
+    "question": "¿Qué principio activo calcioantagonista se usa en hipertensión arterial?",
+    "options": [
+      "Nifedipino",
+      "Lovastatina",
+      "Genfibrocilo",
+      "Naloxona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nifedipino aparece como calcioantagonista en hipertensión arterial."
+  },
+
+  {
+    "question": "¿Qué son las arritmias cardiacas?",
+    "options": [
+      "Alteraciones del ritmo de los latidos del corazón",
+      "Aumento de colesterol en sangre",
+      "Aumento de la volemia",
+      "Dilatación de venas superficiales"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las arritmias son alteraciones del ritmo de los latidos del corazón."
+  },
+  {
+    "question": "¿Qué es la taquicardia?",
+    "options": [
+      "Ritmo alto",
+      "Ritmo lento",
+      "Ritmo irregular",
+      "Bloqueo venoso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La taquicardia es un ritmo alto."
+  },
+  {
+    "question": "¿Qué es la bradicardia?",
+    "options": [
+      "Ritmo lento",
+      "Ritmo alto",
+      "Ritmo irregular",
+      "Aumento de volemia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La bradicardia es un ritmo lento."
+  },
+  {
+    "question": "¿Qué es la fibrilación?",
+    "options": [
+      "Ritmo irregular",
+      "Ritmo lento",
+      "Ritmo alto",
+      "Presión arterial elevada"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La fibrilación es un ritmo irregular."
+  },
+  {
+    "question": "¿Qué mecanismo corresponde al Grupo 1 de antiarrítmicos?",
+    "options": [
+      "Bloqueantes de canales de sodio",
+      "Betabloqueantes",
+      "Bloqueantes de canales de potasio",
+      "Bloqueantes de canales de calcio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El Grupo 1 corresponde a bloqueantes de canales de sodio."
+  },
+  {
+    "question": "¿Qué principios activos pertenecen al Grupo 1 de antiarrítmicos?",
+    "options": [
+      "Lidocaína y procainamida",
+      "Propranolol y atenolol",
+      "Diltiazem y verapamilo",
+      "Lovastatina y simvastatina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lidocaína y procainamida pertenecen al Grupo 1."
+  },
+  {
+    "question": "¿Qué mecanismo corresponde al Grupo 2 de antiarrítmicos?",
+    "options": [
+      "Betabloqueantes",
+      "Bloqueantes de canales de sodio",
+      "Bloqueantes de canales de potasio",
+      "Fibratos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El Grupo 2 corresponde a betabloqueantes."
+  },
+  {
+    "question": "¿Qué principios activos pertenecen al Grupo 2 de antiarrítmicos?",
+    "options": [
+      "Propranolol y atenolol",
+      "Lidocaína y procainamida",
+      "Diltiazem y verapamilo",
+      "Captopril y enalapril"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Propranolol y atenolol pertenecen al Grupo 2."
+  },
+  {
+    "question": "¿Qué mecanismo corresponde al Grupo 3 de antiarrítmicos?",
+    "options": [
+      "Bloqueantes de canales de potasio",
+      "Bloqueantes de canales de calcio",
+      "Betabloqueantes",
+      "Diuréticos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El Grupo 3 corresponde a bloqueantes de canales de potasio."
+  },
+  {
+    "question": "¿Qué principio activo pertenece al Grupo 3 de antiarrítmicos?",
+    "options": [
+      "Amiodarona",
+      "Lidocaína",
+      "Propranolol",
+      "Verapamilo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amiodarona pertenece al Grupo 3."
+  },
+  {
+    "question": "¿Qué EF corresponde a amiodarona?",
+    "options": [
+      "TRANGOREX",
+      "CAPOTEN",
+      "MANIDON",
+      "DAFLON"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TRANGOREX corresponde a amiodarona."
+  },
+  {
+    "question": "¿Qué mecanismo corresponde al Grupo 4 de antiarrítmicos?",
+    "options": [
+      "Bloqueantes de canales de calcio",
+      "Bloqueantes de canales de sodio",
+      "Bloqueantes de canales de potasio",
+      "Estatinas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El Grupo 4 corresponde a bloqueantes de canales de calcio o calcioantagonistas."
+  },
+  {
+    "question": "¿Qué principios activos pertenecen al Grupo 4 antiarrítmico?",
+    "options": [
+      "Diltiazem y verapamilo",
+      "Lidocaína y procainamida",
+      "Propranolol y atenolol",
+      "Lovastatina y atorvastatina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diltiazem y verapamilo pertenecen al Grupo 4."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es correcta?",
+    "options": [
+      "Amiodarona - Grupo 3",
+      "Amiodarona - Grupo 1",
+      "Amiodarona - IECA",
+      "Amiodarona - Fibratos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amiodarona pertenece al Grupo 3, bloqueantes de canales de potasio."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es incorrecta?",
+    "options": [
+      "Lidocaína - Grupo 4",
+      "Amiodarona - Grupo 3",
+      "Propranolol - Grupo 2",
+      "Diltiazem - Grupo 4"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lidocaína pertenece al Grupo 1, no al Grupo 4."
+  },
+
+  {
+    "question": "¿Qué hacen los hipolipemiantes?",
+    "options": [
+      "Rebajan colesterol y lípidos en sangre",
+      "Aumentan la volemia",
+      "Bloquean receptores de adrenalina exclusivamente",
+      "Tratan sobredosis con opiáceos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los hipolipemiantes rebajan el nivel de colesterol y lípidos en sangre."
+  },
+  {
+    "question": "¿Qué hacen las estatinas?",
+    "options": [
+      "Impiden la fabricación de colesterol y promueven la reabsorción del depositado",
+      "Disminuyen exclusivamente la volemia",
+      "Bloquean canales de sodio",
+      "Aumentan triglicéridos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las estatinas impiden la fabricación de colesterol y promueven la reabsorción del colesterol depositado."
+  },
+  {
+    "question": "¿Qué principios activos son estatinas?",
+    "options": [
+      "Lovastatina, simvastatina y atorvastatina",
+      "Genfibrocilo, captopril y enalapril",
+      "Diosmina, pentosano y furosemida",
+      "Lidocaína, procainamida y amiodarona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Lovastatina, simvastatina y atorvastatina son estatinas."
+  },
+  {
+    "question": "¿Qué hacen los fibratos?",
+    "options": [
+      "Disminuyen los triglicéridos",
+      "Aumentan la frecuencia cardíaca",
+      "Aumentan la volemia",
+      "Bloquean canales de calcio"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los fibratos disminuyen los triglicéridos."
+  },
+  {
+    "question": "¿Qué principio activo pertenece a los fibratos?",
+    "options": [
+      "Genfibrocilo",
+      "Atorvastatina",
+      "Simvastatina",
+      "Lovastatina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Genfibrocilo pertenece a los fibratos."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es correcta?",
+    "options": [
+      "Atorvastatina - Estatina",
+      "Atorvastatina - Fibrato",
+      "Atorvastatina - IECA",
+      "Atorvastatina - Antivaricoso"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Atorvastatina pertenece a las estatinas."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es incorrecta?",
+    "options": [
+      "Genfibrocilo - Estatina",
+      "Lovastatina - Estatina",
+      "Simvastatina - Estatina",
+      "Atorvastatina - Estatina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Genfibrocilo pertenece a los fibratos, no a las estatinas."
+  },
+
+  {
+    "question": "¿Para qué se usan los antivaricosos?",
+    "options": [
+      "Para evitar venas dilatadas y mejorar la circulación venosa",
+      "Para disminuir colesterol",
+      "Para tratar arritmias",
+      "Para aumentar la fuerza de contracción cardíaca"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los antivaricosos evitan venas dilatadas y mejoran la circulación venosa."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a DAFLON?",
+    "options": [
+      "Diosmina",
+      "Pentosano de sodio",
+      "Amiodarona",
+      "Captopril"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DAFLON corresponde a diosmina."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a THROMBOCID?",
+    "options": [
+      "Pentosano de sodio",
+      "Diosmina",
+      "Furosemida",
+      "Bisoprolol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "THROMBOCID corresponde a pentosano de sodio."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "DAFLON - Diosmina",
+      "DAFLON - Pentosano de sodio",
+      "DAFLON - Captopril",
+      "DAFLON - Furosemida"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DAFLON corresponde a diosmina."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "THROMBOCID - Pentosano de sodio",
+      "THROMBOCID - Diosmina",
+      "THROMBOCID - Nitroglicerina",
+      "THROMBOCID - Digoxina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "THROMBOCID corresponde a pentosano de sodio."
+  },
+
+  {
+    "question": "¿Qué principio activo aparece en más de un bloque del temario cardiovascular?",
+    "options": [
+      "Bisoprolol",
+      "Genfibrocilo",
+      "Diosmina",
+      "Lovastatina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Bisoprolol aparece en insuficiencia cardiaca, insuficiencia coronaria e hipertensión."
+  },
+  {
+    "question": "¿Qué principio activo aparece como calcioantagonista y también como vasodilatador según el contexto?",
+    "options": [
+      "Nifedipino",
+      "Captopril",
+      "Genfibrocilo",
+      "Digoxina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Nifedipino aparece como vasodilatador en insuficiencia cardiaca y como calcioantagonista en insuficiencia coronaria e hipertensión."
+  },
+  {
+    "question": "¿Qué principio activo aparece tanto en insuficiencia coronaria como en arritmias?",
+    "options": [
+      "Atenolol",
+      "Lovastatina",
+      "Diosmina",
+      "Espironolactona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Atenolol aparece como betabloqueante en insuficiencia coronaria y en arritmias Grupo 2."
+  },
+  {
+    "question": "¿Qué dos principios activos aparecen como calcioantagonistas en angina y también en arritmias Grupo 4?",
+    "options": [
+      "Diltiazem y verapamilo",
+      "Captopril y enalapril",
+      "Furosemida y clortalidona",
+      "Lovastatina y simvastatina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diltiazem y verapamilo aparecen en insuficiencia coronaria y en arritmias Grupo 4."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a un diurético?",
+    "options": [
+      "SEGURIL",
+      "TRANGOREX",
+      "DAFLON",
+      "CAPOTEN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SEGURIL corresponde a furosemida, un diurético."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a un IECA?",
+    "options": [
+      "CAPOTEN",
+      "ADALAT",
+      "MANIDON",
+      "TRANGOREX"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CAPOTEN corresponde a captopril, un IECA."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a un antiarrítmico del Grupo 3?",
+    "options": [
+      "TRANGOREX",
+      "SEGURIL",
+      "SOLINITRINA",
+      "DAFLON"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TRANGOREX corresponde a amiodarona, del Grupo 3 antiarrítmico."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a nitroglicerina?",
+    "options": [
+      "SOLINITRINA",
+      "CAPOTEN",
+      "HIGROTONA",
+      "ALDACTONE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "SOLINITRINA corresponde a nitroglicerina."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a nifedipino?",
+    "options": [
+      "ADALAT",
+      "MANIDON",
+      "MASDIL",
+      "ENCORCOR"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ADALAT corresponde a nifedipino."
+  },
+  {
+    "question": "¿Cuál de estos pares está mal relacionado?",
+    "options": [
+      "MASDIL - Verapamilo",
+      "MANIDON - Verapamilo",
+      "ADALAT - Nifedipino",
+      "CAPOTEN - Captopril"
+    ],
+    "correctAnswer": 0,
+    "explanation": "MASDIL corresponde a diltiazem, no a verapamilo."
+  },
+  {
+    "question": "¿Cuál de estos pares está mal relacionado?",
+    "options": [
+      "CAPOTEN - Enalapril",
+      "HIGROTONA - Clortalidona",
+      "ALDACTONE - Espironolactona",
+      "TRANGOREX - Amiodarona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "CAPOTEN corresponde a captopril, no a enalapril."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "BLOKIUM / TENORMIN - Atenolol",
+      "BLOKIUM / TENORMIN - Bisoprolol",
+      "BLOKIUM / TENORMIN - Captopril",
+      "BLOKIUM / TENORMIN - Diltiazem"
+    ],
+    "correctAnswer": 0,
+    "explanation": "BLOKIUM y TENORMIN corresponden a atenolol."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "HIGROTONA - Clortalidona",
+      "HIGROTONA - Furosemida",
+      "HIGROTONA - Espironolactona",
+      "HIGROTONA - Enalapril"
+    ],
+    "correctAnswer": 0,
+    "explanation": "HIGROTONA corresponde a clortalidona."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "ALDACTONE - Espironolactona",
+      "ALDACTONE - Furosemida",
+      "ALDACTONE - Captopril",
+      "ALDACTONE - Amiodarona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ALDACTONE corresponde a espironolactona."
+  },
+  {
+    "question": "¿Cuál de estos principios activos aparece sin EF en el temario?",
+    "options": [
+      "Enalapril",
+      "Captopril",
+      "Amiodarona",
+      "Diosmina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Enalapril aparece sin EF en el temario."
+  },
+  {
+    "question": "¿Cuál de estos principios activos aparece sin EF en el temario?",
+    "options": [
+      "Amlodipino",
+      "Nifedipino",
+      "Diltiazem",
+      "Verapamilo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Amlodipino aparece sin EF en el temario."
+  },
+  {
+    "question": "¿Cuál de estos principios activos aparece sin EF en el temario?",
+    "options": [
+      "Hidroclorotiazida",
+      "Furosemida",
+      "Clortalidona",
+      "Espironolactona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Hidroclorotiazida aparece sin EF en el temario."
+  },
+  {
+    "question": "¿Qué fármaco tiene efectos adversos de estrecho margen terapéutico, arritmias y bloqueos cardíacos?",
+    "options": [
+      "Digoxina",
+      "Captopril",
+      "Lovastatina",
+      "Diosmina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Digoxina tiene estrecho margen terapéutico, arritmias y bloqueos cardíacos."
+  }
+]
