@@ -1,0 +1,12 @@
+{
+  "color": "#2d5a74",
+  "icon": "analgesicos",
+  "ordenActividades": [
+    "definiciones",
+    "verdadero-falso",
+    "test",
+    "ef-principio-activo",
+    "efectos-adversos",
+    "repaso-fallos"
+  ]
+}
