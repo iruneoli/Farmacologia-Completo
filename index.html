@@ -407,6 +407,50 @@
     </button>
   </div>
 </section>
+
+    <!-- PANTALLA ATC MIXTO -->
+<section id="mixto-screen" class="hidden">
+  <div class="subpage-header">
+    <button class="back-button" onclick="goHome()">← Volver al inicio</button>
+    <div class="hero-badge">ATC MIXTO</div>
+    <h1 class="subpage-title">Selecciona el tipo de actividad</h1>
+    <p class="subpage-text">
+      Practica preguntas mezcladas de todos los ATC trabajados.
+    </p>
+  </div>
+
+  <div class="activity-grid">
+    <button class="activity-card" onclick="selectActivity('definiciones')">
+      <h3>Definiciones</h3>
+      <p>Emparejar conceptos mezclados de todos los ATC.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('verdadero-falso')">
+      <h3>Verdadero / Falso</h3>
+      <p>Preguntas mezcladas con justificación inmediata.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('test')">
+      <h3>Preguntas tipo test</h3>
+      <p>4 opciones y una única respuesta correcta, mezclando todos los ATC.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('ef-principio-activo')">
+      <h3>EF ↔ Principio activo</h3>
+      <p>Especialidades farmacéuticas y principios activos de todos los grupos.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('efectos-adversos')">
+      <h3>Efectos adversos</h3>
+      <p>Identifica efectos adversos de medicamentos de todos los ATC.</p>
+    </button>
+
+    <button class="activity-card" onclick="selectActivity('repaso-fallos')">
+      <h3>Repaso de fallos</h3>
+      <p>Repasa los fallos cometidos dentro del modo mixto.</p>
+    </button>
+  </div>
+</section>
     
     <!-- PANTALLA DEFINICIONES -->
     <section id="definiciones-screen" class="hidden">
