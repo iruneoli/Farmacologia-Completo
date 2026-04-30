@@ -49,6 +49,7 @@ function hideATCScreens() {
   document.getElementById("respiratorio-screen")?.classList.add("hidden");
   document.getElementById("sangre-organos-screen")?.classList.add("hidden");
   document.getElementById("hormonas-screen")?.classList.add("hidden");
+  document.getElementById("analgesicos-screen")?.classList.add("hidden");
 }
 
 function hideActivityScreens() {
@@ -93,6 +94,10 @@ function selectGroup(group) {
    } else if (group === "hormonas") {
   currentATC = "hormonas";
   document.getElementById("hormonas-screen").classList.remove("hidden");
+
+   } else if (group === "analgesicos") {
+  currentATC = "analgesicos";
+  document.getElementById("analgesicos-screen").classList.remove("hidden");
      
   } else {
     document.getElementById("home-screen").classList.remove("hidden");
@@ -119,7 +124,9 @@ function backToActivities() {
   document.getElementById("sangre-organos-screen").classList.remove("hidden");
  } else if (currentATC === "hormonas") {
   document.getElementById("hormonas-screen").classList.remove("hidden");
- }
+  } else if (currentATC === "analgesicos") {
+    document.getElementById("analgesicos-screen").classList.remove("hidden");
+  }
 }
 
 function selectActivity(activity) {
