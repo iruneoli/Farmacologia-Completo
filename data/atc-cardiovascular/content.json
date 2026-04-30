@@ -1,0 +1,532 @@
+{
+  "atc": "cardiovascular",
+  "nombre": "ATC Cardiovascular",
+  "descripcion": "Sistema cardiovascular",
+  "codigos": [
+    {
+      "codigo": "C01",
+      "nombre": "Terapia cardíaca",
+      "descripcion": "Asistencia médica y paramédica al paciente con cardiopatía, especialmente después de una crisis cardiovascular como infarto de miocardio, angioplastia o cirugía cardíaca."
+    },
+    {
+      "codigo": "C02",
+      "nombre": "Antihipertensivos",
+      "descripcion": "Actúan contra el incremento continuo de la fuerza ejercida por la sangre sobre las paredes de los vasos sanguíneos. La hipertensión se asocia a mayor riesgo de aterosclerosis."
+    },
+    {
+      "codigo": "C03",
+      "nombre": "Diuréticos",
+      "descripcion": "Provocan eliminación de agua y electrolitos del organismo a través de la orina y la expulsión de materia fecal."
+    },
+    {
+      "codigo": "C04",
+      "nombre": "Vasodilatadores periféricos",
+      "descripcion": "Dilatan o relajan los vasos sanguíneos, disminuyen la resistencia, reducen la presión arterial y facilitan el flujo de sangre."
+    },
+    {
+      "codigo": "C05",
+      "nombre": "Vasoprotectores",
+      "descripcion": "Mejoran la fragilidad, permeabilidad y resistencia de los vasos."
+    },
+    {
+      "codigo": "C07",
+      "nombre": "Agentes beta-bloqueantes",
+      "descripcion": "Se usan en insuficiencia cardiaca, especialmente tras infarto, y en arritmias. Bloquean receptores de mediadores adrenérgicos como la adrenalina, reduciendo la contracción cardíaca, frecuencia cardíaca y producción de renina."
+    },
+    {
+      "codigo": "C08",
+      "nombre": "Bloqueantes de canales de calcio",
+      "descripcion": "Reducen el paso del calcio al músculo cardíaco y a los vasos sanguíneos, relajando los vasos y reduciendo la presión arterial. Se usan en hipertensión, angina de pecho y arritmias."
+    },
+    {
+      "codigo": "C09",
+      "nombre": "Agentes que actúan sobre el sistema renina-angiotensina",
+      "descripcion": "Actúan sobre el sistema hormonal que regula a largo plazo la presión sanguínea y el volumen extracelular corporal."
+    },
+    {
+      "codigo": "C10",
+      "nombre": "Agentes que reducen los lípidos séricos",
+      "descripcion": "Hipolipemiantes que reducen los niveles de colesterol y triglicéridos."
+    }
+  ],
+  "grupos": [
+    {
+      "codigo": "C01",
+      "nombre": "Insuficiencia cardiaca",
+      "actividadGrupo": "Incapacidad de bombeo del corazón por fallo cardiaco, aumento de las resistencias contra las que bombea o aumento de la sangre que llega al corazón.",
+      "observaciones": [
+        "Fallo cardiaco: el corazón funciona mal.",
+        "Aumento de resistencias contra las que bombea: poscarga.",
+        "Aumento de la sangre que llega al corazón: precarga."
+      ],
+      "subgrupos": [
+        {
+          "nombre": "Digitálicos",
+          "actividadSubgrupo": "Aumentan la fuerza de contracción, disminuyen la frecuencia cardíaca y tienen efecto diurético.",
+          "principiosActivos": [
+            {
+              "nombre": "Digoxina",
+              "ef": [],
+              "indicaciones": [
+                "Insuficiencia cardiaca"
+              ],
+              "efectosAdversos": [
+                "Estrecho margen terapéutico",
+                "Arritmias",
+                "Bloqueos cardiacos"
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Diuréticos",
+          "actividadSubgrupo": "Disminuyen la volemia.",
+          "principiosActivos": [
+            {
+              "nombre": "Furosemida",
+              "ef": [
+                "SEGURIL"
+              ],
+              "indicaciones": [
+                "Insuficiencia cardiaca"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Vasodilatadores",
+          "actividadSubgrupo": "Disminuyen la precarga y/o disminuyen la poscarga.",
+          "principiosActivos": [
+            {
+              "nombre": "Nifedipino",
+              "ef": [],
+              "indicaciones": [
+                "Insuficiencia cardiaca"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Bisoprolol",
+              "ef": [
+                "ENCORCOR"
+              ],
+              "indicaciones": [
+                "Insuficiencia cardiaca"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "C01",
+      "nombre": "Insuficiencia coronaria",
+      "actividadGrupo": "Incapacidad de las arterias coronarias para aportar al miocardio la sangre que necesita.",
+      "observaciones": [
+        "Ángor o angina de pecho.",
+        "Infarto de miocardio."
+      ],
+      "subgrupos": [
+        {
+          "nombre": "Nitratos / Nitritos",
+          "actividadSubgrupo": "Vasodilatadores usados en angina.",
+          "principiosActivos": [
+            {
+              "nombre": "Nitroglicerina",
+              "ef": [
+                "SOLINITRINA",
+                "NITRODERM"
+              ],
+              "indicaciones": [
+                "Angina de pecho",
+                "Insuficiencia coronaria"
+              ],
+              "observaciones": "SOLINITRINA aparece como vía sublingual y NITRODERM como parche.",
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Betabloqueantes",
+          "actividadSubgrupo": "Reducen los efectos de la adrenalina en el corazón y reducen el trabajo cardiaco, disminuyendo la fuerza del latido.",
+          "principiosActivos": [
+            {
+              "nombre": "Bisoprolol",
+              "ef": [
+                "ENCORCOR"
+              ],
+              "indicaciones": [
+                "Angina",
+                "Infarto",
+                "Insuficiencia coronaria"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Atenolol",
+              "ef": [
+                "BLOKIUM",
+                "TENORMIN"
+              ],
+              "indicaciones": [
+                "Angina",
+                "Infarto",
+                "Insuficiencia coronaria"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Calcioantagonistas",
+          "actividadSubgrupo": "Vasodilatadores que reducen el trabajo cardiaco disminuyendo la fuerza del latido.",
+          "principiosActivos": [
+            {
+              "nombre": "Verapamilo",
+              "ef": [
+                "MANIDON"
+              ],
+              "indicaciones": [
+                "Angina",
+                "Insuficiencia coronaria"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Diltiazem",
+              "ef": [
+                "MASDIL"
+              ],
+              "indicaciones": [
+                "Angina",
+                "Insuficiencia coronaria"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Nifedipino",
+              "ef": [
+                "ADALAT"
+              ],
+              "indicaciones": [
+                "Angina",
+                "Insuficiencia coronaria"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Amlodipino",
+              "ef": [],
+              "indicaciones": [
+                "Angina",
+                "Insuficiencia coronaria"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "C02",
+      "nombre": "Hipertensión arterial",
+      "actividadGrupo": "Aumento de la fuerza de la sangre contra las paredes de las arterias al salir del corazón.",
+      "subgrupos": [
+        {
+          "nombre": "Diuréticos",
+          "actividadSubgrupo": "Disminuyen la volemia.",
+          "principiosActivos": [
+            {
+              "nombre": "Furosemida",
+              "ef": [
+                "SEGURIL"
+              ],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Clortalidona",
+              "ef": [
+                "HIGROTONA"
+              ],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Espironolactona",
+              "ef": [
+                "ALDACTONE"
+              ],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Hidroclorotiazida",
+              "ef": [],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Betabloqueantes",
+          "actividadSubgrupo": "Vasodilatadores que reducen el gasto cardiaco, entendido como el caudal del corazón o cantidad de sangre por tiempo.",
+          "principiosActivos": [
+            {
+              "nombre": "Bisoprolol",
+              "ef": [
+                "ENCORCOR"
+              ],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Calcioantagonistas",
+          "actividadSubgrupo": "Reducen el paso de calcio al músculo cardíaco y a los vasos, relajando los vasos y disminuyendo la presión arterial.",
+          "principiosActivos": [
+            {
+              "nombre": "Nifedipino",
+              "ef": [
+                "ADALAT"
+              ],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Amlodipino",
+              "ef": [],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "IECA",
+          "actividadSubgrupo": "Inhiben la síntesis de angiotensina, una sustancia hipertensora.",
+          "principiosActivos": [
+            {
+              "nombre": "Captopril",
+              "ef": [
+                "CAPOTEN"
+              ],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Enalapril",
+              "ef": [],
+              "indicaciones": [
+                "Hipertensión arterial"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "C01",
+      "nombre": "Arritmias cardiacas",
+      "actividadGrupo": "Alteraciones del ritmo de los latidos del corazón.",
+      "observaciones": [
+        "Taquicardia: ritmo alto.",
+        "Bradicardia: ritmo lento.",
+        "Fibrilación: ritmo irregular.",
+        "Bloqueos cardiacos."
+      ],
+      "subgrupos": [
+        {
+          "nombre": "Grupo 1",
+          "actividadSubgrupo": "Bloqueantes de los canales de sodio.",
+          "principiosActivos": [
+            {
+              "nombre": "Lidocaína",
+              "ef": [],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Procainamida",
+              "ef": [],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Grupo 2",
+          "actividadSubgrupo": "Betabloqueantes.",
+          "principiosActivos": [
+            {
+              "nombre": "Propranolol",
+              "ef": [],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Atenolol",
+              "ef": [],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Grupo 3",
+          "actividadSubgrupo": "Bloqueantes de los canales de potasio.",
+          "principiosActivos": [
+            {
+              "nombre": "Amiodarona",
+              "ef": [
+                "TRANGOREX"
+              ],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Grupo 4",
+          "actividadSubgrupo": "Bloqueantes de los canales de calcio o calcioantagonistas.",
+          "principiosActivos": [
+            {
+              "nombre": "Diltiazem",
+              "ef": [],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Verapamilo",
+              "ef": [],
+              "indicaciones": [
+                "Arritmias cardiacas"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "C10",
+      "nombre": "Hipolipemiantes",
+      "actividadGrupo": "Rebajan el nivel de colesterol y lípidos en sangre.",
+      "subgrupos": [
+        {
+          "nombre": "Estatinas",
+          "actividadSubgrupo": "Impiden la fabricación de colesterol y promueven la reabsorción del colesterol depositado.",
+          "principiosActivos": [
+            {
+              "nombre": "Lovastatina",
+              "ef": [],
+              "indicaciones": [
+                "Colesterol elevado",
+                "Lípidos elevados en sangre"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Simvastatina",
+              "ef": [],
+              "indicaciones": [
+                "Colesterol elevado",
+                "Lípidos elevados en sangre"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Atorvastatina",
+              "ef": [],
+              "indicaciones": [
+                "Colesterol elevado",
+                "Lípidos elevados en sangre"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        },
+        {
+          "nombre": "Fibratos",
+          "actividadSubgrupo": "Disminuyen los triglicéridos.",
+          "principiosActivos": [
+            {
+              "nombre": "Genfibrocilo",
+              "ef": [],
+              "indicaciones": [
+                "Triglicéridos elevados"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codigo": "C05",
+      "nombre": "Antivaricosos",
+      "actividadGrupo": "Se usan para evitar las venas dilatadas y mejorar la circulación venosa.",
+      "subgrupos": [
+        {
+          "nombre": "Antivaricosos",
+          "actividadSubgrupo": "Mejoran la circulación venosa y ayudan a evitar venas dilatadas.",
+          "principiosActivos": [
+            {
+              "nombre": "Diosmina",
+              "ef": [
+                "DAFLON"
+              ],
+              "indicaciones": [
+                "Venas dilatadas",
+                "Mejora de la circulación venosa"
+              ],
+              "efectosAdversos": []
+            },
+            {
+              "nombre": "Pentosano de sodio",
+              "ef": [
+                "THROMBOCID"
+              ],
+              "indicaciones": [
+                "Venas dilatadas",
+                "Mejora de la circulación venosa"
+              ],
+              "efectosAdversos": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
