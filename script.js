@@ -4,6 +4,19 @@
 
 let currentATC = "digestivo";
 
+const MIXED_ATCS = [
+  "digestivo",
+  "antiinfeccion",
+  "respiratorio",
+  "sangre-organos",
+  "hormonas",
+  "analgesicos",
+  "cardiovascular"
+];
+
+function isMixedMode() {
+  return currentATC === "mixto";
+}
 /* Definiciones */
 let currentQuestion = null;
 let selectedLeft = null;
@@ -51,6 +64,7 @@ function hideATCScreens() {
   document.getElementById("hormonas-screen")?.classList.add("hidden");
   document.getElementById("analgesicos-screen")?.classList.add("hidden");
   document.getElementById("cardiovascular-screen")?.classList.add("hidden");
+  document.getElementById("mixto-screen")?.classList.add("hidden");
 }
 
 function hideActivityScreens() {
@@ -66,6 +80,64 @@ function shuffleArray(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
 
+async function fetchJsonSafe(path, fallback = []) {
+  try {
+    const response = await fetch(path);
+
+    if (!response.ok) {
+      console.warn("No se pudo cargar:", path);
+      return fallback;
+    }
+
+    return await response.json();
+  } catch (error) {
+    console.warn("Error cargando:", path, error);
+    return fallback;
+  }
+}
+
+async function loadMixedQuestionFile(fileName) {
+  const allQuestionGroups = await Promise.all(
+    MIXED_ATCS.map(async atc => {
+      const questions = await fetchJsonSafe(
+        `data/atc-${atc}/questions/${fileName}`,
+        []
+      );
+
+      return questions.map(question => ({
+        ...question,
+        atcOrigen: atc
+      }));
+    })
+  );
+
+  return shuffleArray(allQuestionGroups.flat());
+}
+
+async function loadMixedContent() {
+  const allContents = await Promise.all(
+    MIXED_ATCS.map(async atc => {
+      const content = await fetchJsonSafe(
+        `data/atc-${atc}/content.json`,
+        { grupos: [] }
+      );
+
+      return {
+        ...content,
+        grupos: (content.grupos || []).map(grupo => ({
+          ...grupo,
+          atcOrigen: atc
+        }))
+      };
+    })
+  );
+
+  return {
+    atc: "mixto",
+    nombre: "ATC Mixto",
+    grupos: allContents.flatMap(content => content.grupos || [])
+  };
+}
 
 /* =========================================================
    NAVEGACIÓN PRINCIPAL
@@ -103,6 +175,10 @@ function selectGroup(group) {
   } else if (group === "cardiovascular") {
   currentATC = "cardiovascular";
   document.getElementById("cardiovascular-screen").classList.remove("hidden");
+
+  } else if (group === "mixto") {
+  currentATC = "mixto";
+  document.getElementById("mixto-screen").classList.remove("hidden");
      
   } else {
     document.getElementById("home-screen").classList.remove("hidden");
@@ -133,6 +209,8 @@ function backToActivities() {
     document.getElementById("analgesicos-screen").classList.remove("hidden");
   } else if (currentATC === "cardiovascular") {
   document.getElementById("cardiovascular-screen").classList.remove("hidden");
+ } else if (currentATC === "mixto") {
+  document.getElementById("mixto-screen").classList.remove("hidden");
 }
 }
 
@@ -185,8 +263,20 @@ async function loadDefinitions() {
 
   document.getElementById("definiciones-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/questions/definiciones.json`);
-  const data = await response.json();
+  let data;
+
+  if (isMixedMode()) {
+    data = await loadMixedQuestionFile("definiciones.json");
+  } else {
+    const response = await fetch(`${getATCPath()}/questions/definiciones.json`);
+    data = await response.json();
+  }
+
+  if (!data || data.length === 0) {
+    alert("No hay preguntas de definiciones disponibles.");
+    backToActivities();
+    return;
+  }
 
   currentQuestion = data[Math.floor(Math.random() * data.length)];
 
@@ -305,12 +395,21 @@ async function loadVFQuestions() {
 
   document.getElementById("vf-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/questions/verdadero-falso.json`);
-  vfQuestions = await response.json();
+  if (isMixedMode()) {
+    vfQuestions = await loadMixedQuestionFile("verdadero-falso.json");
+  } else {
+    const response = await fetch(`${getATCPath()}/questions/verdadero-falso.json`);
+    vfQuestions = await response.json();
+  }
+
+  if (!vfQuestions || vfQuestions.length === 0) {
+    alert("No hay preguntas de verdadero/falso disponibles.");
+    backToActivities();
+    return;
+  }
 
   nextVFQuestion();
 }
-
 function nextVFQuestion() {
   const result = document.getElementById("vf-result");
   const justification = document.getElementById("vf-justification");
@@ -386,8 +485,18 @@ async function loadTestQuestions() {
 
   document.getElementById("test-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/questions/test.json`);
-  testQuestions = await response.json();
+  if (isMixedMode()) {
+    testQuestions = await loadMixedQuestionFile("test.json");
+  } else {
+    const response = await fetch(`${getATCPath()}/questions/test.json`);
+    testQuestions = await response.json();
+  }
+
+  if (!testQuestions || testQuestions.length === 0) {
+    alert("No hay preguntas tipo test disponibles.");
+    backToActivities();
+    return;
+  }
 
   nextTestQuestion();
 }
@@ -477,11 +586,23 @@ async function loadEFPrincipioActivo() {
 
   document.getElementById("ef-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/content.json`);
-  const content = await response.json();
+  let content;
+
+  if (isMixedMode()) {
+    content = await loadMixedContent();
+  } else {
+    const response = await fetch(`${getATCPath()}/content.json`);
+    content = await response.json();
+  }
 
   const principios = extractPrincipiosActivos(content);
   efQuestions = generateEFQuestions(principios);
+
+  if (!efQuestions || efQuestions.length === 0) {
+    alert("No hay preguntas de EF ↔ principio activo disponibles.");
+    backToActivities();
+    return;
+  }
 
   nextEFQuestion();
 }
@@ -645,11 +766,23 @@ async function loadAdverseQuestions() {
 
   document.getElementById("adverse-screen").classList.remove("hidden");
 
-  const response = await fetch(`${getATCPath()}/content.json`);
-  const content = await response.json();
+  let content;
+
+  if (isMixedMode()) {
+    content = await loadMixedContent();
+  } else {
+    const response = await fetch(`${getATCPath()}/content.json`);
+    content = await response.json();
+  }
 
   const medicines = extractMedicinesForAdverse(content);
   adverseQuestions = generateAdverseQuestions(medicines);
+
+  if (!adverseQuestions || adverseQuestions.length === 0) {
+    alert("No hay preguntas de efectos adversos disponibles.");
+    backToActivities();
+    return;
+  }
 
   nextAdverseQuestion();
 }
