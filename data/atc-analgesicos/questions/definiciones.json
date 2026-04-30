@@ -1,0 +1,674 @@
+[
+  {
+    "prompt": "Relaciona cada grupo terapéutico con su actividad principal.",
+    "leftItems": [
+      "Analgésicos opiáceos",
+      "Analgésicos no opiáceos",
+      "AINE",
+      "Antagonistas de la morfina",
+      "Mezclas analgésicas"
+    ],
+    "rightItems": [
+      "Para dolores intensos y no son antiinflamatorios",
+      "Para dolor leve o moderado y fiebre",
+      "Analgésicos, antiinflamatorios y antitérmicos",
+      "Tratamiento de sobredosis con opiáceos",
+      "Combinaciones de analgésicos"
+    ],
+    "correctMatches": {
+      "Analgésicos opiáceos": "Para dolores intensos y no son antiinflamatorios",
+      "Analgésicos no opiáceos": "Para dolor leve o moderado y fiebre",
+      "AINE": "Analgésicos, antiinflamatorios y antitérmicos",
+      "Antagonistas de la morfina": "Tratamiento de sobredosis con opiáceos",
+      "Mezclas analgésicas": "Combinaciones de analgésicos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo con su mecanismo o explicación.",
+    "leftItems": [
+      "Analgésicos opiáceos",
+      "AINE",
+      "Para-amino-fenoles",
+      "Pirazolonas",
+      "Salicilatos"
+    ],
+    "rightItems": [
+      "Se unen a receptores específicos de las neuronas",
+      "Inhiben una enzima necesaria para formar prostaglandinas",
+      "No son AINE y tienen actividad analgésica y antipirética",
+      "No son AINE y pueden actuar como antiespasmódicos",
+      "Tienen cuatro acciones y cambian su uso según la dosis"
+    ],
+    "correctMatches": {
+      "Analgésicos opiáceos": "Se unen a receptores específicos de las neuronas",
+      "AINE": "Inhiben una enzima necesaria para formar prostaglandinas",
+      "Para-amino-fenoles": "No son AINE y tienen actividad analgésica y antipirética",
+      "Pirazolonas": "No son AINE y pueden actuar como antiespasmódicos",
+      "Salicilatos": "Tienen cuatro acciones y cambian su uso según la dosis"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo de analgésicos opiáceos con su característica.",
+    "leftItems": [
+      "Morfina",
+      "Derivados de la fenilpiperidina",
+      "Derivados del benzomorfano",
+      "Antagonistas de la morfina",
+      "Derivados de la fenilpropalinas"
+    ],
+    "rightItems": [
+      "Analgésico opiáceo estupefaciente",
+      "Incluyen meperidina y fentanilo",
+      "Incluyen pentazocina",
+      "Se usan en sobredosis con opiáceos",
+      "Incluyen metadona y tramadol"
+    ],
+    "correctMatches": {
+      "Morfina": "Analgésico opiáceo estupefaciente",
+      "Derivados de la fenilpiperidina": "Incluyen meperidina y fentanilo",
+      "Derivados del benzomorfano": "Incluyen pentazocina",
+      "Antagonistas de la morfina": "Se usan en sobredosis con opiáceos",
+      "Derivados de la fenilpropalinas": "Incluyen metadona y tramadol"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo opiáceo con su subgrupo.",
+    "leftItems": [
+      "Morfina",
+      "Meperidina",
+      "Fentanilo",
+      "Pentazocina",
+      "Metadona"
+    ],
+    "rightItems": [
+      "Morfina",
+      "Derivados de la fenilpiperidina",
+      "Derivados de la fenilpiperidina",
+      "Derivados del benzomorfano",
+      "Derivados de la fenilpropalinas"
+    ],
+    "correctMatches": {
+      "Morfina": "Morfina",
+      "Meperidina": "Derivados de la fenilpiperidina",
+      "Fentanilo": "Derivados de la fenilpiperidina",
+      "Pentazocina": "Derivados del benzomorfano",
+      "Metadona": "Derivados de la fenilpropalinas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo opiáceo con su uso u observación.",
+    "leftItems": [
+      "Morfina",
+      "Meperidina",
+      "Fentanilo",
+      "Naloxona",
+      "Metadona"
+    ],
+    "rightItems": [
+      "Estupefaciente usado en dolores intensos",
+      "Uso hospitalario",
+      "Puede aparecer en parches",
+      "Tratamiento de sobredosis con opiáceos",
+      "Deshabituación a opiáceos"
+    ],
+    "correctMatches": {
+      "Morfina": "Estupefaciente usado en dolores intensos",
+      "Meperidina": "Uso hospitalario",
+      "Fentanilo": "Puede aparecer en parches",
+      "Naloxona": "Tratamiento de sobredosis con opiáceos",
+      "Metadona": "Deshabituación a opiáceos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su EF.",
+    "leftItems": [
+      "Meperidina",
+      "Fentanilo",
+      "Tramadol",
+      "Paracetamol",
+      "Metamizol magnésico"
+    ],
+    "rightItems": [
+      "DOLANTINA / DEMEROL",
+      "FENTANEST / DUROGESIC",
+      "ADOLONTA",
+      "GELOCATIL / EFFERALGAN / XUMADOL",
+      "NOLOTIL"
+    ],
+    "correctMatches": {
+      "Meperidina": "DOLANTINA / DEMEROL",
+      "Fentanilo": "FENTANEST / DUROGESIC",
+      "Tramadol": "ADOLONTA",
+      "Paracetamol": "GELOCATIL / EFFERALGAN / XUMADOL",
+      "Metamizol magnésico": "NOLOTIL"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con su principio activo.",
+    "leftItems": [
+      "DOLANTINA",
+      "DEMEROL",
+      "FENTANEST",
+      "DUROGESIC",
+      "ADOLONTA"
+    ],
+    "rightItems": [
+      "Meperidina",
+      "Meperidina",
+      "Fentanilo",
+      "Fentanilo",
+      "Tramadol"
+    ],
+    "correctMatches": {
+      "DOLANTINA": "Meperidina",
+      "DEMEROL": "Meperidina",
+      "FENTANEST": "Fentanilo",
+      "DUROGESIC": "Fentanilo",
+      "ADOLONTA": "Tramadol"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con su principio activo.",
+    "leftItems": [
+      "GELOCATIL",
+      "EFFERALGAN",
+      "XUMADOL",
+      "NOLOTIL",
+      "ZALDIAR"
+    ],
+    "rightItems": [
+      "Paracetamol",
+      "Paracetamol",
+      "Paracetamol",
+      "Metamizol magnésico",
+      "Tramadol + paracetamol"
+    ],
+    "correctMatches": {
+      "GELOCATIL": "Paracetamol",
+      "EFFERALGAN": "Paracetamol",
+      "XUMADOL": "Paracetamol",
+      "NOLOTIL": "Metamizol magnésico",
+      "ZALDIAR": "Tramadol + paracetamol"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo no opiáceo con su subgrupo.",
+    "leftItems": [
+      "Paracetamol",
+      "Metamizol magnésico",
+      "Tramadol + paracetamol",
+      "NOLOTIL",
+      "ZALDIAR"
+    ],
+    "rightItems": [
+      "Para-amino-fenoles",
+      "Pirazolonas",
+      "Mezclas",
+      "Pirazolonas",
+      "Mezclas"
+    ],
+    "correctMatches": {
+      "Paracetamol": "Para-amino-fenoles",
+      "Metamizol magnésico": "Pirazolonas",
+      "Tramadol + paracetamol": "Mezclas",
+      "NOLOTIL": "Pirazolonas",
+      "ZALDIAR": "Mezclas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo no opiáceo con su indicación principal.",
+    "leftItems": [
+      "Paracetamol",
+      "Metamizol magnésico",
+      "Tramadol + paracetamol",
+      "Para-amino-fenoles",
+      "Pirazolonas"
+    ],
+    "rightItems": [
+      "Dolor leve o moderado y fiebre",
+      "Dolor, fiebre y cólicos",
+      "Dolor moderado o intenso",
+      "Actividad analgésica y antipirética",
+      "Actividad analgésica, antipirética y antiespasmódica"
+    ],
+    "correctMatches": {
+      "Paracetamol": "Dolor leve o moderado y fiebre",
+      "Metamizol magnésico": "Dolor, fiebre y cólicos",
+      "Tramadol + paracetamol": "Dolor moderado o intenso",
+      "Para-amino-fenoles": "Actividad analgésica y antipirética",
+      "Pirazolonas": "Actividad analgésica, antipirética y antiespasmódica"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo o principio activo con su efecto adverso.",
+    "leftItems": [
+      "Analgésicos opiáceos",
+      "Paracetamol",
+      "Metamizol magnésico",
+      "AINE",
+      "Derivados del ácido fenilacético"
+    ],
+    "rightItems": [
+      "Somnolencia, depresión respiratoria, adicción, abstinencia y tolerancia",
+      "Hepatotoxicidad",
+      "Puede producir trastornos sanguíneos por uso continuado",
+      "Abrasión de mucosa gástrica, gastritis, úlceras y riesgo de hemorragia",
+      "Riesgo gástrico, cefaleas y mareos"
+    ],
+    "correctMatches": {
+      "Analgésicos opiáceos": "Somnolencia, depresión respiratoria, adicción, abstinencia y tolerancia",
+      "Paracetamol": "Hepatotoxicidad",
+      "Metamizol magnésico": "Puede producir trastornos sanguíneos por uso continuado",
+      "AINE": "Abrasión de mucosa gástrica, gastritis, úlceras y riesgo de hemorragia",
+      "Derivados del ácido fenilacético": "Riesgo gástrico, cefaleas y mareos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada efecto adverso con el grupo o principio activo correspondiente.",
+    "leftItems": [
+      "Hepatotoxicidad",
+      "Depresión respiratoria",
+      "Trastornos sanguíneos por uso continuado",
+      "Abrasión de la mucosa gástrica",
+      "Cefaleas y mareos"
+    ],
+    "rightItems": [
+      "Paracetamol",
+      "Analgésicos opiáceos",
+      "Metamizol magnésico",
+      "AINE",
+      "Derivados del ácido fenilacético"
+    ],
+    "correctMatches": {
+      "Hepatotoxicidad": "Paracetamol",
+      "Depresión respiratoria": "Analgésicos opiáceos",
+      "Trastornos sanguíneos por uso continuado": "Metamizol magnésico",
+      "Abrasión de la mucosa gástrica": "AINE",
+      "Cefaleas y mareos": "Derivados del ácido fenilacético"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo de AINE con su actividad o característica.",
+    "leftItems": [
+      "Salicilatos",
+      "Derivados del ácido fenilacético",
+      "Derivados del ácido fenilpropiónico",
+      "Oxicams",
+      "Otros AINE"
+    ],
+    "rightItems": [
+      "Poseen cuatro acciones y se usan como antiagregantes a dosis bajas",
+      "Antiinflamatorios y analgésicos; pueden producir cefaleas y mareos",
+      "Analgésicos, antiinflamatorios y antipiréticos",
+      "Antiinflamatorios muy potentes, una vez al día",
+      "Otros medicamentos del grupo AINE"
+    ],
+    "correctMatches": {
+      "Salicilatos": "Poseen cuatro acciones y se usan como antiagregantes a dosis bajas",
+      "Derivados del ácido fenilacético": "Antiinflamatorios y analgésicos; pueden producir cefaleas y mareos",
+      "Derivados del ácido fenilpropiónico": "Analgésicos, antiinflamatorios y antipiréticos",
+      "Oxicams": "Antiinflamatorios muy potentes, una vez al día",
+      "Otros AINE": "Otros medicamentos del grupo AINE"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo AINE con sus principios activos.",
+    "leftItems": [
+      "Salicilatos",
+      "Derivados del ácido fenilacético",
+      "Derivados del ácido fenilpropiónico",
+      "Oxicams",
+      "Otros AINE"
+    ],
+    "rightItems": [
+      "Ácido acetilsalicílico",
+      "Diclofenaco, aceclofenaco e indometazina",
+      "Ibuprofeno, naproxeno, ketoprofeno y ketorolaco",
+      "Piroxicam",
+      "DOLALGIAL"
+    ],
+    "correctMatches": {
+      "Salicilatos": "Ácido acetilsalicílico",
+      "Derivados del ácido fenilacético": "Diclofenaco, aceclofenaco e indometazina",
+      "Derivados del ácido fenilpropiónico": "Ibuprofeno, naproxeno, ketoprofeno y ketorolaco",
+      "Oxicams": "Piroxicam",
+      "Otros AINE": "DOLALGIAL"
+    }
+  },
+  {
+    "prompt": "Relaciona cada AINE con su subgrupo.",
+    "leftItems": [
+      "Ácido acetilsalicílico",
+      "Diclofenaco",
+      "Aceclofenaco",
+      "Indometazina",
+      "Piroxicam"
+    ],
+    "rightItems": [
+      "Salicilatos",
+      "Derivados del ácido fenilacético",
+      "Derivados del ácido fenilacético",
+      "Derivados del ácido fenilacético",
+      "Oxicams"
+    ],
+    "correctMatches": {
+      "Ácido acetilsalicílico": "Salicilatos",
+      "Diclofenaco": "Derivados del ácido fenilacético",
+      "Aceclofenaco": "Derivados del ácido fenilacético",
+      "Indometazina": "Derivados del ácido fenilacético",
+      "Piroxicam": "Oxicams"
+    }
+  },
+  {
+    "prompt": "Relaciona cada AINE con su subgrupo.",
+    "leftItems": [
+      "Ibuprofeno",
+      "Naproxeno",
+      "Ketoprofeno",
+      "Ketorolaco",
+      "DOLALGIAL"
+    ],
+    "rightItems": [
+      "Derivados del ácido fenilpropiónico",
+      "Derivados del ácido fenilpropiónico",
+      "Derivados del ácido fenilpropiónico",
+      "Derivados del ácido fenilpropiónico",
+      "Otros AINE"
+    ],
+    "correctMatches": {
+      "Ibuprofeno": "Derivados del ácido fenilpropiónico",
+      "Naproxeno": "Derivados del ácido fenilpropiónico",
+      "Ketoprofeno": "Derivados del ácido fenilpropiónico",
+      "Ketorolaco": "Derivados del ácido fenilpropiónico",
+      "DOLALGIAL": "Otros AINE"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo AINE con sus EF.",
+    "leftItems": [
+      "Ácido acetilsalicílico",
+      "Diclofenaco",
+      "Aceclofenaco",
+      "Indometazina",
+      "Piroxicam"
+    ],
+    "rightItems": [
+      "ASPIRINA / ADIRO",
+      "VOLTAREN / DOLOTREN",
+      "AIRTAL",
+      "INACID",
+      "FELDENE"
+    ],
+    "correctMatches": {
+      "Ácido acetilsalicílico": "ASPIRINA / ADIRO",
+      "Diclofenaco": "VOLTAREN / DOLOTREN",
+      "Aceclofenaco": "AIRTAL",
+      "Indometazina": "INACID",
+      "Piroxicam": "FELDENE"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo AINE con sus EF.",
+    "leftItems": [
+      "Ibuprofeno",
+      "Naproxeno",
+      "Ketoprofeno",
+      "Ketorolaco",
+      "Otros AINE"
+    ],
+    "rightItems": [
+      "NUROFEN / NEOBRUFEN / DALSY / ESPIDIFEN",
+      "NAPROSYN",
+      "ORUDIS",
+      "TORADOL",
+      "DOLALGIAL"
+    ],
+    "correctMatches": {
+      "Ibuprofeno": "NUROFEN / NEOBRUFEN / DALSY / ESPIDIFEN",
+      "Naproxeno": "NAPROSYN",
+      "Ketoprofeno": "ORUDIS",
+      "Ketorolaco": "TORADOL",
+      "Otros AINE": "DOLALGIAL"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF AINE con su principio activo.",
+    "leftItems": [
+      "ASPIRINA",
+      "ADIRO",
+      "VOLTAREN",
+      "DOLOTREN",
+      "AIRTAL"
+    ],
+    "rightItems": [
+      "Ácido acetilsalicílico",
+      "Ácido acetilsalicílico",
+      "Diclofenaco",
+      "Diclofenaco",
+      "Aceclofenaco"
+    ],
+    "correctMatches": {
+      "ASPIRINA": "Ácido acetilsalicílico",
+      "ADIRO": "Ácido acetilsalicílico",
+      "VOLTAREN": "Diclofenaco",
+      "DOLOTREN": "Diclofenaco",
+      "AIRTAL": "Aceclofenaco"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF AINE con su principio activo.",
+    "leftItems": [
+      "INACID",
+      "NUROFEN",
+      "NEOBRUFEN",
+      "DALSY",
+      "ESPIDIFEN"
+    ],
+    "rightItems": [
+      "Indometazina",
+      "Ibuprofeno",
+      "Ibuprofeno",
+      "Ibuprofeno",
+      "Ibuprofeno"
+    ],
+    "correctMatches": {
+      "INACID": "Indometazina",
+      "NUROFEN": "Ibuprofeno",
+      "NEOBRUFEN": "Ibuprofeno",
+      "DALSY": "Ibuprofeno",
+      "ESPIDIFEN": "Ibuprofeno"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF AINE con su principio activo.",
+    "leftItems": [
+      "NAPROSYN",
+      "ORUDIS",
+      "TORADOL",
+      "FELDENE",
+      "DOLALGIAL"
+    ],
+    "rightItems": [
+      "Naproxeno",
+      "Ketoprofeno",
+      "Ketorolaco",
+      "Piroxicam",
+      "Otros AINE"
+    ],
+    "correctMatches": {
+      "NAPROSYN": "Naproxeno",
+      "ORUDIS": "Ketoprofeno",
+      "TORADOL": "Ketorolaco",
+      "FELDENE": "Piroxicam",
+      "DOLALGIAL": "Otros AINE"
+    }
+  },
+  {
+    "prompt": "Relaciona cada subgrupo con una indicación u observación específica.",
+    "leftItems": [
+      "Salicilatos",
+      "Derivados del ácido fenilpropiónico",
+      "Oxicams",
+      "Meperidina",
+      "Fentanilo"
+    ],
+    "rightItems": [
+      "Antiinflamatorio a dosis altas y antiagregante a dosis bajas",
+      "En dosis inferiores a 600 mg algunos son EFP",
+      "Enfermedades reumáticas y administración una vez al día",
+      "Uso hospitalario",
+      "Puede administrarse en parches"
+    ],
+    "correctMatches": {
+      "Salicilatos": "Antiinflamatorio a dosis altas y antiagregante a dosis bajas",
+      "Derivados del ácido fenilpropiónico": "En dosis inferiores a 600 mg algunos son EFP",
+      "Oxicams": "Enfermedades reumáticas y administración una vez al día",
+      "Meperidina": "Uso hospitalario",
+      "Fentanilo": "Puede administrarse en parches"
+    }
+  },
+  {
+    "prompt": "Relaciona cada medicamento o principio activo con su observación.",
+    "leftItems": [
+      "DALSY",
+      "Fentanilo",
+      "Metadona",
+      "Naloxona",
+      "Pentazocina"
+    ],
+    "rightItems": [
+      "Indicado para niños",
+      "Puede aparecer en parches",
+      "Deshabituación a opiáceos",
+      "Uso hospitalario en sobredosis con opiáceos",
+      "Psicótropo"
+    ],
+    "correctMatches": {
+      "DALSY": "Indicado para niños",
+      "Fentanilo": "Puede aparecer en parches",
+      "Metadona": "Deshabituación a opiáceos",
+      "Naloxona": "Uso hospitalario en sobredosis con opiáceos",
+      "Pentazocina": "Psicótropo"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su tipo de dolor o uso.",
+    "leftItems": [
+      "Morfina",
+      "Tramadol",
+      "Paracetamol",
+      "Metamizol magnésico",
+      "Piroxicam"
+    ],
+    "rightItems": [
+      "Dolores intensos",
+      "Dolores moderados o intensos",
+      "Dolor leve o moderado y fiebre",
+      "Dolor, fiebre y cólicos",
+      "Enfermedades reumáticas"
+    ],
+    "correctMatches": {
+      "Morfina": "Dolores intensos",
+      "Tramadol": "Dolores moderados o intensos",
+      "Paracetamol": "Dolor leve o moderado y fiebre",
+      "Metamizol magnésico": "Dolor, fiebre y cólicos",
+      "Piroxicam": "Enfermedades reumáticas"
+    }
+  },
+  {
+    "prompt": "Relaciona cada concepto con su explicación.",
+    "leftItems": [
+      "Prostaglandinas",
+      "AINE",
+      "No opiáceo",
+      "Opiáceo",
+      "Antagonista de morfina"
+    ],
+    "rightItems": [
+      "Sustancias implicadas en inflamación, dolor, fiebre y protección gástrica",
+      "Inhibe formación de prostaglandinas",
+      "Analgésico para dolor leve o moderado y fiebre",
+      "Analgésico para dolor intenso que actúa en receptores neuronales",
+      "Fármaco usado en sobredosis con opiáceos"
+    ],
+    "correctMatches": {
+      "Prostaglandinas": "Sustancias implicadas en inflamación, dolor, fiebre y protección gástrica",
+      "AINE": "Inhibe formación de prostaglandinas",
+      "No opiáceo": "Analgésico para dolor leve o moderado y fiebre",
+      "Opiáceo": "Analgésico para dolor intenso que actúa en receptores neuronales",
+      "Antagonista de morfina": "Fármaco usado en sobredosis con opiáceos"
+    }
+  },
+  {
+    "prompt": "Relaciona cada grupo con lo que NO debe confundirse.",
+    "leftItems": [
+      "Paracetamol",
+      "Metamizol",
+      "Analgésicos opiáceos",
+      "AINE",
+      "Tramadol + paracetamol"
+    ],
+    "rightItems": [
+      "No es un AINE",
+      "No es un AINE",
+      "No son antiinflamatorios",
+      "No son opiáceos",
+      "No es un único principio activo"
+    ],
+    "correctMatches": {
+      "Paracetamol": "No es un AINE",
+      "Metamizol": "No es un AINE",
+      "Analgésicos opiáceos": "No son antiinflamatorios",
+      "AINE": "No son opiáceos",
+      "Tramadol + paracetamol": "No es un único principio activo"
+    }
+  },
+  {
+    "prompt": "Relaciona cada principio activo con su categoría general.",
+    "leftItems": [
+      "Morfina",
+      "Paracetamol",
+      "Ibuprofeno",
+      "Metamizol magnésico",
+      "Ácido acetilsalicílico"
+    ],
+    "rightItems": [
+      "Analgésico opiáceo",
+      "Analgésico no opiáceo",
+      "AINE",
+      "Analgésico no opiáceo",
+      "AINE salicilato"
+    ],
+    "correctMatches": {
+      "Morfina": "Analgésico opiáceo",
+      "Paracetamol": "Analgésico no opiáceo",
+      "Ibuprofeno": "AINE",
+      "Metamizol magnésico": "Analgésico no opiáceo",
+      "Ácido acetilsalicílico": "AINE salicilato"
+    }
+  },
+  {
+    "prompt": "Relaciona cada EF con su categoría general.",
+    "leftItems": [
+      "ADOLONTA",
+      "GELOCATIL",
+      "NOLOTIL",
+      "ASPIRINA",
+      "VOLTAREN"
+    ],
+    "rightItems": [
+      "Analgésico opiáceo",
+      "Analgésico no opiáceo",
+      "Analgésico no opiáceo",
+      "AINE",
+      "AINE"
+    ],
+    "correctMatches": {
+      "ADOLONTA": "Analgésico opiáceo",
+      "GELOCATIL": "Analgésico no opiáceo",
+      "NOLOTIL": "Analgésico no opiáceo",
+      "ASPIRINA": "AINE",
+      "VOLTAREN": "AINE"
+    }
+  }
+]
