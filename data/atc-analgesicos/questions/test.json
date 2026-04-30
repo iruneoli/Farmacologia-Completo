@@ -1,0 +1,1212 @@
+[
+  {
+    "question": "¿Cuál es la finalidad general de los analgésicos?",
+    "options": [
+      "Tratamiento de infecciones bacterianas",
+      "Tratamiento del dolor",
+      "Tratamiento de la diabetes",
+      "Tratamiento de alergias respiratorias"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El grupo anatómico del temario es analgésicos: tratamiento del dolor."
+  },
+  {
+    "question": "¿Para qué tipo de dolor se usan principalmente los analgésicos opiáceos?",
+    "options": [
+      "Dolor leve",
+      "Dolor moderado exclusivamente",
+      "Dolores intensos",
+      "Dolor asociado a fiebre leve"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los analgésicos opiáceos se usan para dolores intensos."
+  },
+  {
+    "question": "¿Cuál de estas afirmaciones sobre los analgésicos opiáceos es correcta?",
+    "options": [
+      "Son antiinflamatorios",
+      "No son antiinflamatorios",
+      "Son antibióticos",
+      "Son antihistamínicos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El temario indica que los opiáceos no son antiinflamatorios."
+  },
+  {
+    "question": "¿Cuál es el mecanismo general de los analgésicos opiáceos?",
+    "options": [
+      "Inhiben prostaglandinas",
+      "Se unen a receptores específicos en neuronas",
+      "Destruyen la mucosa gástrica",
+      "Aumentan la formación de prostaglandinas"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los opiáceos se unen a receptores específicos que hay en las neuronas."
+  },
+  {
+    "question": "¿Qué principio activo aparece como opiáceo estupefaciente en el subgrupo morfina?",
+    "options": [
+      "Naloxona",
+      "Paracetamol",
+      "Morfina",
+      "Ibuprofeno"
+    ],
+    "correctAnswer": 2,
+    "explanation": "La morfina aparece como estupefaciente dentro de analgésicos opiáceos."
+  },
+  {
+    "question": "¿Qué subgrupo incluye meperidina y fentanilo?",
+    "options": [
+      "Derivados de la fenilpiperidina",
+      "Derivados del benzomorfano",
+      "Antagonistas de la morfina",
+      "Para-amino-fenoles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Meperidina y fentanilo pertenecen a los derivados de la fenilpiperidina."
+  },
+  {
+    "question": "¿Qué EF corresponde a meperidina?",
+    "options": [
+      "FENTANEST / DUROGESIC",
+      "DOLANTINA / DEMEROL",
+      "ADOLONTA",
+      "NOLOTIL"
+    ],
+    "correctAnswer": 1,
+    "explanation": "DOLANTINA y DEMEROL son EF de meperidina."
+  },
+  {
+    "question": "¿Qué EF corresponde a fentanilo?",
+    "options": [
+      "FENTANEST / DUROGESIC",
+      "DOLANTINA / DEMEROL",
+      "GELOCATIL / EFFERALGAN",
+      "VOLTAREN / DOLOTREN"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FENTANEST y DUROGESIC son EF de fentanilo."
+  },
+  {
+    "question": "¿Qué observación aparece asociada a fentanilo?",
+    "options": [
+      "Uso en niños",
+      "Puede aparecer en parches",
+      "Antiinflamatorio a dosis altas",
+      "Casi no tiene riesgo gástrico"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El temario indica fentanilo en parches."
+  },
+  {
+    "question": "¿Qué principio activo pertenece a los derivados del benzomorfano?",
+    "options": [
+      "Pentazocina",
+      "Metadona",
+      "Naloxona",
+      "Paracetamol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Pentazocina pertenece a los derivados del benzomorfano."
+  },
+  {
+    "question": "¿Qué observación se asocia a los derivados del benzomorfano?",
+    "options": [
+      "Estupefaciente",
+      "Psicótropo",
+      "EFP",
+      "Antiagregante"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El temario indica que pentazocina aparece como psicótropo."
+  },
+  {
+    "question": "¿Qué subgrupo se usa para tratar sobredosis con opiáceos?",
+    "options": [
+      "Pirazolonas",
+      "Salicilatos",
+      "Antagonistas de la morfina",
+      "Oxicams"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Los antagonistas de la morfina se usan en sobredosis con opiáceos."
+  },
+  {
+    "question": "¿Qué principios activos son antagonistas de la morfina?",
+    "options": [
+      "Naloxona y naltrexona",
+      "Morfina y tramadol",
+      "Paracetamol y metamizol",
+      "Diclofenaco y aceclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Naloxona y naltrexona son antagonistas de la morfina."
+  },
+  {
+    "question": "¿Qué principio activo se usa para la deshabituación a opiáceos?",
+    "options": [
+      "Metadona",
+      "Paracetamol",
+      "Ketorolaco",
+      "Piroxicam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "La metadona se usa para la deshabituación a opiáceos."
+  },
+  {
+    "question": "¿Qué EF corresponde a tramadol?",
+    "options": [
+      "ADOLONTA",
+      "ZALDIAR",
+      "NOLOTIL",
+      "FELDENE"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ADOLONTA corresponde a tramadol."
+  },
+  {
+    "question": "¿Para qué se usa tramadol según el temario?",
+    "options": [
+      "Dolores moderados o intensos",
+      "Dolor leve y fiebre",
+      "Antiinflamatorio a dosis altas",
+      "Sobredosis con opiáceos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Tramadol aparece como tratamiento habitual para dolores moderados o intensos."
+  },
+  {
+    "question": "¿Cuál de estos efectos adversos es típico de los analgésicos opiáceos?",
+    "options": [
+      "Hepatotoxicidad",
+      "Depresión respiratoria",
+      "Abrasión de la mucosa gástrica",
+      "Cefaleas y mareos exclusivamente"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los opiáceos pueden producir depresión respiratoria."
+  },
+  {
+    "question": "¿Qué conjunto recoge efectos adversos de los opiáceos?",
+    "options": [
+      "Somnolencia, depresión respiratoria, adicción y tolerancia",
+      "Hepatotoxicidad y fiebre",
+      "Úlceras y gastritis únicamente",
+      "Hipoglucemia y taquicardia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los opiáceos pueden producir somnolencia, depresión respiratoria, adicción, abstinencia y tolerancia."
+  },
+  {
+    "question": "¿Cuál de estos NO es un efecto adverso típico de los opiáceos en el temario?",
+    "options": [
+      "Somnolencia",
+      "Síndrome de abstinencia",
+      "Gran adicción",
+      "Hepatotoxicidad"
+    ],
+    "correctAnswer": 3,
+    "explanation": "La hepatotoxicidad se asocia al paracetamol, no a los opiáceos en este temario."
+  },
+  {
+    "question": "¿Para qué se usan los analgésicos no opiáceos?",
+    "options": [
+      "Dolor leve o moderado y fiebre",
+      "Dolores intensos exclusivamente",
+      "Sobredosis con opiáceos",
+      "Enfermedades reumáticas exclusivamente"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los analgésicos no opiáceos se usan para dolor leve o moderado y fiebre."
+  },
+  {
+    "question": "¿Qué subgrupo incluye paracetamol?",
+    "options": [
+      "Pirazolonas",
+      "Para-amino-fenoles",
+      "Salicilatos",
+      "Oxicams"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Paracetamol pertenece a los para-amino-fenoles."
+  },
+  {
+    "question": "¿Cuál de estas afirmaciones sobre paracetamol es correcta?",
+    "options": [
+      "Es un AINE",
+      "No es un AINE",
+      "Es un opiáceo",
+      "Es un antagonista de morfina"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El temario indica que paracetamol no es un AINE."
+  },
+  {
+    "question": "¿Qué EF corresponden a paracetamol?",
+    "options": [
+      "GELOCATIL / EFFERALGAN / XUMADOL",
+      "NOLOTIL",
+      "VOLTAREN / DOLOTREN",
+      "FENTANEST / DUROGESIC"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GELOCATIL, EFFERALGAN y XUMADOL corresponden a paracetamol."
+  },
+  {
+    "question": "¿Qué efecto adverso se asocia a paracetamol?",
+    "options": [
+      "Hepatotoxicidad",
+      "Depresión respiratoria",
+      "Adicción intensa",
+      "Síndrome de abstinencia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El paracetamol puede ser hepatotóxico."
+  },
+  {
+    "question": "¿Qué subgrupo incluye metamizol magnésico?",
+    "options": [
+      "Para-amino-fenoles",
+      "Pirazolonas",
+      "Oxicams",
+      "Salicilatos"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Metamizol magnésico pertenece a las pirazolonas."
+  },
+  {
+    "question": "¿Qué EF corresponde a metamizol magnésico?",
+    "options": [
+      "NOLOTIL",
+      "GELOCATIL",
+      "ZALDIAR",
+      "ADIRO"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NOLOTIL corresponde a metamizol magnésico."
+  },
+  {
+    "question": "¿Cuál de estas afirmaciones sobre metamizol magnésico es correcta?",
+    "options": [
+      "Es un AINE clásico",
+      "No es un AINE",
+      "Es un salicilato",
+      "Es un opiáceo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El temario indica que metamizol no es un AINE."
+  },
+  {
+    "question": "¿En qué situación se menciona el uso antiespasmódico del metamizol?",
+    "options": [
+      "Cólicos",
+      "Hipoglucemia",
+      "Asma",
+      "Sobredosis por opiáceos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metamizol se menciona como antiespasmódico en cólicos."
+  },
+  {
+    "question": "¿Qué efecto adverso puede producir metamizol por uso continuado?",
+    "options": [
+      "Trastornos sanguíneos",
+      "Gran adicción",
+      "Hepatotoxicidad",
+      "Hipertensión"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que puede producir trastornos sanguíneos por uso continuado."
+  },
+  {
+    "question": "¿Qué característica gástrica se menciona sobre metamizol?",
+    "options": [
+      "Tiene mucho riesgo gástrico",
+      "Casi no tiene riesgo gástrico",
+      "Produce siempre úlceras",
+      "Es abrasivo de la mucosa gástrica como principal característica"
+    ],
+    "correctAnswer": 1,
+    "explanation": "El temario indica que metamizol casi no tiene riesgo gástrico."
+  },
+  {
+    "question": "¿Qué es ZALDIAR?",
+    "options": [
+      "Paracetamol solo",
+      "Tramadol solo",
+      "Tramadol + paracetamol",
+      "Metamizol magnésico"
+    ],
+    "correctAnswer": 2,
+    "explanation": "ZALDIAR corresponde a la mezcla tramadol + paracetamol."
+  },
+  {
+    "question": "¿Qué significa AINE?",
+    "options": [
+      "Analgésico intravenoso no esteroideo",
+      "Antiinflamatorio no esteroideo",
+      "Antiinflamatorio narcótico específico",
+      "Antibiótico inhibidor no esteroideo"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AINE significa antiinflamatorio no esteroideo."
+  },
+  {
+    "question": "¿Qué acciones tienen los AINE según el temario?",
+    "options": [
+      "Analgésica, antiinflamatoria y antitérmica",
+      "Antibiótica, antifúngica y antiviral",
+      "Hipoglucemiante, antihistamínica y anticoagulante",
+      "Sedante, narcótica y antidepresiva"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los AINE son analgésicos, antiinflamatorios y antitérmicos."
+  },
+  {
+    "question": "¿Cuál es el mecanismo general de los AINE?",
+    "options": [
+      "Estimulan la formación de prostaglandinas",
+      "Inhiben una enzima necesaria para formar prostaglandinas",
+      "Se unen a receptores opiáceos",
+      "Aumentan la secreción de moco gástrico"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Los AINE inhiben una enzima necesaria para la formación de prostaglandinas."
+  },
+  {
+    "question": "¿En qué procesos están implicadas las prostaglandinas según el temario?",
+    "options": [
+      "Inflamación, dolor, fiebre y protección gástrica",
+      "Crecimiento infantil y fertilidad",
+      "Coagulación y anemia",
+      "Alergia y broncodilatación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las prostaglandinas están implicadas en inflamación, dolor, fiebre y protección de la mucosa gástrica."
+  },
+  {
+    "question": "¿Qué subgrupo AINE incluye ácido acetilsalicílico?",
+    "options": [
+      "Salicilatos",
+      "Oxicams",
+      "Derivados del ácido fenilacético",
+      "Derivados del ácido fenilpropiónico"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El ácido acetilsalicílico pertenece a los salicilatos."
+  },
+  {
+    "question": "¿Qué EF corresponden al ácido acetilsalicílico en este temario?",
+    "options": [
+      "ASPIRINA / ADIRO",
+      "NUROFEN / NEOBRUFEN",
+      "FELDENE",
+      "AIRTAL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ASPIRINA y ADIRO corresponden al ácido acetilsalicílico."
+  },
+  {
+    "question": "¿Cómo se usa el ácido acetilsalicílico a dosis altas?",
+    "options": [
+      "Como antiinflamatorio",
+      "Como hipoglucemiante",
+      "Como opiáceo",
+      "Como antagonista de morfina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que se usa como antiinflamatorio a dosis altas."
+  },
+  {
+    "question": "¿Cómo se usa el ácido acetilsalicílico a dosis bajas?",
+    "options": [
+      "Como antiagregante",
+      "Como anestésico",
+      "Como antiespasmódico",
+      "Como sedante"
+    ],
+    "correctAnswer": 0,
+    "explanation": "A dosis bajas se usa como antiagregante."
+  },
+  {
+    "question": "¿Qué subgrupo AINE incluye diclofenaco, aceclofenaco e indometazina?",
+    "options": [
+      "Salicilatos",
+      "Derivados del ácido fenilacético",
+      "Oxicams",
+      "Para-amino-fenoles"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Diclofenaco, aceclofenaco e indometazina son derivados del ácido fenilacético."
+  },
+  {
+    "question": "¿Qué EF corresponden a diclofenaco?",
+    "options": [
+      "VOLTAREN / DOLOTREN",
+      "AIRTAL",
+      "INACID",
+      "TORADOL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VOLTAREN y DOLOTREN corresponden a diclofenaco."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a AIRTAL?",
+    "options": [
+      "Diclofenaco",
+      "Aceclofenaco",
+      "Indometazina",
+      "Piroxicam"
+    ],
+    "correctAnswer": 1,
+    "explanation": "AIRTAL corresponde a aceclofenaco."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a INACID?",
+    "options": [
+      "Indometazina",
+      "Ibuprofeno",
+      "Ketoprofeno",
+      "Naproxeno"
+    ],
+    "correctAnswer": 0,
+    "explanation": "INACID corresponde a indometazina."
+  },
+  {
+    "question": "¿Qué efecto añadido pueden producir los derivados del ácido fenilacético?",
+    "options": [
+      "Cefaleas y mareos",
+      "Hipoglucemia",
+      "Somnolencia intensa y abstinencia",
+      "Hepatotoxicidad como efecto exclusivo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que pueden producir cefaleas y mareos."
+  },
+  {
+    "question": "¿Qué subgrupo incluye ibuprofeno, naproxeno, ketoprofeno y ketorolaco?",
+    "options": [
+      "Derivados del ácido fenilpropiónico",
+      "Derivados del ácido fenilacético",
+      "Salicilatos",
+      "Pirazolonas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Todos pertenecen a derivados del ácido fenilpropiónico."
+  },
+  {
+    "question": "¿Qué acciones tienen los derivados del ácido fenilpropiónico?",
+    "options": [
+      "Analgésica, antiinflamatoria y antipirética",
+      "Solo narcótica",
+      "Solo antipirética",
+      "Antibiótica y antifúngica"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que son analgésicos, antiinflamatorios y antipiréticos."
+  },
+  {
+    "question": "¿Qué EF corresponden a ibuprofeno?",
+    "options": [
+      "NUROFEN / NEOBRUFEN / DALSY / ESPIDIFEN",
+      "NAPROSYN",
+      "ORUDIS",
+      "TORADOL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NUROFEN, NEOBRUFEN, DALSY y ESPIDIFEN corresponden a ibuprofeno."
+  },
+  {
+    "question": "¿Qué EF aparece indicado para niños dentro de ibuprofeno?",
+    "options": [
+      "DALSY",
+      "TORADOL",
+      "FELDENE",
+      "DOLALGIAL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DALSY aparece señalado para niños."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a NAPROSYN?",
+    "options": [
+      "Naproxeno",
+      "Ketoprofeno",
+      "Ketorolaco",
+      "Piroxicam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NAPROSYN corresponde a naproxeno."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ORUDIS?",
+    "options": [
+      "Ketoprofeno",
+      "Naproxeno",
+      "Ibuprofeno",
+      "Indometazina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ORUDIS corresponde a ketoprofeno."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a TORADOL?",
+    "options": [
+      "Ketorolaco",
+      "Piroxicam",
+      "Diclofenaco",
+      "Aceclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TORADOL corresponde a ketorolaco."
+  },
+  {
+    "question": "¿Qué observación se asocia a algunos derivados del ácido fenilpropiónico en dosis inferiores a 600 mg?",
+    "options": [
+      "Son EFP",
+      "Son estupefacientes",
+      "Son psicótropos",
+      "Son antagonistas de morfina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que en dosis inferiores a 600 mg algunos son EFP."
+  },
+  {
+    "question": "¿Qué subgrupo AINE se administra una vez al día y es muy potente?",
+    "options": [
+      "Oxicams",
+      "Salicilatos",
+      "Pirazolonas",
+      "Para-amino-fenoles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los oxicams son antiinflamatorios muy potentes y se administran una vez al día."
+  },
+  {
+    "question": "¿Qué principio activo pertenece a los oxicams?",
+    "options": [
+      "Piroxicam",
+      "Ketorolaco",
+      "Diclofenaco",
+      "Metamizol magnésico"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Piroxicam pertenece a los oxicams."
+  },
+  {
+    "question": "¿Qué EF corresponde a piroxicam?",
+    "options": [
+      "FELDENE",
+      "TORADOL",
+      "NAPROSYN",
+      "AIRTAL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FELDENE corresponde a piroxicam."
+  },
+  {
+    "question": "¿Para qué se usan los oxicams según el temario?",
+    "options": [
+      "Enfermedades reumáticas",
+      "Sobredosis con opiáceos",
+      "Dolor leve y fiebre exclusivamente",
+      "Cólicos exclusivamente"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los oxicams se usan para enfermedades reumáticas."
+  },
+  {
+    "question": "¿Dónde aparece DOLALGIAL?",
+    "options": [
+      "Otros AINE",
+      "Opiáceos",
+      "Pirazolonas",
+      "Antagonistas de morfina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DOLALGIAL aparece en el apartado de otros AINE."
+  },
+  {
+    "question": "¿Qué efecto adverso es común a los AINE?",
+    "options": [
+      "Abrasión de la mucosa gástrica",
+      "Hipoglucemia",
+      "Somnolencia por acción opiácea",
+      "Síndrome de abstinencia"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los AINE pueden producir abrasión de la mucosa gástrica."
+  },
+  {
+    "question": "¿Qué conjunto recoge efectos adversos típicos de AINE?",
+    "options": [
+      "Abrasión gástrica, gastritis, úlceras y riesgo de hemorragia",
+      "Somnolencia, dependencia y tolerancia",
+      "Hepatotoxicidad únicamente",
+      "Trastornos sanguíneos por uso continuado únicamente"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los AINE pueden producir abrasión gástrica, gastritis, úlceras y riesgo de hemorragia."
+  },
+  {
+    "question": "¿Por qué los AINE pueden afectar a la mucosa gástrica?",
+    "options": [
+      "Porque las prostaglandinas también participan en la protección gástrica",
+      "Porque aumentan siempre la secreción de ácido",
+      "Porque son opiáceos",
+      "Porque bloquean receptores neuronales"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Las prostaglandinas están implicadas en la protección de la mucosa gástrica, y los AINE inhiben su formación."
+  },
+  {
+    "question": "¿Cuál de estos medicamentos es un AINE?",
+    "options": [
+      "Ibuprofeno",
+      "Morfina",
+      "Paracetamol",
+      "Naloxona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ibuprofeno es un AINE derivado del ácido fenilpropiónico."
+  },
+  {
+    "question": "¿Cuál de estos medicamentos NO es un AINE?",
+    "options": [
+      "Paracetamol",
+      "Ibuprofeno",
+      "Naproxeno",
+      "Diclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paracetamol no es un AINE."
+  },
+  {
+    "question": "¿Cuál de estos medicamentos es un analgésico opiáceo?",
+    "options": [
+      "Fentanilo",
+      "Paracetamol",
+      "Ibuprofeno",
+      "Ácido acetilsalicílico"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Fentanilo pertenece a los analgésicos opiáceos."
+  },
+  {
+    "question": "¿Cuál de estos medicamentos es un analgésico no opiáceo?",
+    "options": [
+      "Paracetamol",
+      "Fentanilo",
+      "Morfina",
+      "Meperidina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paracetamol es un analgésico no opiáceo."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a un analgésico opiáceo?",
+    "options": [
+      "ADOLONTA",
+      "GELOCATIL",
+      "VOLTAREN",
+      "NOLOTIL"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ADOLONTA corresponde a tramadol, que en el temario aparece dentro de opiáceos."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a un analgésico no opiáceo?",
+    "options": [
+      "GELOCATIL",
+      "DUROGESIC",
+      "DOLANTINA",
+      "FENTANEST"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GELOCATIL corresponde a paracetamol, analgésico no opiáceo."
+  },
+  {
+    "question": "¿Cuál de estos EF corresponde a un AINE?",
+    "options": [
+      "VOLTAREN",
+      "ADOLONTA",
+      "NOLOTIL",
+      "FENTANEST"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VOLTAREN corresponde a diclofenaco, un AINE."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ASPIRINA?",
+    "options": [
+      "Ácido acetilsalicílico",
+      "Ibuprofeno",
+      "Diclofenaco",
+      "Paracetamol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ASPIRINA corresponde al ácido acetilsalicílico."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ADIRO?",
+    "options": [
+      "Ácido acetilsalicílico",
+      "Tramadol",
+      "Piroxicam",
+      "Aceclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ADIRO corresponde al ácido acetilsalicílico."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a VOLTAREN?",
+    "options": [
+      "Diclofenaco",
+      "Aceclofenaco",
+      "Indometazina",
+      "Ketorolaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VOLTAREN corresponde a diclofenaco."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a DOLOTREN?",
+    "options": [
+      "Diclofenaco",
+      "Aceclofenaco",
+      "Ibuprofeno",
+      "Naproxeno"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DOLOTREN corresponde a diclofenaco."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a NEOBRUFEN?",
+    "options": [
+      "Ibuprofeno",
+      "Naproxeno",
+      "Ketoprofeno",
+      "Ketorolaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NEOBRUFEN corresponde a ibuprofeno."
+  },
+  {
+    "question": "¿Qué principio activo corresponde a ESPIDIFEN?",
+    "options": [
+      "Ibuprofeno",
+      "Ketoprofeno",
+      "Piroxicam",
+      "Indometazina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ESPIDIFEN corresponde a ibuprofeno."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "AIRTAL - Aceclofenaco",
+      "AIRTAL - Diclofenaco",
+      "AIRTAL - Ibuprofeno",
+      "AIRTAL - Paracetamol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AIRTAL corresponde a aceclofenaco."
+  },
+  {
+    "question": "¿Cuál de estos pares está correctamente relacionado?",
+    "options": [
+      "FELDENE - Piroxicam",
+      "FELDENE - Ketorolaco",
+      "FELDENE - Naproxeno",
+      "FELDENE - Tramadol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FELDENE corresponde a piroxicam."
+  },
+  {
+    "question": "¿Cuál de estos pares está mal relacionado?",
+    "options": [
+      "NOLOTIL - Paracetamol",
+      "GELOCATIL - Paracetamol",
+      "ADOLONTA - Tramadol",
+      "VOLTAREN - Diclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NOLOTIL corresponde a metamizol magnésico, no a paracetamol."
+  },
+  {
+    "question": "¿Cuál de estos pares está mal relacionado?",
+    "options": [
+      "AIRTAL - Diclofenaco",
+      "INACID - Indometazina",
+      "TORADOL - Ketorolaco",
+      "NAPROSYN - Naproxeno"
+    ],
+    "correctAnswer": 0,
+    "explanation": "AIRTAL corresponde a aceclofenaco, no a diclofenaco."
+  },
+  {
+    "question": "¿Cuál de estos fármacos se asocia a hepatotoxicidad?",
+    "options": [
+      "Paracetamol",
+      "Tramadol",
+      "Ibuprofeno",
+      "Naloxona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paracetamol se asocia a hepatotoxicidad."
+  },
+  {
+    "question": "¿Cuál de estos fármacos puede producir trastornos sanguíneos por uso continuado?",
+    "options": [
+      "Metamizol magnésico",
+      "Paracetamol",
+      "Morfina",
+      "Piroxicam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metamizol puede producir trastornos sanguíneos por uso continuado."
+  },
+  {
+    "question": "¿Cuál de estos fármacos se usa en sobredosis con opiáceos?",
+    "options": [
+      "Naloxona",
+      "Paracetamol",
+      "Naproxeno",
+      "Diclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Naloxona es antagonista de morfina y se usa en sobredosis con opiáceos."
+  },
+  {
+    "question": "¿Cuál de estos fármacos se usa para deshabituación a opiáceos?",
+    "options": [
+      "Metadona",
+      "Metamizol",
+      "Ibuprofeno",
+      "Piroxicam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metadona se usa para deshabituación a opiáceos."
+  },
+  {
+    "question": "¿Cuál de estas opciones corresponde a un derivado del ácido fenilacético?",
+    "options": [
+      "Diclofenaco",
+      "Ibuprofeno",
+      "Naproxeno",
+      "Piroxicam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Diclofenaco es derivado del ácido fenilacético."
+  },
+  {
+    "question": "¿Cuál de estas opciones corresponde a un derivado del ácido fenilpropiónico?",
+    "options": [
+      "Ibuprofeno",
+      "Diclofenaco",
+      "Aceclofenaco",
+      "Indometazina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ibuprofeno pertenece a derivados del ácido fenilpropiónico."
+  },
+  {
+    "question": "¿Cuál de estas opciones corresponde a un oxicam?",
+    "options": [
+      "Piroxicam",
+      "Diclofenaco",
+      "Ibuprofeno",
+      "Paracetamol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Piroxicam pertenece a los oxicams."
+  },
+  {
+    "question": "¿Qué grupo se relaciona con riesgo de gastritis, úlceras y hemorragia?",
+    "options": [
+      "AINE",
+      "Antagonistas de morfina",
+      "Para-amino-fenoles",
+      "Opiáceos exclusivamente"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los AINE se asocian a gastritis, úlceras y riesgo de hemorragia."
+  },
+  {
+    "question": "¿Qué grupo se relaciona con gran adicción, abstinencia y tolerancia?",
+    "options": [
+      "Analgésicos opiáceos",
+      "AINE",
+      "Para-amino-fenoles",
+      "Salicilatos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Estos efectos son característicos de los opiáceos."
+  },
+  {
+    "question": "¿Qué grupo se relaciona con dolor leve o moderado y fiebre, sin ser AINE?",
+    "options": [
+      "Analgésicos no opiáceos",
+      "Analgésicos opiáceos",
+      "Oxicams",
+      "Antagonistas de morfina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los analgésicos no opiáceos se usan en dolor leve o moderado y fiebre."
+  },
+  {
+    "question": "¿Qué grupo se relaciona con enfermedades reumáticas y administración una vez al día?",
+    "options": [
+      "Oxicams",
+      "Pirazolonas",
+      "Antagonistas de morfina",
+      "Para-amino-fenoles"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los oxicams se usan en enfermedades reumáticas y se administran una vez al día."
+  },
+  {
+    "question": "¿Cuál es la opción correcta sobre salicilatos?",
+    "options": [
+      "A dosis altas se usan como antiinflamatorios y a dosis bajas como antiagregantes",
+      "A dosis bajas se usan como opiáceos",
+      "Solo sirven como antipiréticos",
+      "No tienen efecto sobre inflamación"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El ácido acetilsalicílico se usa como antiinflamatorio a dosis altas y antiagregante a dosis bajas."
+  },
+  {
+    "question": "¿Cuál es la opción correcta sobre paracetamol y metamizol?",
+    "options": [
+      "Ambos no son AINE",
+      "Ambos son AINE",
+      "Ambos son opiáceos",
+      "Ambos son salicilatos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "El temario indica que ni paracetamol ni metamizol son AINE."
+  },
+  {
+    "question": "¿Cuál es la opción correcta sobre morfina, fentanilo y tramadol?",
+    "options": [
+      "Pertenecen al bloque de analgésicos opiáceos",
+      "Son AINE",
+      "Son para-amino-fenoles",
+      "Son salicilatos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Morfina, fentanilo y tramadol aparecen dentro de analgésicos opiáceos."
+  },
+  {
+    "question": "¿Cuál es la opción correcta sobre ibuprofeno, naproxeno, ketoprofeno y ketorolaco?",
+    "options": [
+      "Son derivados del ácido fenilpropiónico",
+      "Son opiáceos",
+      "Son antagonistas de morfina",
+      "Son pirazolonas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Los cuatro aparecen dentro de derivados del ácido fenilpropiónico."
+  },
+  {
+    "question": "¿Cuál de estas opciones mezcla correctamente EF y grupo?",
+    "options": [
+      "FENTANEST - Analgésico opiáceo",
+      "GELOCATIL - AINE",
+      "NOLOTIL - Opiáceo",
+      "VOLTAREN - Antagonista de morfina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "FENTANEST corresponde a fentanilo, un analgésico opiáceo."
+  },
+  {
+    "question": "¿Cuál de estas opciones mezcla correctamente EF y grupo?",
+    "options": [
+      "GELOCATIL - Analgésico no opiáceo",
+      "ADOLONTA - AINE",
+      "FELDENE - Opiáceo",
+      "NOLOTIL - Salicilato"
+    ],
+    "correctAnswer": 0,
+    "explanation": "GELOCATIL corresponde a paracetamol, analgésico no opiáceo."
+  },
+  {
+    "question": "¿Cuál de estas opciones mezcla correctamente EF y grupo?",
+    "options": [
+      "VOLTAREN - AINE",
+      "DUROGESIC - AINE",
+      "ZALDIAR - Salicilato",
+      "FELDENE - Analgésico no opiáceo"
+    ],
+    "correctAnswer": 0,
+    "explanation": "VOLTAREN corresponde a diclofenaco, que es un AINE."
+  },
+  {
+    "question": "¿Cuál de estas opciones es más adecuada para dolor leve o moderado y fiebre?",
+    "options": [
+      "Paracetamol",
+      "Naloxona",
+      "Metadona",
+      "Naltrexona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paracetamol es analgésico no opiáceo para dolor leve o moderado y fiebre."
+  },
+  {
+    "question": "¿Cuál de estas opciones es más adecuada para sobredosis con opiáceos?",
+    "options": [
+      "Naloxona",
+      "Ibuprofeno",
+      "Paracetamol",
+      "Metamizol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Naloxona se usa para tratar sobredosis con opiáceos."
+  },
+  {
+    "question": "¿Cuál de estas opciones es más adecuada para cólicos según el temario?",
+    "options": [
+      "Metamizol magnésico",
+      "Piroxicam",
+      "Naproxeno",
+      "Naloxona"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metamizol magnésico se menciona como antiespasmódico en cólicos."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF DUROGESIC?",
+    "options": [
+      "Fentanilo",
+      "Meperidina",
+      "Metadona",
+      "Tramadol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DUROGESIC corresponde a fentanilo."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF DOLANTINA?",
+    "options": [
+      "Meperidina",
+      "Fentanilo",
+      "Tramadol",
+      "Morfina"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DOLANTINA corresponde a meperidina."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF ZALDIAR?",
+    "options": [
+      "Tramadol + paracetamol",
+      "Paracetamol",
+      "Tramadol",
+      "Metamizol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ZALDIAR es la mezcla tramadol + paracetamol."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF XUMADOL?",
+    "options": [
+      "Paracetamol",
+      "Metamizol",
+      "Ibuprofeno",
+      "Diclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "XUMADOL corresponde a paracetamol."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF EFFERALGAN?",
+    "options": [
+      "Paracetamol",
+      "Metamizol",
+      "Morfina",
+      "Naproxeno"
+    ],
+    "correctAnswer": 0,
+    "explanation": "EFFERALGAN corresponde a paracetamol."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF NAPROSYN?",
+    "options": [
+      "Naproxeno",
+      "Ibuprofeno",
+      "Ketoprofeno",
+      "Ketorolaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "NAPROSYN corresponde a naproxeno."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF ORUDIS?",
+    "options": [
+      "Ketoprofeno",
+      "Ketorolaco",
+      "Naproxeno",
+      "Piroxicam"
+    ],
+    "correctAnswer": 0,
+    "explanation": "ORUDIS corresponde a ketoprofeno."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF TORADOL?",
+    "options": [
+      "Ketorolaco",
+      "Ketoprofeno",
+      "Naproxeno",
+      "Diclofenaco"
+    ],
+    "correctAnswer": 0,
+    "explanation": "TORADOL corresponde a ketorolaco."
+  },
+  {
+    "question": "¿Cuál de estos fármacos tiene como EF DOLALGIAL?",
+    "options": [
+      "Otros AINE",
+      "Paracetamol",
+      "Metamizol",
+      "Tramadol"
+    ],
+    "correctAnswer": 0,
+    "explanation": "DOLALGIAL aparece dentro de otros AINE."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es correcta?",
+    "options": [
+      "Ácido acetilsalicílico - Salicilatos",
+      "Ácido acetilsalicílico - Oxicams",
+      "Ácido acetilsalicílico - Pirazolonas",
+      "Ácido acetilsalicílico - Opiáceos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Ácido acetilsalicílico pertenece a los salicilatos."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es correcta?",
+    "options": [
+      "Paracetamol - Para-amino-fenoles",
+      "Paracetamol - Salicilatos",
+      "Paracetamol - Oxicams",
+      "Paracetamol - Opiáceos"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Paracetamol pertenece a los para-amino-fenoles."
+  },
+  {
+    "question": "¿Cuál de estas asociaciones es correcta?",
+    "options": [
+      "Metamizol magnésico - Pirazolonas",
+      "Metamizol magnésico - Salicilatos",
+      "Metamizol magnésico - Oxicams",
+      "Metamizol magnésico - Fenilpiperidinas"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Metamizol magnésico pertenece a las pirazolonas."
+  }
+]
